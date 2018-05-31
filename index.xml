@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Academic on Academic</title>
+    <title>Meelgroup on Meelgroup</title>
     <link>/</link>
-    <description>Recent content in Academic on Academic</description>
+    <description>Recent content in Meelgroup on Meelgroup</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
@@ -12,11 +12,16 @@
     
     <item>
       <title>Counting-Based Reliability Estimation for Power-Transmission Grids</title>
-      <link>/publication/counting-based-reliability-estimation-for-power-transmission-grids/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0800</pubDate>
+      <link>/publication/aaai17/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0800</pubDate>
       
-      <guid>/publication/counting-based-reliability-estimation-for-power-transmission-grids/</guid>
-      <description></description>
+      <guid>/publication/aaai17/</guid>
+      <description>&lt;p&gt;&lt;button class=&#34;btn btn-default btn-xs&#34; type=&#34;button&#34; data-toggle=&#34;collapse&#34; data-target=&#34;#abstract_DMPV17&#34;&gt;
+Abstract&lt;/button&gt;
+&lt;div id=&#34;abstract_DMPV17&#34; class=&#34;collapse&#34;&gt;
+Modern society is increasingly reliant on the functionality of infrastructure facilities and utility services. Consequently, there has been surge of interest in the problem of quantification of system reliability, which is known to be #P-complete. Reliability also contributes to the resilience of systems, so as to effectively make them bounce back after contingencies. Despite diverse progress, most techniques to estimate system reliability and resilience remain computationally expensive. In this paper, we investigate how recent advances in hashing-based approaches to counting can be exploited to improve computational techniques for system reliability. The primary contribution of this paper is a novel framework, RelNet, that provides provably approximately correct (PAC) estimates for arbitrary networks. We then apply RelNet to ten real world power transmission grids across different cities in the U.S. and are able to obtain, to the best of our knowledge, the first theoretically sound a priori estimates of reliability between several pairs of nodes of interest. Such estimates will help managing uncertainty and support rational decision making for community resilience.
+&lt;/div&gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>
