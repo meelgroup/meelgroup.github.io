@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>8 on MeelGroup</title>
+    <link>/publication_types/8/</link>
+    <description>Recent content in 8 on MeelGroup</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Fri, 29 Sep 2017 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/publication_types/8/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Constrained Counting and Sampling: Bridging the Gap between Theory and Practice </title>
+      <link>/publication/meel-phdthesis/</link>
+      <pubDate>Fri, 29 Sep 2017 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/meel-phdthesis/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

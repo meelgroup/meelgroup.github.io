@@ -77,7 +77,7 @@
   <meta property="og:description" content="Assistant Professor">
   <meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2016-01-01T00:00:00&#43;08:00">
+  <meta property="og:updated_time" content="2015-07-01T00:00:00&#43;08:00">
   
 
   
@@ -210,46 +210,8 @@
   
   
   <div>
-    <h2><a href="/publication/ijcai16-cnfxor/">Combining the k-CNF and XOR Phase-Transitions </a></h2>
-    <div class="article-style">
-      
-      Abstract The runtime performance of modern SAT solvers on random k-CNF formulas is deeply connected with the `phase-transition&rsquo; phenomenon seen empirically in the satisfiability of random k-CNF formulas. Recent universal hashing-based approaches to sampling and counting crucially depend on the runtime performance of SAT solvers on formulas expressed as the conjunction of both k-CNF and XOR constraints (known as k-CNF-XOR formulas), but the behavior of random k-CNF-XOR formulas is unexplored in prior work.
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/bnp16/">Constrained Sampling and Counting: Universal Hashing meets SAT Solving</a></h2>
-    <div class="article-style">
-      
-      Abstract Constrained sampling and counting are two fundamental problems in artificial intelligence with a diverse range of applications, spanning probabilistic reasoning and planning to constrained-random verification. While the theory of these problems was thoroughly investigated in the 1980s, prior work either did not scale to industrial size instances or gave up correctness guarantees to achieve scalability. Recently, we proposed a novel approach that combines universal hashing and SAT solving and scales to formulas with hundreds of thousands of variables without giving up correctness guarantees.
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/pact15/">Design and Verification of Distributed Phasers</a></h2>
-    <div class="article-style">
-      
-      Abstract A phaser is an expressive synchronization construct that unifies collective and point-to-point coordination with dynamic registration of parallel tasks. Each task can participate in a phaser as a signaler, a waiter, or both. The participants in a phaser may change over time as tasks are added and deleted. In this paper, we present a highly concurrent and scalable design of phasers for a distributed memory environment. Our design for a distributed phaser employs a pair of skip lists augmented with the ability to collect and propagate synchronization signals.
-      
-    </div>
-  </div>
-  
-  <div>
     <h2><a href="/publication/ijcai15/">From Weighted to Unweighted Model Counting </a></h2>
     <div class="article-style">
-      
-      Abstract The recent surge of interest in reasoning about probabilistic graphical models has led to the development of various techniques for probabilistic reasoning. Of these, techniques based on weighted model counting are particularly interesting since they can potentially leverage recent advances in unweighted model counting and in propositional satisfiability solving. In this paper, we present a new approach to weighted model counting via reduction to unweighted model counting. Our reduction, which is polynomial-time and preserves the normal form (CNF/DNF) of the input formula, allows us to exploit advances in unweighted model counting to solve weighted model counting instances.
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/constraints/">On Computing Minimal Independent Support and Its Applications to Sampling and Counting </a></h2>
-    <div class="article-style">
-      
-      Abstract Constrained sampling and counting are two fundamental problems arising in domains ranging from artificial intelligence and security, to hardware and software testing. Recent approaches to approximate solutions for these problems rely on employing SAT solvers and universal hash functions that are typically encoded as XOR constraints of length n/2 for an input formula with n variables. As the runtime performance of SAT solvers heavily depends on the length of XOR constraints, recent research effort has been focused on reduction of length of XOR constraints.
       
     </div>
   </div>
@@ -258,7 +220,12 @@
     <h2><a href="/publication/tacas15/">On Parallel Scalable Uniform SAT Witness Generator</a></h2>
     <div class="article-style">
       
-      Abstract Constrained-random verification (CRV) is widely used in industry for validating hardware designs. The effectiveness of CRV depends on the uniformity of test stimuli generated from a given set of constraints. Most existing techniques sacrifice either uniformity or scalability when generating stimuli. While recent work based on random hash functions has shown that it is possible to generate almost uniform stimuli from constraints with 100,000+ variables, the performance still falls short of today&rsquo;s industrial requirements.
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/publication/aaai14/">Distribution-Aware Sampling and Weighted Model Counting for SAT</a></h2>
+    <div class="article-style">
       
     </div>
   </div>
@@ -267,26 +234,6 @@
     <h2><a href="/publication/dac2014/">Balancing Scalability and Uniformity in SAT-Witness Generator </a></h2>
     <div class="article-style">
       
-      Abstract Constrained-random simulation is the predominant approach used in the industry for functional verification of complex digital designs. The effectiveness of this approach depends on two key factors: the quality of constraints used to generate test vectors, and the randomness of solutions generated from a given set of constraints. In this paper, we focus on the second problem, and present an algorithm that significantly improves the state-of-the-art of (almost-)uniform generation of solutions of large Boolean constraints.
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/aaai14/">Distribution-Aware Sampling and Weighted Model Counting for SAT</a></h2>
-    <div class="article-style">
-      
-      Abstract Given a CNF formula and a weight for each assignment of values to variables, two natural problems are weighted model counting and distribution-aware sampling of satisfying assignments. Both problems have a wide variety of important applications. Due to the inherent complexity of the exact versions of the problems, interest has focused on solving them approximately. Prior work in this area scaled only to small problems in practice, or failed to provide strong theoretical guarantees, or employed a computationally-expensive maximum a posteriori probability (MAP) oracle that assumes prior knowledge of a factored representation of the weight distribution.
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/cav13/">A Scalable and Nearly Uniform Generator of SAT Witnesses</a></h2>
-    <div class="article-style">
-      
-      Abstract Functional verification constitutes one of the most challenging tasks in the development of modern hardware systems, and simulation-based verification techniques dominate the functional verification landscape. A dominant paradigm in simulation-based verification is directed random testing, where a model of the system is simulated with a set of random test stimuli that are uniformly or near-uniformly distributed over the space of all stimuli satisfying a given set of constraints. Uniform or near-uniform generation of solutions for large constraint sets is therefore a problem of theoretical and practical interest.
-      
     </div>
   </div>
   
@@ -294,7 +241,12 @@
     <h2><a href="/publication/cp2013/">A Scalable Approximate Model Counter </a></h2>
     <div class="article-style">
       
-      Abstract Propositional model counting (#SAT), i.e., counting the number of satisfying assignments of a propositional formula, is a problem of significant theoretical and practical interest. Due to the inherent complexity of the problem, approximate model counting, which counts the number of satisfying assignments to within given tolerance and confi- dence level, was proposed as a practical alternative to exact model counting. Yet, approximate model counting has been studied essentially only theoretically.
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/publication/cav13/">A Scalable and Nearly Uniform Generator of SAT Witnesses</a></h2>
+    <div class="article-style">
       
     </div>
   </div>

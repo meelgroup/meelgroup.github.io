@@ -17,7 +17,7 @@
       
     
   
-  <meta name="description" content="Abstract Propositional model counting (#SAT), i.e., counting the number of satisfying assignments of a propositional formula, is a problem of significant theoretical and practical interest. Due to the inherent complexity of the problem, approximate model counting, which counts the number of satisfying assignments to within given tolerance and confi- dence level, was proposed as a practical alternative to exact model counting. Yet, approximate model counting has been studied essentially only theoretically.">
+  <meta name="description" content="Propositional model counting (#SAT), i.e., counting the number of satisfying assignments of a propositional formula, is a problem of significant theoretical and practical interest. Due to the inherent complexity of the problem, approximate model counting, which counts the number of satisfying assignments to within given tolerance and confi- dence level, was proposed as a practical alternative to exact model counting. Yet, approximate model counting has been studied essentially only theoretically. The only reported implementation of approximate model counting, due to Karp and Luby, worked only for DNF formulas. A few existing tools for CNF formulas are bounding model counters; they can handle realistic problem sizes, but fall short of providing counts within given tolerance and confidence, and, thus, are not approximate model counters. We present here a novel algorithm, as well as a reference implementation, that is the first scalable approximate model counter for CNF formulas. The algorithm works by issuing a polynomial number of calls to a SAT solver. Our tool, ApproxMC, scales to formulas with tens of thousands of variables. Careful experimental comparisons show that ApproxMC reports, with high confidence, bounds that are close to the exact count, and also succeeds in reporting bounds with small tolerance and high confidence in cases that are too large for computing exact model counts.">
 
   
   <link rel="alternate" hreflang="en-us" href="/publication/cp2013/">
@@ -76,12 +76,12 @@
   <meta property="og:site_name" content="MeelGroup">
   <meta property="og:url" content="/publication/cp2013/">
   <meta property="og:title" content="A Scalable Approximate Model Counter  | MeelGroup">
-  <meta property="og:description" content="Abstract Propositional model counting (#SAT), i.e., counting the number of satisfying assignments of a propositional formula, is a problem of significant theoretical and practical interest. Due to the inherent complexity of the problem, approximate model counting, which counts the number of satisfying assignments to within given tolerance and confi- dence level, was proposed as a practical alternative to exact model counting. Yet, approximate model counting has been studied essentially only theoretically.">
+  <meta property="og:description" content="Propositional model counting (#SAT), i.e., counting the number of satisfying assignments of a propositional formula, is a problem of significant theoretical and practical interest. Due to the inherent complexity of the problem, approximate model counting, which counts the number of satisfying assignments to within given tolerance and confi- dence level, was proposed as a practical alternative to exact model counting. Yet, approximate model counting has been studied essentially only theoretically. The only reported implementation of approximate model counting, due to Karp and Luby, worked only for DNF formulas. A few existing tools for CNF formulas are bounding model counters; they can handle realistic problem sizes, but fall short of providing counts within given tolerance and confidence, and, thus, are not approximate model counters. We present here a novel algorithm, as well as a reference implementation, that is the first scalable approximate model counter for CNF formulas. The algorithm works by issuing a polynomial number of calls to a SAT solver. Our tool, ApproxMC, scales to formulas with tens of thousands of variables. Careful experimental comparisons show that ApproxMC reports, with high confidence, bounds that are close to the exact count, and also succeeds in reporting bounds with small tolerance and high confidence in cases that are too large for computing exact model counts.">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2013-01-01T00:00:00&#43;08:00">
+  <meta property="article:published_time" content="2013-09-01T00:00:00&#43;08:00">
   
-  <meta property="article:modified_time" content="2013-01-01T00:00:00&#43;08:00">
+  <meta property="article:modified_time" content="2013-09-01T00:00:00&#43;08:00">
   
 
   
@@ -260,6 +260,9 @@
     
 
     
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text">Propositional model counting (#SAT), i.e., counting the number of satisfying assignments of a propositional formula, is a problem of significant theoretical and practical interest. Due to the inherent complexity of the problem, approximate model counting, which counts the number of satisfying assignments to within given tolerance and confi- dence level, was proposed as a practical alternative to exact model counting. Yet, approximate model counting has been studied essentially only theoretically. The only reported implementation of approximate model counting, due to Karp and Luby, worked only for DNF formulas. A few existing tools for CNF formulas are bounding model counters; they can handle realistic problem sizes, but fall short of providing counts within given tolerance and confidence, and, thus, are not approximate model counters. We present here a novel algorithm, as well as a reference implementation, that is the first scalable approximate model counter for CNF formulas. The algorithm works by issuing a polynomial number of calls to a SAT solver. Our tool, ApproxMC, scales to formulas with tens of thousands of variables. Careful experimental comparisons show that ApproxMC reports, with high confidence, bounds that are close to the exact count, and also succeeds in reporting bounds with small tolerance and high confidence in cases that are too large for computing exact model counts.</p>
+    
 
     
     <div class="row">
@@ -287,7 +290,7 @@
       <div class="col-sm-10">
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-          <div class="col-xs-12 col-sm-9">In <em>Proceedings of International Conference on Constraint Programming (CP), 2013.</em></div>
+          <div class="col-xs-12 col-sm-9">In <em>Proceedings of International Conference on Constraint Programming (CP)</em></div>
         </div>
       </div>
       <div class="col-sm-1"></div>
@@ -301,7 +304,7 @@
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
           <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-            January, 2013
+            September, 2013
           </div>
         </div>
       </div>
@@ -354,12 +357,7 @@
 
     <div class="space-below"></div>
 
-    <div class="article-style"><p><button class="btn btn-default btn-xs" type="button" data-toggle="collapse" data-target="#abstract_DMPV17">
-Abstract</button>
-<div id="abstract_DMPV17" class="collapse">
-Propositional model counting (#SAT), i.e., counting the number of satisfying assignments of a propositional formula, is a problem of significant theoretical and practical interest. Due to the inherent complexity of the problem, approximate model counting, which counts the number of satisfying assignments to within given tolerance and confi- dence level, was proposed as a practical alternative to exact model counting. Yet, approximate model counting has been studied essentially only theoretically. The only reported implementation of approximate model counting, due to Karp and Luby, worked only for DNF formulas. A few existing tools for CNF formulas are bounding model counters; they can handle realistic problem sizes, but fall short of providing counts within given tolerance and confidence, and, thus, are not approximate model counters. We present here a novel algorithm, as well as a reference implementation, that is the first scalable approximate model counter for CNF formulas. The algorithm works by issuing a polynomial number of calls to a SAT solver. Our tool, ApproxMC, scales to formulas with tens of thousands of variables. Careful experimental comparisons show that ApproxMC reports, with high confidence, bounds that are close to the exact count, and also succeeds in reporting bounds with small tolerance and high confidence in cases that are too large for computing exact model counts.
-</div></p>
-</div>
+    <div class="article-style"></div>
 
     
 

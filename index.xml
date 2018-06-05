@@ -13,29 +13,10 @@
     <item>
       <title>Network Reliability Estimation in Theory and Practice </title>
       <link>/publication/ress/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0800</pubDate>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0800</pubDate>
       
       <guid>/publication/ress/</guid>
-      <description>&lt;p&gt;&lt;button class=&#34;btn btn-default btn-xs&#34; type=&#34;button&#34; data-toggle=&#34;collapse&#34; data-target=&#34;#abstract_DMPV17&#34;&gt;
-Abstract&lt;/button&gt;
-&lt;div id=&#34;abstract_DMPV17&#34; class=&#34;collapse&#34;&gt;
-As engineered systems expand, become more interdependent, and operate in real-time, reliability assessment is indispensable to support investment and decision making. However, network reliability problems are known to be #P-complete, a computational complexity class largely believed to be intractable. The computational intractability of network reliability motivates our quest for reliable approximations. Based on their theoretical foundations, available methods can be grouped as follows: (i) exact or bounds, (ii) guarantee-less sampling, and (iii) probably approximately correct (PAC). Group (i) is well regarded due to its useful byproducts, but it does not scale in practice. Group (ii) scales well and verifies desirable properties, such as the bounded relative error, but it lacks error guarantees. Group (iii) is of great interest when precision and scalability are required, as it harbors computationally feasible approximation schemes with PAC-guarantees. We give a comprehensive review of classical methods before introducing modern techniques and our developments. We introduce K-RelNet, an extended counting-based estimation method that delivers PAC-guarantees for the K-terminal reliability problem. Then, we test methods&amp;rsquo; performance using various benchmark systems. We highlight the range of application of algorithms and provide the foundation for future resilience engineering as it increasingly necessitates methods for uncertainty quantification in complex systems.
-&lt;/div&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Not All FPRASs are Equal: Demystifying FPRASs for DNF-Counting </title>
-      <link>/publication/cp2018/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0800</pubDate>
-      
-      <guid>/publication/cp2018/</guid>
-      <description>&lt;p&gt;&lt;button class=&#34;btn btn-default btn-xs&#34; type=&#34;button&#34; data-toggle=&#34;collapse&#34; data-target=&#34;#abstract_DMPV17&#34;&gt;
-Abstract&lt;/button&gt;
-&lt;div id=&#34;abstract_DMPV17&#34; class=&#34;collapse&#34;&gt;
-The problem of counting the number of solutions of a DNF formula, also called #DNF, is a fundamental problem in artificial intelligence with applications in diverse domains ranging from network reliability to probabilistic databases. Owing to the intractability of the exact variant, efforts have focused on the design of approximate techniques for #DNF. Consequently, several Fully Polynomial Randomized Approximation Schemes (FPRASs) based on Monte Carlo techniques have been proposed. Recently, it was discovered that hashing-based techniques too lend themselves to FPRASs for #DNF. Despite significant improvements, the complexity of the hashing-based FPRAS is still worse than that of the best Monte Carlo FPRAS by polylog factors. Two questions were left unanswered in previous works: Can the complexity of the hashing-based techniques be improved? How do the various approaches stack up against each other empirically? In this paper, we first propose a new search procedure for the hashing-based FPRAS that removes the polylog factors from its time complexity. We then present the first empirical study of runtime behavior of different FPRASs for #DNF. The result of our study produces a nuanced picture. First of all, we observe that there is no single best algorithm that outperforms all others for all classes of formulas and input parameters. Second, we observe that the algorithm with the worst time complexity, solves the largest number of benchmarks.
-&lt;/div&gt;&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
@@ -44,12 +25,16 @@ The problem of counting the number of solutions of a DNF formula, also called #D
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0800</pubDate>
       
       <guid>/publication/vmcai18/</guid>
-      <description>&lt;p&gt;&lt;button class=&#34;btn btn-default btn-xs&#34; type=&#34;button&#34; data-toggle=&#34;collapse&#34; data-target=&#34;#abstract_DMPV17&#34;&gt;
-Abstract&lt;/button&gt;
-&lt;div id=&#34;abstract_DMPV17&#34; class=&#34;collapse&#34;&gt;
-Quantitative information flow measurement techniques have been proven to be successful in detecting leakage of confidential information from programs. Modern approaches are based on formal methods, relying on program analysis to produce a SAT formula representing the program&amp;rsquo;s behavior, and model counting to measure the possible information flow. However, while program analysis scales to large codebases like the OpenSSL project, the formulas produced are too complex for analysis with precise model counting. In this paper we use the approximate model counter ApproxMC2 to quantify information flow. We show that ApproxMC2 is able to provide a large performance increase for a very small loss of precision, allowing the analysis of SAT formulas produced from complex code. We call the resulting technique ApproxFlow and test it on a large set of benchmarks against the state of the art. Finally, we show that ApproxFlow can evaluate the leakage incurred by the Heartbleed OpenSSL bug, contrarily to the state of the art.
-&lt;/div&gt;&lt;/p&gt;
-</description>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On Hashing-Based Approaches to Approximate DNF-Counting </title>
+      <link>/publication/fsttcs17/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/fsttcs17/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -62,115 +47,66 @@ Quantitative information flow measurement techniques have been proven to be succ
     </item>
     
     <item>
-      <title>Counting-Based Reliability Estimation for Power-Transmission Grids</title>
-      <link>/publication/aaai17/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0800</pubDate>
-      
-      <guid>/publication/aaai17/</guid>
-      <description>&lt;p&gt;&lt;button class=&#34;btn btn-default btn-xs&#34; type=&#34;button&#34; data-toggle=&#34;collapse&#34; data-target=&#34;#abstract_DMPV17&#34;&gt;
-Abstract&lt;/button&gt;
-&lt;div id=&#34;abstract_DMPV17&#34; class=&#34;collapse&#34;&gt;
-Modern society is increasingly reliant on the functionality of infrastructure facilities and utility services. Consequently, there has been surge of interest in the problem of quantification of system reliability, which is known to be #P-complete. Reliability also contributes to the resilience of systems, so as to effectively make them bounce back after contingencies. Despite diverse progress, most techniques to estimate system reliability and resilience remain computationally expensive. In this paper, we investigate how recent advances in hashing-based approaches to counting can be exploited to improve computational techniques for system reliability. The primary contribution of this paper is a novel framework, RelNet, that provides provably approximately correct (PAC) estimates for arbitrary networks. We then apply RelNet to ten real world power transmission grids across different cities in the U.S. and are able to obtain, to the best of our knowledge, the first theoretically sound a priori estimates of reliability between several pairs of nodes of interest. Such estimates will help managing uncertainty and support rational decision making for community resilience.
-&lt;/div&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>On Hashing-Based Approaches to Approximate DNF-Counting </title>
-      <link>/publication/fsttcs17/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0800</pubDate>
-      
-      <guid>/publication/fsttcs17/</guid>
-      <description>&lt;p&gt;&lt;button class=&#34;btn btn-default btn-xs&#34; type=&#34;button&#34; data-toggle=&#34;collapse&#34; data-target=&#34;#abstract_DMPV17&#34;&gt;
-Abstract&lt;/button&gt;
-&lt;div id=&#34;abstract_DMPV17&#34; class=&#34;collapse&#34;&gt;
-Propositional model counting is a fundamental problem in artificial intelligence with a wide variety of applications, such as probabilistic inference, decision making under uncertainty, and probabilistic databases. Consequently, the problem is of theoretical as well as practical interest. When the constraints are expressed as DNF formulas, Monte Carlo-based techniques have been shown to provide a fully polynomial randomized approximation scheme (FPRAS). For CNF constraints, hashing-based approximation techniques have been demonstrated to be highly successful. Furthermore, it was shown that hashing-based techniques also yield an FPRAS for DNF counting without usage of Monte Carlo sampling. Our analysis, however, shows that the proposed hashing-based approach to DNF counting provides poor time complexity compared to the Monte Carlo-based DNF counting techniques. Given the success of hashing-based techniques for CNF constraints, it is natural to ask: Can hashing-based techniques provide an efficient FPRAS for DNF counting? In this paper, we provide a positive answer to this question. To this end, we introduce two novel algorithmic techniques: Symbolic Hashing and Stochastic Cell Counting, along with a new hash family of Row-Echelon hash functions. These innovations allow us to design a hashing-based FPRAS for DNF counting of similar complexity as that of prior works. Furthermore, we expect these techniques to have potential applications beyond DNF counting.
-&lt;/div&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>The Hard Problems Are Almost Everywhere For Random CNF-XOR Formulas  </title>
       <link>/publication/ijcai17/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0800</pubDate>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0800</pubDate>
       
       <guid>/publication/ijcai17/</guid>
-      <description>&lt;p&gt;&lt;button class=&#34;btn btn-default btn-xs&#34; type=&#34;button&#34; data-toggle=&#34;collapse&#34; data-target=&#34;#abstract_DMPV17&#34;&gt;
-Abstract&lt;/button&gt;
-&lt;div id=&#34;abstract_DMPV17&#34; class=&#34;collapse&#34;&gt;
-Recent universal-hashing based approaches to sampling and counting crucially depend on the runtime performance of \SAT~solvers on formulas expressed as the conjunction of both CNF constraints and variable-width XOR constraintsints (known as CNF-XOR formulas). In this paper, we present the first study of the runtime behavior of \SAT~solvers equipped with XOR-reasoning techniques on random CNF-XOR formulas. We empirically demonstrate that a state-of-the-art \SAT~solver scales exponentially on random CNF-XOR formulas across a wide range of XOR-clause densities, peaking around the empirical phase-transition location. On the theoretical front, we prove that the solution space of a random CNF-XOR formula `shatters&amp;rsquo; at \emph{all} nonzero XOR-clause densities into well-separated components, similar to the behavior seen in random CNF formulas known to be difficult for many \SAT-solving algorithms.
-&lt;/div&gt;&lt;/p&gt;
-</description>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Counting-Based Reliability Estimation for Power-Transmission Grids</title>
+      <link>/publication/aaai17/</link>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/aaai17/</guid>
+      <description></description>
     </item>
     
     <item>
       <title>Algorithmic Improvements in Approximate Counting for Probabilistic Inference: From Linear to Logarithmic SAT Calls  </title>
       <link>/publication/ijcai16_counting/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0800</pubDate>
+      <pubDate>Fri, 01 Jul 2016 00:00:00 +0800</pubDate>
       
       <guid>/publication/ijcai16_counting/</guid>
-      <description>&lt;p&gt;&lt;button class=&#34;btn btn-default btn-xs&#34; type=&#34;button&#34; data-toggle=&#34;collapse&#34; data-target=&#34;#abstract_DMPV17&#34;&gt;
-Abstract&lt;/button&gt;
-&lt;div id=&#34;abstract_DMPV17&#34; class=&#34;collapse&#34;&gt;
-Probabilistic inference via model counting has emerged as a scalable technique with strong formal guarantees, thanks to recent advances in hashing-based approximate counting. State-of-the-art hashing-based counting algorithms use an {\NP} oracle, such that the number of oracle invocations grows linearly in the number of variables n in the input constraint. We present a new approach to hashing-based approximate model counting in which the number of oracle invocations grows logarithmically in $n$, while still providing strong theoretical guarantees. Our experiments show that the new approach outperforms state-of-the-art techniques for approximate counting by 1-2 orders of magnitude in running time.
-&lt;/div&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Approximate Probabilistic Inference via Word-Level Counting </title>
-      <link>/publication/aaai16/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0800</pubDate>
-      
-      <guid>/publication/aaai16/</guid>
-      <description>&lt;p&gt;&lt;button class=&#34;btn btn-default btn-xs&#34; type=&#34;button&#34; data-toggle=&#34;collapse&#34; data-target=&#34;#abstract_DMPV17&#34;&gt;
-Abstract&lt;/button&gt;
-&lt;div id=&#34;abstract_DMPV17&#34; class=&#34;collapse&#34;&gt;
-Hashing-based model counting has emerged as a promising approach for large-scale probabilistic inference on graphical models. A key component of these techniques is the use of xor-based 2-universal hash functions that operate over Boolean domains. Many counting problems arising in probabilistic inference are, however, naturally encoded over fi- nite discrete domains. Techniques based on bit-level (or Boolean) hash functions require these problems to be propositionalized, making it impossible to leverage the remarkable progress made in SMT (Satisfiability Modulo Theory) solvers that can reason directly over words (or bit-vectors). In this work, we present the first approximate model counter that uses word-level hashing functions, and can directly leverage the power of sophisticated SMT solvers. Empirical evaluation over an extensive suite of benchmarks demonstrates the promise of the approach.
-&lt;/div&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Automatic Data Layout Generation and Kernel Mapping for CPU&#43;GPU Architectures </title>
-      <link>/publication/cc2016/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0800</pubDate>
-      
-      <guid>/publication/cc2016/</guid>
-      <description>&lt;p&gt;&lt;button class=&#34;btn btn-default btn-xs&#34; type=&#34;button&#34; data-toggle=&#34;collapse&#34; data-target=&#34;#abstract_DMPV17&#34;&gt;
-Abstract&lt;/button&gt;
-&lt;div id=&#34;abstract_DMPV17&#34; class=&#34;collapse&#34;&gt;
-The ubiquity of hybrid CPU+GPU architectures has led to renewed interest in automatic data layout generation owing to the fact that data layouts have a large impact on performance, and that different data layouts yield the best performance on CPUs vs. GPUs. Unfortunately, current programming models still fail to provide an effective solution to the problem of automatic data layout generation for CPU+GPU processors. Specifically, the interaction among whole-program data layout optimizations, data movement optimizations, and mapping of kernels across heterogeneous cores poses a major challenge to current programming systems. In this paper, we introduce a novel two-level hierarchical formulation of the data layout and kernel mapping problem for modern heterogeneous architectures. The top level formulation targets data layouts and kernel mapping for the entire program for which we provide a polynomial- time solution using a graph-based shortest path algorithm that uses the data layouts for the code regions (sections) for a given processor computed in the bottom level formulation. The bottom level formulation deals with the data layout problem for a parallel code region on a given processor, which is NP-Hard, and we provide a greedy algorithm that uses an affinity graph to obtain approximate solutions. We have implemented this data layout transformation in the new Heterogeneous Habanero-C (H2C) parallel programming framework and propose performance models to characterize the data layout impact on both the CPU and GPU. Our data layout framework shows significant performance improvements of up to 2.9 (geometric mean 1.5) on a multicore CPU+GPU compared to the manually specified layouts for a set of parallel programs running on a heterogeneous platform consisting of an Intel Xeon CPU and a NVIDIA GPU. Further, our framework also shows performance improvements of up to 2.7 (geometric mean 1.6) on just the multicore CPU, demonstrating the applicability of our approach to both heterogeneous and homogeneous hardware platforms.
-&lt;/div&gt;&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
       <title>Combining the k-CNF and XOR Phase-Transitions </title>
       <link>/publication/ijcai16-cnfxor/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0800</pubDate>
+      <pubDate>Fri, 01 Jul 2016 00:00:00 +0800</pubDate>
       
       <guid>/publication/ijcai16-cnfxor/</guid>
-      <description>&lt;p&gt;&lt;button class=&#34;btn btn-default btn-xs&#34; type=&#34;button&#34; data-toggle=&#34;collapse&#34; data-target=&#34;#abstract_DMPV17&#34;&gt;
-Abstract&lt;/button&gt;
-&lt;div id=&#34;abstract_DMPV17&#34; class=&#34;collapse&#34;&gt;
-The runtime performance of modern SAT solvers on random k-CNF formulas is deeply connected with the `phase-transition&amp;rsquo; phenomenon seen empirically in the satisfiability of random k-CNF formulas. Recent universal hashing-based approaches to sampling and counting crucially depend on the runtime performance of SAT solvers on formulas expressed as the conjunction of both k-CNF and XOR constraints (known as k-CNF-XOR formulas), but the behavior of random k-CNF-XOR formulas is unexplored in prior work. In this paper, we present the first study of the satisfiability of random k-CNF-XOR formulas. We show empirical evidence of a surprising phase-transition that follows a linear trade-off between k-CNF and XOR constraints. Furthermore, we prove that a phase-transition for k-CNF-XOR formulas exists for k = 2 and (when the number of k-CNF constraints is small) for k &amp;gt; 2.
-&lt;/div&gt;&lt;/p&gt;
-</description>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Approximate Probabilistic Inference via Word-Level Counting </title>
+      <link>/publication/aaai16/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/aaai16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automatic Data Layout Generation and Kernel Mapping for CPU&#43;GPU Architectures </title>
+      <link>/publication/cc2016/</link>
+      <pubDate>Tue, 01 Mar 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/cc2016/</guid>
+      <description></description>
     </item>
     
     <item>
       <title>Constrained Sampling and Counting: Universal Hashing meets SAT Solving</title>
       <link>/publication/bnp16/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0800</pubDate>
+      <pubDate>Mon, 01 Feb 2016 00:00:00 +0800</pubDate>
       
       <guid>/publication/bnp16/</guid>
-      <description>&lt;p&gt;&lt;button class=&#34;btn btn-default btn-xs&#34; type=&#34;button&#34; data-toggle=&#34;collapse&#34; data-target=&#34;#abstract_DMPV17&#34;&gt;
-Abstract&lt;/button&gt;
-&lt;div id=&#34;abstract_DMPV17&#34; class=&#34;collapse&#34;&gt;
-Constrained sampling and counting are two fundamental problems in artificial intelligence with a diverse range of applications, spanning probabilistic reasoning and planning to constrained-random verification. While the theory of these problems was thoroughly investigated in the 1980s, prior work either did not scale to industrial size instances or gave up correctness guarantees to achieve scalability. Recently, we proposed a novel approach that combines universal hashing and SAT solving and scales to formulas with hundreds of thousands of variables without giving up correctness guarantees. This paper provides an overview of the key ingredients of the approach and discusses challenges that need to be overcome to handle larger real-world instances.
-&lt;/div&gt;&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
@@ -179,40 +115,34 @@ Constrained sampling and counting are two fundamental problems in artificial int
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0800</pubDate>
       
       <guid>/publication/pact15/</guid>
-      <description>&lt;p&gt;&lt;button class=&#34;btn btn-default btn-xs&#34; type=&#34;button&#34; data-toggle=&#34;collapse&#34; data-target=&#34;#abstract_DMPV17&#34;&gt;
-Abstract&lt;/button&gt;
-&lt;div id=&#34;abstract_DMPV17&#34; class=&#34;collapse&#34;&gt;
-A phaser is an expressive synchronization construct that unifies collective and point-to-point coordination with dynamic registration of parallel tasks. Each task can participate in a phaser as a signaler, a waiter, or both. The participants in a phaser may change over time as tasks are added and deleted. In this paper, we present a highly concurrent and scalable design of phasers for a distributed memory environment. Our design for a distributed phaser employs a pair of skip lists augmented with the ability to collect and propagate synchronization signals. To enable a high degree of concurrency, addition and deletion of participant tasks are performed in two phases: a &amp;ldquo;fast single-link-modify&amp;rdquo; step followed by multiple hand-over-hand &amp;ldquo;lazy multi-link-modify&amp;rdquo; steps. Verifying highly-concurrent protocols is difficult. We analyze our design for a distributed phaser using the SPIN model checker. A straight-forward approach to model checking a distributed phaser operation requires an infeasibly large state space. To address this issue, we employ a novel &amp;ldquo;message-based&amp;rdquo; model checking scheme to enable a non- approximate complete model checking of our phaser design. We guarantee the semantic properties of phaser operations by ensuring that a set of linear temporal logic formulae are valid during model checking. We also present complexity analysis of the cost of synchronization and structural operations.
-&lt;/div&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>From Weighted to Unweighted Model Counting </title>
-      <link>/publication/ijcai15/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +0800</pubDate>
-      
-      <guid>/publication/ijcai15/</guid>
-      <description>&lt;p&gt;&lt;button class=&#34;btn btn-default btn-xs&#34; type=&#34;button&#34; data-toggle=&#34;collapse&#34; data-target=&#34;#abstract_DMPV17&#34;&gt;
-Abstract&lt;/button&gt;
-&lt;div id=&#34;abstract_DMPV17&#34; class=&#34;collapse&#34;&gt;
-The recent surge of interest in reasoning about probabilistic graphical models has led to the development of various techniques for probabilistic reasoning. Of these, techniques based on weighted model counting are particularly interesting since they can potentially leverage recent advances in unweighted model counting and in propositional satisfiability solving. In this paper, we present a new approach to weighted model counting via reduction to unweighted model counting. Our reduction, which is polynomial-time and preserves the normal form (CNF/DNF) of the input formula, allows us to exploit advances in unweighted model counting to solve weighted model counting instances. Experiments with weighted model counters built using our reduction indicate that these counters performs much better than a state-of-the-art weighted model counter.
-&lt;/div&gt;&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
       <title>On Computing Minimal Independent Support and Its Applications to Sampling and Counting </title>
       <link>/publication/constraints/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +0800</pubDate>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0800</pubDate>
       
       <guid>/publication/constraints/</guid>
-      <description>&lt;p&gt;&lt;button class=&#34;btn btn-default btn-xs&#34; type=&#34;button&#34; data-toggle=&#34;collapse&#34; data-target=&#34;#abstract_DMPV17&#34;&gt;
-Abstract&lt;/button&gt;
-&lt;div id=&#34;abstract_DMPV17&#34; class=&#34;collapse&#34;&gt;
-Constrained sampling and counting are two fundamental problems arising in domains ranging from artificial intelligence and security, to hardware and software testing. Recent approaches to approximate solutions for these problems rely on employing SAT solvers and universal hash functions that are typically encoded as XOR constraints of length n/2 for an input formula with n variables. As the runtime performance of SAT solvers heavily depends on the length of XOR constraints, recent research effort has been focused on reduction of length of XOR constraints. Consequently, a notion of Independent Support was proposed, and it was shown that constructing XORs over independent support (if known) can lead to a significant reduction in the length of XOR constraints without losing the theoretical guarantees of sampling and counting algorithms. In this paper, we present the first algorithmic procedure (and a corresponding tool, called MIS) to determine minimal independent support for a given CNF formula by employing a reduction to group minimal unsatisfiable subsets (GMUS). By utilizing minimal independent supports computed by MIS, we provide new tighter bounds on the length of XOR constraints for constrained counting and sampling. Furthermore, the universal hash functions constructed from independent supports computed by MIS provide two to three orders of magnitude performance improvement in state-of-the-art constrained sampling and counting tools, while still retaining theoretical guarantees.
-&lt;/div&gt;&lt;/p&gt;
-</description>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>From Weighted to Unweighted Model Counting </title>
+      <link>/publication/ijcai15/</link>
+      <pubDate>Wed, 01 Jul 2015 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/ijcai15/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On Parallel Scalable Uniform SAT Witness Generator</title>
+      <link>/publication/tacas15/</link>
+      <pubDate>Wed, 01 Apr 2015 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/tacas15/</guid>
+      <description></description>
     </item>
     
   </channel>
