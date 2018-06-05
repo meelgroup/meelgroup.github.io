@@ -1,38 +1,66 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>1 on Meelgroup</title>
+    <title>1 on MeelGroup</title>
     <link>/publication_types/1/</link>
-    <description>Recent content in 1 on Meelgroup</description>
+    <description>Recent content in 1 on MeelGroup</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>A Scalable Approximate Model Counter </title>
-      <link>/publication/cp2013/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Scalable Approximation of Quantitative Information Flow in Programs</title>
+      <link>/publication/vmcai18/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0800</pubDate>
       
-      <guid>/publication/cp2013/</guid>
-      <description>Abstract Propositional model counting (#SAT), i.e., counting the number of satisfying assignments of a propositional formula, is a problem of significant theoretical and practical interest. Due to the inherent complexity of the problem, approximate model counting, which counts the number of satisfying assignments to within given tolerance and confi- dence level, was proposed as a practical alternative to exact model counting. Yet, approximate model counting has been studied essentially only theoretically.</description>
+      <guid>/publication/vmcai18/</guid>
+      <description>Abstract Quantitative information flow measurement techniques have been proven to be successful in detecting leakage of confidential information from programs. Modern approaches are based on formal methods, relying on program analysis to produce a SAT formula representing the program&amp;rsquo;s behavior, and model counting to measure the possible information flow. However, while program analysis scales to large codebases like the OpenSSL project, the formulas produced are too complex for analysis with precise model counting.</description>
     </item>
     
     <item>
-      <title>A Scalable and Nearly Uniform Generator of SAT Witnesses</title>
-      <link>/publication/cav13/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Constrained Counting and Sampling: Bridging the Gap between Theory and Practice </title>
+      <link>/publication/meel-phdthesis/</link>
+      <pubDate>Fri, 29 Sep 2017 00:00:00 +0800</pubDate>
       
-      <guid>/publication/cav13/</guid>
-      <description>Abstract Functional verification constitutes one of the most challenging tasks in the development of modern hardware systems, and simulation-based verification techniques dominate the functional verification landscape. A dominant paradigm in simulation-based verification is directed random testing, where a model of the system is simulated with a set of random test stimuli that are uniformly or near-uniformly distributed over the space of all stimuli satisfying a given set of constraints. Uniform or near-uniform generation of solutions for large constraint sets is therefore a problem of theoretical and practical interest.</description>
+      <guid>/publication/meel-phdthesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Counting-Based Reliability Estimation for Power-Transmission Grids</title>
+      <link>/publication/aaai17/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/aaai17/</guid>
+      <description>Abstract Modern society is increasingly reliant on the functionality of infrastructure facilities and utility services. Consequently, there has been surge of interest in the problem of quantification of system reliability, which is known to be #P-complete. Reliability also contributes to the resilience of systems, so as to effectively make them bounce back after contingencies. Despite diverse progress, most techniques to estimate system reliability and resilience remain computationally expensive. In this paper, we investigate how recent advances in hashing-based approaches to counting can be exploited to improve computational techniques for system reliability.</description>
+    </item>
+    
+    <item>
+      <title>On Hashing-Based Approaches to Approximate DNF-Counting </title>
+      <link>/publication/fsttcs17/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/fsttcs17/</guid>
+      <description>Abstract Propositional model counting is a fundamental problem in artificial intelligence with a wide variety of applications, such as probabilistic inference, decision making under uncertainty, and probabilistic databases. Consequently, the problem is of theoretical as well as practical interest. When the constraints are expressed as DNF formulas, Monte Carlo-based techniques have been shown to provide a fully polynomial randomized approximation scheme (FPRAS). For CNF constraints, hashing-based approximation techniques have been demonstrated to be highly successful.</description>
+    </item>
+    
+    <item>
+      <title>The Hard Problems Are Almost Everywhere For Random CNF-XOR Formulas  </title>
+      <link>/publication/ijcai17/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/ijcai17/</guid>
+      <description>Abstract Recent universal-hashing based approaches to sampling and counting crucially depend on the runtime performance of \SAT~solvers on formulas expressed as the conjunction of both CNF constraints and variable-width XOR constraintsints (known as CNF-XOR formulas). In this paper, we present the first study of the runtime behavior of \SAT~solvers equipped with XOR-reasoning techniques on random CNF-XOR formulas. We empirically demonstrate that a state-of-the-art \SAT~solver scales exponentially on random CNF-XOR formulas across a wide range of XOR-clause densities, peaking around the empirical phase-transition location.</description>
     </item>
     
     <item>
       <title>Algorithmic Improvements in Approximate Counting for Probabilistic Inference: From Linear to Logarithmic SAT Calls  </title>
       <link>/publication/ijcai16_counting/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0800</pubDate>
       
       <guid>/publication/ijcai16_counting/</guid>
       <description>Abstract Probabilistic inference via model counting has emerged as a scalable technique with strong formal guarantees, thanks to recent advances in hashing-based approximate counting. State-of-the-art hashing-based counting algorithms use an {\NP} oracle, such that the number of oracle invocations grows linearly in the number of variables n in the input constraint. We present a new approach to hashing-based approximate model counting in which the number of oracle invocations grows logarithmically in $n$, while still providing strong theoretical guarantees.</description>
@@ -41,7 +69,7 @@
     <item>
       <title>Approximate Probabilistic Inference via Word-Level Counting </title>
       <link>/publication/aaai16/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0800</pubDate>
       
       <guid>/publication/aaai16/</guid>
       <description>Abstract Hashing-based model counting has emerged as a promising approach for large-scale probabilistic inference on graphical models. A key component of these techniques is the use of xor-based 2-universal hash functions that operate over Boolean domains. Many counting problems arising in probabilistic inference are, however, naturally encoded over fi- nite discrete domains. Techniques based on bit-level (or Boolean) hash functions require these problems to be propositionalized, making it impossible to leverage the remarkable progress made in SMT (Satisfiability Modulo Theory) solvers that can reason directly over words (or bit-vectors).</description>
@@ -50,79 +78,43 @@
     <item>
       <title>Automatic Data Layout Generation and Kernel Mapping for CPU&#43;GPU Architectures </title>
       <link>/publication/cc2016/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0800</pubDate>
       
       <guid>/publication/cc2016/</guid>
       <description>Abstract The ubiquity of hybrid CPU+GPU architectures has led to renewed interest in automatic data layout generation owing to the fact that data layouts have a large impact on performance, and that different data layouts yield the best performance on CPUs vs. GPUs. Unfortunately, current programming models still fail to provide an effective solution to the problem of automatic data layout generation for CPU+GPU processors. Specifically, the interaction among whole-program data layout optimizations, data movement optimizations, and mapping of kernels across heterogeneous cores poses a major challenge to current programming systems.</description>
     </item>
     
     <item>
-      <title>Balancing Scalability and Uniformity in SAT-Witness Generator </title>
-      <link>/publication/dac2014/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/dac2014/</guid>
-      <description>Abstract Constrained-random simulation is the predominant approach used in the industry for functional verification of complex digital designs. The effectiveness of this approach depends on two key factors: the quality of constraints used to generate test vectors, and the randomness of solutions generated from a given set of constraints. In this paper, we focus on the second problem, and present an algorithm that significantly improves the state-of-the-art of (almost-)uniform generation of solutions of large Boolean constraints.</description>
-    </item>
-    
-    <item>
       <title>Combining the k-CNF and XOR Phase-Transitions </title>
       <link>/publication/ijcai16-cnfxor/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0800</pubDate>
       
       <guid>/publication/ijcai16-cnfxor/</guid>
       <description>Abstract The runtime performance of modern SAT solvers on random k-CNF formulas is deeply connected with the `phase-transition&amp;rsquo; phenomenon seen empirically in the satisfiability of random k-CNF formulas. Recent universal hashing-based approaches to sampling and counting crucially depend on the runtime performance of SAT solvers on formulas expressed as the conjunction of both k-CNF and XOR constraints (known as k-CNF-XOR formulas), but the behavior of random k-CNF-XOR formulas is unexplored in prior work.</description>
     </item>
     
     <item>
-      <title>Constrained Counting and Sampling: Bridging the Gap between Theory and Practice </title>
-      <link>/publication/meel-phdthesis/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/meel-phdthesis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Constrained Sampling and Counting: Universal Hashing meets SAT Solving</title>
       <link>/publication/bnp16/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0800</pubDate>
       
       <guid>/publication/bnp16/</guid>
       <description>Abstract Constrained sampling and counting are two fundamental problems in artificial intelligence with a diverse range of applications, spanning probabilistic reasoning and planning to constrained-random verification. While the theory of these problems was thoroughly investigated in the 1980s, prior work either did not scale to industrial size instances or gave up correctness guarantees to achieve scalability. Recently, we proposed a novel approach that combines universal hashing and SAT solving and scales to formulas with hundreds of thousands of variables without giving up correctness guarantees.</description>
     </item>
     
     <item>
-      <title>Counting-Based Reliability Estimation for Power-Transmission Grids</title>
-      <link>/publication/aaai17/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/aaai17/</guid>
-      <description>Abstract Modern society is increasingly reliant on the functionality of infrastructure facilities and utility services. Consequently, there has been surge of interest in the problem of quantification of system reliability, which is known to be #P-complete. Reliability also contributes to the resilience of systems, so as to effectively make them bounce back after contingencies. Despite diverse progress, most techniques to estimate system reliability and resilience remain computationally expensive. In this paper, we investigate how recent advances in hashing-based approaches to counting can be exploited to improve computational techniques for system reliability.</description>
-    </item>
-    
-    <item>
       <title>Design and Verification of Distributed Phasers</title>
       <link>/publication/pact15/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0800</pubDate>
       
       <guid>/publication/pact15/</guid>
       <description>Abstract A phaser is an expressive synchronization construct that unifies collective and point-to-point coordination with dynamic registration of parallel tasks. Each task can participate in a phaser as a signaler, a waiter, or both. The participants in a phaser may change over time as tasks are added and deleted. In this paper, we present a highly concurrent and scalable design of phasers for a distributed memory environment. Our design for a distributed phaser employs a pair of skip lists augmented with the ability to collect and propagate synchronization signals.</description>
     </item>
     
     <item>
-      <title>Distribution-Aware Sampling and Weighted Model Counting for SAT</title>
-      <link>/publication/aaai14/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/aaai14/</guid>
-      <description>Abstract Given a CNF formula and a weight for each assignment of values to variables, two natural problems are weighted model counting and distribution-aware sampling of satisfying assignments. Both problems have a wide variety of important applications. Due to the inherent complexity of the exact versions of the problems, interest has focused on solving them approximately. Prior work in this area scaled only to small problems in practice, or failed to provide strong theoretical guarantees, or employed a computationally-expensive maximum a posteriori probability (MAP) oracle that assumes prior knowledge of a factored representation of the weight distribution.</description>
-    </item>
-    
-    <item>
       <title>From Weighted to Unweighted Model Counting </title>
       <link>/publication/ijcai15/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0800</pubDate>
       
       <guid>/publication/ijcai15/</guid>
       <description>Abstract The recent surge of interest in reasoning about probabilistic graphical models has led to the development of various techniques for probabilistic reasoning. Of these, techniques based on weighted model counting are particularly interesting since they can potentially leverage recent advances in unweighted model counting and in propositional satisfiability solving. In this paper, we present a new approach to weighted model counting via reduction to unweighted model counting. Our reduction, which is polynomial-time and preserves the normal form (CNF/DNF) of the input formula, allows us to exploit advances in unweighted model counting to solve weighted model counting instances.</description>
@@ -131,46 +123,55 @@
     <item>
       <title>On Computing Minimal Independent Support and Its Applications to Sampling and Counting </title>
       <link>/publication/constraints/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0800</pubDate>
       
       <guid>/publication/constraints/</guid>
       <description>Abstract Constrained sampling and counting are two fundamental problems arising in domains ranging from artificial intelligence and security, to hardware and software testing. Recent approaches to approximate solutions for these problems rely on employing SAT solvers and universal hash functions that are typically encoded as XOR constraints of length n/2 for an input formula with n variables. As the runtime performance of SAT solvers heavily depends on the length of XOR constraints, recent research effort has been focused on reduction of length of XOR constraints.</description>
     </item>
     
     <item>
-      <title>On Hashing-Based Approaches to Approximate DNF-Counting </title>
-      <link>/publication/fsttcs17/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/fsttcs17/</guid>
-      <description>Abstract Propositional model counting is a fundamental problem in artificial intelligence with a wide variety of applications, such as probabilistic inference, decision making under uncertainty, and probabilistic databases. Consequently, the problem is of theoretical as well as practical interest. When the constraints are expressed as DNF formulas, Monte Carlo-based techniques have been shown to provide a fully polynomial randomized approximation scheme (FPRAS). For CNF constraints, hashing-based approximation techniques have been demonstrated to be highly successful.</description>
-    </item>
-    
-    <item>
       <title>On Parallel Scalable Uniform SAT Witness Generator</title>
       <link>/publication/tacas15/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0800</pubDate>
       
       <guid>/publication/tacas15/</guid>
       <description>Abstract Constrained-random verification (CRV) is widely used in industry for validating hardware designs. The effectiveness of CRV depends on the uniformity of test stimuli generated from a given set of constraints. Most existing techniques sacrifice either uniformity or scalability when generating stimuli. While recent work based on random hash functions has shown that it is possible to generate almost uniform stimuli from constraints with 100,000+ variables, the performance still falls short of today&amp;rsquo;s industrial requirements.</description>
     </item>
     
     <item>
-      <title>Scalable Approximation of Quantitative Information Flow in Programs</title>
-      <link>/publication/vmcai18/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Balancing Scalability and Uniformity in SAT-Witness Generator </title>
+      <link>/publication/dac2014/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0800</pubDate>
       
-      <guid>/publication/vmcai18/</guid>
-      <description>Abstract Quantitative information flow measurement techniques have been proven to be successful in detecting leakage of confidential information from programs. Modern approaches are based on formal methods, relying on program analysis to produce a SAT formula representing the program&amp;rsquo;s behavior, and model counting to measure the possible information flow. However, while program analysis scales to large codebases like the OpenSSL project, the formulas produced are too complex for analysis with precise model counting.</description>
+      <guid>/publication/dac2014/</guid>
+      <description>Abstract Constrained-random simulation is the predominant approach used in the industry for functional verification of complex digital designs. The effectiveness of this approach depends on two key factors: the quality of constraints used to generate test vectors, and the randomness of solutions generated from a given set of constraints. In this paper, we focus on the second problem, and present an algorithm that significantly improves the state-of-the-art of (almost-)uniform generation of solutions of large Boolean constraints.</description>
     </item>
     
     <item>
-      <title>The Hard Problems Are Almost Everywhere For Random CNF-XOR Formulas  </title>
-      <link>/publication/ijcai17/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Distribution-Aware Sampling and Weighted Model Counting for SAT</title>
+      <link>/publication/aaai14/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0800</pubDate>
       
-      <guid>/publication/ijcai17/</guid>
-      <description>Abstract Recent universal-hashing based approaches to sampling and counting crucially depend on the runtime performance of \SAT~solvers on formulas expressed as the conjunction of both CNF constraints and variable-width XOR constraintsints (known as CNF-XOR formulas). In this paper, we present the first study of the runtime behavior of \SAT~solvers equipped with XOR-reasoning techniques on random CNF-XOR formulas. We empirically demonstrate that a state-of-the-art \SAT~solver scales exponentially on random CNF-XOR formulas across a wide range of XOR-clause densities, peaking around the empirical phase-transition location.</description>
+      <guid>/publication/aaai14/</guid>
+      <description>Abstract Given a CNF formula and a weight for each assignment of values to variables, two natural problems are weighted model counting and distribution-aware sampling of satisfying assignments. Both problems have a wide variety of important applications. Due to the inherent complexity of the exact versions of the problems, interest has focused on solving them approximately. Prior work in this area scaled only to small problems in practice, or failed to provide strong theoretical guarantees, or employed a computationally-expensive maximum a posteriori probability (MAP) oracle that assumes prior knowledge of a factored representation of the weight distribution.</description>
+    </item>
+    
+    <item>
+      <title>A Scalable and Nearly Uniform Generator of SAT Witnesses</title>
+      <link>/publication/cav13/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/cav13/</guid>
+      <description>Abstract Functional verification constitutes one of the most challenging tasks in the development of modern hardware systems, and simulation-based verification techniques dominate the functional verification landscape. A dominant paradigm in simulation-based verification is directed random testing, where a model of the system is simulated with a set of random test stimuli that are uniformly or near-uniformly distributed over the space of all stimuli satisfying a given set of constraints. Uniform or near-uniform generation of solutions for large constraint sets is therefore a problem of theoretical and practical interest.</description>
+    </item>
+    
+    <item>
+      <title>A Scalable Approximate Model Counter </title>
+      <link>/publication/cp2013/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/cp2013/</guid>
+      <description>Abstract Propositional model counting (#SAT), i.e., counting the number of satisfying assignments of a propositional formula, is a problem of significant theoretical and practical interest. Due to the inherent complexity of the problem, approximate model counting, which counts the number of satisfying assignments to within given tolerance and confi- dence level, was proposed as a practical alternative to exact model counting. Yet, approximate model counting has been studied essentially only theoretically.</description>
     </item>
     
   </channel>
