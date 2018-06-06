@@ -31,15 +31,6 @@
     </item>
     
     <item>
-      <title>Openings</title>
-      <link>/home/openings/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
-      
-      <guid>/home/openings/</guid>
-      <description>I am looking for highly motivated Ph.D. students, postdocs, and interns (with time commitment of at least 6 months) in our group.  If you are a student at NUS, feel free to drop by my office or schedule a meeting with me. (See my calendar).  Otherwise, please send me an email with your CV if you are interested. If you are looking for an internship/postdoc, make sure your subject contains the word &amp;ldquo;olleh&amp;rdquo; and you should include reviews of two of my papers (published in the previous 3 years).</description>
-    </item>
-    
-    <item>
       <title>People</title>
       <link>/home/people/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
@@ -63,6 +54,15 @@ Assistant Professor
 Computer Science Department, School of Computing
 National University of Singapore
 Please consult my calendar  before suggesting a meeting time.</description>
+    </item>
+    
+    <item>
+      <title>Openings</title>
+      <link>/home/openings/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/home/openings/</guid>
+      <description>I am looking for highly motivated Ph.D. students, postdocs, and interns (with time commitment of at least 6 months) in our group.  If you are a student at NUS, feel free to drop by my office or schedule a meeting with me. (See my calendar).  Otherwise, please send me an email with your CV if you are interested. If you are looking for an internship/postdoc, make sure your subject contains the word &amp;ldquo;olleh&amp;rdquo; and you should include reviews of two of my papers (published in the previous 3 years).</description>
     </item>
     
     <item>
