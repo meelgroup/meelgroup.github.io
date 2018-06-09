@@ -65,6 +65,15 @@
     </item>
     
     <item>
+      <title>On Computing Minimal Independent Support and Its Applications to Sampling and Counting </title>
+      <link>/publication/immv16/</link>
+      <pubDate>Thu, 01 Sep 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/immv16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Algorithmic Improvements in Approximate Counting for Probabilistic Inference: From Linear to Logarithmic SAT Calls  </title>
       <link>/publication/ijcai16_counting/</link>
       <pubDate>Fri, 01 Jul 2016 00:00:00 +0800</pubDate>
@@ -133,15 +142,6 @@
       <pubDate>Wed, 01 Jul 2015 00:00:00 +0800</pubDate>
       
       <guid>/publication/ijcai15/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>On Parallel Scalable Uniform SAT Witness Generator</title>
-      <link>/publication/tacas15/</link>
-      <pubDate>Wed, 01 Apr 2015 00:00:00 +0800</pubDate>
-      
-      <guid>/publication/tacas15/</guid>
       <description></description>
     </item>
     
