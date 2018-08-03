@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sat, 02 Jun 2018 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 01 Aug 2018 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Not All FPRASs are Equal: Demystifying FPRASs for DNF-Counting </title>
+      <link>/publication/cp2018/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/cp2018/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>MLIC: A MaxSAT-Based framework for learning interpretable classification rules</title>

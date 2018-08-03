@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Not All FPRASs are Equal: Demystifying FPRASs for DNF-Counting </title>
+      <link>/publication/cp2018/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/cp2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>MLIC: A MaxSAT-Based framework for learning interpretable classification rules</title>
       <link>/publication/mm18/</link>
       <pubDate>Sat, 02 Jun 2018 00:00:00 +0800</pubDate>
@@ -133,15 +142,6 @@
       <pubDate>Mon, 01 Feb 2016 00:00:00 +0800</pubDate>
       
       <guid>/publication/bnp16/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Design and Verification of Distributed Phasers</title>
-      <link>/publication/pact15/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0800</pubDate>
-      
-      <guid>/publication/pact15/</guid>
       <description></description>
     </item>
     
