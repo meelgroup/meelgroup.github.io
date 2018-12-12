@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0530</lastBuildDate>
     
 	<atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title></title>
       <link>/home/about/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0530</pubDate>
       
       <guid>/home/about/</guid>
       <description>Meel Group Welcome to the Meel Group&amp;rsquo;s web page. We are situated at National University of Singapore.</description>
@@ -33,18 +33,17 @@
     <item>
       <title>News</title>
       <link>/home/news/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0530</pubDate>
       
       <guid>/home/news/</guid>
       <description>20 June 2018 I will be at IJCAI from July 12 – July 19 and at Leiden University on July 20. I will be co-presenting tutorial with Supratik Chakraborty at IJCAI on July 13.
-# -- 04 Novemeber 2018 Kuldeep was awarded Distinguished Program Committee Member for IJCAI 2018.
-01 Novemeber 20183 Papers accepted at AAAI-19!The first paper describes a new architecture for CNF-XOR formulas, which has allowed us to have a new approximate counter that is at least 100 times faster than ApproxMC2 – credit to Mate Soos  for his breakthrough engineering that enabled this project!</description>
+# -- 30 November 2018 The next version of ApproxMC is here: ApproxMC3 is faster and better than ever before. Do read Mate’s post for quick synopsys of the magic sauce behind ApproxMC’s performance. 30 November 2018 Congratulations Alexis for a successful defense of Masters thesis 04 Novemeber 2018 Kuldeep was awarded Distinguished Program Committee Member for IJCAI 2018.</description>
     </item>
     
     <item>
       <title>People</title>
       <link>/home/people/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0530</pubDate>
       
       <guid>/home/people/</guid>
       <description>Faculty Kuldeep Meel
@@ -56,23 +55,19 @@ PhD Students  body .column { float: left; width: 33.33%; padding: 5px; }
     <item>
       <title>Contact</title>
       <link>/home/contact/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0530</pubDate>
       
       <guid>/home/contact/</guid>
-      <description>Kuldeep S. Meel
-Assistant Professor
-Computer Science Department, School of Computing
-National University of Singapore
-Please consult Kuldeep&amp;rsquo;s calendar  before suggesting a meeting time.</description>
+      <description> Kuldeep S. Meel&amp;lt;br /&amp;gt; Assistant Professor&amp;lt;br /&amp;gt; Computer Science Department, School of Computing&amp;lt;br /&amp;gt; National University of Singapore&amp;lt;br /&amp;gt; Please consult &amp;lt;a href=&amp;quot;https://calendar.google.com/calendar/embed?src=meel%40comp.nus.edu.sg&amp;quot;&amp;gt; Kuldeep&#39;s calendar &amp;lt;/a&amp;gt; before suggesting a meeting time.  </description>
     </item>
     
     <item>
       <title>Openings</title>
       <link>/home/openings/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0530</pubDate>
       
       <guid>/home/openings/</guid>
-      <description>We are looking for highly motivated Ph.D. students, postdocs, and interns (with time commitment of at least 6 months) in our group.Two post-doc positions available in the broad area of applying machine learning to SAT solvers, approximate counting techniques, and CP.  Details  If you are a student at NUS, feel free to drop by Kuldeep&amp;rsquo;s office or schedule a meeting with him. (See his calendar).  Otherwise, please send him an email with your CV if you are interested.</description>
+      <description>Looking for candidates with strong background in CS/Mathematics/Physics for post-doc for the project: Beyond NP Revolution. Read advertisement for more details.  Two post-doc positions available in the broad area of applying machine learning to SAT solvers, approximate counting techniques, and CP. Read advertisement for more details.  We are always looking for highly motivated Ph.D. students, research assistants with time commitment of at least 6 months and summer internship for exceptional undergraduate interns in our group.</description>
     </item>
     
     <item>
