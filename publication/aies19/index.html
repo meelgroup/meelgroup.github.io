@@ -17,10 +17,10 @@
       
     
   
-  <meta name="description" content="Constrained sampling and counting are two fundamental problems in artificial intelligence with a diverse range of applications, spanning probabilistic reasoning and planning to constrained-random verification. While the theory of these problems was thoroughly investigated in the 1980s, prior work either did not scale to industrial size instances or gave up correctness guarantees to achieve scalability. Recently, we proposed a novel approach that combines universal hashing and SAT solving and scales to formulas with hundreds of thousands of variables without giving up correctness guarantees. This paper provides an overview of the key ingredients of the approach and discusses challenges that need to be overcome to handle larger real-world instances.">
+  <meta name="description" content="The wide adoption of machine learning in the critical domains such as medical diagnosis, law, education had propelled the need for interpretable techniques due to the need for end user to understand the reasoning behind decisions due to learning systems. The computational intractability of interpretable learning led practitioners to design heuristic techniques, which fail to provide sound handles to tradeoff accuracy and interpretability. Motivated by the success of Max-SAT solvers over the past decade, recently MaxSAT-based approach, called MLIC, was proposed that seeks to reduce the problem of learning interpretable rules expressed in Conjunctive Normal Form (CNF) to a MaxSAT query. While MLIC was shown to achieve accuracy similar to that of other state of the art black-box classifiers while generating small interpretable CNF formulas, the runtime performance of MLIC is significantly lagging and renders approach unusable in practice. In this context, authors raised the question: Is it possible to achieve the best of both worlds, i.e. a sound framework for interpretable learning that can take advantage of MaxSAT solvers while scaling to real-world instances? In this paper, we take a step towards answering the above question in affirmation. We propose an incremental approach to Max-SAT based framework that achieves scalable runtime performance via partition-based training methodology. Extensive experiments on benchmarks arising from UCI repository demonstrate that IMLI achieves up to three orders of magnitude runtime improvement without loss of accuracy and interpretability. ">
 
   
-  <link rel="alternate" hreflang="en-us" href="/publication/aaai19_testing/">
+  <link rel="alternate" hreflang="en-us" href="/publication/aies19/">
 
   
 
@@ -69,14 +69,14 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="/publication/aaai19_testing/">
+  <link rel="canonical" href="/publication/aies19/">
 
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="MeelGroup">
-  <meta property="og:url" content="/publication/aaai19_testing/">
-  <meta property="og:title" content="On testing of Uniform Samplers  | MeelGroup">
-  <meta property="og:description" content="Constrained sampling and counting are two fundamental problems in artificial intelligence with a diverse range of applications, spanning probabilistic reasoning and planning to constrained-random verification. While the theory of these problems was thoroughly investigated in the 1980s, prior work either did not scale to industrial size instances or gave up correctness guarantees to achieve scalability. Recently, we proposed a novel approach that combines universal hashing and SAT solving and scales to formulas with hundreds of thousands of variables without giving up correctness guarantees. This paper provides an overview of the key ingredients of the approach and discusses challenges that need to be overcome to handle larger real-world instances.">
+  <meta property="og:url" content="/publication/aies19/">
+  <meta property="og:title" content=" IMLI: An Incremental Framework for MaxSAT-Based Learning of Interpretable Classification Rules  | MeelGroup">
+  <meta property="og:description" content="The wide adoption of machine learning in the critical domains such as medical diagnosis, law, education had propelled the need for interpretable techniques due to the need for end user to understand the reasoning behind decisions due to learning systems. The computational intractability of interpretable learning led practitioners to design heuristic techniques, which fail to provide sound handles to tradeoff accuracy and interpretability. Motivated by the success of Max-SAT solvers over the past decade, recently MaxSAT-based approach, called MLIC, was proposed that seeks to reduce the problem of learning interpretable rules expressed in Conjunctive Normal Form (CNF) to a MaxSAT query. While MLIC was shown to achieve accuracy similar to that of other state of the art black-box classifiers while generating small interpretable CNF formulas, the runtime performance of MLIC is significantly lagging and renders approach unusable in practice. In this context, authors raised the question: Is it possible to achieve the best of both worlds, i.e. a sound framework for interpretable learning that can take advantage of MaxSAT solvers while scaling to real-world instances? In this paper, we take a step towards answering the above question in affirmation. We propose an incremental approach to Max-SAT based framework that achieves scalable runtime performance via partition-based training methodology. Extensive experiments on benchmarks arising from UCI repository demonstrate that IMLI achieves up to three orders of magnitude runtime improvement without loss of accuracy and interpretability. ">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2019-01-01T00:00:00&#43;08:00">
@@ -87,7 +87,7 @@
   
   
 
-  <title>On testing of Uniform Samplers  | MeelGroup</title>
+  <title> IMLI: An Incremental Framework for MaxSAT-Based Learning of Interpretable Classification Rules  | MeelGroup</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
@@ -245,10 +245,10 @@
 
 
   <div class="article-container">
-    <h1 itemprop="name">On testing of Uniform Samplers </h1>
+    <h1 itemprop="name"> IMLI: An Incremental Framework for MaxSAT-Based Learning of Interpretable Classification Rules </h1>
     <span class="pub-authors" itemprop="author">
       
-      Sourav Chakraborty, Kuldeep S. Meel
+      Kuldeep S. Meel, Bishwamittra Ghosh
       
     </span>
     <span class="pull-right">
@@ -257,35 +257,35 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=On%20testing%20of%20Uniform%20Samplers%20&amp;url=%2fpublication%2faaai19_testing%2f"
+         href="https://twitter.com/intent/tweet?text=%20IMLI%3a%20An%20Incremental%20Framework%20for%20MaxSAT-Based%20Learning%20of%20Interpretable%20Classification%20Rules%20&amp;url=%2fpublication%2faies19%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=%2fpublication%2faaai19_testing%2f"
+         href="https://www.facebook.com/sharer.php?u=%2fpublication%2faies19%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpublication%2faaai19_testing%2f&amp;title=On%20testing%20of%20Uniform%20Samplers%20"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpublication%2faies19%2f&amp;title=%20IMLI%3a%20An%20Incremental%20Framework%20for%20MaxSAT-Based%20Learning%20of%20Interpretable%20Classification%20Rules%20"
          target="_blank" rel="noopener">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=%2fpublication%2faaai19_testing%2f&amp;title=On%20testing%20of%20Uniform%20Samplers%20"
+         href="http://service.weibo.com/share/share.php?url=%2fpublication%2faies19%2f&amp;title=%20IMLI%3a%20An%20Incremental%20Framework%20for%20MaxSAT-Based%20Learning%20of%20Interpretable%20Classification%20Rules%20"
          target="_blank" rel="noopener">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=On%20testing%20of%20Uniform%20Samplers%20&amp;body=%2fpublication%2faaai19_testing%2f">
+         href="mailto:?subject=%20IMLI%3a%20An%20Incremental%20Framework%20for%20MaxSAT-Based%20Learning%20of%20Interpretable%20Classification%20Rules%20&amp;body=%2fpublication%2faies19%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -299,7 +299,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">Constrained sampling and counting are two fundamental problems in artificial intelligence with a diverse range of applications, spanning probabilistic reasoning and planning to constrained-random verification. While the theory of these problems was thoroughly investigated in the 1980s, prior work either did not scale to industrial size instances or gave up correctness guarantees to achieve scalability. Recently, we proposed a novel approach that combines universal hashing and SAT solving and scales to formulas with hundreds of thousands of variables without giving up correctness guarantees. This paper provides an overview of the key ingredients of the approach and discusses challenges that need to be overcome to handle larger real-world instances.</p>
+    <p class="pub-abstract" itemprop="text">The wide adoption of machine learning in the critical domains such as medical diagnosis, law, education had propelled the need for interpretable techniques due to the need for end user to understand the reasoning behind decisions due to learning systems. The computational intractability of interpretable learning led practitioners to design heuristic techniques, which fail to provide sound handles to tradeoff accuracy and interpretability. Motivated by the success of Max-SAT solvers over the past decade, recently MaxSAT-based approach, called MLIC, was proposed that seeks to reduce the problem of learning interpretable rules expressed in Conjunctive Normal Form (CNF) to a MaxSAT query. While MLIC was shown to achieve accuracy similar to that of other state of the art black-box classifiers while generating small interpretable CNF formulas, the runtime performance of MLIC is significantly lagging and renders approach unusable in practice. In this context, authors raised the question: Is it possible to achieve the best of both worlds, i.e. a sound framework for interpretable learning that can take advantage of MaxSAT solvers while scaling to real-world instances? In this paper, we take a step towards answering the above question in affirmation. We propose an incremental approach to Max-SAT based framework that achieves scalable runtime performance via partition-based training methodology. Extensive experiments on benchmarks arising from UCI repository demonstrate that IMLI achieves up to three orders of magnitude runtime improvement without loss of accuracy and interpretability.</p>
     
 
     
@@ -310,8 +310,8 @@
           <div class="col-xs-12 col-sm-3 pub-row-heading">Type</div>
           <div class="col-xs-12 col-sm-9">
             
-            <a href="/publication/#7">
-              Workshop Papers
+            <a href="/publication/#1">
+              Conference paper
             </a>
             
           </div>
@@ -328,7 +328,7 @@
       <div class="col-sm-10">
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-          <div class="col-xs-12 col-sm-9">In <em>Proceedings of AAAI Conference on Artificial Intelligence (AAAI-19).</em></div>
+          <div class="col-xs-12 col-sm-9">In <em>Proceedings of AAAI/ACM Conference on AI, Ethics, and Society(AIES).</em></div>
         </div>
       </div>
       <div class="col-sm-1"></div>
@@ -362,7 +362,7 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="https://www.comp.nus.edu.sg/~meel/Papers/aaai19-cm.pdf" target="_blank" rel="noopener">
+<a class="btn btn-primary btn-outline" href="https://bishwamittra.github.io/publication/imli-ghosh.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -370,7 +370,7 @@
 
 
 <button type="button" class="btn btn-primary btn-outline js-cite-modal"
-        data-filename="/files/citations/AAAI19_testing.bib">
+        data-filename="/files/citations/aies19.bib">
   Cite
 </button>
 

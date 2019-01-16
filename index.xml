@@ -7,22 +7,41 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0800</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title> IMLI: An Incremental Framework for MaxSAT-Based Learning of Interpretable Classification Rules </title>
+      <link>/publication/aies19/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/aies19/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>BIRD: Engineering an Efficient CNF-XOR SAT Solver and its Applications to Approximate Model Counting</title>
       <link>/publication/aaai19_bird/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0530</pubDate>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0800</pubDate>
       
       <guid>/publication/aaai19_bird/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>BOSPHORUS: Bridging ANF and CNF Solvers </title>
+      <link>/publication/date-cscm19/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/date-cscm19/</guid>
+      <description>&lt;p&gt;abstract = &amp;ldquo;Algebraic Normal Form (ANF) and Conjunctive Normal Form (CNF) are commonly used to encode problems in Boolean algebra. ANFs are typically solved via Gr&amp;rdquo;obner basis algorithms, often using more memory than is feasible; while CNFs are solved using SAT solvers, which cannot exploit the algebra of polynomials naturally. We propose a paradigm that bridges between ANF and CNF solving techniques: the techniques are applied in an iterative manner to learn facts to augment the original problems. Experiments on over 1,100 benchmarks arising from four different applications domains demonstrate that learnt facts can significantly improve runtime and enable more benchmarks to be solved. &amp;ldquo;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>On testing of Uniform Samplers </title>
       <link>/publication/aaai19_testing/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0530</pubDate>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0800</pubDate>
       
       <guid>/publication/aaai19_testing/</guid>
       <description></description>
@@ -31,7 +50,7 @@
     <item>
       <title>On the Hardness of Probabilistic Inference Relaxations</title>
       <link>/publication/aaai19_hardness/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0530</pubDate>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0800</pubDate>
       
       <guid>/publication/aaai19_hardness/</guid>
       <description></description>
@@ -40,7 +59,7 @@
     <item>
       <title>Knowledge Compilation meets Uniform Sampling</title>
       <link>/publication/lpar2018/</link>
-      <pubDate>Wed, 01 Aug 2018 00:00:00 +0530</pubDate>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0800</pubDate>
       
       <guid>/publication/lpar2018/</guid>
       <description></description>
@@ -49,7 +68,7 @@
     <item>
       <title>Not All FPRASs are Equal: Demystifying FPRASs for DNF-Counting </title>
       <link>/publication/cp2018/</link>
-      <pubDate>Wed, 01 Aug 2018 00:00:00 +0530</pubDate>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0800</pubDate>
       
       <guid>/publication/cp2018/</guid>
       <description></description>
@@ -58,7 +77,7 @@
     <item>
       <title>MLIC: A MaxSAT-Based framework for learning interpretable classification rules</title>
       <link>/publication/mm18/</link>
-      <pubDate>Sat, 02 Jun 2018 00:00:00 +0530</pubDate>
+      <pubDate>Sat, 02 Jun 2018 00:00:00 +0800</pubDate>
       
       <guid>/publication/mm18/</guid>
       <description></description>
@@ -67,7 +86,7 @@
     <item>
       <title>Network Reliability Estimation in Theory and Practice </title>
       <link>/publication/ress/</link>
-      <pubDate>Tue, 01 May 2018 00:00:00 +0530</pubDate>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0800</pubDate>
       
       <guid>/publication/ress/</guid>
       <description></description>
@@ -76,7 +95,7 @@
     <item>
       <title>Scalable Approximation of Quantitative Information Flow in Programs</title>
       <link>/publication/vmcai18/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0530</pubDate>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0800</pubDate>
       
       <guid>/publication/vmcai18/</guid>
       <description></description>
@@ -85,7 +104,7 @@
     <item>
       <title>On Hashing-Based Approaches to Approximate DNF-Counting </title>
       <link>/publication/fsttcs17/</link>
-      <pubDate>Fri, 01 Dec 2017 00:00:00 +0530</pubDate>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0800</pubDate>
       
       <guid>/publication/fsttcs17/</guid>
       <description></description>
@@ -94,7 +113,7 @@
     <item>
       <title>Constrained Counting and Sampling: Bridging the Gap between Theory and Practice </title>
       <link>/publication/meel-phdthesis/</link>
-      <pubDate>Fri, 29 Sep 2017 00:00:00 +0530</pubDate>
+      <pubDate>Fri, 29 Sep 2017 00:00:00 +0800</pubDate>
       
       <guid>/publication/meel-phdthesis/</guid>
       <description></description>
@@ -103,7 +122,7 @@
     <item>
       <title>The Hard Problems Are Almost Everywhere For Random CNF-XOR Formulas  </title>
       <link>/publication/ijcai17/</link>
-      <pubDate>Tue, 01 Aug 2017 00:00:00 +0530</pubDate>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0800</pubDate>
       
       <guid>/publication/ijcai17/</guid>
       <description></description>
@@ -112,7 +131,7 @@
     <item>
       <title>Counting-Based Reliability Estimation for Power-Transmission Grids</title>
       <link>/publication/aaai17/</link>
-      <pubDate>Wed, 01 Feb 2017 00:00:00 +0530</pubDate>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0800</pubDate>
       
       <guid>/publication/aaai17/</guid>
       <description></description>
@@ -121,27 +140,9 @@
     <item>
       <title>On Computing Minimal Independent Support and Its Applications to Sampling and Counting </title>
       <link>/publication/immv16/</link>
-      <pubDate>Thu, 01 Sep 2016 00:00:00 +0530</pubDate>
+      <pubDate>Thu, 01 Sep 2016 00:00:00 +0800</pubDate>
       
       <guid>/publication/immv16/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Algorithmic Improvements in Approximate Counting for Probabilistic Inference: From Linear to Logarithmic SAT Calls  </title>
-      <link>/publication/ijcai16_counting/</link>
-      <pubDate>Fri, 01 Jul 2016 00:00:00 +0530</pubDate>
-      
-      <guid>/publication/ijcai16_counting/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Combining the k-CNF and XOR Phase-Transitions </title>
-      <link>/publication/ijcai16-cnfxor/</link>
-      <pubDate>Fri, 01 Jul 2016 00:00:00 +0530</pubDate>
-      
-      <guid>/publication/ijcai16-cnfxor/</guid>
       <description></description>
     </item>
     
