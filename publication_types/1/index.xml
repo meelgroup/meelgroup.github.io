@@ -22,6 +22,15 @@
     </item>
     
     <item>
+      <title>A Weighted Model Counting Approach for Critical Infrastructure Reliability  </title>
+      <link>/publication/icasp19/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/icasp19/</guid>
+      <description>abstract = &amp;ldquo;Reliability assessment of engineered systems such as telecommunication networks, power grids, and railroads is an important step towars supporting resilient communities. However, calculating the reliability of a network is computationally intensive. Thus, simulation methods are often preferred over exact methods in practice. Unfortunately, highly reliable and large scale systems can challenge common assumptions in simulation techniques, rendering reliability estimates as well as reported error and confidence unreliable themselves. A new generation of techniques, termed probably approximately correct (PAC) methods, delivers provable network reliability calculations with user-specified error and confidence.</description>
+    </item>
+    
+    <item>
       <title>BIRD: Engineering an Efficient CNF-XOR SAT Solver and its Applications to Approximate Model Counting</title>
       <link>/publication/aaai19_bird/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0800</pubDate>
@@ -55,6 +64,15 @@
       
       <guid>/publication/aaai19_hardness/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>WAPS: Weighted and Projected Sampling  </title>
+      <link>/publication/tacas19/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/tacas19/</guid>
+      <description>abstract = &amp;ldquo;Previous work on applying Knowledge compilation has focused on uniform sampling over all the variables. Since the constraints are written in high level languages such as Verilog, the popular CNF encoding schemes as Tseitin encoding introduces additional auxiliary variables. The resulting CNF formulas are not equivalent but equisatisfiable. In particular, for a formula $G$ specified in high level language we obtain a CNF formula F such that $G (X) = \exists Y F(X,Y)$.</description>
     </item>
     
     <item>

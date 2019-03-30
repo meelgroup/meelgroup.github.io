@@ -20,6 +20,16 @@
     </item>
     
     <item>
+      <title>A Weighted Model Counting Approach for Critical Infrastructure Reliability  </title>
+      <link>/publication/icasp19/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/icasp19/</guid>
+      <description>&lt;p&gt;abstract = &amp;ldquo;Reliability assessment of engineered systems such as telecommunication networks, power grids, and railroads is an important step towars supporting resilient communities. However, calculating the reliability of a network is computationally intensive. Thus, simulation methods are often preferred over exact methods in practice. Unfortunately, highly reliable and large scale systems can challenge common assumptions in simulation techniques, rendering reliability estimates as well as reported error and confidence unreliable themselves. A new generation of techniques, termed probably approximately correct (PAC) methods, delivers provable network reliability calculations with user-specified error and confidence. In this paper we focus on RelNet, a model counting-based method for network reliability estimation endowed with rigorous PAC guarantees. Despite previous success in power transmission network applications, small edge failure probabilities and dependent failures can challenge the current methodology. We put forward Weighted RelNet, a general importance sampling-based extension that treats the system?s joint probability distribution as a black box. Empirical evaluations suggest the new approach is competitive across challenging rare-event benchmarks.&amp;rdquo;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>BIRD: Engineering an Efficient CNF-XOR SAT Solver and its Applications to Approximate Model Counting</title>
       <link>/publication/aaai19_bird/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0800</pubDate>
@@ -54,6 +64,16 @@
       
       <guid>/publication/aaai19_hardness/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>WAPS: Weighted and Projected Sampling  </title>
+      <link>/publication/tacas19/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/tacas19/</guid>
+      <description>&lt;p&gt;abstract = &amp;ldquo;Previous work on applying Knowledge compilation has focused on uniform sampling over all the variables. Since the constraints are written in high level languages such as Verilog, the popular CNF encoding schemes as Tseitin encoding introduces additional auxiliary variables. The resulting CNF formulas are not equivalent but equisatisfiable. In particular, for a formula $G$ specified in high level language we obtain a CNF formula F such that $G (X) = \exists Y F(X,Y)$. This makes one wonder if it is possible to extend Knowledge compilation based techniques to sample over a subset of variables. Furthermore, languages such as Verilog allow specification of weights to user-defined constraints, so there is a need to sample according to the posterior distribution. In this paper, we provide affirmative question to the above two questions: We propose KUS that samples over user defined subset of variables from posterior distribution for a given prior distribution defined over product spaces. &amp;ldquo;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -125,24 +145,6 @@
       <pubDate>Tue, 01 Aug 2017 00:00:00 +0800</pubDate>
       
       <guid>/publication/ijcai17/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Counting-Based Reliability Estimation for Power-Transmission Grids</title>
-      <link>/publication/aaai17/</link>
-      <pubDate>Wed, 01 Feb 2017 00:00:00 +0800</pubDate>
-      
-      <guid>/publication/aaai17/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>On Computing Minimal Independent Support and Its Applications to Sampling and Counting </title>
-      <link>/publication/immv16/</link>
-      <pubDate>Thu, 01 Sep 2016 00:00:00 +0800</pubDate>
-      
-      <guid>/publication/immv16/</guid>
       <description></description>
     </item>
     
