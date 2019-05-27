@@ -5,8 +5,35 @@
     
     <url>
     
+      <loc>/publication/sat19_heu/</loc>
+      <lastmod>2019-05-05T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/sat19_cball/</loc>
+      <lastmod>2019-05-05T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/post/kus/</loc>
       <lastmod>2019-05-03T11:06:17+05:30</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/tacas19/</loc>
+      <lastmod>2019-04-04T00:00:00+08:00</lastmod>
     </url>
     
   
@@ -294,7 +321,7 @@
     <url>
     
       <loc>/publication_types/1/</loc>
-      <lastmod>2019-01-01T00:00:00+08:00</lastmod>
+      <lastmod>2019-05-05T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -353,7 +380,7 @@
     <url>
     
       <loc>/publication_types/</loc>
-      <lastmod>2019-01-01T00:00:00+08:00</lastmod>
+      <lastmod>2019-05-05T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     
