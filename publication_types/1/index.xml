@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 05 May 2019 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 20 May 2019 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Phase Transition Behavior of Cardinality and XOR Constraints  </title>
+      <link>/publication/ijcai19/</link>
+      <pubDate>Mon, 20 May 2019 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/ijcai19/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Assessing Heuristic Machine Learning Explanations with Model Counting  </title>
