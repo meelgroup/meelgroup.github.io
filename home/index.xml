@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 03 May 2019 00:00:00 +0530</lastBuildDate>
     
 	<atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title></title>
       <link>/home/about/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0530</pubDate>
       
       <guid>/home/about/</guid>
       <description>Meel Group Welcome to the Meel Group&amp;rsquo;s web page. We are situated at National University of Singapore.</description>
@@ -24,7 +24,7 @@
     <item>
       <title>Research</title>
       <link>/home/research/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0530</pubDate>
       
       <guid>/home/research/</guid>
       <description>Overview Broadly, our research group is focused on the development of a rigorous mathematical framework for  provably verified, correct-by-construction, explainable probabilistic reasoning systems  building on recent breakthroughs in formal methods and symbolic reasoning; and deployment of our algorithmic framework in the real world including applications in reliability estimation of critical infrastructure and computational sustainability. On a more technical level, we work at the intersection of formal methods and artificial intelligence.</description>
@@ -42,7 +42,7 @@
     <item>
       <title>Recent Posts</title>
       <link>/home/posts/</link>
-      <pubDate>Fri, 03 May 2019 00:00:00 +0800</pubDate>
+      <pubDate>Fri, 03 May 2019 00:00:00 +0530</pubDate>
       
       <guid>/home/posts/</guid>
       <description></description>
@@ -51,7 +51,7 @@
     <item>
       <title>News</title>
       <link>/home/news/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0530</pubDate>
       
       <guid>/home/news/</guid>
       <description>20 June 2018 I will be at IJCAI from July 12 – July 19 and at Leiden University on July 20. I will be co-presenting tutorial with Supratik Chakraborty at IJCAI on July 13.
@@ -61,7 +61,7 @@
     <item>
       <title>People</title>
       <link>/home/people/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0530</pubDate>
       
       <guid>/home/people/</guid>
       <description>Faculty Kuldeep Meel
@@ -73,20 +73,16 @@ PhD Students  body .column { float: left; width: 33.33%; padding: 5px; }
     <item>
       <title>Contact</title>
       <link>/home/contact/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0530</pubDate>
       
       <guid>/home/contact/</guid>
-      <description>Kuldeep S. Meel
-Assistant Professor
-Computer Science Department, School of Computing
-National University of Singapore
-Please consult Kuldeep&amp;rsquo;s calendar  before suggesting a meeting time.</description>
+      <description> Kuldeep S. Meel&amp;lt;br /&amp;gt; Assistant Professor&amp;lt;br /&amp;gt; Computer Science Department, School of Computing&amp;lt;br /&amp;gt; National University of Singapore&amp;lt;br /&amp;gt; Please consult &amp;lt;a href=&amp;quot;https://calendar.google.com/calendar/embed?src=meel%40comp.nus.edu.sg&amp;quot;&amp;gt; Kuldeep&#39;s calendar &amp;lt;/a&amp;gt; before suggesting a meeting time.  </description>
     </item>
     
     <item>
       <title>Openings</title>
       <link>/home/openings/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0530</pubDate>
       
       <guid>/home/openings/</guid>
       <description>We are always looking for highly motivated Ph.D. students, research assistants and summer internship for exceptional undergraduate interns in our group. We work at the intersection of algorithmic design and systems; therefore, an ideal candidate should have deeper expertise in one area and willingness to learn the other. A strong background in statistics, algorithms/formal methods and prior experience in coding is crucial to make a significant contribution to our research.</description>
