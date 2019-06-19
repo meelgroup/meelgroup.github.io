@@ -1,14 +1,5 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-    
-    
-    <url>
-    
-      <loc>/publication_types/1/</loc>
-      <lastmod>2019-05-05T00:00:00+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
   
     
     
@@ -25,26 +16,6 @@
     
       <loc>/publication/sat19_cball/</loc>
       <lastmod>2019-05-05T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/</loc>
-      <lastmod>2019-05-05T00:00:00+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication_types/</loc>
-      <lastmod>2019-05-05T00:00:00+08:00</lastmod>
-      <priority>0</priority>
     </url>
     
   
@@ -142,16 +113,6 @@
     
     <url>
     
-      <loc>/publication_types/2/</loc>
-      <lastmod>2018-05-01T00:00:00+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/publication/ress/</loc>
       <lastmod>2018-05-01T00:00:00+08:00</lastmod>
     </url>
@@ -172,16 +133,6 @@
     
       <loc>/publication/fsttcs17/</loc>
       <lastmod>2017-12-01T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication_types/8/</loc>
-      <lastmod>2017-09-29T00:00:00+08:00</lastmod>
-      <priority>0</priority>
     </url>
     
   
@@ -279,16 +230,6 @@
     
     <url>
     
-      <loc>/publication_types/7/</loc>
-      <lastmod>2016-02-01T00:00:00+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/publication/bnp16/</loc>
       <lastmod>2016-02-01T00:00:00+08:00</lastmod>
     </url>
@@ -379,7 +320,67 @@
     
     <url>
     
+      <loc>/publication_types/1/</loc>
+      <lastmod>2019-05-05T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication_types/2/</loc>
+      <lastmod>2018-05-01T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication_types/7/</loc>
+      <lastmod>2016-02-01T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication_types/8/</loc>
+      <lastmod>2017-09-29T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/categories/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/</loc>
+      <lastmod>2016-04-20T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication_types/</loc>
+      <lastmod>2019-05-05T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     
