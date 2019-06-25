@@ -19,6 +19,7 @@
       
       <guid>/home/about/</guid>
       <description> Meel Group Welcome to the Meel Group&amp;rsquo;s web page. We are situated at National University of Singapore.
+Interests
  Artificial Intelligence  Constrained Sampling and Counting  Knowledge Representation and Reasoning  Formal Methods  Interpretable Models  </description>
     </item>
     
@@ -28,7 +29,7 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
       
       <guid>/home/research/</guid>
-      <description>Overview Broadly, our research group is focused on the development of a rigorous mathematical framework for  provably verified, correct-by-construction, explainable probabilistic reasoning systems  building on recent breakthroughs in formal methods and symbolic reasoning; and deployment of our algorithmic framework in the real world including applications in reliability estimation of critical infrastructure and computational sustainability. We seek to develop formal methods for AI techniques and also employ advances in AI techniques for development of formal method algorithmic and system frameworks.</description>
+      <description>Overview Broadly, our research group is focused on the development of a rigorous mathematical framework for  provably verified, correct-by-construction, explainable probabilistic reasoning systems  building on recent breakthroughs in formal methods and symbolic reasoning; and deployment of our algorithmic framework in the real world including applications in reliability estimation of critical infrastructure and computational sustainability. On a more technical level, we work at the intersection of formal methods and artificial intelligence.</description>
     </item>
     
     <item>
