@@ -77,10 +77,10 @@
     
     <item>
       <title>BOSPHORUS: Bridging ANF and CNF Solvers </title>
-      <link>/publication/date-cscm19/</link>
+      <link>/publication/date_cscm19/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0800</pubDate>
       
-      <guid>/publication/date-cscm19/</guid>
+      <guid>/publication/date_cscm19/</guid>
       <description>abstract = &amp;ldquo;Algebraic Normal Form (ANF) and Conjunctive Normal Form (CNF) are commonly used to encode problems in Boolean algebra. ANFs are typically solved via Gr&amp;rdquo;obner basis algorithms, often using more memory than is feasible; while CNFs are solved using SAT solvers, which cannot exploit the algebra of polynomials naturally. We propose a paradigm that bridges between ANF and CNF solving techniques: the techniques are applied in an iterative manner to learn facts to augment the original problems.</description>
     </item>
     
@@ -104,19 +104,19 @@
     
     <item>
       <title>Knowledge Compilation meets Uniform Sampling</title>
-      <link>/publication/lpar2018/</link>
+      <link>/publication/lpar18/</link>
       <pubDate>Wed, 01 Aug 2018 00:00:00 +0800</pubDate>
       
-      <guid>/publication/lpar2018/</guid>
+      <guid>/publication/lpar18/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Not All FPRASs are Equal: Demystifying FPRASs for DNF-Counting </title>
-      <link>/publication/cp2018/</link>
+      <link>/publication/cp18/</link>
       <pubDate>Wed, 01 Aug 2018 00:00:00 +0800</pubDate>
       
-      <guid>/publication/cp2018/</guid>
+      <guid>/publication/cp18/</guid>
       <description></description>
     </item>
     
@@ -176,10 +176,10 @@
     
     <item>
       <title>Combining the k-CNF and XOR Phase-Transitions </title>
-      <link>/publication/ijcai16-cnfxor/</link>
+      <link>/publication/ijcai16_cnfxor/</link>
       <pubDate>Fri, 01 Jul 2016 00:00:00 +0800</pubDate>
       
-      <guid>/publication/ijcai16-cnfxor/</guid>
+      <guid>/publication/ijcai16_cnfxor/</guid>
       <description></description>
     </item>
     
@@ -194,10 +194,10 @@
     
     <item>
       <title>Automatic Data Layout Generation and Kernel Mapping for CPU&#43;GPU Architectures </title>
-      <link>/publication/cc2016/</link>
+      <link>/publication/cc16/</link>
       <pubDate>Tue, 01 Mar 2016 00:00:00 +0800</pubDate>
       
-      <guid>/publication/cc2016/</guid>
+      <guid>/publication/cc16/</guid>
       <description></description>
     </item>
     
@@ -212,10 +212,10 @@
     
     <item>
       <title>On Computing Minimal Independent Support and Its Applications to Sampling and Counting </title>
-      <link>/publication/constraints/</link>
+      <link>/publication/cp15/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0800</pubDate>
       
-      <guid>/publication/constraints/</guid>
+      <guid>/publication/cp15/</guid>
       <description></description>
     </item>
     
@@ -257,19 +257,19 @@
     
     <item>
       <title>Balancing Scalability and Uniformity in SAT-Witness Generator </title>
-      <link>/publication/dac2014/</link>
+      <link>/publication/dac14/</link>
       <pubDate>Sun, 01 Jun 2014 00:00:00 +0800</pubDate>
       
-      <guid>/publication/dac2014/</guid>
+      <guid>/publication/dac14/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Scalable Approximate Model Counter </title>
-      <link>/publication/cp2013/</link>
+      <link>/publication/cp13/</link>
       <pubDate>Sun, 01 Sep 2013 00:00:00 +0800</pubDate>
       
-      <guid>/publication/cp2013/</guid>
+      <guid>/publication/cp13/</guid>
       <description></description>
     </item>
     

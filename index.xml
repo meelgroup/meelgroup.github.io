@@ -6,8 +6,35 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Tue, 21 May 2019 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 23 Jun 2019 00:00:00 +0800</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title> Interpretable Classification Rules in Relaxed Logical Form </title>
+      <link>/publication/ijcai19_irr/</link>
+      <pubDate>Sun, 23 Jun 2019 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/ijcai19_irr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Our paper on &lt;a href= &#34;https://bishwamittra.github.io/publication/irr-ghosh.pdf&#34;&gt;interpretable rules expressed as relaxed-CNF&lt;/a&gt; is accepted at IJCAI workshop on XAI (Explainable Artificial Intelligence) and DSO (Data Science meets Optimization), 2019. Authors: Bishwamittra Ghosh, Dmitry Malioutov, Kuldeep S. Meel.</title>
+      <link>/news/23062019/</link>
+      <pubDate>Sun, 23 Jun 2019 00:00:00 +0800</pubDate>
+      
+      <guid>/news/23062019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Network Reliability Estimation in Theory and Practice </title>
+      <link>/publication/ress/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/ress/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>GANAK: A Scalable Probabilistic Exact Model Counter</title>
@@ -157,34 +184,6 @@ Our experiments demonstrated that KUS outperformed both SPUR and UniGen2 state-o
       
       <guid>/news/26012019/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title> IMLI: An Incremental Framework for MaxSAT-Based Learning of Interpretable Classification Rules </title>
-      <link>/publication/aies19/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0800</pubDate>
-      
-      <guid>/publication/aies19/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>BIRD: Engineering an Efficient CNF-XOR SAT Solver and its Applications to Approximate Model Counting</title>
-      <link>/publication/aaai19_bird/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0800</pubDate>
-      
-      <guid>/publication/aaai19_bird/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>BOSPHORUS: Bridging ANF and CNF Solvers </title>
-      <link>/publication/date-cscm19/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0800</pubDate>
-      
-      <guid>/publication/date-cscm19/</guid>
-      <description>&lt;p&gt;abstract = &amp;ldquo;Algebraic Normal Form (ANF) and Conjunctive Normal Form (CNF) are commonly used to encode problems in Boolean algebra. ANFs are typically solved via Gr&amp;rdquo;obner basis algorithms, often using more memory than is feasible; while CNFs are solved using SAT solvers, which cannot exploit the algebra of polynomials naturally. We propose a paradigm that bridges between ANF and CNF solving techniques: the techniques are applied in an iterative manner to learn facts to augment the original problems. Experiments on over 1,100 benchmarks arising from four different applications domains demonstrate that learnt facts can significantly improve runtime and enable more benchmarks to be solved. &amp;ldquo;&lt;/p&gt;
-</description>
     </item>
     
   </channel>

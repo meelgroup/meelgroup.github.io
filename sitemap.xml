@@ -4,6 +4,73 @@
     
     <url>
     
+      <loc>/publication/ijcai19_irr/</loc>
+      <lastmod>2019-06-23T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication_types/7/</loc>
+      <lastmod>2019-06-23T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/</loc>
+      <lastmod>2019-06-23T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/news/23062019/</loc>
+      <lastmod>2019-06-23T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication_types/</loc>
+      <lastmod>2019-06-23T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication_types/2/</loc>
+      <lastmod>2019-06-01T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/ress/</loc>
+      <lastmod>2019-06-01T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/publication_types/1/</loc>
       <lastmod>2019-05-21T00:00:00+08:00</lastmod>
       <priority>0</priority>
@@ -16,26 +83,6 @@
     
       <loc>/publication/ijcai19_ganak/</loc>
       <lastmod>2019-05-21T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/</loc>
-      <lastmod>2019-05-21T00:00:00+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication_types/</loc>
-      <lastmod>2019-05-21T00:00:00+08:00</lastmod>
-      <priority>0</priority>
     </url>
     
   
@@ -160,7 +207,7 @@
     
     <url>
     
-      <loc>/publication/date-cscm19/</loc>
+      <loc>/publication/date_cscm19/</loc>
       <lastmod>2019-01-01T00:00:00+08:00</lastmod>
     </url>
     
@@ -187,7 +234,7 @@
     
     <url>
     
-      <loc>/publication/lpar2018/</loc>
+      <loc>/publication/lpar18/</loc>
       <lastmod>2018-08-01T00:00:00+08:00</lastmod>
     </url>
     
@@ -196,7 +243,7 @@
     
     <url>
     
-      <loc>/publication/cp2018/</loc>
+      <loc>/publication/cp18/</loc>
       <lastmod>2018-08-01T00:00:00+08:00</lastmod>
     </url>
     
@@ -207,25 +254,6 @@
     
       <loc>/publication/mm18/</loc>
       <lastmod>2018-06-02T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication_types/2/</loc>
-      <lastmod>2018-05-01T00:00:00+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/ress/</loc>
-      <lastmod>2018-05-01T00:00:00+08:00</lastmod>
     </url>
     
   
@@ -333,7 +361,7 @@
     
     <url>
     
-      <loc>/publication/ijcai16-cnfxor/</loc>
+      <loc>/publication/ijcai16_cnfxor/</loc>
       <lastmod>2016-07-01T00:00:00+08:00</lastmod>
     </url>
     
@@ -351,18 +379,8 @@
     
     <url>
     
-      <loc>/publication/cc2016/</loc>
+      <loc>/publication/cc16/</loc>
       <lastmod>2016-03-01T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication_types/7/</loc>
-      <lastmod>2016-02-01T00:00:00+08:00</lastmod>
-      <priority>0</priority>
     </url>
     
   
@@ -388,7 +406,7 @@
     
     <url>
     
-      <loc>/publication/constraints/</loc>
+      <loc>/publication/cp15/</loc>
       <lastmod>2015-09-01T00:00:00+08:00</lastmod>
     </url>
     
@@ -433,7 +451,7 @@
     
     <url>
     
-      <loc>/publication/dac2014/</loc>
+      <loc>/publication/dac14/</loc>
       <lastmod>2014-06-01T00:00:00+08:00</lastmod>
     </url>
     
@@ -442,7 +460,7 @@
     
     <url>
     
-      <loc>/publication/cp2013/</loc>
+      <loc>/publication/cp13/</loc>
       <lastmod>2013-09-01T00:00:00+08:00</lastmod>
     </url>
     

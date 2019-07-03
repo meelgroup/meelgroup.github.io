@@ -29,7 +29,8 @@ Interests
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
       
       <guid>/home/research/</guid>
-      <description>Overview Broadly, our research group is focused on the development of a rigorous mathematical framework for  provably verified, correct-by-construction, explainable probabilistic reasoning systems  building on recent breakthroughs in formal methods and symbolic reasoning; and deployment of our algorithmic framework in the real world including applications in reliability estimation of critical infrastructure and computational sustainability. On a more technical level, we work at the intersection of formal methods and artificial intelligence.</description>
+      <description>Overview Broadly, our research group is focused on the development of a rigorous mathematical framework for  provably verified, correct-by-construction, explainable probabilistic reasoning systems  building on recent breakthroughs in formal methods and symbolic reasoning; and deployment of our algorithmic framework in the real world including applications in reliability estimation of critical infrastructure and computational sustainability.
+At a more technical level, we work at the intersection of formal methods and artificial intelligence.</description>
     </item>
     
     <item>
@@ -66,9 +67,9 @@ Interests
       
       <guid>/home/people/</guid>
       <description>Faculty Kuldeep Meel
+Postdoctoral Researchers Mate Soos 
 PhD Students  body .column { float: left; width: 33.33%; padding: 5px; }
-/* Clear floats after image containers */ .row::after { content: &amp;ldquo;&amp;rdquo;; clear: both; display: table; }    Yash Pote   Priyanka Golia   Bishwamittra Ghosh    Suwei    Masters Students   .column { float: left; width: 33.33%; padding: 5px; }
-/* Clear floats after image containers */ .</description>
+/* Clear floats after image containers */ .row::after { content: &amp;ldquo;&amp;rdquo;; clear: both; display: table; }   Yash Pote   Priyanka Golia   Bishwamittra Ghosh    Suwei    Masters Students   .column { float: left; width: 33.33%; padding: 5px; }</description>
     </item>
     
     <item>
