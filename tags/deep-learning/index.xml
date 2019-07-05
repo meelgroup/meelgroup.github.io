@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Deep-learning on MeelGroup</title>
+    <link>/tags/deep-learning/</link>
+    <description>Recent content in Deep-learning on MeelGroup</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>UniGen</title>
+      <link>/software/unigen/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/software/unigen/</guid>
+      <description>UniGen is a hashing-based algorithm to generate uniform samples subject to given set of constraints. The primary application of UniGen is in random stimuli generation for hardware and software verification. The current version of the tool has been developed over the years and is parallelizable without losing theoretical guarantees.
+Relevant Papers:
+ TACAS 2015 DAC 2014 CAV 2013  </description>
+    </item>
+    
+    <item>
+      <title>ApproxMC</title>
+      <link>/software/approxmc/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/software/approxmc/</guid>
+      <description>ApproxMC is a hashing-based algorithm for approximate discrete integration over finite domains and provides ($\epsilon$,$\delta$) guarantees. This implementation handles the case when the function is implicitely defined by SAT formula. To the best of our knowledge, the current implementation has the best runtime performance among approximate counting algorithms. We are actively improving algorithm as well as implementation and would love to hear your feedback.
+Relevant Papers:
+ IJCAI 2016 Constraints 2016 CP 2013  </description>
+    </item>
+    
+    <item>
+      <title>MIS</title>
+      <link>/software/mis/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/software/mis/</guid>
+      <description>MIS computes minimal Independent Support for a given CNF formula. The implementation is based on MIS algorithm proposed in our CP&amp;rsquo;15 paper, which also won the Best Student Paper Award.
+Relevant Papers:
+ Constraints 2016  </description>
+    </item>
+    
+    <item>
+      <title>SMTApproxMC</title>
+      <link>/software/smtapproxmc/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/software/smtapproxmc/</guid>
+      <description>SMTApproxMC is an approximate model counter for Bitvector theory. Given a set of constraints and weight function over assignments, WeightGen outputs samples that satisfy constraints according to weight function.
+Relevant Papers:
+ AAAI 2016  </description>
+    </item>
+    
+    <item>
+      <title>WeightGen</title>
+      <link>/software/weightgen/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/software/weightgen/</guid>
+      <description>WeightGen is hashing-based approximate weighted sampling for weighted CNF formulas. Given a set of constraints and weight function over assignments, WeightGen outputs samples that satisfy constraints according to weight function.
+Relevant Papers:
+ AAAI 2014  </description>
+    </item>
+    
+    <item>
+      <title>WeightMC</title>
+      <link>/software/weightmc/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/software/weightmc/</guid>
+      <description>WeightMC is hashing-based algorithm for weighted counting (discrete integration) over Boolean domains. It takes a CNF formula and weight function as inputs and returns weighted count. In contrast to previous attempts to develop weighted counting that rely on use of Optimization oracles, WeightMC only uses feasibility oracle. A simple reworking of this algorithm was used by Belle et al to predicate delays in UK transportation network.
+Relevant Papers:
+ AAAI 2014  </description>
+    </item>
+    
+  </channel>
+</rss>
