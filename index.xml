@@ -11,6 +11,22 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>CrystalBall</title>
+      <link>/software/crystalball/</link>
+      <pubDate>Sun, 07 Jul 2019 00:00:00 +0800</pubDate>
+      
+      <guid>/software/crystalball/</guid>
+      <description>&lt;p&gt;Boolean satisfiability is a fundamental problem in computerscience with a wide range of applications including planning, configurationmanagement, design and verification of software/hardware systems. Modern SAT solvers achieve scalability and ro-bustness with sophisticated heuristics that are challenging to understandand explain. We propose to view modern conflict-driven clause learning (CDCL) solvers as a composition of classifiers and regressors for different tasks such as branching, clause memory management, and restarting. The current version of CrystalBall focuses on deriving a classifier to keep or throw away a learned clause. In a departure from recent machine learning based techniques, CrystalBall employs supervised learning anduses extensive, multi-gigabyte data extracted from runs of a single SAT solver to perform predictive analytics.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Relevant Papers:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.msoos.org/wordpress/wp-content/uploads/2019/06/sat19-skm.pdf&#34; title=&#34;SAT 2019&#34; target=&#34;_blank&#34;&gt;SAT 2019&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title> Interpretable Classification Rules in Relaxed Logical Form </title>
       <link>/publication/ijcai19_irr/</link>
       <pubDate>Sun, 23 Jun 2019 00:00:00 +0800</pubDate>
@@ -175,15 +191,6 @@ Our experiments demonstrated that KUS outperformed both SPUR and UniGen2 state-o
       <pubDate>Sat, 02 Feb 2019 00:00:00 +0800</pubDate>
       
       <guid>/news/02022019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Our paper on weighted and projected sampling is accepted at &lt;a href=&#34;https://conf.researchr.org/track/etaps-2019/tacas-2019-papers&#34;&gt;TACAS 2019&lt;/a&gt;. Authors: Shubham Sharma, Rahul Gupta, Subhajit Roy and Kuldeep S. Meel.</title>
-      <link>/news/26012019/</link>
-      <pubDate>Sat, 26 Jan 2019 00:00:00 +0800</pubDate>
-      
-      <guid>/news/26012019/</guid>
       <description></description>
     </item>
     

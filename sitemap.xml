@@ -5,6 +5,15 @@
     
     <url>
     
+      <loc>/software/crystalball/</loc>
+      <lastmod>2019-07-07T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/publication/ijcai19_irr/</loc>
       <lastmod>2019-06-23T00:00:00+08:00</lastmod>
     </url>
@@ -133,6 +142,15 @@
     
       <loc>/news/26012019/</loc>
       <lastmod>2019-01-26T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/software/bosphorus/</loc>
+      <lastmod>2019-01-05T00:00:00+08:00</lastmod>
     </url>
     
   
@@ -284,6 +302,15 @@
     
     <url>
     
+      <loc>/software/mis/</loc>
+      <lastmod>2016-09-05T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/publication/immv16/</loc>
       <lastmod>2016-09-01T00:00:00+08:00</lastmod>
     </url>
@@ -320,26 +347,8 @@
     
     <url>
     
-      <loc>/software/unigen/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/software/approxmc/</loc>
-      <lastmod>2016-04-27T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/software/mis/</loc>
-      <lastmod>2016-04-27T00:00:00+08:00</lastmod>
+      <loc>/publication/cc16/</loc>
+      <lastmod>2016-03-01T00:00:00+08:00</lastmod>
     </url>
     
   
@@ -348,34 +357,7 @@
     <url>
     
       <loc>/software/smtapproxmc/</loc>
-      <lastmod>2016-04-27T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/software/weightgen/</loc>
-      <lastmod>2016-04-27T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/software/weightmc/</loc>
-      <lastmod>2016-04-27T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/cc16/</loc>
-      <lastmod>2016-03-01T00:00:00+08:00</lastmod>
+      <lastmod>2016-02-12T00:00:00+08:00</lastmod>
     </url>
     
   
@@ -437,6 +419,24 @@
     
     <url>
     
+      <loc>/software/weightgen/</loc>
+      <lastmod>2014-07-27T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/software/weightmc/</loc>
+      <lastmod>2014-07-27T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/publication/aaai14/</loc>
       <lastmod>2014-07-01T00:00:00+08:00</lastmod>
     </url>
@@ -464,8 +464,26 @@
     
     <url>
     
+      <loc>/software/unigen/</loc>
+      <lastmod>2013-07-13T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/publication/cav13/</loc>
       <lastmod>2013-07-01T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/software/approxmc/</loc>
+      <lastmod>2013-05-20T00:00:00+08:00</lastmod>
     </url>
     
   
@@ -543,7 +561,7 @@
     <url>
     
       <loc>/tags/sampling-and-counting/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <lastmod>2019-07-07T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -553,7 +571,7 @@
     <url>
     
       <loc>/software/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <lastmod>2019-07-07T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -563,7 +581,7 @@
     <url>
     
       <loc>/tags/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <lastmod>2019-07-07T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     
