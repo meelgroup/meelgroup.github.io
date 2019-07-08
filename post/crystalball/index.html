@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.40.1" />
+  <meta name="author" content="MeelGroup">
+
+  
+  
+  
+  
+    
+      
+    
+  
+  <meta name="description" content="This post compiles many years of work, done by numerous resarchers. The research paper for CrystalBall is available here (accepted to SAT&#8217;2019) and the code is available here. Build instructions are at the bottom of the post. Part 2 will deal with exploring the data in more detail.
+I always had a fascination with data when it comes to SAT solving. My SAT solver, CryptoMiniSat always had very detailed stats printed to the console.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/post/crystalball/">
+
+  
+
+
+  
+
+  
+  
+  <meta name="theme-color" content="#0095eb">
+  
+  
+  
+  
+    
+  
+  
+    
+    
+      
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+      
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+  
+  
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
+  
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="MeelGroup">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="MeelGroup">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/post/crystalball/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="MeelGroup">
+  <meta property="og:url" content="/post/crystalball/">
+  <meta property="og:title" content="CrystalBall: SAT solving, Data Gathering, and Machine Learning | MeelGroup">
+  <meta property="og:description" content="This post compiles many years of work, done by numerous resarchers. The research paper for CrystalBall is available here (accepted to SAT&#8217;2019) and the code is available here. Build instructions are at the bottom of the post. Part 2 will deal with exploring the data in more detail.
+I always had a fascination with data when it comes to SAT solving. My SAT solver, CryptoMiniSat always had very detailed stats printed to the console.">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2019-05-03T11:06:17&#43;05:30">
+  
+  <meta property="article:modified_time" content="2019-05-03T11:06:17&#43;05:30">
+  
+
+  
+  
+
+  <title>CrystalBall: SAT solving, Data Gathering, and Machine Learning | MeelGroup</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/">MeelGroup</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#research">
+            
+            <span>Research</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#publications">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#posts">
+            
+            <span>Posts</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#news">
+            
+            <span>News</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#projects">
+            
+            <span>Software</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#people">
+            
+            <span>People</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#openings">
+            
+            <span>Openings</span>
+            
+          </a>
+        </li>
+
+        
+        
+      
+
+      
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+  <div class="article-container">
+    <h1 itemprop="name">CrystalBall: SAT solving, Data Gathering, and Machine Learning</h1>
+
+    
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2019-05-03 11:06:17 &#43;0530 &#43;0530" itemprop="datePublished dateModified">
+      May 3, 2019
+    </time>
+  </span>
+  <span itemscope itemprop="author publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="MeelGroup">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    19 min read
+  </span>
+  
+
+  
+  
+
+  
+  
+  
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=CrystalBall%3a%20SAT%20solving%2c%20Data%20Gathering%2c%20and%20Machine%20Learning&amp;url=https://meelgroup.github.io%2fpost%2fcrystalball%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https://meelgroup.github.io%2fpost%2fcrystalball%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://meelgroup.github.io%2fpost%2fcrystalball%2f&amp;title=CrystalBall%3a%20SAT%20solving%2c%20Data%20Gathering%2c%20and%20Machine%20Learning"
+         target="_blank" rel="noopener">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=CrystalBall%3a%20SAT%20solving%2c%20Data%20Gathering%2c%20and%20Machine%20Learning&amp;body=https://meelgroup.github.io%2fpost%2fcrystalball%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+
+    <div class="article-style" itemprop="articleBody">
+      <p>This post compiles many years of work, done by numerous resarchers. The research paper for CrystalBall is available <a href="http://www.msoos.org/wordpress/wp-content/uploads/2019/06/sat19-skm.pdf">here</a> (accepted to <a href="https://10times.com/sat-lisbon">SAT&#8217;2019</a>) and the code is available <a href="https://github.com/msoos/cryptominisat/tree/crystalball">here</a>. Build instructions are at the bottom of the post. Part 2 will deal with exploring the data in more detail.</p>
+
+<!-- 
+<p>I always had a fascination with data when it comes to SAT solving. My SAT solver, <a href="https://github.com/msoos/cryptominisat">CryptoMiniSat</a> always had very detailed stats printed to the console. At one point, this fascination with data got to the point where tallying up data from the console (with <a href="https://en.wikipedia.org/wiki/AWK">AWK</a>, like a true hacker) didn&#8217;t cut it, and I started dumping data to SQL.</p>
+ -->
+
+<h2>An Early Attempt: Visualization</h2>
+
+<p>Out of the SQL data dumped, <a href="https://www.msoos.org/sat_visualization/">this website</a> was born, back in 2012. This site displays pretty graphs like:</p>
+
+<figure class="wp-block-image"><img src="https://www.msoos.org/wordpress/wp-content/uploads/2019/06/graphs2.png" alt="" class="wp-image-3283" srcset="https://www.msoos.org/wordpress/wp-content/uploads/2019/06/graphs2.png 832w, https://www.msoos.org/wordpress/wp-content/uploads/2019/06/graphs2-300x216.png 300w, https://www.msoos.org/wordpress/wp-content/uploads/2019/06/graphs2-768x553.png 768w" sizes="(max-width: 832px) 100vw, 832px" /></figure>
+
+<p>These graphs can show quite a bit of data, the above must be a few hundred data points. The data gathered is pumped to an SQL database, and then visualized. I felt like I am on to something. Finally, I was going to be able to explain things.</p>
+
+<p>But I was able to explain very little. Some things were quite obvious, like how industrial and cryptographic instances&#8217; variable polarity distributions were so different. Above, the black/green graph shows a cryptographic instance, and the distribution is 47% vs. 53%. On a typical industrial instance, the same graph looks like:</p>
+
+<figure class="wp-block-image"><img src="https://www.msoos.org/wordpress/wp-content/uploads/2019/06/graph3-industrial.png" alt="" class="wp-image-3284" srcset="https://www.msoos.org/wordpress/wp-content/uploads/2019/06/graph3-industrial.png 847w, https://www.msoos.org/wordpress/wp-content/uploads/2019/06/graph3-industrial-300x56.png 300w, https://www.msoos.org/wordpress/wp-content/uploads/2019/06/graph3-industrial-768x143.png 768w" sizes="(max-width: 847px) 100vw, 847px" /></figure>
+
+<p>Here, the polarity distribution is 6% vs 94%. This is easy to see with the human eye. But I was gathering tons more data, many megabytes per instance. What was I going to do with all this data? How was I going to <em>know what is good and bad behavior</em>? And how would I make the solver work towards <em>good</em>?</p>
+
+<h2>SATZilla: Solver Selection Using Machine Learning</h2>
+
+<p>I wasn&#8217;t the only one trying to make sense of SAT-related data and improve solving based on it. <a href="https://www.aaai.org/Papers/JAIR/Vol32/JAIR-3214.pdf">SATZilla</a> has done this before. There, the idea was to gather information &#8212; called <em>features</em> &#8212; about the input CNF problem, run multiple SAT solvers, save how much time it took for the solver to run, then create code that matches the CNF features to the preferred SAT solver.  This   creates a lines like:</p>
+
+<pre class="wp-block-preformatted">num-vars  num-clauses  Best Solver
+132       16730        Lingeling
+375       46741        CryptoMiniSat
+834       41690        CryptoMiniSat</pre>
+
+<p>Where the first N columns are the features and the last column is the label that we calculated to be correct. SATZilla uses many features, such as the number of horn clauses, the ratio of variables and clauses, etc. Once such a table has been built, with lines called <em>labeled training examples</em>, it uses a machine learning system, for example <a href="https://en.wikipedia.org/wiki/Decision_tree_learning">Decision Trees</a>, to <em>classify</em> (i.e. guess) which SAT solver would be best for <em>any</em> CNF instance. So it generalizes, and can guess which SAT solver is best for a CNF <em>it has never seen</em>.</p>
+
+<p>This system is interesting but has some drawbacks. First, for each data line one must run 5-10 SAT solvers on a CNF, potentially using up to 20-30&#8217;000 CPU seconds. Hence, each labeled training example is <em>extremely</em> expensive. If you know about the Big Data hype, you know that spending $2 on a single data point is not viable. Modern systems use millions of labeled training examples to learn a classifier.  Secondly, this system was not designed to work in an industrial setting, where the CNF is not presented in a single file but piece-by-piece through a library interface.</p>
+
+<h2>Enter DRAT</h2>
+
+<div class="wp-block-image"><figure class="alignright is-resized"><img src="https://www.msoos.org/wordpress/wp-content/uploads/2019/06/drat.jpg" alt="" class="wp-image-3287" width="204" height="204" srcset="https://www.msoos.org/wordpress/wp-content/uploads/2019/06/drat.jpg 500w, https://www.msoos.org/wordpress/wp-content/uploads/2019/06/drat-150x150.jpg 150w, https://www.msoos.org/wordpress/wp-content/uploads/2019/06/drat-300x300.jpg 300w" sizes="(max-width: 204px) 100vw, 204px" /></figure></div>
+
+<p><a href="https://www.cs.utexas.edu/~marijn/publications/drat-trim.pdf">DRAT</a> is a system used to verify the resolution proof that modern SAT solvers generate. Basically, every unsatifiable problem that SAT solvers solve can be shown to be unsatisfiable through a set of operations called <a href="https://en.wikipedia.org/wiki/Resolution_%28logic%29">resolutions</a>, that eventually lead to the equation 0=1, which is trivially false. A DRAT verifier can know exactly which clause was used by the SAT solver at exactly which time during the creation of the proof. Hence, DRAT knows a <em>lot</em>. It can actually tell, after the solving has finished, which parts of the SAT solving were absolutely useless, and which ones useful. A resolution proof with thousands of resolutions can be computed in seconds, which means <em>cheap data</em>.</p>
+
+<p>When I first really understood DRAT, I  realized, what if I could get all this data out of DRAT, and use it as a label for the millions of data points I already have? I have finally found a label, available at a huge scale, to train on.</p>
+
+<h2>The Beginnings of CrystalBall</h2>
+
+<p>What to train <em>for</em> was still a question that needed answering.  Since DRAT is so intimately connected with learnt clauses, I  decided to train for throwing away as many unneeded learnt clauses as possible. This would definitely make solving faster, by throwing away everything that is useless weight and making sure everything that is useful stays.</p>
+
+<p>I must thank <a href="https://www.cs.utexas.edu/~marijn/">Marijn Heule</a> who helped me with the first hack of <a href="http://www.cs.utexas.edu/~marijn/drat-trim/">DRAT-trim</a> in early 2016 to get data out from from it. I hacked <a href="https://github.com/msoos/cryptominisat">CryptoMiniSat</a> to add Clause IDs to DRAT, so the verifier, <a href="https://www.cs.utexas.edu/~marijn/publications/drat-trim.pdf">DRAT-trim</a>, could read and track these IDs. I now knew which clause was used in the proof and which wasn&#8217;t. This sounds really useful &#8212; you could now know which learnt clauses should have been thrown away the moment they were generated, since they were useless. Let&#8217;s see some data from modern CrystalBall (see at the bottom of the post how to download, compile and run):</p>
+
+<pre class="wp-block-preformatted">sqlite&gt; select count() from sum_cl_use where num_used&gt;0;
+51675
+
+sqlite&gt; select count() from sum_cl_use where num_used=0;
+42832</pre>
+
+<p>The data says that about 50% of clauses were useful.  Let&#8217;s see what is the average LBD value of the useful and useless clauses:</p>
+
+<pre class="wp-block-preformatted">sqlite&gt; select avg(glue) from sum_cl_use, clauseStats where sum_cl_use.clauseID = clauseStats.clauseID and num_used &gt; 0;
+6.71436865021771
+
+sqlite&gt; select avg(glue) from sum_cl_use, clauseStats where sum_cl_use.clauseID = clauseStats.clauseID and num_used = 0;
+9.80162028389989</pre>
+
+<p>Nice. Let&#8217;s get the sizes, too, by replacing &#8220;glue&#8221; with &#8220;size&#8221;:</p>
+
+<pre class="wp-block-preformatted">sqlite&gt; select avg(size)...
+12.2770198355104
+sqlite&gt; select avg(size)...
+23.5734497571909</pre>
+
+<p>Cool. Size is a better discriminator? Let&#8217;s see another feature. Let&#8217;s get the average LBD of the redundant non-binary antecedents of the clause:</p>
+
+<pre class="wp-block-preformatted">sqlite&gt; select avg(antecedents_glue_long_reds_avg)...
+4.88254061122689
+sqlite&gt; select avg(antecedents_glue_long_reds_avg)...
+5.68082216847043</pre>
+
+<p>There are plenty more, well over a hundred, that is being measured, so I won&#8217;t bore you. I have a feeling you could write a few research papers just by running queries on this data.</p>
+
+<p>I don&#8217;t know if you noticed, but something is odd here. SAT solvers only keep about 5-10% of all clauses.  Just run a modern SAT solvers to completion and check how many clauses remain in the clause database. How is this compatible with 50% of clauses being useful? Well, we can use clauses <em>for a while</em>, then throw them away. But for that, we need much more than just  whether a clause is useful or not. We need to know exactly <em>when</em> it was useful. Clauses can be used many-many times in a single proof.</p>
+
+<h2>We Need More Refined Labels</h2>
+
+<p>It turns out that having only whether a clause is being used is not good enough to compute useful labels. We need to know when, exactly, was the clause useful. So CryptoMiniSat and DRAT-trim was hacked to output into the DRAT proof exact conflict numbers when a clause was created. This, with some minor magic, would tell us <em>exactly</em> when each learnt clauses was used:</p>
+
+<pre class="wp-block-preformatted">sqlite&gt; select sum(num_used) from sum_cl_use, clauseStats where sum_cl_use.clauseID = clauseStats.clauseID and glue&lt;=3;
+332689
+
+sqlite&gt; select count() from clauseStats where glue&lt;=3;
+11221</pre>
+
+<p>For this problem, a clause that had LBD 3 or lower was used on average 332689/11221.0=29.65 times in the proof. Okay, how about clauses with LBD 4 or larger? It&#8217;s a trivial change in the above code, and gives us 5.95. Cool, the lower glue, the more it&#8217;s used in the proof.</p>
+
+<p>Now that we know how to walk, let&#8217;s run. When was clauseID 59465 created and at what conflict points was it used in the proof?</p>
+
+<pre class="wp-block-preformatted">sqlite&gt; select conflicts from clauseStats where clauseID=59465;
+101869
+
+sqlite&gt; select used_at from usedClauses where clauseID = 59465 order by used_at asc;
+101870
+123974
+152375</pre>
+
+<p>This is an interesting clause. It was generated at conflict no. 101869, was used in the proof right after it was generated, at conflict no. 101870, and then it was used in the proof more than 20&#8217;000 conflicts later, twice.</p>
+
+<h2>The Data Pipeline</h2>
+
+<p>The idea is this: we are going examine every learnt clause at every 10&#8217;000 conflicts, and guess whether it&#8217;s going to be used in the future enough for it to be kept. If it&#8217;s going to be used enough in the future, we keep it. If not, we&#8217;ll throw it away. What do we need for this?</p>
+
+<p>Well, we need a ton of labeled training examples. And for that, we need a truckload of data, one that generates so much that we have to throw away 96% and still end up with hundreds of MBs in under an hour. Also, we need this from a wide variety of problems, and we need to be able to debug the hell out of this data, because where there is tons of data, there are tons of NaNs, and negative clause sizes and the whatnot. So we need a <em>data pipeline</em>. </p>
+
+<p><strong>The first part of the pipeline</strong> we only run once, because it&#8217;s a bit expensive, about 3-10x slower than a normal CNF run, and looks like this:</p>
+
+<ol><li>Run CryptoMiniSat without any clause cleaning, and write an SQLite database with all dynamic data gathered. The data written is about: the CNF (such as number of claues, etc.), the restarts (e.g. avg. LBD, restart length), the learnt clauses (e.g. LBD, size), and at every 10&#8217;000 conflicts the dynamic characteristics of the learnt clauses (e.g. activity, number of times used in a conflict the past 10&#8217;000 conflicts)</li><li>Run DRAT, and dump all usage data to a file. Augment the SQLite data with the DRAT data</li><li>Sample the data because otherwise it&#8217;s going to be too much. We need to sample smartly, though, because without biased sampling, the really weird cases will not be represented in the final data at all, and our machine learning system will not see some really interesting data. If we could store and process 1TB of data (you can generate that rather easily), we wouldn&#8217;t have this issue. But we can&#8217;t.</li></ol>
+
+<p>So now we have a ton of cool data that is very raw. This is going to be our baseline. We&#8217;ll keep this data in our stash and never modify it. </p>
+
+<p><strong>The second part of our data pipeline</strong> will use this stash of data to do all the cool things we want. This 2nd part is much-much cheaper to run (few seconds to a few minutes per CNF), so we will be able to run it as many times as we like, playing with all the cool parameters. This second part of the pipeline will:</p>
+
+<ol><li>The data is stored <a href="https://en.wikipedia.org/wiki/Database_normalization">normalized</a> in SQLite for speed and space. For machine learning, we must <a href="https://en.wikipedia.org/wiki/Denormalization">denormalize</a> it, to have everything related to decision on a single line.</li><li>Create the labeled training data using <a href="https://pandas.pydata.org/">Python Pandas</a> for easy data manipulation and visualization</li><li>Create a classifier using Python&#8217;s <a href="https://scikit-learn.org/stable/index.html">scikit-learn</a></li><li>Spit out a C++ code we can compile into our solver</li></ol>
+
+<h2>Getting Labeled Training Examples</h2>
+
+<p>In order to train a classifier, we need labeled training examples. These are lines like:</p>
+
+<pre class="wp-block-preformatted">glue   size  used_last_10k_conflicts  activity rank   label
+10     15     3                       top half        KEEP
+7      10     1                       bottom half     THROW_AWAY
+3      7      0                       bottom half     THROW_AWAY
+</pre>
+
+<p>Notice that this table has essentially two parts. The left part, i.e. everything apart from &#8220;keep&#8221;, called <em>features</em>, must be available to the solver during running. And the right part, &#8220;keep&#8221;, the <em>label</em>, which is computed using data from DRAT-trim. This latter the solver has no access to during running, this is our crystal ball, looking into the future. What we want is to <em>predict the label given the features</em>.</p>
+
+<p><strong>The left hand side, i.e. the features</strong> are not so difficult to do. Adding a new feature is now about 3-4 lines change in CryptoMiniSat and it&#8217;s essentially free in terms of speed. The data gathering only needs to run <em>once</em> (the 1st part of our data pipeline) and it is <em>not</em> running during solving. So, you can add as many features as you like. If they are useful, then you also need to add some lines to the solver so they will be available during running &#8212; of the 200+ only a few are really useful.</p>
+
+<p><strong>The right hand side, i.e. the labels</strong> are a completely different story, though. We know what is the future, kinda (yes, the future is a function of the past&amp;present, but let&#8217;s not go there for the moment). So given the future, how do I label things? We need to use a heuristic. The good part is that we have a ton of information about the future, such as the distribution of all clause&#8217;s usage in the proof, and the number of times a particular clause is used in the future. But we still need to come up with <em>something</em> to decide KEEP/THROW_AWAY. A simple such heuristic is: if in the next 10&#8217;000 conflicts this clause will be used at least 6 times, keep it. Otherwise, into the bin it goes:</p>
+
+<pre class="wp-block-code"><code>CASE WHEN
+-- useful in the next round
+   used_later10k.used_later10k > 5
+
+THEN "keep" ELSE "throw_away"
+END AS `x.class`</code></pre>
+
+<p>Nice! Remember that clauseID 59465 that I talked about above? Yeah, that would be labeled THROW_AWAY &#8212; it was only used 20&#8217;000 conflicts later. We have labeled our data, now we need to train a classifier, make it output C++ code and we are good to go. But before that, let&#8217;s play with Weka.</p>
+
+<h2>Data Analysis And Machine Learning with Weka</h2>
+
+<p><a href="https://www.cs.waikato.ac.nz/ml/weka/">Weka</a> is a cool tool for exploring data and building simple classifiers. You can get a free <a href="https://www.futurelearn.com/courses/data-mining-with-weka">Weka course</a> on Futurelearn, and I highly recommend it. The person who wrote it is the one who is giving the course and he is really cool. The denormalized, labeled data can be output to CSV (see at the bottom), which Weka can read:</p>
+
+<figure class="wp-block-image"><img src="https://www.msoos.org/wordpress/wp-content/uploads/2019/06/weka-1024x650.png" alt="" class="wp-image-3306" srcset="https://www.msoos.org/wordpress/wp-content/uploads/2019/06/weka-1024x650.png 1024w, https://www.msoos.org/wordpress/wp-content/uploads/2019/06/weka-300x190.png 300w, https://www.msoos.org/wordpress/wp-content/uploads/2019/06/weka-768x487.png 768w, https://www.msoos.org/wordpress/wp-content/uploads/2019/06/weka.png 1092w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+<p>Here, you have Weka showing the denormalized set of features on the left, and showing the LBD distribution on the right. Blue color is for for lines labeled KEEP and red color is for lines labeled THROW_AWAY. As you can see, the distribution of blue vs red is not the same at all as the LBD value increases (hence LBD being a good discriminator, see <a href="https://www.labri.fr/perso/lsimon/glucose/">glucose</a>).</p>
+
+<p>You can also visualize correlations:</p>
+
+<figure class="wp-block-image"><img src="https://www.msoos.org/wordpress/wp-content/uploads/2019/06/weka2-1024x902.png" alt="" class="wp-image-3307" srcset="https://www.msoos.org/wordpress/wp-content/uploads/2019/06/weka2-1024x902.png 1024w, https://www.msoos.org/wordpress/wp-content/uploads/2019/06/weka2-300x264.png 300w, https://www.msoos.org/wordpress/wp-content/uploads/2019/06/weka2-768x677.png 768w, https://www.msoos.org/wordpress/wp-content/uploads/2019/06/weka2.png 1118w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+<p>You can also build classifiers based on this labeled data. Just don&#8217;t forget to delete the &#8220;sum_cl_use.*&#8221; features, as they are not really features, they are data from the proof verification. If you don&#8217;t delete them, Weka will cheat and use them in the classifier, which is like using the solution key during the exam :) Let&#8217;s create a classifier using Weka:</p>
+
+<figure class="wp-block-image"><img src="https://www.msoos.org/wordpress/wp-content/uploads/2019/06/weka3-good-1-1024x902.png" alt="" class="wp-image-3310" srcset="https://www.msoos.org/wordpress/wp-content/uploads/2019/06/weka3-good-1-1024x902.png 1024w, https://www.msoos.org/wordpress/wp-content/uploads/2019/06/weka3-good-1-300x264.png 300w, https://www.msoos.org/wordpress/wp-content/uploads/2019/06/weka3-good-1-768x676.png 768w, https://www.msoos.org/wordpress/wp-content/uploads/2019/06/weka3-good-1.png 1116w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+<p>This shows a <a href="https://en.wikipedia.org/wiki/Confusion_matrix">confusion matrix</a> at the bottom. Nice. Total misclassification was 18% using the <a href="https://en.wikipedia.org/wiki/C4.5_algorithm">J48 decision tree</a> algorithm with some minor tuning.  Here is such an example decision tree (<a href="http://www.msoos.org/wordpress/wp-content/uploads/2019/06/x-should_keep_short_conf4_cluster0.pdf">PDF here</a>):</p>
+
+<figure class="wp-block-image"><img src="https://www.msoos.org/wordpress/wp-content/uploads/2019/06/decision_tree2-1024x280.png" alt="" class="wp-image-3335" srcset="https://www.msoos.org/wordpress/wp-content/uploads/2019/06/decision_tree2-1024x280.png 1024w, https://www.msoos.org/wordpress/wp-content/uploads/2019/06/decision_tree2-300x82.png 300w, https://www.msoos.org/wordpress/wp-content/uploads/2019/06/decision_tree2-768x210.png 768w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+<p>Weka is great in many ways, and I will forever be indebted to it. However, it&#8217;s just not gonna cut it for us. We need something a <em>lot</em> faster, and we need to be able to automate it and we need to be able to get C++ code out. Weka could do some of these, but I&#8217;m not a Java programmer, and Weka&#8217;s speed is nowhere near that of <a href="https://scikit-learn.org/stable/index.html">scikit-learn</a>. However, if it&#8217;s your first time doing machine learning, Weka is an amazing tool.</p>
+
+<h2>Training a Classifier Using scikit-learn</h2>
+
+<p>Now that we have labeled training data, we need to create a classifier so that the solver, during running, can take the features it knows and guess the label KEEP or THROW_AWAY. There are many-many different classifiers that can be trained, and I have tried the most important ones, such as <a href="https://en.wikipedia.org/wiki/Logistic_regression">logistic regression,</a> <a href="https://en.wikipedia.org/wiki/Support-vector_machine">SVM</a>, <a href="https://en.wikipedia.org/wiki/Decision_tree">decision trees</a> and <a href="https://en.wikipedia.org/wiki/Random_forest">random forests</a>.</p>
+
+<p>Let me pause here for a moment. If you haven&#8217;t done machine learning before, you might think &#8212; <em>this</em> is where the magic is. The classifier is where it&#8217;s at! And if you have done machine learning before, you know full well, it&#8217;s not here <em>at all</em>. It turns out that the quality and quantity of your data is way more important than the classifier you choose. It&#8217;s relatively easy to see why. If your data is messy, incorrect, or missing elements, no matter what classifier you use, no matter how amazing it is, it will give you bad results. Bad data, bad results. Every. Single. Time. Keep this in mind.</p>
+
+<p>So, we have chosen our classifier, say, <em>decision trees</em>. Decision trees are easy to visualize, and you will need to debug the hell out of this, so it comes handy. After all, nobody wrote 1000 lines of python and it came out perfect the first time.</p>
+
+<p>Now, there are still some things to deal with. First, we cannot possibly use all 200+ features in our prediction. We can generate the tables, but we need to be reasonable, and cut down the features to something much smaller, say, 20, during the running of the solver. <a href="https://machinelearningmastery.com/feature-selection-in-python-with-scikit-learn/">To do that</a>, we create a large random forest and then check which features were picked by the most trees. That gives us feature ranking (thanks to Raghav Kulkarni for this trick):</p>
+
+<pre class="wp-block-preformatted">../predict.py "mydata-min.db-short-conf-0.dat" --name short
+[...]
+Feature ranking:
+1 rdb0.used_for_uip_creation 0.1070
+2 rdb0.last_touched_diff     0.0723
+3 rdb0.act_ranking           0.0694
+4 rdb0.activity_rel          0.0644
+5 rdb0.sum_uip1_used         0.0641</pre>
+
+<p>So the top 5 features for this particular run are these. For different instances or different configurations, the top features may differ, and you probably want to sample X number of labeled training example from each problem, put it in a large data file and then run the feature ranking. </p>
+
+<p>There are still some minor obstacles to overcome. Since about 95% of the clauses need to be thrown away, our labels will be very unbalanced. So we need to balance that. Also, how aggressive do we want to be with throwing clauses away? Should we err on the side of caution? Note that this is not about labeling anymore. The label has already been chosen. It&#8217;s about guessing the label. We are now tuning what&#8217;s called the <a href="https://en.wikipedia.org/wiki/Confusion_matrix">confusion matrix</a>:</p>
+
+<pre class="wp-block-preformatted">X          label     label
+           KEEP      THROW_AWAY
+
+guessed    0.80      0.20
+KEEP
+
+guessed    0.05      0.95
+THROW_AWAY</pre>
+
+<p>Here, we have 80% of things that we labeled as KEEP actually being guessed to be kept, while 20% of them are wrongly guessed as THROW_AWAY. So it&#8217;s kinda okay. We are better at guessing if something needs to be thrown away, though, there we only guess 5% of them wrongly. Maybe this a good balance, but if not, it can be changed as a <a href="https://scikit-learn.org/stable/modules/generated/sklearn.utils.class_weight.compute_class_weight.html">weight parameter.</a></p>
+
+<p>The system can also classify clauses into different types, using <a href="https://en.wikipedia.org/wiki/K-means_clustering">K-means clustering</a>. Then it can train a different classifier for each clause type. The K-means clustering uses the already denormalized features, so it&#8217;s really trivial to do, though which features should be used for the clustering is a good question. I currently use the CNF features only (e.g. number of clauses, variables, ratio of vars/clauses, etc.), thereby clustering problems rather than clauses. One could could use any set of features though, it&#8217;s all automatic, including C++ code generation.</p>
+
+<p>Actually, the C++ code generation. The system produces C++ code for decision trees, random forests and K-means clustering, ready for it to be compiled into the final executable. We have now created our clustering and classifier, and it&#8217;s all in C++ code. Let&#8217;s run it!</p>
+
+<h2>The Final Solver</h2>
+
+<p>This is the most fun part. And the cumulative effort of a lot of work. It&#8217;s really interesting to see all those thousands of lines of C++ and python churning out gigabytes of data, being boiled down to juts a few hundred lines of automatically generated if-then-else statements, running during solving. But there it is.</p>
+
+<p>Let me talk about the good parts first. It&#8217;s very fast at evaluating whether to keep or throw away a clause. You don&#8217;t even notice it running. It doesn&#8217;t use much more memory than normal CryptoMiniSat (i.e. a few features were enough), and it correctly guesses the cluster where a clause belongs. It also guesses the labels correctly with very high probability. The final solver beats every solver from 2018 on the SAT competition 2014-17 instances.</p>
+
+<p>Another great thing is that this system can be used to <em>automatically train for</em> <em>specific problem types</em>. This can be very significant in industry, where the instances are similar and training for a particular type of instance would make a lot of sense. Since this system tunes to the data it&#8217;s given, if it&#8217;s given data only about a particular type of instances, it will tune to them only, making the solver particularly good at them.</p>
+
+<p>There is a bad part too, though: the built-in, rather sophisticated heuristic of keeping or throwing away clauses beats the system built. This makes me very sad, but some things make me hopeful. Firstly, the data is probably still messy. There are probably some bugs here and there, where some of the data gathered is not reliable. Secondly, the labeling is very-very rudimentary. If you have a look at that CASE statement above, it&#8217;s laughingly simple. Finally, the normal heuristic is quite smart, keeping some (simple) information about clauses, i.e. keeping some state over time, which the current machine learning system cannot do &#8212; the classifier has no memory.</p>
+
+<h2>Conclusions</h2>
+
+<p>This project, going back over 6 years, has been a though one. All in all, it must have costed about 2 full years of work. A sane researcher would have abandoned it after about 2 weeks. In fact, we had a reviewer rejecting the paper, claiming that this work could be done in 2 weeks by her/his PhD student (I love such reviews). I sometimes wonder how much that PhD student charges for their time, because I might just pay it if they are <em>that good</em>.</p>
+
+<p>Maybe we did the wrong thing, keeping going for so many years, but I think this could be a foundation of something much more interesting. It could be used not only to create machine learning models, but also to understand SAT solvers. With so much data at hand, we could finally understand some of the behavior of solvers, perhaps leading to some interesting ideas. And the data could be used for many other machine learning systems, too: guessing when to restart, guessing which variable to branch on, etc.</p>
+
+<h2>Build and Use Instructions</h2>
+
+<pre class="wp-block-preformatted"># prerequisites on a modern Debian/Ubuntu installation
+sudo apt-get install build-essential cmake git
+sudo apt-get install zlib1g-dev libsqlite3-dev
+sudo apt-get install libboost-program-options-dev 
+sudo apt-get install python3-pip
+sudo pip3 install sklearn pandas numpy lit matplotlib
+
+# getting the code
+git clone https://github.com/msoos/cryptominisat
+cd cryptominisat
+git checkout crystalball
+git submodule update --init
+mkdir build &amp;&amp; cd build
+ln -s ../scripts/crystal/* .
+ln -s ../scripts/build_scripts/* .
+
+# Let's get an unsatisfiable CNF
+wget https://www.msoos.org/largefiles/goldb-heqc-i10mul.cnf.gz
+gunzip goldb-heqc-i10mul.cnf.gz
+
+# Gather the data, denormalize, label, output CSV,
+# create the classifier, generate C++,
+# and build the final SAT solver
+./ballofcrystal.sh --csv goldb-heqc-i10mul.cnf
+[...compilations and the full data pipeline...]
+
+# let's use our newly built tool
+# we are using configuration number short:3 long:3
+./cryptominisat5 --predshort 3 --predlong 3 goldb-heqc-i10mul.cnf
+[ ... ]
+s UNSATISFIABLE
+
+# Let's look at the data
+cd goldb-heqc-i10mul.cnf-dir
+sqlite3 mydata.db
+sqlite&gt; select count() from sum_cl_use;
+94507</pre>
+
+    </div>
+
+    
+
+
+<div class="article-tags">
+  
+  <a class="btn btn-primary btn-outline" href="/tags/machine-learning/">machine learning</a>
+  
+  <a class="btn btn-primary btn-outline" href="/tags/sql/">SQL</a>
+  
+  <a class="btn btn-primary btn-outline" href="/tags/visualisation/">visualisation</a>
+  
+</div>
+
+
+
+
+    
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2018 &middot; 
+
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+    
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML" integrity="sha512-tOav5w1OjvsSJzePRtt2uQPFwBoHt1VZcUq8l8nm5284LEKE9FSJBQryzMBzHxY5P0zRdNqEcpLIRVYFNgu1jw==" crossorigin="anonymous"></script>
+    
+    
+
+  </body>
+</html>
+

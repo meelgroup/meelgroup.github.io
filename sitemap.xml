@@ -95,6 +95,15 @@
     
     <url>
     
+      <loc>/post/crystalball/</loc>
+      <lastmod>2019-05-03T11:06:17+05:30</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/post/kus/</loc>
       <lastmod>2019-05-03T11:06:17+05:30</lastmod>
     </url>
@@ -540,6 +549,16 @@
     
     <url>
     
+      <loc>/tags/machine-learning/</loc>
+      <lastmod>2019-05-03T11:06:17+05:30</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/</loc>
       <lastmod>2016-04-20T00:00:00+08:00</lastmod>
       <priority>0</priority>
@@ -552,6 +571,16 @@
     
       <loc>/publication_types/</loc>
       <lastmod>2019-05-21T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/sql/</loc>
+      <lastmod>2019-05-03T11:06:17+05:30</lastmod>
       <priority>0</priority>
     </url>
     
@@ -581,7 +610,17 @@
     <url>
     
       <loc>/tags/</loc>
-      <lastmod>2019-07-07T00:00:00+08:00</lastmod>
+      <lastmod>2019-05-03T11:06:17+05:30</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/visualisation/</loc>
+      <lastmod>2019-05-03T11:06:17+05:30</lastmod>
       <priority>0</priority>
     </url>
     

@@ -16,7 +16,7 @@
       <pubDate>Sun, 07 Jul 2019 00:00:00 +0800</pubDate>
       
       <guid>/software/crystalball/</guid>
-      <description>&lt;p&gt;Boolean satisfiability is a fundamental problem in computerscience with a wide range of applications including planning, configurationmanagement, design and verification of software/hardware systems. Modern SAT solvers achieve scalability and ro-bustness with sophisticated heuristics that are challenging to understandand explain. We propose to view modern conflict-driven clause learning (CDCL) solvers as a composition of classifiers and regressors for different tasks such as branching, clause memory management, and restarting. The current version of CrystalBall focuses on deriving a classifier to keep or throw away a learned clause. In a departure from recent machine learning based techniques, CrystalBall employs supervised learning anduses extensive, multi-gigabyte data extracted from runs of a single SAT solver to perform predictive analytics.&lt;/p&gt;
+      <description>&lt;p&gt;Boolean satisfiability is a fundamental problem in computerscience with a wide range of applications including planning, configurationmanagement, design and verification of software/hardware systems. Modern SAT solvers achieve scalability and ro-bustness with sophisticated heuristics that are challenging to understandand explain. We propose to view modern conflict-driven clause learning (CDCL) solvers as a composition of classifiers and regressors for different tasks such as branching, clause memory management, and restarting. The current version of CrystalBall focuses on deriving a classifier to keep or throw away a learned clause. In a departure from recent machine learning based techniques, CrystalBall employs supervised learning anduses extensive, multi-gigabyte data extracted from runs of a single SAT solver to perform predictive analytics. Read this &lt;a href=&#34;https://www.msoos.org/2019/06/crystalball-sat-solving-data-gathering-and-machine-learning/&#34; target=&#34;_blank&#34;&gt;blog post&lt;/a&gt; for more details.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Relevant Papers:&lt;/strong&gt;&lt;/p&gt;
 
@@ -108,6 +108,274 @@
     </item>
     
     <item>
+      <title>CrystalBall: SAT solving, Data Gathering, and Machine Learning</title>
+      <link>/post/crystalball/</link>
+      <pubDate>Fri, 03 May 2019 11:06:17 +0530</pubDate>
+      
+      <guid>/post/crystalball/</guid>
+      <description>&lt;p&gt;This post compiles many years of work, done by numerous resarchers. The research paper for CrystalBall is available &lt;a href=&#34;http://www.msoos.org/wordpress/wp-content/uploads/2019/06/sat19-skm.pdf&#34;&gt;here&lt;/a&gt; (accepted to &lt;a href=&#34;https://10times.com/sat-lisbon&#34;&gt;SAT&amp;#8217;2019&lt;/a&gt;) and the code is available &lt;a href=&#34;https://github.com/msoos/cryptominisat/tree/crystalball&#34;&gt;here&lt;/a&gt;. Build instructions are at the bottom of the post. Part 2 will deal with exploring the data in more detail.&lt;/p&gt;
+
+&lt;!-- 
+&lt;p&gt;I always had a fascination with data when it comes to SAT solving. My SAT solver, &lt;a href=&#34;https://github.com/msoos/cryptominisat&#34;&gt;CryptoMiniSat&lt;/a&gt; always had very detailed stats printed to the console. At one point, this fascination with data got to the point where tallying up data from the console (with &lt;a href=&#34;https://en.wikipedia.org/wiki/AWK&#34;&gt;AWK&lt;/a&gt;, like a true hacker) didn&amp;#8217;t cut it, and I started dumping data to SQL.&lt;/p&gt;
+ --&gt;
+
+&lt;h2&gt;An Early Attempt: Visualization&lt;/h2&gt;
+
+&lt;p&gt;Out of the SQL data dumped, &lt;a href=&#34;https://www.msoos.org/sat_visualization/&#34;&gt;this website&lt;/a&gt; was born, back in 2012. This site displays pretty graphs like:&lt;/p&gt;
+
+&lt;figure class=&#34;wp-block-image&#34;&gt;&lt;img src=&#34;https://www.msoos.org/wordpress/wp-content/uploads/2019/06/graphs2.png&#34; alt=&#34;&#34; class=&#34;wp-image-3283&#34; srcset=&#34;https://www.msoos.org/wordpress/wp-content/uploads/2019/06/graphs2.png 832w, https://www.msoos.org/wordpress/wp-content/uploads/2019/06/graphs2-300x216.png 300w, https://www.msoos.org/wordpress/wp-content/uploads/2019/06/graphs2-768x553.png 768w&#34; sizes=&#34;(max-width: 832px) 100vw, 832px&#34; /&gt;&lt;/figure&gt;
+
+&lt;p&gt;These graphs can show quite a bit of data, the above must be a few hundred data points. The data gathered is pumped to an SQL database, and then visualized. I felt like I am on to something. Finally, I was going to be able to explain things.&lt;/p&gt;
+
+&lt;p&gt;But I was able to explain very little. Some things were quite obvious, like how industrial and cryptographic instances&amp;#8217; variable polarity distributions were so different. Above, the black/green graph shows a cryptographic instance, and the distribution is 47% vs. 53%. On a typical industrial instance, the same graph looks like:&lt;/p&gt;
+
+&lt;figure class=&#34;wp-block-image&#34;&gt;&lt;img src=&#34;https://www.msoos.org/wordpress/wp-content/uploads/2019/06/graph3-industrial.png&#34; alt=&#34;&#34; class=&#34;wp-image-3284&#34; srcset=&#34;https://www.msoos.org/wordpress/wp-content/uploads/2019/06/graph3-industrial.png 847w, https://www.msoos.org/wordpress/wp-content/uploads/2019/06/graph3-industrial-300x56.png 300w, https://www.msoos.org/wordpress/wp-content/uploads/2019/06/graph3-industrial-768x143.png 768w&#34; sizes=&#34;(max-width: 847px) 100vw, 847px&#34; /&gt;&lt;/figure&gt;
+
+&lt;p&gt;Here, the polarity distribution is 6% vs 94%. This is easy to see with the human eye. But I was gathering tons more data, many megabytes per instance. What was I going to do with all this data? How was I going to &lt;em&gt;know what is good and bad behavior&lt;/em&gt;? And how would I make the solver work towards &lt;em&gt;good&lt;/em&gt;?&lt;/p&gt;
+
+&lt;h2&gt;SATZilla: Solver Selection Using Machine Learning&lt;/h2&gt;
+
+&lt;p&gt;I wasn&amp;#8217;t the only one trying to make sense of SAT-related data and improve solving based on it. &lt;a href=&#34;https://www.aaai.org/Papers/JAIR/Vol32/JAIR-3214.pdf&#34;&gt;SATZilla&lt;/a&gt; has done this before. There, the idea was to gather information &amp;#8212; called &lt;em&gt;features&lt;/em&gt; &amp;#8212; about the input CNF problem, run multiple SAT solvers, save how much time it took for the solver to run, then create code that matches the CNF features to the preferred SAT solver.  This   creates a lines like:&lt;/p&gt;
+
+&lt;pre class=&#34;wp-block-preformatted&#34;&gt;num-vars  num-clauses  Best Solver
+132       16730        Lingeling
+375       46741        CryptoMiniSat
+834       41690        CryptoMiniSat&lt;/pre&gt;
+
+&lt;p&gt;Where the first N columns are the features and the last column is the label that we calculated to be correct. SATZilla uses many features, such as the number of horn clauses, the ratio of variables and clauses, etc. Once such a table has been built, with lines called &lt;em&gt;labeled training examples&lt;/em&gt;, it uses a machine learning system, for example &lt;a href=&#34;https://en.wikipedia.org/wiki/Decision_tree_learning&#34;&gt;Decision Trees&lt;/a&gt;, to &lt;em&gt;classify&lt;/em&gt; (i.e. guess) which SAT solver would be best for &lt;em&gt;any&lt;/em&gt; CNF instance. So it generalizes, and can guess which SAT solver is best for a CNF &lt;em&gt;it has never seen&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;This system is interesting but has some drawbacks. First, for each data line one must run 5-10 SAT solvers on a CNF, potentially using up to 20-30&amp;#8217;000 CPU seconds. Hence, each labeled training example is &lt;em&gt;extremely&lt;/em&gt; expensive. If you know about the Big Data hype, you know that spending $2 on a single data point is not viable. Modern systems use millions of labeled training examples to learn a classifier.  Secondly, this system was not designed to work in an industrial setting, where the CNF is not presented in a single file but piece-by-piece through a library interface.&lt;/p&gt;
+
+&lt;h2&gt;Enter DRAT&lt;/h2&gt;
+
+&lt;div class=&#34;wp-block-image&#34;&gt;&lt;figure class=&#34;alignright is-resized&#34;&gt;&lt;img src=&#34;https://www.msoos.org/wordpress/wp-content/uploads/2019/06/drat.jpg&#34; alt=&#34;&#34; class=&#34;wp-image-3287&#34; width=&#34;204&#34; height=&#34;204&#34; srcset=&#34;https://www.msoos.org/wordpress/wp-content/uploads/2019/06/drat.jpg 500w, https://www.msoos.org/wordpress/wp-content/uploads/2019/06/drat-150x150.jpg 150w, https://www.msoos.org/wordpress/wp-content/uploads/2019/06/drat-300x300.jpg 300w&#34; sizes=&#34;(max-width: 204px) 100vw, 204px&#34; /&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.cs.utexas.edu/~marijn/publications/drat-trim.pdf&#34;&gt;DRAT&lt;/a&gt; is a system used to verify the resolution proof that modern SAT solvers generate. Basically, every unsatifiable problem that SAT solvers solve can be shown to be unsatisfiable through a set of operations called &lt;a href=&#34;https://en.wikipedia.org/wiki/Resolution_%28logic%29&#34;&gt;resolutions&lt;/a&gt;, that eventually lead to the equation 0=1, which is trivially false. A DRAT verifier can know exactly which clause was used by the SAT solver at exactly which time during the creation of the proof. Hence, DRAT knows a &lt;em&gt;lot&lt;/em&gt;. It can actually tell, after the solving has finished, which parts of the SAT solving were absolutely useless, and which ones useful. A resolution proof with thousands of resolutions can be computed in seconds, which means &lt;em&gt;cheap data&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;When I first really understood DRAT, I  realized, what if I could get all this data out of DRAT, and use it as a label for the millions of data points I already have? I have finally found a label, available at a huge scale, to train on.&lt;/p&gt;
+
+&lt;h2&gt;The Beginnings of CrystalBall&lt;/h2&gt;
+
+&lt;p&gt;What to train &lt;em&gt;for&lt;/em&gt; was still a question that needed answering.  Since DRAT is so intimately connected with learnt clauses, I  decided to train for throwing away as many unneeded learnt clauses as possible. This would definitely make solving faster, by throwing away everything that is useless weight and making sure everything that is useful stays.&lt;/p&gt;
+
+&lt;p&gt;I must thank &lt;a href=&#34;https://www.cs.utexas.edu/~marijn/&#34;&gt;Marijn Heule&lt;/a&gt; who helped me with the first hack of &lt;a href=&#34;http://www.cs.utexas.edu/~marijn/drat-trim/&#34;&gt;DRAT-trim&lt;/a&gt; in early 2016 to get data out from from it. I hacked &lt;a href=&#34;https://github.com/msoos/cryptominisat&#34;&gt;CryptoMiniSat&lt;/a&gt; to add Clause IDs to DRAT, so the verifier, &lt;a href=&#34;https://www.cs.utexas.edu/~marijn/publications/drat-trim.pdf&#34;&gt;DRAT-trim&lt;/a&gt;, could read and track these IDs. I now knew which clause was used in the proof and which wasn&amp;#8217;t. This sounds really useful &amp;#8212; you could now know which learnt clauses should have been thrown away the moment they were generated, since they were useless. Let&amp;#8217;s see some data from modern CrystalBall (see at the bottom of the post how to download, compile and run):&lt;/p&gt;
+
+&lt;pre class=&#34;wp-block-preformatted&#34;&gt;sqlite&amp;gt; select count() from sum_cl_use where num_used&amp;gt;0;
+51675
+
+sqlite&amp;gt; select count() from sum_cl_use where num_used=0;
+42832&lt;/pre&gt;
+
+&lt;p&gt;The data says that about 50% of clauses were useful.  Let&amp;#8217;s see what is the average LBD value of the useful and useless clauses:&lt;/p&gt;
+
+&lt;pre class=&#34;wp-block-preformatted&#34;&gt;sqlite&amp;gt; select avg(glue) from sum_cl_use, clauseStats where sum_cl_use.clauseID = clauseStats.clauseID and num_used &amp;gt; 0;
+6.71436865021771
+
+sqlite&amp;gt; select avg(glue) from sum_cl_use, clauseStats where sum_cl_use.clauseID = clauseStats.clauseID and num_used = 0;
+9.80162028389989&lt;/pre&gt;
+
+&lt;p&gt;Nice. Let&amp;#8217;s get the sizes, too, by replacing &amp;#8220;glue&amp;#8221; with &amp;#8220;size&amp;#8221;:&lt;/p&gt;
+
+&lt;pre class=&#34;wp-block-preformatted&#34;&gt;sqlite&amp;gt; select avg(size)...
+12.2770198355104
+sqlite&amp;gt; select avg(size)...
+23.5734497571909&lt;/pre&gt;
+
+&lt;p&gt;Cool. Size is a better discriminator? Let&amp;#8217;s see another feature. Let&amp;#8217;s get the average LBD of the redundant non-binary antecedents of the clause:&lt;/p&gt;
+
+&lt;pre class=&#34;wp-block-preformatted&#34;&gt;sqlite&amp;gt; select avg(antecedents_glue_long_reds_avg)...
+4.88254061122689
+sqlite&amp;gt; select avg(antecedents_glue_long_reds_avg)...
+5.68082216847043&lt;/pre&gt;
+
+&lt;p&gt;There are plenty more, well over a hundred, that is being measured, so I won&amp;#8217;t bore you. I have a feeling you could write a few research papers just by running queries on this data.&lt;/p&gt;
+
+&lt;p&gt;I don&amp;#8217;t know if you noticed, but something is odd here. SAT solvers only keep about 5-10% of all clauses.  Just run a modern SAT solvers to completion and check how many clauses remain in the clause database. How is this compatible with 50% of clauses being useful? Well, we can use clauses &lt;em&gt;for a while&lt;/em&gt;, then throw them away. But for that, we need much more than just  whether a clause is useful or not. We need to know exactly &lt;em&gt;when&lt;/em&gt; it was useful. Clauses can be used many-many times in a single proof.&lt;/p&gt;
+
+&lt;h2&gt;We Need More Refined Labels&lt;/h2&gt;
+
+&lt;p&gt;It turns out that having only whether a clause is being used is not good enough to compute useful labels. We need to know when, exactly, was the clause useful. So CryptoMiniSat and DRAT-trim was hacked to output into the DRAT proof exact conflict numbers when a clause was created. This, with some minor magic, would tell us &lt;em&gt;exactly&lt;/em&gt; when each learnt clauses was used:&lt;/p&gt;
+
+&lt;pre class=&#34;wp-block-preformatted&#34;&gt;sqlite&amp;gt; select sum(num_used) from sum_cl_use, clauseStats where sum_cl_use.clauseID = clauseStats.clauseID and glue&amp;lt;=3;
+332689
+
+sqlite&amp;gt; select count() from clauseStats where glue&amp;lt;=3;
+11221&lt;/pre&gt;
+
+&lt;p&gt;For this problem, a clause that had LBD 3 or lower was used on average 332689/11221.0=29.65 times in the proof. Okay, how about clauses with LBD 4 or larger? It&amp;#8217;s a trivial change in the above code, and gives us 5.95. Cool, the lower glue, the more it&amp;#8217;s used in the proof.&lt;/p&gt;
+
+&lt;p&gt;Now that we know how to walk, let&amp;#8217;s run. When was clauseID 59465 created and at what conflict points was it used in the proof?&lt;/p&gt;
+
+&lt;pre class=&#34;wp-block-preformatted&#34;&gt;sqlite&amp;gt; select conflicts from clauseStats where clauseID=59465;
+101869
+
+sqlite&amp;gt; select used_at from usedClauses where clauseID = 59465 order by used_at asc;
+101870
+123974
+152375&lt;/pre&gt;
+
+&lt;p&gt;This is an interesting clause. It was generated at conflict no. 101869, was used in the proof right after it was generated, at conflict no. 101870, and then it was used in the proof more than 20&amp;#8217;000 conflicts later, twice.&lt;/p&gt;
+
+&lt;h2&gt;The Data Pipeline&lt;/h2&gt;
+
+&lt;p&gt;The idea is this: we are going examine every learnt clause at every 10&amp;#8217;000 conflicts, and guess whether it&amp;#8217;s going to be used in the future enough for it to be kept. If it&amp;#8217;s going to be used enough in the future, we keep it. If not, we&amp;#8217;ll throw it away. What do we need for this?&lt;/p&gt;
+
+&lt;p&gt;Well, we need a ton of labeled training examples. And for that, we need a truckload of data, one that generates so much that we have to throw away 96% and still end up with hundreds of MBs in under an hour. Also, we need this from a wide variety of problems, and we need to be able to debug the hell out of this data, because where there is tons of data, there are tons of NaNs, and negative clause sizes and the whatnot. So we need a &lt;em&gt;data pipeline&lt;/em&gt;. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The first part of the pipeline&lt;/strong&gt; we only run once, because it&amp;#8217;s a bit expensive, about 3-10x slower than a normal CNF run, and looks like this:&lt;/p&gt;
+
+&lt;ol&gt;&lt;li&gt;Run CryptoMiniSat without any clause cleaning, and write an SQLite database with all dynamic data gathered. The data written is about: the CNF (such as number of claues, etc.), the restarts (e.g. avg. LBD, restart length), the learnt clauses (e.g. LBD, size), and at every 10&amp;#8217;000 conflicts the dynamic characteristics of the learnt clauses (e.g. activity, number of times used in a conflict the past 10&amp;#8217;000 conflicts)&lt;/li&gt;&lt;li&gt;Run DRAT, and dump all usage data to a file. Augment the SQLite data with the DRAT data&lt;/li&gt;&lt;li&gt;Sample the data because otherwise it&amp;#8217;s going to be too much. We need to sample smartly, though, because without biased sampling, the really weird cases will not be represented in the final data at all, and our machine learning system will not see some really interesting data. If we could store and process 1TB of data (you can generate that rather easily), we wouldn&amp;#8217;t have this issue. But we can&amp;#8217;t.&lt;/li&gt;&lt;/ol&gt;
+
+&lt;p&gt;So now we have a ton of cool data that is very raw. This is going to be our baseline. We&amp;#8217;ll keep this data in our stash and never modify it. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The second part of our data pipeline&lt;/strong&gt; will use this stash of data to do all the cool things we want. This 2nd part is much-much cheaper to run (few seconds to a few minutes per CNF), so we will be able to run it as many times as we like, playing with all the cool parameters. This second part of the pipeline will:&lt;/p&gt;
+
+&lt;ol&gt;&lt;li&gt;The data is stored &lt;a href=&#34;https://en.wikipedia.org/wiki/Database_normalization&#34;&gt;normalized&lt;/a&gt; in SQLite for speed and space. For machine learning, we must &lt;a href=&#34;https://en.wikipedia.org/wiki/Denormalization&#34;&gt;denormalize&lt;/a&gt; it, to have everything related to decision on a single line.&lt;/li&gt;&lt;li&gt;Create the labeled training data using &lt;a href=&#34;https://pandas.pydata.org/&#34;&gt;Python Pandas&lt;/a&gt; for easy data manipulation and visualization&lt;/li&gt;&lt;li&gt;Create a classifier using Python&amp;#8217;s &lt;a href=&#34;https://scikit-learn.org/stable/index.html&#34;&gt;scikit-learn&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Spit out a C++ code we can compile into our solver&lt;/li&gt;&lt;/ol&gt;
+
+&lt;h2&gt;Getting Labeled Training Examples&lt;/h2&gt;
+
+&lt;p&gt;In order to train a classifier, we need labeled training examples. These are lines like:&lt;/p&gt;
+
+&lt;pre class=&#34;wp-block-preformatted&#34;&gt;glue   size  used_last_10k_conflicts  activity rank   label
+10     15     3                       top half        KEEP
+7      10     1                       bottom half     THROW_AWAY
+3      7      0                       bottom half     THROW_AWAY
+&lt;/pre&gt;
+
+&lt;p&gt;Notice that this table has essentially two parts. The left part, i.e. everything apart from &amp;#8220;keep&amp;#8221;, called &lt;em&gt;features&lt;/em&gt;, must be available to the solver during running. And the right part, &amp;#8220;keep&amp;#8221;, the &lt;em&gt;label&lt;/em&gt;, which is computed using data from DRAT-trim. This latter the solver has no access to during running, this is our crystal ball, looking into the future. What we want is to &lt;em&gt;predict the label given the features&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The left hand side, i.e. the features&lt;/strong&gt; are not so difficult to do. Adding a new feature is now about 3-4 lines change in CryptoMiniSat and it&amp;#8217;s essentially free in terms of speed. The data gathering only needs to run &lt;em&gt;once&lt;/em&gt; (the 1st part of our data pipeline) and it is &lt;em&gt;not&lt;/em&gt; running during solving. So, you can add as many features as you like. If they are useful, then you also need to add some lines to the solver so they will be available during running &amp;#8212; of the 200+ only a few are really useful.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The right hand side, i.e. the labels&lt;/strong&gt; are a completely different story, though. We know what is the future, kinda (yes, the future is a function of the past&amp;amp;present, but let&amp;#8217;s not go there for the moment). So given the future, how do I label things? We need to use a heuristic. The good part is that we have a ton of information about the future, such as the distribution of all clause&amp;#8217;s usage in the proof, and the number of times a particular clause is used in the future. But we still need to come up with &lt;em&gt;something&lt;/em&gt; to decide KEEP/THROW_AWAY. A simple such heuristic is: if in the next 10&amp;#8217;000 conflicts this clause will be used at least 6 times, keep it. Otherwise, into the bin it goes:&lt;/p&gt;
+
+&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;CASE WHEN
+-- useful in the next round
+   used_later10k.used_later10k &gt; 5
+
+THEN &#34;keep&#34; ELSE &#34;throw_away&#34;
+END AS `x.class`&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Nice! Remember that clauseID 59465 that I talked about above? Yeah, that would be labeled THROW_AWAY &amp;#8212; it was only used 20&amp;#8217;000 conflicts later. We have labeled our data, now we need to train a classifier, make it output C++ code and we are good to go. But before that, let&amp;#8217;s play with Weka.&lt;/p&gt;
+
+&lt;h2&gt;Data Analysis And Machine Learning with Weka&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.cs.waikato.ac.nz/ml/weka/&#34;&gt;Weka&lt;/a&gt; is a cool tool for exploring data and building simple classifiers. You can get a free &lt;a href=&#34;https://www.futurelearn.com/courses/data-mining-with-weka&#34;&gt;Weka course&lt;/a&gt; on Futurelearn, and I highly recommend it. The person who wrote it is the one who is giving the course and he is really cool. The denormalized, labeled data can be output to CSV (see at the bottom), which Weka can read:&lt;/p&gt;
+
+&lt;figure class=&#34;wp-block-image&#34;&gt;&lt;img src=&#34;https://www.msoos.org/wordpress/wp-content/uploads/2019/06/weka-1024x650.png&#34; alt=&#34;&#34; class=&#34;wp-image-3306&#34; srcset=&#34;https://www.msoos.org/wordpress/wp-content/uploads/2019/06/weka-1024x650.png 1024w, https://www.msoos.org/wordpress/wp-content/uploads/2019/06/weka-300x190.png 300w, https://www.msoos.org/wordpress/wp-content/uploads/2019/06/weka-768x487.png 768w, https://www.msoos.org/wordpress/wp-content/uploads/2019/06/weka.png 1092w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/figure&gt;
+
+&lt;p&gt;Here, you have Weka showing the denormalized set of features on the left, and showing the LBD distribution on the right. Blue color is for for lines labeled KEEP and red color is for lines labeled THROW_AWAY. As you can see, the distribution of blue vs red is not the same at all as the LBD value increases (hence LBD being a good discriminator, see &lt;a href=&#34;https://www.labri.fr/perso/lsimon/glucose/&#34;&gt;glucose&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;You can also visualize correlations:&lt;/p&gt;
+
+&lt;figure class=&#34;wp-block-image&#34;&gt;&lt;img src=&#34;https://www.msoos.org/wordpress/wp-content/uploads/2019/06/weka2-1024x902.png&#34; alt=&#34;&#34; class=&#34;wp-image-3307&#34; srcset=&#34;https://www.msoos.org/wordpress/wp-content/uploads/2019/06/weka2-1024x902.png 1024w, https://www.msoos.org/wordpress/wp-content/uploads/2019/06/weka2-300x264.png 300w, https://www.msoos.org/wordpress/wp-content/uploads/2019/06/weka2-768x677.png 768w, https://www.msoos.org/wordpress/wp-content/uploads/2019/06/weka2.png 1118w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/figure&gt;
+
+&lt;p&gt;You can also build classifiers based on this labeled data. Just don&amp;#8217;t forget to delete the &amp;#8220;sum_cl_use.*&amp;#8221; features, as they are not really features, they are data from the proof verification. If you don&amp;#8217;t delete them, Weka will cheat and use them in the classifier, which is like using the solution key during the exam :) Let&amp;#8217;s create a classifier using Weka:&lt;/p&gt;
+
+&lt;figure class=&#34;wp-block-image&#34;&gt;&lt;img src=&#34;https://www.msoos.org/wordpress/wp-content/uploads/2019/06/weka3-good-1-1024x902.png&#34; alt=&#34;&#34; class=&#34;wp-image-3310&#34; srcset=&#34;https://www.msoos.org/wordpress/wp-content/uploads/2019/06/weka3-good-1-1024x902.png 1024w, https://www.msoos.org/wordpress/wp-content/uploads/2019/06/weka3-good-1-300x264.png 300w, https://www.msoos.org/wordpress/wp-content/uploads/2019/06/weka3-good-1-768x676.png 768w, https://www.msoos.org/wordpress/wp-content/uploads/2019/06/weka3-good-1.png 1116w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/figure&gt;
+
+&lt;p&gt;This shows a &lt;a href=&#34;https://en.wikipedia.org/wiki/Confusion_matrix&#34;&gt;confusion matrix&lt;/a&gt; at the bottom. Nice. Total misclassification was 18% using the &lt;a href=&#34;https://en.wikipedia.org/wiki/C4.5_algorithm&#34;&gt;J48 decision tree&lt;/a&gt; algorithm with some minor tuning.  Here is such an example decision tree (&lt;a href=&#34;http://www.msoos.org/wordpress/wp-content/uploads/2019/06/x-should_keep_short_conf4_cluster0.pdf&#34;&gt;PDF here&lt;/a&gt;):&lt;/p&gt;
+
+&lt;figure class=&#34;wp-block-image&#34;&gt;&lt;img src=&#34;https://www.msoos.org/wordpress/wp-content/uploads/2019/06/decision_tree2-1024x280.png&#34; alt=&#34;&#34; class=&#34;wp-image-3335&#34; srcset=&#34;https://www.msoos.org/wordpress/wp-content/uploads/2019/06/decision_tree2-1024x280.png 1024w, https://www.msoos.org/wordpress/wp-content/uploads/2019/06/decision_tree2-300x82.png 300w, https://www.msoos.org/wordpress/wp-content/uploads/2019/06/decision_tree2-768x210.png 768w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/figure&gt;
+
+&lt;p&gt;Weka is great in many ways, and I will forever be indebted to it. However, it&amp;#8217;s just not gonna cut it for us. We need something a &lt;em&gt;lot&lt;/em&gt; faster, and we need to be able to automate it and we need to be able to get C++ code out. Weka could do some of these, but I&amp;#8217;m not a Java programmer, and Weka&amp;#8217;s speed is nowhere near that of &lt;a href=&#34;https://scikit-learn.org/stable/index.html&#34;&gt;scikit-learn&lt;/a&gt;. However, if it&amp;#8217;s your first time doing machine learning, Weka is an amazing tool.&lt;/p&gt;
+
+&lt;h2&gt;Training a Classifier Using scikit-learn&lt;/h2&gt;
+
+&lt;p&gt;Now that we have labeled training data, we need to create a classifier so that the solver, during running, can take the features it knows and guess the label KEEP or THROW_AWAY. There are many-many different classifiers that can be trained, and I have tried the most important ones, such as &lt;a href=&#34;https://en.wikipedia.org/wiki/Logistic_regression&#34;&gt;logistic regression,&lt;/a&gt; &lt;a href=&#34;https://en.wikipedia.org/wiki/Support-vector_machine&#34;&gt;SVM&lt;/a&gt;, &lt;a href=&#34;https://en.wikipedia.org/wiki/Decision_tree&#34;&gt;decision trees&lt;/a&gt; and &lt;a href=&#34;https://en.wikipedia.org/wiki/Random_forest&#34;&gt;random forests&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Let me pause here for a moment. If you haven&amp;#8217;t done machine learning before, you might think &amp;#8212; &lt;em&gt;this&lt;/em&gt; is where the magic is. The classifier is where it&amp;#8217;s at! And if you have done machine learning before, you know full well, it&amp;#8217;s not here &lt;em&gt;at all&lt;/em&gt;. It turns out that the quality and quantity of your data is way more important than the classifier you choose. It&amp;#8217;s relatively easy to see why. If your data is messy, incorrect, or missing elements, no matter what classifier you use, no matter how amazing it is, it will give you bad results. Bad data, bad results. Every. Single. Time. Keep this in mind.&lt;/p&gt;
+
+&lt;p&gt;So, we have chosen our classifier, say, &lt;em&gt;decision trees&lt;/em&gt;. Decision trees are easy to visualize, and you will need to debug the hell out of this, so it comes handy. After all, nobody wrote 1000 lines of python and it came out perfect the first time.&lt;/p&gt;
+
+&lt;p&gt;Now, there are still some things to deal with. First, we cannot possibly use all 200+ features in our prediction. We can generate the tables, but we need to be reasonable, and cut down the features to something much smaller, say, 20, during the running of the solver. &lt;a href=&#34;https://machinelearningmastery.com/feature-selection-in-python-with-scikit-learn/&#34;&gt;To do that&lt;/a&gt;, we create a large random forest and then check which features were picked by the most trees. That gives us feature ranking (thanks to Raghav Kulkarni for this trick):&lt;/p&gt;
+
+&lt;pre class=&#34;wp-block-preformatted&#34;&gt;../predict.py &#34;mydata-min.db-short-conf-0.dat&#34; --name short
+[...]
+Feature ranking:
+1 rdb0.used_for_uip_creation 0.1070
+2 rdb0.last_touched_diff     0.0723
+3 rdb0.act_ranking           0.0694
+4 rdb0.activity_rel          0.0644
+5 rdb0.sum_uip1_used         0.0641&lt;/pre&gt;
+
+&lt;p&gt;So the top 5 features for this particular run are these. For different instances or different configurations, the top features may differ, and you probably want to sample X number of labeled training example from each problem, put it in a large data file and then run the feature ranking. &lt;/p&gt;
+
+&lt;p&gt;There are still some minor obstacles to overcome. Since about 95% of the clauses need to be thrown away, our labels will be very unbalanced. So we need to balance that. Also, how aggressive do we want to be with throwing clauses away? Should we err on the side of caution? Note that this is not about labeling anymore. The label has already been chosen. It&amp;#8217;s about guessing the label. We are now tuning what&amp;#8217;s called the &lt;a href=&#34;https://en.wikipedia.org/wiki/Confusion_matrix&#34;&gt;confusion matrix&lt;/a&gt;:&lt;/p&gt;
+
+&lt;pre class=&#34;wp-block-preformatted&#34;&gt;X          label     label
+           KEEP      THROW_AWAY
+
+guessed    0.80      0.20
+KEEP
+
+guessed    0.05      0.95
+THROW_AWAY&lt;/pre&gt;
+
+&lt;p&gt;Here, we have 80% of things that we labeled as KEEP actually being guessed to be kept, while 20% of them are wrongly guessed as THROW_AWAY. So it&amp;#8217;s kinda okay. We are better at guessing if something needs to be thrown away, though, there we only guess 5% of them wrongly. Maybe this a good balance, but if not, it can be changed as a &lt;a href=&#34;https://scikit-learn.org/stable/modules/generated/sklearn.utils.class_weight.compute_class_weight.html&#34;&gt;weight parameter.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The system can also classify clauses into different types, using &lt;a href=&#34;https://en.wikipedia.org/wiki/K-means_clustering&#34;&gt;K-means clustering&lt;/a&gt;. Then it can train a different classifier for each clause type. The K-means clustering uses the already denormalized features, so it&amp;#8217;s really trivial to do, though which features should be used for the clustering is a good question. I currently use the CNF features only (e.g. number of clauses, variables, ratio of vars/clauses, etc.), thereby clustering problems rather than clauses. One could could use any set of features though, it&amp;#8217;s all automatic, including C++ code generation.&lt;/p&gt;
+
+&lt;p&gt;Actually, the C++ code generation. The system produces C++ code for decision trees, random forests and K-means clustering, ready for it to be compiled into the final executable. We have now created our clustering and classifier, and it&amp;#8217;s all in C++ code. Let&amp;#8217;s run it!&lt;/p&gt;
+
+&lt;h2&gt;The Final Solver&lt;/h2&gt;
+
+&lt;p&gt;This is the most fun part. And the cumulative effort of a lot of work. It&amp;#8217;s really interesting to see all those thousands of lines of C++ and python churning out gigabytes of data, being boiled down to juts a few hundred lines of automatically generated if-then-else statements, running during solving. But there it is.&lt;/p&gt;
+
+&lt;p&gt;Let me talk about the good parts first. It&amp;#8217;s very fast at evaluating whether to keep or throw away a clause. You don&amp;#8217;t even notice it running. It doesn&amp;#8217;t use much more memory than normal CryptoMiniSat (i.e. a few features were enough), and it correctly guesses the cluster where a clause belongs. It also guesses the labels correctly with very high probability. The final solver beats every solver from 2018 on the SAT competition 2014-17 instances.&lt;/p&gt;
+
+&lt;p&gt;Another great thing is that this system can be used to &lt;em&gt;automatically train for&lt;/em&gt; &lt;em&gt;specific problem types&lt;/em&gt;. This can be very significant in industry, where the instances are similar and training for a particular type of instance would make a lot of sense. Since this system tunes to the data it&amp;#8217;s given, if it&amp;#8217;s given data only about a particular type of instances, it will tune to them only, making the solver particularly good at them.&lt;/p&gt;
+
+&lt;p&gt;There is a bad part too, though: the built-in, rather sophisticated heuristic of keeping or throwing away clauses beats the system built. This makes me very sad, but some things make me hopeful. Firstly, the data is probably still messy. There are probably some bugs here and there, where some of the data gathered is not reliable. Secondly, the labeling is very-very rudimentary. If you have a look at that CASE statement above, it&amp;#8217;s laughingly simple. Finally, the normal heuristic is quite smart, keeping some (simple) information about clauses, i.e. keeping some state over time, which the current machine learning system cannot do &amp;#8212; the classifier has no memory.&lt;/p&gt;
+
+&lt;h2&gt;Conclusions&lt;/h2&gt;
+
+&lt;p&gt;This project, going back over 6 years, has been a though one. All in all, it must have costed about 2 full years of work. A sane researcher would have abandoned it after about 2 weeks. In fact, we had a reviewer rejecting the paper, claiming that this work could be done in 2 weeks by her/his PhD student (I love such reviews). I sometimes wonder how much that PhD student charges for their time, because I might just pay it if they are &lt;em&gt;that good&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Maybe we did the wrong thing, keeping going for so many years, but I think this could be a foundation of something much more interesting. It could be used not only to create machine learning models, but also to understand SAT solvers. With so much data at hand, we could finally understand some of the behavior of solvers, perhaps leading to some interesting ideas. And the data could be used for many other machine learning systems, too: guessing when to restart, guessing which variable to branch on, etc.&lt;/p&gt;
+
+&lt;h2&gt;Build and Use Instructions&lt;/h2&gt;
+
+&lt;pre class=&#34;wp-block-preformatted&#34;&gt;# prerequisites on a modern Debian/Ubuntu installation
+sudo apt-get install build-essential cmake git
+sudo apt-get install zlib1g-dev libsqlite3-dev
+sudo apt-get install libboost-program-options-dev 
+sudo apt-get install python3-pip
+sudo pip3 install sklearn pandas numpy lit matplotlib
+
+# getting the code
+git clone https://github.com/msoos/cryptominisat
+cd cryptominisat
+git checkout crystalball
+git submodule update --init
+mkdir build &amp;amp;&amp;amp; cd build
+ln -s ../scripts/crystal/* .
+ln -s ../scripts/build_scripts/* .
+
+# Let&#39;s get an unsatisfiable CNF
+wget https://www.msoos.org/largefiles/goldb-heqc-i10mul.cnf.gz
+gunzip goldb-heqc-i10mul.cnf.gz
+
+# Gather the data, denormalize, label, output CSV,
+# create the classifier, generate C++,
+# and build the final SAT solver
+./ballofcrystal.sh --csv goldb-heqc-i10mul.cnf
+[...compilations and the full data pipeline...]
+
+# let&#39;s use our newly built tool
+# we are using configuration number short:3 long:3
+./cryptominisat5 --predshort 3 --predlong 3 goldb-heqc-i10mul.cnf
+[ ... ]
+s UNSATISFIABLE
+
+# Let&#39;s look at the data
+cd goldb-heqc-i10mul.cnf-dir
+sqlite3 mydata.db
+sqlite&amp;gt; select count() from sum_cl_use;
+94507&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Knowledge Compilation meets Uniform Sampling</title>
       <link>/post/kus/</link>
       <pubDate>Fri, 03 May 2019 11:06:17 +0530</pubDate>
@@ -182,15 +450,6 @@ Our experiments demonstrated that KUS outperformed both SPUR and UniGen2 state-o
       <pubDate>Mon, 11 Feb 2019 00:00:00 +0800</pubDate>
       
       <guid>/news/11022019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Paper on network reliability is accepted to &lt;a href=&#34;https://www.icasp13.snu.ac.kr/&#34;&gt;The 13th International Conference on Applications of Statistics and Probability in Civil Engineering &lt;/a&gt; Authors: Roger Paredes, Leonardo Duenas-Osorio, Kuldeep S. Meel, and Moshe Y. Vardi.</title>
-      <link>/news/02022019/</link>
-      <pubDate>Sat, 02 Feb 2019 00:00:00 +0800</pubDate>
-      
-      <guid>/news/02022019/</guid>
       <description></description>
     </item>
     

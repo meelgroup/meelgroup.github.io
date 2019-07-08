@@ -13,6 +13,16 @@
     
     
     <item>
+      <title>CrystalBall: SAT solving, Data Gathering, and Machine Learning</title>
+      <link>/post/crystalball/</link>
+      <pubDate>Fri, 03 May 2019 11:06:17 +0530</pubDate>
+      
+      <guid>/post/crystalball/</guid>
+      <description>This post compiles many years of work, done by numerous resarchers. The research paper for CrystalBall is available here (accepted to SAT&amp;#8217;2019) and the code is available here. Build instructions are at the bottom of the post. Part 2 will deal with exploring the data in more detail.
+I always had a fascination with data when it comes to SAT solving. My SAT solver, CryptoMiniSat always had very detailed stats printed to the console.</description>
+    </item>
+    
+    <item>
       <title>Knowledge Compilation meets Uniform Sampling</title>
       <link>/post/kus/</link>
       <pubDate>Fri, 03 May 2019 11:06:17 +0530</pubDate>

@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 07 Jul 2019 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 03 May 2019 11:06:17 +0530</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Machine learning</title>
+      <link>/tags/machine-learning/</link>
+      <pubDate>Fri, 03 May 2019 11:06:17 +0530</pubDate>
+      
+      <guid>/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SQL</title>
+      <link>/tags/sql/</link>
+      <pubDate>Fri, 03 May 2019 11:06:17 +0530</pubDate>
+      
+      <guid>/tags/sql/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Sampling-and-counting</title>
@@ -18,6 +36,15 @@
       <pubDate>Sun, 07 Jul 2019 00:00:00 +0800</pubDate>
       
       <guid>/tags/sampling-and-counting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visualisation</title>
+      <link>/tags/visualisation/</link>
+      <pubDate>Fri, 03 May 2019 11:06:17 +0530</pubDate>
+      
+      <guid>/tags/visualisation/</guid>
       <description></description>
     </item>
     
