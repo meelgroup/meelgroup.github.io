@@ -11,6 +11,24 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>ApproxMC</title>
+      <link>/software/approxmc/</link>
+      <pubDate>Tue, 09 Jul 2019 00:00:00 +0800</pubDate>
+      
+      <guid>/software/approxmc/</guid>
+      <description>&lt;p&gt;ApproxMC is a hashing-based algorithm for approximate discrete integration over finite domains and provides ($\epsilon$,$\delta$) guarantees. This implementation handles the case when the function is implicitely defined by SAT formula. To the best of our knowledge, the current implementation has the best runtime performance among approximate counting algorithms. We are actively improving algorithm as well as implementation and would love to hear your feedback.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Relevant Papers:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.comp.nus.edu.sg/~meel/Papers/ijcai16_counting.pdf&#34; title=&#34;IJCAI 2016&#34; target=&#34;_blank&#34;&gt;IJCAI 2016&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.comp.nus.edu.sg/~meel/Papers/constraints16.pdf&#34; title=&#34;Constraints 2016&#34; target=&#34;_blank&#34;&gt;Constraints 2016&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.comp.nus.edu.sg/~meel/Papers/CP2013.pdf&#34; title=&#34;CP 2013&#34; target=&#34;_blank&#34;&gt;CP 2013&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>CrystalBall</title>
       <link>/software/crystalball/</link>
       <pubDate>Sun, 07 Jul 2019 00:00:00 +0800</pubDate>
@@ -22,6 +40,24 @@
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.msoos.org/wordpress/wp-content/uploads/2019/06/sat19-skm.pdf&#34; title=&#34;SAT 2019&#34; target=&#34;_blank&#34;&gt;SAT 2019&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>UniGen</title>
+      <link>/software/unigen/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/software/unigen/</guid>
+      <description>&lt;p&gt;UniGen is a hashing-based algorithm to generate uniform samples subject to given set of constraints. The primary application of UniGen is in random stimuli generation for hardware and software verification. The current version of the tool has been developed over the years and is parallelizable without losing theoretical guarantees.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Relevant Papers:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.comp.nus.edu.sg/~meel/Papers/Tacas15.pdf&#34; title=&#34;TACAS 2015&#34; target=&#34;_blank&#34;&gt;TACAS 2015&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.comp.nus.edu.sg/~meel/Papers/DAC2014.pdf&#34; title=&#34;DAC 2014&#34; target=&#34;_blank&#34;&gt;DAC 2014&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.comp.nus.edu.sg/~meel/Papers/cav13.pdf&#34; title=&#34;CAV 2013&#34; target=&#34;_blank&#34;&gt;CAV 2013&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -173,24 +209,6 @@ Our experiments demonstrated that KUS outperformed both SPUR and UniGen2 state-o
       <pubDate>Thu, 04 Apr 2019 00:00:00 +0800</pubDate>
       
       <guid>/publication/tacas19/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Kuldeep  is appointed Visiting Assistant Professor in the  &lt;a href=&#34;https://www.cse.iitb.ac.in/&#34;&gt;Department of Computer Science and Engineering&lt;/a&gt;  at IIT Bombay.</title>
-      <link>/news/11022019/</link>
-      <pubDate>Mon, 11 Feb 2019 00:00:00 +0800</pubDate>
-      
-      <guid>/news/11022019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Paper on network reliability is accepted to &lt;a href=&#34;https://www.icasp13.snu.ac.kr/&#34;&gt;The 13th International Conference on Applications of Statistics and Probability in Civil Engineering &lt;/a&gt; Authors: Roger Paredes, Leonardo Duenas-Osorio, Kuldeep S. Meel, and Moshe Y. Vardi.</title>
-      <link>/news/02022019/</link>
-      <pubDate>Sat, 02 Feb 2019 00:00:00 +0800</pubDate>
-      
-      <guid>/news/02022019/</guid>
       <description></description>
     </item>
     

@@ -5,8 +5,26 @@
     
     <url>
     
+      <loc>/software/approxmc/</loc>
+      <lastmod>2019-07-09T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/software/crystalball/</loc>
       <lastmod>2019-07-07T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/software/unigen/</loc>
+      <lastmod>2019-07-01T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -464,26 +482,8 @@
     
     <url>
     
-      <loc>/software/unigen/</loc>
-      <lastmod>2013-07-13T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/publication/cav13/</loc>
       <lastmod>2013-07-01T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/software/approxmc/</loc>
-      <lastmod>2013-05-20T00:00:00+08:00</lastmod>
     </url>
     
   
@@ -561,7 +561,7 @@
     <url>
     
       <loc>/tags/sampling-and-counting/</loc>
-      <lastmod>2019-07-07T00:00:00+08:00</lastmod>
+      <lastmod>2019-07-09T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -571,7 +571,7 @@
     <url>
     
       <loc>/software/</loc>
-      <lastmod>2019-07-07T00:00:00+08:00</lastmod>
+      <lastmod>2019-07-09T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -581,7 +581,7 @@
     <url>
     
       <loc>/tags/</loc>
-      <lastmod>2019-07-07T00:00:00+08:00</lastmod>
+      <lastmod>2019-07-09T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     

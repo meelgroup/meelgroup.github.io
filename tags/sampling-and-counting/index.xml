@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 07 Jul 2019 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jul 2019 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="/tags/sampling-and-counting/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ApproxMC</title>
+      <link>/software/approxmc/</link>
+      <pubDate>Tue, 09 Jul 2019 00:00:00 +0800</pubDate>
+      
+      <guid>/software/approxmc/</guid>
+      <description>ApproxMC is a hashing-based algorithm for approximate discrete integration over finite domains and provides ($\epsilon$,$\delta$) guarantees. This implementation handles the case when the function is implicitely defined by SAT formula. To the best of our knowledge, the current implementation has the best runtime performance among approximate counting algorithms. We are actively improving algorithm as well as implementation and would love to hear your feedback.
+Relevant Papers:
+ IJCAI 2016 Constraints 2016 CP 2013  </description>
+    </item>
     
     <item>
       <title>CrystalBall</title>
@@ -19,6 +30,17 @@
       
       <guid>/software/crystalball/</guid>
       <description>Boolean satisfiability is a fundamental problem in computerscience with a wide range of applications including planning, configurationmanagement, design and verification of software/hardware systems. Modern SAT solvers achieve scalability and ro-bustness with sophisticated heuristics that are challenging to understandand explain. We propose to view modern conflict-driven clause learning (CDCL) solvers as a composition of classifiers and regressors for different tasks such as branching, clause memory management, and restarting. The current version of CrystalBall focuses on deriving a classifier to keep or throw away a learned clause.</description>
+    </item>
+    
+    <item>
+      <title>UniGen</title>
+      <link>/software/unigen/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/software/unigen/</guid>
+      <description>UniGen is a hashing-based algorithm to generate uniform samples subject to given set of constraints. The primary application of UniGen is in random stimuli generation for hardware and software verification. The current version of the tool has been developed over the years and is parallelizable without losing theoretical guarantees.
+Relevant Papers:
+ TACAS 2015 DAC 2014 CAV 2013  </description>
     </item>
     
     <item>
@@ -72,28 +94,6 @@ Relevant Papers:
       <description>WeightMC is hashing-based algorithm for weighted counting (discrete integration) over Boolean domains. It takes a CNF formula and weight function as inputs and returns weighted count. In contrast to previous attempts to develop weighted counting that rely on use of Optimization oracles, WeightMC only uses feasibility oracle. A simple reworking of this algorithm was used by Belle et al to predicate delays in UK transportation network.
 Relevant Papers:
  AAAI 2014  </description>
-    </item>
-    
-    <item>
-      <title>UniGen</title>
-      <link>/software/unigen/</link>
-      <pubDate>Sat, 13 Jul 2013 00:00:00 +0000</pubDate>
-      
-      <guid>/software/unigen/</guid>
-      <description>UniGen is a hashing-based algorithm to generate uniform samples subject to given set of constraints. The primary application of UniGen is in random stimuli generation for hardware and software verification. The current version of the tool has been developed over the years and is parallelizable without losing theoretical guarantees.
-Relevant Papers:
- TACAS 2015 DAC 2014 CAV 2013  </description>
-    </item>
-    
-    <item>
-      <title>ApproxMC</title>
-      <link>/software/approxmc/</link>
-      <pubDate>Mon, 20 May 2013 00:00:00 +0800</pubDate>
-      
-      <guid>/software/approxmc/</guid>
-      <description>ApproxMC is a hashing-based algorithm for approximate discrete integration over finite domains and provides ($\epsilon$,$\delta$) guarantees. This implementation handles the case when the function is implicitely defined by SAT formula. To the best of our knowledge, the current implementation has the best runtime performance among approximate counting algorithms. We are actively improving algorithm as well as implementation and would love to hear your feedback.
-Relevant Papers:
- IJCAI 2016 Constraints 2016 CP 2013  </description>
     </item>
     
   </channel>
