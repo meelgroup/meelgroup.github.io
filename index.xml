@@ -6,13 +6,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Tue, 09 Jul 2019 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jul 2019 00:00:00 +0530</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>ApproxMC</title>
       <link>/software/approxmc/</link>
-      <pubDate>Tue, 09 Jul 2019 00:00:00 +0800</pubDate>
+      <pubDate>Tue, 09 Jul 2019 00:00:00 +0530</pubDate>
       
       <guid>/software/approxmc/</guid>
       <description>&lt;p&gt;ApproxMC is a hashing-based algorithm for approximate discrete integration over finite domains and provides ($\epsilon$,$\delta$) guarantees. This implementation handles the case when the function is implicitely defined by SAT formula. To the best of our knowledge, the current implementation has the best runtime performance among approximate counting algorithms. We are actively improving algorithm as well as implementation and would love to hear your feedback.&lt;/p&gt;
@@ -30,7 +30,7 @@
     <item>
       <title>CrystalBall</title>
       <link>/software/crystalball/</link>
-      <pubDate>Sun, 07 Jul 2019 00:00:00 +0800</pubDate>
+      <pubDate>Sun, 07 Jul 2019 00:00:00 +0530</pubDate>
       
       <guid>/software/crystalball/</guid>
       <description>&lt;p&gt;Boolean satisfiability is a fundamental problem in computerscience with a wide range of applications including planning, configurationmanagement, design and verification of software/hardware systems. Modern SAT solvers achieve scalability and ro-bustness with sophisticated heuristics that are challenging to understandand explain. We propose to view modern conflict-driven clause learning (CDCL) solvers as a composition of classifiers and regressors for different tasks such as branching, clause memory management, and restarting. The current version of CrystalBall focuses on deriving a classifier to keep or throw away a learned clause. In a departure from recent machine learning based techniques, CrystalBall employs supervised learning anduses extensive, multi-gigabyte data extracted from runs of a single SAT solver to perform predictive analytics. Read this &lt;a href=&#34;https://www.msoos.org/2019/06/crystalball-sat-solving-data-gathering-and-machine-learning/&#34; target=&#34;_blank&#34;&gt;blog post&lt;/a&gt; for more details.&lt;/p&gt;
@@ -64,7 +64,7 @@
     <item>
       <title> Interpretable Classification Rules in Relaxed Logical Form </title>
       <link>/publication/ijcai19_irr/</link>
-      <pubDate>Sun, 23 Jun 2019 00:00:00 +0800</pubDate>
+      <pubDate>Sun, 23 Jun 2019 00:00:00 +0530</pubDate>
       
       <guid>/publication/ijcai19_irr/</guid>
       <description></description>
@@ -73,16 +73,32 @@
     <item>
       <title>Our paper on &lt;a href= &#34;https://bishwamittra.github.io/publication/irr-ghosh.pdf&#34;&gt;interpretable rules expressed as relaxed-CNF&lt;/a&gt; is accepted at IJCAI workshop on XAI (Explainable Artificial Intelligence) and DSO (Data Science meets Optimization), 2019. Authors: Bishwamittra Ghosh, Dmitry Malioutov, Kuldeep S. Meel.</title>
       <link>/news/23062019/</link>
-      <pubDate>Sun, 23 Jun 2019 00:00:00 +0800</pubDate>
+      <pubDate>Sun, 23 Jun 2019 00:00:00 +0530</pubDate>
       
       <guid>/news/23062019/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>GANAK</title>
+      <link>/software/ganak/</link>
+      <pubDate>Sat, 15 Jun 2019 00:00:00 +0530</pubDate>
+      
+      <guid>/software/ganak/</guid>
+      <description>&lt;p&gt;Given a Boolean formula $F$, the problem of  model counting, also referred to as #SAT, seeks to compute the number of solutions of $F$. Model counting is a fundamental problem with a wide variety of applications ranging from planning, quantified information flow to probabilistic reasoning and the like. The modern #SAT solvers tend to be either based on static decomposition, dynamic decomposition, or a hybrid of the two. Despite dynamic decomposition based #SAT solvers sharing much of their architecture with SAT solvers, the core design and heuristics of dynamic decomposition-based #SAT solvers has remained constant for over a decade. In this paper, we revisit the architecture of the state-of-the-art dynamic decomposition-based #SAT tool, sharpSAT, and demonstrate that by introducing a new notion of probabilistic component caching and the usage of universal hashing for exact model counting along with the development of several new heuristics can lead to significant performance improvement over state-of-the-art model-counters. In particular, we develop GANAK, a new scalable probabilistic exact model counter that outperforms state-of-the-art exact and approximate model counters sharpSAT and ApproxMC3 respectively, both in terms of PAR-2 score and the number of instances solved. Furthermore, in our experiments, the model count returned by GANAK was equal to the exact model count for all the benchmarks. Finally, we observe that recently proposed preprocessing techniques for model counting benefit exact model counters while hurting the performance of approximate model counters.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Relevant Papers:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.comp.nus.edu.sg/~meel/Papers/ijcai19srsm.pdf&#34; title=&#34;IJCAI 2019&#34; target=&#34;_blank&#34;&gt;IJCAI 2019&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Network Reliability Estimation in Theory and Practice </title>
       <link>/publication/ress/</link>
-      <pubDate>Sat, 01 Jun 2019 00:00:00 +0800</pubDate>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0530</pubDate>
       
       <guid>/publication/ress/</guid>
       <description></description>
@@ -91,7 +107,7 @@
     <item>
       <title>GANAK: A Scalable Probabilistic Exact Model Counter</title>
       <link>/publication/ijcai19_ganak/</link>
-      <pubDate>Tue, 21 May 2019 00:00:00 +0800</pubDate>
+      <pubDate>Tue, 21 May 2019 00:00:00 +0530</pubDate>
       
       <guid>/publication/ijcai19_ganak/</guid>
       <description></description>
@@ -100,7 +116,7 @@
     <item>
       <title>Phase Transition Behavior of Cardinality and XOR Constraints  </title>
       <link>/publication/ijcai19_cardxor/</link>
-      <pubDate>Mon, 20 May 2019 00:00:00 +0800</pubDate>
+      <pubDate>Mon, 20 May 2019 00:00:00 +0530</pubDate>
       
       <guid>/publication/ijcai19_cardxor/</guid>
       <description></description>
@@ -109,7 +125,7 @@
     <item>
       <title>Kuldeep recieved notification of the award of &lt;a href= &#34;https://www.nrf.gov.sg/funding-grants/nrf-fellowship-for-artificial-intelligence&#34;&gt; NRF Fellowship for AI &lt;/a&gt; for the project: Provably Verified and Explainable Probabilistic Reasoning.</title>
       <link>/news/15052019/</link>
-      <pubDate>Wed, 15 May 2019 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 15 May 2019 00:00:00 +0530</pubDate>
       
       <guid>/news/15052019/</guid>
       <description></description>
@@ -118,7 +134,7 @@
     <item>
       <title>Two papers accepted to IJCAI.The first paper explores the phase transition behavior of conjunction of cardinality and XOR constraints. Authors: Yash Pote, Saurabh Joshi, Kuldeep Meel.&lt;br&gt; The second paper describes a radically new approach to exact counting wherein we compute estimates that are probabilistically exact! Authors: Shubham Sharma, Kuldeep Meel. Combined with our invited paper on &lt;a href= &#34;https://www.comp.nus.edu.sg/~meel/Papers/CP2018msv.pdf&#34;&gt; #DNF &lt;/a&gt;, this makes 3 papers that we will be presenting at IJCAI.</title>
       <link>/news/09052019/</link>
-      <pubDate>Thu, 09 May 2019 00:00:00 +0800</pubDate>
+      <pubDate>Thu, 09 May 2019 00:00:00 +0530</pubDate>
       
       <guid>/news/09052019/</guid>
       <description></description>
@@ -127,7 +143,7 @@
     <item>
       <title>Assessing Heuristic Machine Learning Explanations with Model Counting  </title>
       <link>/publication/sat19_heu/</link>
-      <pubDate>Sun, 05 May 2019 00:00:00 +0800</pubDate>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0530</pubDate>
       
       <guid>/publication/sat19_heu/</guid>
       <description></description>
@@ -136,7 +152,7 @@
     <item>
       <title>CrystalBall: Gazing in the Black Box of SAT Solving </title>
       <link>/publication/sat19_cball/</link>
-      <pubDate>Sun, 05 May 2019 00:00:00 +0800</pubDate>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0530</pubDate>
       
       <guid>/publication/sat19_cball/</guid>
       <description></description>
@@ -196,18 +212,9 @@ Our experiments demonstrated that KUS outperformed both SPUR and UniGen2 state-o
     <item>
       <title>Two papers accepted to SAT 2019. The first paper introduces the first version of CrystalBall, a framework intended to allow gazing into the black box of SAT solving. Authors: Kuldeep, Mate Soos, Raghav Kulkarni.&lt;br&gt; The second paper discusses how model counting can be used to analyze explanations provided by tools such as ANCHOR. Authors: Kuldeep, Nina Narodytska, Aditya Shrotri, Alexey Ignatiev, and Joao Marques Silva.</title>
       <link>/news/22042019/</link>
-      <pubDate>Mon, 22 Apr 2019 00:00:00 +0800</pubDate>
+      <pubDate>Mon, 22 Apr 2019 00:00:00 +0530</pubDate>
       
       <guid>/news/22042019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>WAPS: Weighted and Projected Sampling </title>
-      <link>/publication/tacas19/</link>
-      <pubDate>Thu, 04 Apr 2019 00:00:00 +0800</pubDate>
-      
-      <guid>/publication/tacas19/</guid>
       <description></description>
     </item>
     
