@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.55.6" />
+  <meta name="author" content="MeelGroup">
+
+  
+  
+  
+  
+    
+      
+    
+  
+  <meta name="description" content="This blogpost and its underlying work has been brewing for many years, and I&#8217;m extremely happy to be able to share it with you now. Kuldeep Meel and myself have been working very hard on speeding up approximate model counting for SAT and I think we have made real progress. The research paper, accepted at AAAI-19 is available here. The code is available here (release with static binary here). The main result is that we can solve a lot more problems than before.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/post/approxmcv3/">
+
+  
+
+
+  
+
+  
+  
+  <meta name="theme-color" content="#0095eb">
+  
+  
+  
+  
+    
+  
+  
+    
+    
+      
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+      
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+  
+  
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
+  
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="MeelGroup">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="MeelGroup">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/post/approxmcv3/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="MeelGroup">
+  <meta property="og:url" content="/post/approxmcv3/">
+  <meta property="og:title" content="ApproxMCv3: A modern approximate model counter | MeelGroup">
+  <meta property="og:description" content="This blogpost and its underlying work has been brewing for many years, and I&#8217;m extremely happy to be able to share it with you now. Kuldeep Meel and myself have been working very hard on speeding up approximate model counting for SAT and I think we have made real progress. The research paper, accepted at AAAI-19 is available here. The code is available here (release with static binary here). The main result is that we can solve a lot more problems than before.">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2019-05-03T11:06:17&#43;05:30">
+  
+  <meta property="article:modified_time" content="2019-05-03T11:06:17&#43;05:30">
+  
+
+  
+  
+
+  <title>ApproxMCv3: A modern approximate model counter | MeelGroup</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/">MeelGroup</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#research">
+            
+            <span>Research</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#publications">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#posts">
+            
+            <span>Posts</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#news">
+            
+            <span>News</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#projects">
+            
+            <span>Software</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#people">
+            
+            <span>People</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#openings">
+            
+            <span>Openings</span>
+            
+          </a>
+        </li>
+
+        
+        
+      
+
+      
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+  <div class="article-container">
+    <h1 itemprop="name">ApproxMCv3: A modern approximate model counter</h1>
+
+    
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2019-05-03 11:06:17 &#43;0530 &#43;0530" itemprop="datePublished dateModified">
+      May 3, 2019
+    </time>
+  </span>
+  <span itemscope itemprop="author publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="MeelGroup">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    5 min read
+  </span>
+  
+
+  
+  
+
+  
+  
+  
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=ApproxMCv3%3a%20A%20modern%20approximate%20model%20counter&amp;url=https://meelgroup.github.io%2fpost%2fapproxmcv3%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https://meelgroup.github.io%2fpost%2fapproxmcv3%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://meelgroup.github.io%2fpost%2fapproxmcv3%2f&amp;title=ApproxMCv3%3a%20A%20modern%20approximate%20model%20counter"
+         target="_blank" rel="noopener">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=ApproxMCv3%3a%20A%20modern%20approximate%20model%20counter&amp;body=https://meelgroup.github.io%2fpost%2fapproxmcv3%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+
+    <div class="article-style" itemprop="articleBody">
+      <p>This blogpost and its underlying work has been brewing for many years, and I&#8217;m extremely happy to be able to share it with you now. Kuldeep Meel and myself have been working very hard on speeding up approximate model counting for SAT and I think we have made real progress. The research paper, accepted at AAAI-19 is available <a href="https://www.comp.nus.edu.sg/~meel/Papers/aaai19-sm.pdf">here</a>. The code is available <a href="https://github.com/meelgroup/ApproxMC">here</a> (release with static binary <a href="https://github.com/meelgroup/ApproxMC/releases">here</a>). The main result is that we can solve a <strong>lot</strong> more problems than before. The speed of solving is orders(!) of magnitude faster than the previous best system:</p>
+<p><img class="size-full wp-image-3214 aligncenter" src="http://www.msoos.org/wordpress/wp-content/uploads/2018/11/Screenshot_20181125_202611.png" alt="" width="1202" height="740" srcset="https://www.msoos.org/wordpress/wp-content/uploads/2018/11/Screenshot_20181125_202611.png 1202w, https://www.msoos.org/wordpress/wp-content/uploads/2018/11/Screenshot_20181125_202611-300x185.png 300w, https://www.msoos.org/wordpress/wp-content/uploads/2018/11/Screenshot_20181125_202611-768x473.png 768w, https://www.msoos.org/wordpress/wp-content/uploads/2018/11/Screenshot_20181125_202611-1024x630.png 1024w" sizes="(max-width: 1202px) 100vw, 1202px" /></p>
+<h3>Background</h3>
+<p>The idea of approximate model counting, originally <a href="https://arxiv.org/pdf/1306.5726">by Chakraborty, Meel and Vardi</a> was a huge hit back in 2013, and many papers have followed it, trying to improve its results. All of them were basically tied to <a href="https://github.com/msoos/cryptominisat">CryptoMiniSat</a>, the SAT solver that I maintain, as all of them relied on XOR constraints being added to the regular CNF of a typical SAT problem.</p>
+<p>So it made sense to examine what CryptoMiniSat could do to improve the speed of approximate counting. This time interestingly coincided with me giving up on XORs in CryptoMiniSat. The problem was the following. A lot of new in- and preprocessing systems were being invented, mostly by Armin Biere et al, and I quickly realised that I simply couldn&#8217;t keep adding them, because they didn&#8217;t take into account XOR constraints. They handled CNF just fine, but not XORs. So XORs became a burden, and I removed them in versions 3 and 4 of CryptoMiniSat. But there was need, and Kuldeep made it very clear to me that this is an exciting area. So, they had to come back.</p>
+<h3>Blast-Inprocess-Recover-Destroy</h3>
+<p>But how to both have and not have XOR constraints? Re-inventing all the algorithms for XORs was not a viable option. The solution I came up with was a rather trivial one: forget the XORs during inprocessing and recover them after. The CNF would always remain the source of truth. Extracting all the XORs after in- and preprocessing would allow me to run the Gauss-Jordan elimination on the XORs post-recovery. So I can have the cake and eat it too.</p>
+<p>The process is conceptually quite easy:</p>
+<ol>
+<li><strong>Blast</strong> all XORs into clauses that are in the input using intermediate variables. I had all the setup for this, as I was doing <a href="https://link.springer.com/chapter/10.1007%2F978-3-642-39611-3_14">Bounded Variable Addition</a>  (also by Biere et al.) so I didn&#8217;t have to write code to &#8220;hide&#8221; these additional variables.</li>
+<li><strong>Perform</strong> <strong>pre- or inprocessing</strong>. I actually only do inprocessing nowadays (as it has faster startup time). But preprocessing is just inprocessing at the start ;)</li>
+<li><strong>Recover the XORs</strong> from the CNF. There were some trivial methods around. They didn&#8217;t work as well as one would have hoped, but more on that later</li>
+<li><strong>Run the CDCL and Gauss-Jordan</strong> code at the same time.</li>
+<li><strong>Destroy the XORs</strong> and goto 2.</li>
+</ol>
+<p>This system allows for everything to be in CNF form, lifting the XORs out when necessary and then forgetting them when it&#8217;s convenient. All of these steps are rather trivial, except, as I later found out, recovery.</p>
+<h3>XOR recovery</h3>
+<p>Recovering XORs sounds like a trivial task. Let&#8217;s say we have the following clauses</p><!-- Crayon Syntax Highlighter v_2.7.2_beta -->
+
+        <div id="crayon-5d2d8a4cc360b169129534" class="crayon-syntax crayon-theme-classic crayon-font-monaco crayon-os-pc print-yes notranslate" data-settings=" no-popup minimize scroll-mouseover" style=" margin-top: 12px; margin-bottom: 12px; font-size: 12px !important; line-height: 15px !important;">
+        
+            <div class="crayon-toolbar" data-settings=" show" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><span class="crayon-title"></span>
+            <div class="crayon-tools" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><div class="crayon-button crayon-nums-button" title="Toggle Line Numbers"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-plain-button" title="Toggle Plain Code"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-wrap-button" title="Toggle Line Wrap"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-expand-button" title="Expand Code"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-copy-button" title="Copy"><div class="crayon-button-icon"></div></div></div></div>
+            <div class="crayon-info" style="min-height: 16.8px !important; line-height: 16.8px !important;"></div>
+            <div class="crayon-plain-wrap"><textarea wrap="soft" class="crayon-plain print-no" data-settings="dblclick" readonly style="-moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4; font-size: 12px !important; line-height: 15px !important;">
+ x1 V  x2 V  x3
+-x1 V -x2 V  x3
+ x1 V -x2 V -x3
+-x1 V  x2 V -x3</textarea></div>
+            <div class="crayon-main" style="">
+                <table class="crayon-table">
+                    <tr class="crayon-row">
+                <td class="crayon-nums " data-settings="show">
+                    <div class="crayon-nums-content" style="font-size: 12px !important; line-height: 15px !important;"><div class="crayon-num" data-line="crayon-5d2d8a4cc360b169129534-1">1</div><div class="crayon-num" data-line="crayon-5d2d8a4cc360b169129534-2">2</div><div class="crayon-num" data-line="crayon-5d2d8a4cc360b169129534-3">3</div><div class="crayon-num" data-line="crayon-5d2d8a4cc360b169129534-4">4</div></div>
+                </td>
+                        <td class="crayon-code"><div class="crayon-pre" style="font-size: 12px !important; line-height: 15px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="crayon-line" id="crayon-5d2d8a4cc360b169129534-1"><span class="crayon-h"> </span><span class="crayon-i">x1</span><span class="crayon-h"> </span><span class="crayon-i">V</span><span class="crayon-h">&nbsp;&nbsp;</span><span class="crayon-i">x2</span><span class="crayon-h"> </span><span class="crayon-i">V</span><span class="crayon-h">&nbsp;&nbsp;</span><span class="crayon-v">x3</span></div><div class="crayon-line" id="crayon-5d2d8a4cc360b169129534-2"><span class="crayon-o">-</span><span class="crayon-i">x1</span><span class="crayon-h"> </span><span class="crayon-v">V</span><span class="crayon-h"> </span><span class="crayon-o">-</span><span class="crayon-i">x2</span><span class="crayon-h"> </span><span class="crayon-i">V</span><span class="crayon-h">&nbsp;&nbsp;</span><span class="crayon-e">x3</span></div><div class="crayon-line" id="crayon-5d2d8a4cc360b169129534-3"><span class="crayon-e"> </span><span class="crayon-i">x1</span><span class="crayon-h"> </span><span class="crayon-v">V</span><span class="crayon-h"> </span><span class="crayon-o">-</span><span class="crayon-i">x2</span><span class="crayon-h"> </span><span class="crayon-v">V</span><span class="crayon-h"> </span><span class="crayon-o">-</span><span class="crayon-v">x3</span></div><div class="crayon-line" id="crayon-5d2d8a4cc360b169129534-4"><span class="crayon-o">-</span><span class="crayon-i">x1</span><span class="crayon-h"> </span><span class="crayon-i">V</span><span class="crayon-h">&nbsp;&nbsp;</span><span class="crayon-i">x2</span><span class="crayon-h"> </span><span class="crayon-v">V</span><span class="crayon-h"> </span><span class="crayon-o">-</span><span class="crayon-v">x3</span></div></div></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+<!-- [Format Time: 0.0095 seconds] -->
+<p>This is conceptually equivalent to the XOR v1+v2+v3=1. So recovering this is trivial, and has been done before, by Heule in particular, in his <a href="http://www.st.ewi.tudelft.nl/sat/theses/heule_phd.pdf">PhD thesis</a>. The issue with the above is the following: a stronger system than the above still implies the XOR, but doesn&#8217;t look the same. Let me give an example:</p><!-- Crayon Syntax Highlighter v_2.7.2_beta -->
+
+        <div id="crayon-5d2d8a4cc3642323236668" class="crayon-syntax crayon-theme-classic crayon-font-monaco crayon-os-pc print-yes notranslate" data-settings=" no-popup minimize scroll-mouseover" style=" margin-top: 12px; margin-bottom: 12px; font-size: 12px !important; line-height: 15px !important;">
+        
+            <div class="crayon-toolbar" data-settings=" show" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><span class="crayon-title"></span>
+            <div class="crayon-tools" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><div class="crayon-button crayon-nums-button" title="Toggle Line Numbers"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-plain-button" title="Toggle Plain Code"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-wrap-button" title="Toggle Line Wrap"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-expand-button" title="Expand Code"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-copy-button" title="Copy"><div class="crayon-button-icon"></div></div></div></div>
+            <div class="crayon-info" style="min-height: 16.8px !important; line-height: 16.8px !important;"></div>
+            <div class="crayon-plain-wrap"><textarea wrap="soft" class="crayon-plain print-no" data-settings="dblclick" readonly style="-moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4; font-size: 12px !important; line-height: 15px !important;">
+ x1 V  x2 V  x3
+-x1 V -x2 V  x3
+ x1 V -x2 V -x3
+-x1 V  x2</textarea></div>
+            <div class="crayon-main" style="">
+                <table class="crayon-table">
+                    <tr class="crayon-row">
+                <td class="crayon-nums " data-settings="show">
+                    <div class="crayon-nums-content" style="font-size: 12px !important; line-height: 15px !important;"><div class="crayon-num" data-line="crayon-5d2d8a4cc3642323236668-1">1</div><div class="crayon-num" data-line="crayon-5d2d8a4cc3642323236668-2">2</div><div class="crayon-num" data-line="crayon-5d2d8a4cc3642323236668-3">3</div><div class="crayon-num" data-line="crayon-5d2d8a4cc3642323236668-4">4</div></div>
+                </td>
+                        <td class="crayon-code"><div class="crayon-pre" style="font-size: 12px !important; line-height: 15px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="crayon-line" id="crayon-5d2d8a4cc3642323236668-1"><span class="crayon-h"> </span><span class="crayon-i">x1</span><span class="crayon-h"> </span><span class="crayon-i">V</span><span class="crayon-h">&nbsp;&nbsp;</span><span class="crayon-i">x2</span><span class="crayon-h"> </span><span class="crayon-i">V</span><span class="crayon-h">&nbsp;&nbsp;</span><span class="crayon-v">x3</span></div><div class="crayon-line" id="crayon-5d2d8a4cc3642323236668-2"><span class="crayon-o">-</span><span class="crayon-i">x1</span><span class="crayon-h"> </span><span class="crayon-v">V</span><span class="crayon-h"> </span><span class="crayon-o">-</span><span class="crayon-i">x2</span><span class="crayon-h"> </span><span class="crayon-i">V</span><span class="crayon-h">&nbsp;&nbsp;</span><span class="crayon-e">x3</span></div><div class="crayon-line" id="crayon-5d2d8a4cc3642323236668-3"><span class="crayon-e"> </span><span class="crayon-i">x1</span><span class="crayon-h"> </span><span class="crayon-v">V</span><span class="crayon-h"> </span><span class="crayon-o">-</span><span class="crayon-i">x2</span><span class="crayon-h"> </span><span class="crayon-v">V</span><span class="crayon-h"> </span><span class="crayon-o">-</span><span class="crayon-v">x3</span></div><div class="crayon-line" id="crayon-5d2d8a4cc3642323236668-4"><span class="crayon-o">-</span><span class="crayon-i">x1</span><span class="crayon-h"> </span><span class="crayon-i">V</span><span class="crayon-h">&nbsp;&nbsp;</span><span class="crayon-v">x2</span></div></div></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+<!-- [Format Time: 0.0081 seconds] -->
+<p>This is almost equivalent to the previous set of clauses, but misses a literal from one of the clauses. It still implies the XOR of course. Now what? And what to do when missing literals mean that an entire clause can be missing? The algorithm to recover XORs in such cases is non-trivial. It&#8217;s non-trivial not only because of the complexity of how many combinations of missing literals and clauses there can be (it&#8217;s exponential) but because one must do this work extremely fast because SAT solvers are sensitive to time.</p>
+<p>The algorithm that is in the <a href="https://www.comp.nus.edu.sg/~meel/Papers/aaai19-sm.pdf">paper</a> explains all the bit-fiddling and cache-friendly data layout used along with some fun algorithms that I&#8217;m sure some people will like. We even managed to use compiler intrinsics to use target-specific assembly instructions for hamming weight calculation. It&#8217;s a blast. Take a look.</p>
+<h3>The results</h3>
+<p>The results, as shown above, speak for themselves. Problems that took thousands of seconds to solve can now be solved under 20. The reason for such incredible speedup is basically the following. CryptoMiniSatv2 was way too clunky and didn&#8217;t have all the fun stuff that CryptoMiniSatv5 has, plus the XOR handling was incorrect, loosing XORs and the like. The published algorithm solves the underlying issue and allows CNF pre- and inprocessing to happen independent of XORs, thus enabling CryptoMiniSatv5 to be used in all its glory. And CryptoMiniSatv5 is <em>fast,</em> as per the this year&#8217;s SAT Competition <a href="http://sat2018.forsyte.tuwien.ac.at/index.php?cat=results">results</a>.</p>
+<h3>Some closing words</h3>
+<p>Finally, I want to say thank you to <a href="https://www.comp.nus.edu.sg/~meel">Kuldeep Meel</a> who got me into the <a href="http://nus.edu.sg/">National University of Singapore</a> to do the work above and lots of other cool work, that we will hopefully publish soon. I would also like to thank the <a href="https://www.nscc.sg/">National Supercomputing Center Singapore</a>  that allowed us to run a ton of benchmarks on their machines, using at least 200 thousand CPU hours to make this paper. This gave us the chance to debug all the weird edge-cases and get this system up to speed where it beats the best exact counters by a wide margin. Finally, thanks to all the great people I had the chance to meet and sometimes work with at NUS, it was a really nice time.</p>
+
+<p>This post has been adapted from <a href="https://www.msoos.org/2018/11/approxmcv3-a-modern-approximate-model-counter/">Mate's post</a> on ApproxMCv3.</p>
+<p>&nbsp;</p>
+
+    </div>
+
+    
+
+
+
+
+
+    
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2019 &middot; 
+
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+    
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML" integrity="sha512-tOav5w1OjvsSJzePRtt2uQPFwBoHt1VZcUq8l8nm5284LEKE9FSJBQryzMBzHxY5P0zRdNqEcpLIRVYFNgu1jw==" crossorigin="anonymous"></script>
+    
+    
+
+  </body>
+</html>
+
