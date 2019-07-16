@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Thu, 04 Apr 2019 00:00:00 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 04 Apr 2019 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="/tags/sampling/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>WAPS</title>
       <link>/software/waps/</link>
-      <pubDate>Thu, 04 Apr 2019 00:00:00 +0530</pubDate>
+      <pubDate>Thu, 04 Apr 2019 00:00:00 +0800</pubDate>
       
       <guid>/software/waps/</guid>
       <description>WAPS: Weighted and Projected Sampling</description>
@@ -24,7 +24,7 @@
     <item>
       <title>KUS</title>
       <link>/software/kus/</link>
-      <pubDate>Wed, 01 Aug 2018 00:00:00 +0530</pubDate>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0800</pubDate>
       
       <guid>/software/kus/</guid>
       <description>Knowledge Compilation meets Uniform Sampling</description>

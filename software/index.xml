@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Tue, 09 Jul 2019 00:00:00 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jul 2019 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="/software/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>ApproxMC</title>
       <link>/software/approxmc/</link>
-      <pubDate>Tue, 09 Jul 2019 00:00:00 +0530</pubDate>
+      <pubDate>Tue, 09 Jul 2019 00:00:00 +0800</pubDate>
       
       <guid>/software/approxmc/</guid>
       <description>A hashing-based algorithm for discrete integration over finite domains.</description>
@@ -24,7 +24,7 @@
     <item>
       <title>CrystalBall</title>
       <link>/software/crystalball/</link>
-      <pubDate>Sun, 07 Jul 2019 00:00:00 +0530</pubDate>
+      <pubDate>Sun, 07 Jul 2019 00:00:00 +0800</pubDate>
       
       <guid>/software/crystalball/</guid>
       <description>A framework to provide white-box access to the execution of SAT solver.</description>
@@ -42,7 +42,7 @@
     <item>
       <title>GANAK</title>
       <link>/software/ganak/</link>
-      <pubDate>Sat, 15 Jun 2019 00:00:00 +0530</pubDate>
+      <pubDate>Sat, 15 Jun 2019 00:00:00 +0800</pubDate>
       
       <guid>/software/ganak/</guid>
       <description>GANAK: A Scalable Probabilistic Exact Model Counter</description>
@@ -51,7 +51,7 @@
     <item>
       <title>WAPS</title>
       <link>/software/waps/</link>
-      <pubDate>Thu, 04 Apr 2019 00:00:00 +0530</pubDate>
+      <pubDate>Thu, 04 Apr 2019 00:00:00 +0800</pubDate>
       
       <guid>/software/waps/</guid>
       <description>WAPS: Weighted and Projected Sampling</description>
@@ -60,7 +60,7 @@
     <item>
       <title>Bosphorus</title>
       <link>/software/bosphorus/</link>
-      <pubDate>Sat, 05 Jan 2019 00:00:00 +0530</pubDate>
+      <pubDate>Sat, 05 Jan 2019 00:00:00 +0800</pubDate>
       
       <guid>/software/bosphorus/</guid>
       <description>An ANF and CNF simplifier and converter.</description>
@@ -69,7 +69,7 @@
     <item>
       <title>KUS</title>
       <link>/software/kus/</link>
-      <pubDate>Wed, 01 Aug 2018 00:00:00 +0530</pubDate>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0800</pubDate>
       
       <guid>/software/kus/</guid>
       <description>Knowledge Compilation meets Uniform Sampling</description>
@@ -78,7 +78,7 @@
     <item>
       <title>MIS</title>
       <link>/software/mis/</link>
-      <pubDate>Mon, 05 Sep 2016 00:00:00 +0530</pubDate>
+      <pubDate>Mon, 05 Sep 2016 00:00:00 +0800</pubDate>
       
       <guid>/software/mis/</guid>
       <description>An algorithm to compute minimal independent support for a given CNF formula.</description>
@@ -87,7 +87,7 @@
     <item>
       <title>SMTApproxMC</title>
       <link>/software/smtapproxmc/</link>
-      <pubDate>Fri, 12 Feb 2016 00:00:00 +0530</pubDate>
+      <pubDate>Fri, 12 Feb 2016 00:00:00 +0800</pubDate>
       
       <guid>/software/smtapproxmc/</guid>
       <description>An approximate model counter for Bitvector theory.</description>
@@ -96,7 +96,7 @@
     <item>
       <title>WeightGen</title>
       <link>/software/weightgen/</link>
-      <pubDate>Sun, 27 Jul 2014 00:00:00 +0530</pubDate>
+      <pubDate>Sun, 27 Jul 2014 00:00:00 +0800</pubDate>
       
       <guid>/software/weightgen/</guid>
       <description>A hashing-based approximate sampler for weighted CNF formulas.</description>
@@ -105,7 +105,7 @@
     <item>
       <title>WeightMC</title>
       <link>/software/weightmc/</link>
-      <pubDate>Sun, 27 Jul 2014 00:00:00 +0530</pubDate>
+      <pubDate>Sun, 27 Jul 2014 00:00:00 +0800</pubDate>
       
       <guid>/software/weightmc/</guid>
       <description>A weighted model counter over Boolean domains.</description>
