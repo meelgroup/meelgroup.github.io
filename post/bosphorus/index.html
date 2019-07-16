@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.55.6" />
+  <meta name="author" content="MeelGroup">
+
+  
+  
+  
+  
+    
+      
+    
+  
+  <meta name="description" content="We are happy to release our ANF and CNF simplifier and converter called Bosphorus. It has helped us break multiple real-world ciphers. It has been re-released with major work by Davin Choo & Kian Ming A. Chai from DSO National Laboratories Singapore and Mate Soos & Kuldeep Meel from NUS. The paper will be published at the DATE 2019 conference.
+ANFs and CNFs Algebraic Normal Form is a form that is used by most cryptographers to describe symmetric ciphers, hash algorithms, and lately a lot of post-quantum asymmetric ciphers.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/post/bosphorus/">
+
+  
+
+
+  
+
+  
+  
+  <meta name="theme-color" content="#0095eb">
+  
+  
+  
+  
+    
+  
+  
+    
+    
+      
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+      
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+  
+  
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
+  
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="MeelGroup">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="MeelGroup">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/post/bosphorus/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="MeelGroup">
+  <meta property="og:url" content="/post/bosphorus/">
+  <meta property="og:title" content="Bosphorus: An ANF and CNF simplifier and converter | MeelGroup">
+  <meta property="og:description" content="We are happy to release our ANF and CNF simplifier and converter called Bosphorus. It has helped us break multiple real-world ciphers. It has been re-released with major work by Davin Choo & Kian Ming A. Chai from DSO National Laboratories Singapore and Mate Soos & Kuldeep Meel from NUS. The paper will be published at the DATE 2019 conference.
+ANFs and CNFs Algebraic Normal Form is a form that is used by most cryptographers to describe symmetric ciphers, hash algorithms, and lately a lot of post-quantum asymmetric ciphers.">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2019-01-05T11:06:17&#43;05:30">
+  
+  <meta property="article:modified_time" content="2019-01-05T11:06:17&#43;05:30">
+  
+
+  
+  
+
+  <title>Bosphorus: An ANF and CNF simplifier and converter | MeelGroup</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/">MeelGroup</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#research">
+            
+            <span>Research</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#publications">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#posts">
+            
+            <span>Posts</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#news">
+            
+            <span>News</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#projects">
+            
+            <span>Software</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#people">
+            
+            <span>People</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#openings">
+            
+            <span>Openings</span>
+            
+          </a>
+        </li>
+
+        
+        
+      
+
+      
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+  <div class="article-container">
+    <h1 itemprop="name">Bosphorus: An ANF and CNF simplifier and converter</h1>
+
+    
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2019-01-05 11:06:17 &#43;0530 &#43;0530" itemprop="datePublished dateModified">
+      Jan 5, 2019
+    </time>
+  </span>
+  <span itemscope itemprop="author publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="MeelGroup">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    5 min read
+  </span>
+  
+
+  
+  
+
+  
+  
+  
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Bosphorus%3a%20An%20ANF%20and%20CNF%20simplifier%20and%20converter&amp;url=https://meelgroup.github.io%2fpost%2fbosphorus%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https://meelgroup.github.io%2fpost%2fbosphorus%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://meelgroup.github.io%2fpost%2fbosphorus%2f&amp;title=Bosphorus%3a%20An%20ANF%20and%20CNF%20simplifier%20and%20converter"
+         target="_blank" rel="noopener">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Bosphorus%3a%20An%20ANF%20and%20CNF%20simplifier%20and%20converter&amp;body=https://meelgroup.github.io%2fpost%2fbosphorus%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+
+    <div class="article-style" itemprop="articleBody">
+      <p>We are happy to release our ANF and CNF simplifier and converter called <a href="https://github.com/meelgroup/bosphorus">Bosphorus</a>. It has helped us break multiple real-world ciphers. It has been re-released with major work by Davin Choo & Kian Ming A. Chai from <a href="https://www.dso.org.sg/">DSO National Laboratories</a> Singapore and Mate Soos & Kuldeep Meel from NUS. The <a href="https://www.comp.nus.edu.sg/~meel/Papers/date-cscm19.pdf">paper</a> will be published at the <a href="https://www.date-conference.com/">DATE 2019</a> conference.</p>
+
+<h3>ANFs and CNFs</h3>
+
+<p>Algebraic Normal Form is a form that is used by most cryptographers to describe symmetric ciphers, hash algorithms, and lately a lot of <a href="https://csrc.nist.gov/projects/post-quantum-cryptography">post-quantum asymmetric ciphers</a>. It&#8217;s a very simple notation that basically looks like this: </p>
+
+<pre class="wp-block-preformatted">x1 ⊕ x2 ⊕ x3 = 0<br>x1 * x2 ⊕ x2 * x3 + 1 = 0</pre>
+
+<p>Where &#8220;⊕&#8221; represents XOR and &#8220;*&#8221; represents the AND operator. So the first line here is an XOR of binary variables x1, x2 and x3 and their XOR must be equal to 0. The second line means that &#8220;(x1 AND x2)  XOR (x2 AND x3)&#8221; must be equal to 1. This normal form allows to see a bunch of interesting things. For example, it allows us to see the so-called &#8220;maximum degree&#8221; of the set of equations, where the degree is the maximum number of variables AND-ed together in one line. The above set of equations has a maximum degree of 2, as (x1*x2) is of degree 2. Degrees can often be a good indicator for the complexity of a problem.</p>
+
+<p>What&#8217;s good about ANFs is that there are a number of well-known algorithms to break problems described in them. For example, one can do <a href="https://link.springer.com/content/pdf/10.1007%2F3-540-48405-1_2.pdf">(re)linearization</a> and Gauss-Jordan elimination, or one could run Grobner-basis algorithms such as <a href="https://en.wikipedia.org/wiki/Faug%C3%A8re%27s_F4_and_F5_algorithms">F4/F5</a> on it. Sometimes, the ANFs can also be solved by converting them to another normal form, Conjunctive Normal Form (CNF), used by SAT solvers. The CNF normal form looks like:</p>
+
+<pre class="wp-block-preformatted">x1 V x2 V x3<br>-x1 V x3</pre>
+
+<p>Where x1, x2 and x3 are binary variables, &#8220;V&#8221; is the logical OR, and each line must be equal to TRUE. Using CNF is interesting, because the solvers used to solve them, <a href="https://en.wikipedia.org/wiki/Boolean_satisfiability_problem">SAT solvers</a>, typically provide a different set of trade-offs for solving than ANF problem solvers. SAT solvers tend to use more CPU time but a lot less memory, sometimes making problems viable to solve in the &#8220;real world&#8221;. Whereas sometimes breaking of a cipher is enough to be demonstrated on paper, it also happens that one wants to break a cipher in the <a href="https://twitter.com/David3141593/status/1080606827384131590">real world</a>.</p>
+
+<h3>Bridging and Simplifying</h3>
+
+<p>We believe that Bosphorus is a first of its kind system that allows ANFs to be simplified using both CNF- and ANF-based systems. It can also convert between the two normal forms and can act both as an ANF and a CNF preprocessor, like <a href="http://fmv.jku.at/papers/EenBiere-SAT05.pdf">SatELite</a> (by Een and Biere) was for CNF. We believe this makes Bosphorus unique and also uniquely useful, especially while working on ANFs.</p>
+
+<p>Bosphorus uses an iterative architecture that performs the following set of steps, either until it runs out of time or until fixed point:</p>
+
+<ol><li>Replace variables and propagate constants in the ANF </li><li>Run limited <a href="https://en.wikipedia.org/wiki/XSL_attack">Extended Linarization (XL)</a>  and inject back unit and binary XORs</li><li>Run limited <a href="https://rd.springer.com/content/pdf/10.1007%2F978-3-642-34047-5_18.pdf">ElimLin</a>  and inject back unit and binary XORs</li><li>Convert to CNF, run a SAT solver for a limited number of conflicts and inject back unit and binary (and potentially longer) XORs</li></ol>
+
+<p><img src="Bosphorus.png" alt="alt_text" /></p>
+
+<p>In other words, the system is an iterative simplifier/preprocessor that invokes multiple reasoning systems to try to simplify the problem as much as possible. It can outright solve the system, as most of these reasoning systems are complete, but the point is to run them only to a certain limit and inject back into the ANF the easily &#8220;digestible&#8221; information. The simplified ANF can then either be output as an ANF or a CNF.</p>
+
+<p>Bosphorus can also take a CNF as input, perform the trivial transformation of it to ANF and then treat it as an ANF. This allows the CNF to be simplified using techniques previously unavailable to CNF systems, such as XL.</p>
+
+<h3>ANF to CNF Conversion</h3>
+
+<p>ANF-to-CNF conversion is not considered that hard, and that&#8217;s why there hasn&#8217;t been too much academic effort devoted to it. However, it&#8217;s an important step without which a lot of opportunities would be missed.</p>
+
+<p>The implemented system contains a pretty advanced ANF-to-CNF converter, using Karnaugh tables through <a href="https://en.wikipedia.org/wiki/Espresso_heuristic_logic_minimizer">Espresso</a>, XOR cutting, monomial reuse, etc. It should give a pretty optimal CNF for all ANFs. So Bosphorus can be used also just as an ANF-to-CNF converter, though it&#8217;s so much more.</p>
+
+<h3>Final Thoughts</h3>
+
+<p>One of the biggest capabilities of <a href="https://github.com/meelgroup/bosphorus">Bosphorus</a> is that it can simplify/preprocess ANF systems so more heavyweight ANF solvers can have a go at them. Its ANF simplification is so powerful, it can even help to solve some CNFs by lifting them to ANF, running the ANF simplifiers, converting it back to CNF, and solving that(!). We believe our initial results, published in the <a href="https://www.comp.nus.edu.sg/~meel/Papers/date-cscm19.pdf">paper</a>, are very encouraging. Further, the system is in a ready-to-use state: there is a <a href="https://cloud.docker.com/repository/docker/msoos/bosphorus">Docker image</a>, the source should build without a hitch, and there is even a precompiled Linux <a href="https://github.com/meelgroup/bosphorus/releases/">binary</a>. We would love to hear about your experience using it.</p>
+
+<p><i>Thanks to Karsten Nohl from <a href="https://srlabs.de/">Security Research Labs.</a></i></p>
+
+    </div>
+
+    
+
+
+
+
+
+    
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2018 &middot; 
+
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+    
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML" integrity="sha512-tOav5w1OjvsSJzePRtt2uQPFwBoHt1VZcUq8l8nm5284LEKE9FSJBQryzMBzHxY5P0zRdNqEcpLIRVYFNgu1jw==" crossorigin="anonymous"></script>
+    
+    
+
+  </body>
+</html>
+
