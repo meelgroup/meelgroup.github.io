@@ -211,15 +211,6 @@
     
     <url>
     
-      <loc>/post/approxmcv3/</loc>
-      <lastmod>2019-05-03T11:06:17+05:30</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/post/kus/</loc>
       <lastmod>2019-05-03T11:06:17+05:30</lastmod>
     </url>
@@ -349,6 +340,15 @@
     
       <loc>/publication/aaai19_hardness/</loc>
       <lastmod>2019-01-01T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/approxmcv3/</loc>
+      <lastmod>2018-11-25T11:06:17+05:30</lastmod>
     </url>
     
   
