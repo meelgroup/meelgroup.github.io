@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Tue, 21 May 2019 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 01 Jun 2019 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Dual Hashing-based Algorithms for Discrete Integration</title>
+      <link>/publication/cp19/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/cp19/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>GANAK: A Scalable Probabilistic Exact Model Counter</title>

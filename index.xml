@@ -96,6 +96,15 @@
     </item>
     
     <item>
+      <title>Dual Hashing-based Algorithms for Discrete Integration</title>
+      <link>/publication/cp19/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/cp19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Network Reliability Estimation in Theory and Practice </title>
       <link>/publication/ress/</link>
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0800</pubDate>
@@ -207,15 +216,6 @@ Our experiments demonstrated that KUS outperformed both SPUR and UniGen2 state-o
 &lt;li&gt;We believe that the success of KUS will motivate researchers in verification and knowledge compilation communities to investigate a broader set of logical forms amenable to efficient uniform generation&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Two papers accepted to SAT 2019. The first paper introduces the first version of CrystalBall, a framework intended to allow gazing into the black box of SAT solving. Authors: Kuldeep, Mate Soos, Raghav Kulkarni.&lt;br&gt; The second paper discusses how model counting can be used to analyze explanations provided by tools such as ANCHOR. Authors: Kuldeep, Nina Narodytska, Aditya Shrotri, Alexey Ignatiev, and Joao Marques Silva.</title>
-      <link>/news/22042019/</link>
-      <pubDate>Mon, 22 Apr 2019 00:00:00 +0800</pubDate>
-      
-      <guid>/news/22042019/</guid>
-      <description></description>
     </item>
     
   </channel>

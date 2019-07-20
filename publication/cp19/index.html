@@ -17,10 +17,10 @@
       
     
   
-  <meta name="description" content="As engineered systems expand, become more interdependent, and operate in real-time, reliability assessment is indispensable to support investment and decision making. However, network reliability problems are known to be #P-complete, a computational complexity class largely believed to be intractable. The computational intractability of network reliability motivates our quest for reliable approximations. Based on their theoretical foundations, available methods can be grouped as follows: (i) exact or bounds, (ii) guarantee-less sampling, and (iii) probably approximately correct (PAC). Group (i) is well regarded due to its useful byproducts, but it does not scale in practice. Group (ii) scales well and verifies desirable properties, such as the bounded relative error, but it lacks error guarantees. Group (iii) is of great interest when precision and scalability are required, as it harbors computationally feasible approximation schemes with PAC-guarantees. We give a comprehensive review of classical methods before introducing modern techniques and our developments. We introduce K-RelNet, an extended counting-based estimation method that delivers PAC-guarantees for the K-terminal reliability problem. Then, we test methods&#39; performance using various benchmark systems. We highlight the range of application of algorithms and provide the foundation for future resilience engineering as it increasingly necessitates methods for uncertainty quantification in complex systems.">
+  <meta name="description" content=" Given a boolean formula F and a weight function $ho$, the problem of discrete integration seeks to compute the weight of $F$, defined as the sum of the weights of satisfying assignments. Discrete integration, also known as weighted model counting, is a fundamental problem in computer science with wide variety of applications ranging from machine learning and statistics to physics and infrastructure reliability. Given the intractability of the exact variant, the problem of approximate weighted model counting has been subject to intense theoretical and practical investigations over the years. The primary contribution of this paper is to investigate development of algorithmic approaches for discrete integration. Our framework allows us to derive two different algorithms, which can be seen as dual to each other: \textsf{WISH}, which was already discovered by Ermon et al [Ermon13], and a new algorithm: \textsf{SWITCH}.We argue that these algorithms can be seen as dual to each other, in the sense that their complexities differ only by a permutation of certain parameters. Indeed we show that, for $F$ defined over $n$ variables, a weight function $ho$ that can be represented using $p$ bits, and a confidence parameter $\delta$, there is a function $f$ and an NP oracle such that &lt;strong&gt;WISH&lt;/strong&gt; makes 1D4AA; $ \left(f(n,p,\delta)ight)$ calls to NP oracle while 	extsf{SWITCH} makes $\mathcal{O}\left(f(p,n,\delta)ight)$ queries. We find $f(x,y,\delta)$ polynomial in $x$, $y$ and $1/\delta$, more specifically $f(x,y,\delta) = x\log(y)\log(x/\delta)$. We first focus on striking similarities of both the design process and structure of the two algorithms but then show that despite this quasi-symmetry, the analysis yields time complexities dual to each other. Another contribution of this paper is the use of 3-wise property independence of XOR based hash functions in the analysis of WISH and SWITCH. To the best of our knowledge, this is the first usage of 3-wise independence in deriving stronger concentration bounds.">
 
   
-  <link rel="alternate" hreflang="en-us" href="/publication/ress/">
+  <link rel="alternate" hreflang="en-us" href="/publication/cp19/">
 
   
 
@@ -69,14 +69,14 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="/publication/ress/">
+  <link rel="canonical" href="/publication/cp19/">
 
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="MeelGroup">
-  <meta property="og:url" content="/publication/ress/">
-  <meta property="og:title" content="Network Reliability Estimation in Theory and Practice  | MeelGroup">
-  <meta property="og:description" content="As engineered systems expand, become more interdependent, and operate in real-time, reliability assessment is indispensable to support investment and decision making. However, network reliability problems are known to be #P-complete, a computational complexity class largely believed to be intractable. The computational intractability of network reliability motivates our quest for reliable approximations. Based on their theoretical foundations, available methods can be grouped as follows: (i) exact or bounds, (ii) guarantee-less sampling, and (iii) probably approximately correct (PAC). Group (i) is well regarded due to its useful byproducts, but it does not scale in practice. Group (ii) scales well and verifies desirable properties, such as the bounded relative error, but it lacks error guarantees. Group (iii) is of great interest when precision and scalability are required, as it harbors computationally feasible approximation schemes with PAC-guarantees. We give a comprehensive review of classical methods before introducing modern techniques and our developments. We introduce K-RelNet, an extended counting-based estimation method that delivers PAC-guarantees for the K-terminal reliability problem. Then, we test methods&#39; performance using various benchmark systems. We highlight the range of application of algorithms and provide the foundation for future resilience engineering as it increasingly necessitates methods for uncertainty quantification in complex systems.">
+  <meta property="og:url" content="/publication/cp19/">
+  <meta property="og:title" content="Dual Hashing-based Algorithms for Discrete Integration | MeelGroup">
+  <meta property="og:description" content=" Given a boolean formula F and a weight function $ho$, the problem of discrete integration seeks to compute the weight of $F$, defined as the sum of the weights of satisfying assignments. Discrete integration, also known as weighted model counting, is a fundamental problem in computer science with wide variety of applications ranging from machine learning and statistics to physics and infrastructure reliability. Given the intractability of the exact variant, the problem of approximate weighted model counting has been subject to intense theoretical and practical investigations over the years. The primary contribution of this paper is to investigate development of algorithmic approaches for discrete integration. Our framework allows us to derive two different algorithms, which can be seen as dual to each other: \textsf{WISH}, which was already discovered by Ermon et al [Ermon13], and a new algorithm: \textsf{SWITCH}.We argue that these algorithms can be seen as dual to each other, in the sense that their complexities differ only by a permutation of certain parameters. Indeed we show that, for $F$ defined over $n$ variables, a weight function $ho$ that can be represented using $p$ bits, and a confidence parameter $\delta$, there is a function $f$ and an NP oracle such that &lt;strong&gt;WISH&lt;/strong&gt; makes 1D4AA; $ \left(f(n,p,\delta)ight)$ calls to NP oracle while 	extsf{SWITCH} makes $\mathcal{O}\left(f(p,n,\delta)ight)$ queries. We find $f(x,y,\delta)$ polynomial in $x$, $y$ and $1/\delta$, more specifically $f(x,y,\delta) = x\log(y)\log(x/\delta)$. We first focus on striking similarities of both the design process and structure of the two algorithms but then show that despite this quasi-symmetry, the analysis yields time complexities dual to each other. Another contribution of this paper is the use of 3-wise property independence of XOR based hash functions in the analysis of WISH and SWITCH. To the best of our knowledge, this is the first usage of 3-wise independence in deriving stronger concentration bounds.">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2019-06-01T00:00:00&#43;08:00">
@@ -87,7 +87,7 @@
   
   
 
-  <title>Network Reliability Estimation in Theory and Practice  | MeelGroup</title>
+  <title>Dual Hashing-based Algorithms for Discrete Integration | MeelGroup</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
@@ -283,10 +283,10 @@
 
 
   <div class="article-container">
-    <h1 itemprop="name">Network Reliability Estimation in Theory and Practice </h1>
+    <h1 itemprop="name">Dual Hashing-based Algorithms for Discrete Integration</h1>
     <span class="pub-authors" itemprop="author">
       
-      Roger Paredes, Leonardo Duenas-Osorio, Kuldeep S. Meel, Moshe Y. Vardi
+      Alexis Colnet, Kuldeep S. Meel
       
     </span>
     <span class="pull-right">
@@ -295,28 +295,28 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Network%20Reliability%20Estimation%20in%20Theory%20and%20Practice%20&amp;url=https://meelgroup.github.io%2fpublication%2fress%2f"
+         href="https://twitter.com/intent/tweet?text=Dual%20Hashing-based%20Algorithms%20for%20Discrete%20Integration&amp;url=https://meelgroup.github.io%2fpublication%2fcp19%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https://meelgroup.github.io%2fpublication%2fress%2f"
+         href="https://www.facebook.com/sharer.php?u=https://meelgroup.github.io%2fpublication%2fcp19%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://meelgroup.github.io%2fpublication%2fress%2f&amp;title=Network%20Reliability%20Estimation%20in%20Theory%20and%20Practice%20"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://meelgroup.github.io%2fpublication%2fcp19%2f&amp;title=Dual%20Hashing-based%20Algorithms%20for%20Discrete%20Integration"
          target="_blank" rel="noopener">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Network%20Reliability%20Estimation%20in%20Theory%20and%20Practice%20&amp;body=https://meelgroup.github.io%2fpublication%2fress%2f">
+         href="mailto:?subject=Dual%20Hashing-based%20Algorithms%20for%20Discrete%20Integration&amp;body=https://meelgroup.github.io%2fpublication%2fcp19%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -330,7 +330,11 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">As engineered systems expand, become more interdependent, and operate in real-time, reliability assessment is indispensable to support investment and decision making. However, network reliability problems are known to be #P-complete, a computational complexity class largely believed to be intractable. The computational intractability of network reliability motivates our quest for reliable approximations. Based on their theoretical foundations, available methods can be grouped as follows: (i) exact or bounds, (ii) guarantee-less sampling, and (iii) probably approximately correct (PAC). Group (i) is well regarded due to its useful byproducts, but it does not scale in practice. Group (ii) scales well and verifies desirable properties, such as the bounded relative error, but it lacks error guarantees. Group (iii) is of great interest when precision and scalability are required, as it harbors computationally feasible approximation schemes with PAC-guarantees. We give a comprehensive review of classical methods before introducing modern techniques and our developments. We introduce K-RelNet, an extended counting-based estimation method that delivers PAC-guarantees for the K-terminal reliability problem. Then, we test methods&rsquo; performance using various benchmark systems. We highlight the range of application of algorithms and provide the foundation for future resilience engineering as it increasingly necessitates methods for uncertainty quantification in complex systems.</p>
+    <p class="pub-abstract" itemprop="text">Given a boolean formula F and a weight function $
+ho$, the problem of discrete integration seeks to compute the weight of $F$, defined as the sum of the weights of satisfying assignments. Discrete integration, also known as weighted model counting, is a fundamental problem in computer science with wide variety of applications ranging from machine learning and statistics to physics and infrastructure reliability. Given the intractability of the exact variant, the problem of approximate weighted model counting has been subject to intense theoretical and practical investigations over the years. The primary contribution of this paper is to investigate development of algorithmic approaches for discrete integration. Our framework allows us to derive two different algorithms, which can be seen as dual to each other: \textsf{WISH}, which was already discovered by Ermon et al [Ermon13], and a new algorithm: \textsf{SWITCH}.We argue that these algorithms can be seen as dual to each other, in the sense that their complexities differ only by a permutation of certain parameters. Indeed we show that, for $F$ defined over $n$ variables, a weight function $
+ho$ that can be represented using $p$ bits, and a confidence parameter $\delta$, there is a function $f$ and an NP oracle such that <strong>WISH</strong> makes 1D4AA; $ \left(f(n,p,\delta)
+ight)$ calls to NP oracle while     extsf{SWITCH} makes $\mathcal{O}\left(f(p,n,\delta)
+ight)$ queries. We find $f(x,y,\delta)$ polynomial in $x$, $y$ and $1/\delta$, more specifically $f(x,y,\delta) = x\log(y)\log(x/\delta)$. We first focus on striking similarities of both the design process and structure of the two algorithms but then show that despite this quasi-symmetry, the analysis yields time complexities dual to each other. Another contribution of this paper is the use of 3-wise property independence of XOR based hash functions in the analysis of WISH and SWITCH. To the best of our knowledge, this is the first usage of 3-wise independence in deriving stronger concentration bounds.</p>
     
 
     
@@ -341,8 +345,8 @@
           <div class="col-xs-12 col-sm-3 pub-row-heading">Type</div>
           <div class="col-xs-12 col-sm-9">
             
-            <a href="/publication/#2">
-              Journal article
+            <a href="/publication/#1">
+              Conference paper
             </a>
             
           </div>
@@ -359,7 +363,7 @@
       <div class="col-sm-10">
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-          <div class="col-xs-12 col-sm-9"><em>Journal of Reliability Engineering and System Safety(RESS)</em></div>
+          <div class="col-xs-12 col-sm-9">In <em>Proceedings of International Conference on Constraint Programming (CP)</em></div>
         </div>
       </div>
       <div class="col-sm-1"></div>
@@ -393,17 +397,8 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="https://arxiv.org/pdf/1806.00917.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
 
 
-
-
-<button type="button" class="btn btn-primary btn-outline js-cite-modal"
-        data-filename="/files/citations/RESS.bib">
-  Cite
-</button>
 
 
 
