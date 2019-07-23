@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MeelGroup on MeelGroup</title>
@@ -6,13 +7,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Tue, 09 Jul 2019 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0530</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>ApproxMC</title>
       <link>/software/approxmc/</link>
-      <pubDate>Tue, 09 Jul 2019 00:00:00 +0800</pubDate>
+      <pubDate>Tue, 09 Jul 2019 00:00:00 +0530</pubDate>
       
       <guid>/software/approxmc/</guid>
       <description>&lt;p&gt;ApproxMC is a hashing-based algorithm for approximate discrete integration over finite domains and provides ($\epsilon$,$\delta$) guarantees. This implementation handles the case when the function is implicitely defined by SAT formula. To the best of our knowledge, the current implementation has the best runtime performance among approximate counting algorithms. We are actively improving algorithm as well as implementation and would love to hear your feedback.&lt;/p&gt;
@@ -30,7 +31,7 @@
     <item>
       <title>CrystalBall</title>
       <link>/software/crystalball/</link>
-      <pubDate>Sun, 07 Jul 2019 00:00:00 +0800</pubDate>
+      <pubDate>Sun, 07 Jul 2019 00:00:00 +0530</pubDate>
       
       <guid>/software/crystalball/</guid>
       <description>&lt;p&gt;Boolean satisfiability is a fundamental problem in computerscience with a wide range of applications including planning, configurationmanagement, design and verification of software/hardware systems. Modern SAT solvers achieve scalability and ro-bustness with sophisticated heuristics that are challenging to understandand explain. We propose to view modern conflict-driven clause learning (CDCL) solvers as a composition of classifiers and regressors for different tasks such as branching, clause memory management, and restarting. The current version of CrystalBall focuses on deriving a classifier to keep or throw away a learned clause. In a departure from recent machine learning based techniques, CrystalBall employs supervised learning anduses extensive, multi-gigabyte data extracted from runs of a single SAT solver to perform predictive analytics. Read this &lt;a href=&#34;https://www.msoos.org/2019/06/crystalball-sat-solving-data-gathering-and-machine-learning/&#34; target=&#34;_blank&#34;&gt;blog post&lt;/a&gt; for more details.&lt;/p&gt;
@@ -64,7 +65,7 @@
     <item>
       <title> Interpretable Classification Rules in Relaxed Logical Form </title>
       <link>/publication/ijcai19_irr/</link>
-      <pubDate>Sun, 23 Jun 2019 00:00:00 +0800</pubDate>
+      <pubDate>Sun, 23 Jun 2019 00:00:00 +0530</pubDate>
       
       <guid>/publication/ijcai19_irr/</guid>
       <description></description>
@@ -73,7 +74,7 @@
     <item>
       <title>Our paper on &lt;a href= &#34;https://bishwamittra.github.io/publication/irr-ghosh.pdf&#34;&gt;interpretable rules expressed as relaxed-CNF&lt;/a&gt; is accepted at IJCAI workshop on XAI (Explainable Artificial Intelligence) and DSO (Data Science meets Optimization), 2019. Authors: Bishwamittra Ghosh, Dmitry Malioutov, Kuldeep S. Meel.</title>
       <link>/news/23062019/</link>
-      <pubDate>Sun, 23 Jun 2019 00:00:00 +0800</pubDate>
+      <pubDate>Sun, 23 Jun 2019 00:00:00 +0530</pubDate>
       
       <guid>/news/23062019/</guid>
       <description></description>
@@ -82,7 +83,7 @@
     <item>
       <title>GANAK</title>
       <link>/software/ganak/</link>
-      <pubDate>Sat, 15 Jun 2019 00:00:00 +0800</pubDate>
+      <pubDate>Sat, 15 Jun 2019 00:00:00 +0530</pubDate>
       
       <guid>/software/ganak/</guid>
       <description>&lt;p&gt;Given a Boolean formula $F$, the problem of  model counting, also referred to as #SAT, seeks to compute the number of solutions of $F$. Model counting is a fundamental problem with a wide variety of applications ranging from planning, quantified information flow to probabilistic reasoning and the like. The modern #SAT solvers tend to be either based on static decomposition, dynamic decomposition, or a hybrid of the two. Despite dynamic decomposition based #SAT solvers sharing much of their architecture with SAT solvers, the core design and heuristics of dynamic decomposition-based #SAT solvers has remained constant for over a decade. In this paper, we revisit the architecture of the state-of-the-art dynamic decomposition-based #SAT tool, sharpSAT, and demonstrate that by introducing a new notion of probabilistic component caching and the usage of universal hashing for exact model counting along with the development of several new heuristics can lead to significant performance improvement over state-of-the-art model-counters. In particular, we develop GANAK, a new scalable probabilistic exact model counter that outperforms state-of-the-art exact and approximate model counters sharpSAT and ApproxMC3 respectively, both in terms of PAR-2 score and the number of instances solved. Furthermore, in our experiments, the model count returned by GANAK was equal to the exact model count for all the benchmarks. Finally, we observe that recently proposed preprocessing techniques for model counting benefit exact model counters while hurting the performance of approximate model counters.&lt;/p&gt;
@@ -96,18 +97,9 @@
     </item>
     
     <item>
-      <title>Dual Hashing-based Algorithms for Discrete Integration</title>
-      <link>/publication/cp19/</link>
-      <pubDate>Sat, 01 Jun 2019 00:00:00 +0800</pubDate>
-      
-      <guid>/publication/cp19/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Network Reliability Estimation in Theory and Practice </title>
       <link>/publication/ress/</link>
-      <pubDate>Sat, 01 Jun 2019 00:00:00 +0800</pubDate>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0530</pubDate>
       
       <guid>/publication/ress/</guid>
       <description></description>
@@ -116,7 +108,7 @@
     <item>
       <title>GANAK: A Scalable Probabilistic Exact Model Counter</title>
       <link>/publication/ijcai19_ganak/</link>
-      <pubDate>Tue, 21 May 2019 00:00:00 +0800</pubDate>
+      <pubDate>Tue, 21 May 2019 00:00:00 +0530</pubDate>
       
       <guid>/publication/ijcai19_ganak/</guid>
       <description></description>
@@ -125,7 +117,7 @@
     <item>
       <title>Phase Transition Behavior of Cardinality and XOR Constraints  </title>
       <link>/publication/ijcai19_cardxor/</link>
-      <pubDate>Mon, 20 May 2019 00:00:00 +0800</pubDate>
+      <pubDate>Mon, 20 May 2019 00:00:00 +0530</pubDate>
       
       <guid>/publication/ijcai19_cardxor/</guid>
       <description></description>
@@ -134,7 +126,7 @@
     <item>
       <title>Kuldeep recieved notification of the award of &lt;a href= &#34;https://www.nrf.gov.sg/funding-grants/nrf-fellowship-for-artificial-intelligence&#34;&gt; NRF Fellowship for AI &lt;/a&gt; for the project: Provably Verified and Explainable Probabilistic Reasoning.</title>
       <link>/news/15052019/</link>
-      <pubDate>Wed, 15 May 2019 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 15 May 2019 00:00:00 +0530</pubDate>
       
       <guid>/news/15052019/</guid>
       <description></description>
@@ -143,7 +135,7 @@
     <item>
       <title>Two papers accepted to IJCAI.The first paper explores the phase transition behavior of conjunction of cardinality and XOR constraints. Authors: Yash Pote, Saurabh Joshi, Kuldeep Meel.&lt;br&gt; The second paper describes a radically new approach to exact counting wherein we compute estimates that are probabilistically exact! Authors: Shubham Sharma, Kuldeep Meel. Combined with our invited paper on &lt;a href= &#34;https://www.comp.nus.edu.sg/~meel/Papers/CP2018msv.pdf&#34;&gt; #DNF &lt;/a&gt;, this makes 3 papers that we will be presenting at IJCAI.</title>
       <link>/news/09052019/</link>
-      <pubDate>Thu, 09 May 2019 00:00:00 +0800</pubDate>
+      <pubDate>Thu, 09 May 2019 00:00:00 +0530</pubDate>
       
       <guid>/news/09052019/</guid>
       <description></description>
@@ -152,7 +144,7 @@
     <item>
       <title>Assessing Heuristic Machine Learning Explanations with Model Counting  </title>
       <link>/publication/sat19_heu/</link>
-      <pubDate>Sun, 05 May 2019 00:00:00 +0800</pubDate>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0530</pubDate>
       
       <guid>/publication/sat19_heu/</guid>
       <description></description>
@@ -161,7 +153,7 @@
     <item>
       <title>CrystalBall: Gazing in the Black Box of SAT Solving </title>
       <link>/publication/sat19_cball/</link>
-      <pubDate>Sun, 05 May 2019 00:00:00 +0800</pubDate>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0530</pubDate>
       
       <guid>/publication/sat19_cball/</guid>
       <description></description>
@@ -215,6 +207,83 @@ Our experiments demonstrated that KUS outperformed both SPUR and UniGen2 state-o
 &lt;li&gt;Experimentally we have demonstrated that KUS outperformed state-of-the-art uniform and almost-uniform samplers&lt;/li&gt;
 &lt;li&gt;We believe that the success of KUS will motivate researchers in verification and knowledge compilation communities to investigate a broader set of logical forms amenable to efficient uniform generation&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>WAPS: Weighted and Projected Sampling</title>
+      <link>/post/waps/</link>
+      <pubDate>Fri, 03 May 2019 11:06:17 +0530</pubDate>
+      
+      <guid>/post/waps/</guid>
+      <description>&lt;p&gt;This blogpost talks about our tool &lt;a href=&#34;https://github.com/meelgroup/WAPS&#34; target=&#34;_blank&#34;&gt;WAPS&lt;/a&gt;. Specifically, we will talk about how we are able to utilize the idea of sampling using knowledge compilations (d-DNNFs) from our previous work (&lt;a href=&#34;https://www.comp.nus.edu.sg/~meel/Papers/lpar18.pdf&#34; target=&#34;_blank&#34;&gt;KUS&lt;/a&gt;) and generalize it in order to achieve weighted and projected sampling. This work was jointly performed by &lt;a href=&#34;https://rahulguptakota.github.io/&#34; target=&#34;_blank&#34;&gt;Rahul&lt;/a&gt; and &lt;a href=&#34;https://smsharma1.github.io/&#34; target=&#34;_blank&#34;&gt;Shubham&lt;/a&gt; in the mentorship of &lt;a href=&#34;https://www.cse.iitk.ac.in/users/subhajit/&#34; target=&#34;_blank&#34;&gt;Subhajit&lt;/a&gt; and &lt;a href=&#34;https://www.comp.nus.edu.sg/~meel/&#34; target=&#34;_blank&#34;&gt;Kuldeep&lt;/a&gt;. You can read the paper &lt;a href=&#34;https://www.comp.nus.edu.sg/~meel/Papers/tacas19.pdf&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt; and get the tool &lt;a href=&#34;https://github.com/meelgroup/WAPS&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;. You can read the previous &lt;a href=&#34;https://meelgroup.github.io/post/kus/&#34; target=&#34;_blank&#34;&gt;blog&lt;/a&gt; that describes uniform sampling using knowledge compilations, though it is not absolutely necessary for this post.
+&lt;!-- Don&#39;t worry if you haven&#39;t read the previous blog, I am going to mention the required details here.  --&gt;&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s talk about what it means to achieve weighted sampling at first.
+&lt;h3&gt;Weighted Sampling&lt;/h3&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Given a formula $F$ and a weight function $W$, the objective of $weighted$ sampling is to draw samples from the set of satisfying assignments of $F$ called $R_{F}$ using a generator $\mathcal{G}^{w}(F, W)$ that ensures
+ $$\forall y \in R_{F}, \mathsf{Pr}\left[\mathcal{G}^{w}(F, W) = y\right] = \frac{W(y)}{W(R_F)}$$&lt;/p&gt;
+
+&lt;!-- So, we are trying to construct a weighted probabilistic generator. --&gt;
+
+&lt;p&gt;Intuitively, this just means that the probability of drawing a sample is proportional to its weight. In our case, we are dealing with literal-weighted weight function and the weight of an assignment is simply given by the product of weight of individual literals in the assignment. Broadly speaking, WAPS proceeds in three stages:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;d-DNNF compilation&lt;/li&gt;
+&lt;li&gt;Annotation&lt;/li&gt;
+&lt;li&gt;Sampling.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Let&amp;rsquo;s look at what a typical d-DNNF looks like:
+&lt;img src=&#34;dDNNFexample.png&#34; alt=&#34;alt_text&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;d-DNNF (Deterministic Decomposable Negation Normal Form) can be seen as a compact representation of the satisfying assignments for a given formula. One can also view it as the search space of component decomposition based DPLL procedures popularly employed in SAT solving and model counting. This perspective is helpful for Projected Sampling as you will see. Essentially, in a d-DNNF, the formulae given by children of OR nodes have different (inconsistent to be precise) satisfying assignments (determinism); so, you can choose one of the children if you were to sample a satisfying assignment. On the other hand, the children of AND nodes are drawn over mutually disjoint sets of variables (decomposability);thus allowing you to simply stitch samples drawn from different children to get an overall sample.&lt;/p&gt;
+
+&lt;p&gt;WAPS proceeds by first compiling the given CNF formula into its d-DNNF. This is followed by Annotation. The central idea in WAPS is to annotate the compiled d-DNNF in a way which allows weighted sampling by simply performing weighted bernoulli trials over d-DNNF in the Sampling phase (Refer to our &lt;a href=&#34;https://www.comp.nus.edu.sg/~meel/Papers/tacas19.pdf&#34; target=&#34;_blank&#34;&gt;paper&lt;/a&gt; for more details).
+The weight annotation is summarised by the figures below:&lt;/p&gt;
+
+&lt;div class=&#34;row&#34;&gt;
+  &lt;div class=&#34;col-sm-5&#34;&gt;
+    &lt;img src=&#34;WAnnotate.png&#34; alt=&#34;Snow&#34; class=&#34;center&#34;&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;col-sm-7&#34;&gt;
+    &lt;img src=&#34;WAnnotate2.png&#34; alt=&#34;Forest&#34; class=&#34;center&#34;&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;In our paper, we show that this annotation scheme allows you to perform weighted sampling.&lt;/p&gt;
+
+&lt;p&gt;&lt;h3&gt; Weighted and Projected Sampling &lt;/h3&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Given a formula $F$, a set of projecting variables $P$ and a weight function $W$, the objective of $weighted~and~projected$ sampling is to draw samples from the set of satisfying assignments of $F$ projected over $P$ called $R_{F\downarrow P}$ using a generator $\mathcal{G}^{wp}(F, P, W)$ that ensures
+$$\forall y \in R_{F\downarrow P}, \mathsf{Pr}\left[\mathcal{G}^{wp}(F, P, W) = y\right] = \frac{W(y)}{W(R_{F\downarrow P})}$$
+Intuitively, this means that samples drawn contain only a subset of variables ($P$) as opposed to all variables in the formula and these samples obey the weight distribution given by $W$ over the variables appearing in samples. This has applications in hardware verification and other places where encoding original problem into CNF generates additional Tseitin variables while weight distribution is only defined on original variables in the problem. In such cases, we are often interested in samples from variables of the original problem.&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;Projected Sampling &lt;/h4&gt;
+To achieve Projected Sampling, we aim to produce a d-DNNF which represents the set of satisfying assignments projected over a given set of projecting variables. To accomplish this, we modified Dsharp, a state of the art d-DNNF compiler to search first on projecting variables and then simply check if the residual formula is satisfiable to retain the corresponding path in d-DNNF. Notably, this technique has been used in the context of Projected Model Counting and Quantitative Information Flow before.&lt;/p&gt;
+
+&lt;p&gt;The above technique combined with weighted sampling sums up the buildup of WAPS (Weighted and Projected Sampler).&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt; Incremental Sampling &lt;/h4&gt;
+Another interesting property as a side-effect of knowledge compilation based sampling is that incremental sampling (i.e. fetching multiple relatively short sized samples) can be performed efficiently. This is simply done by saving the compiled d-DNNF or its annotated version depending upon whether weights change in different iterations.&lt;/p&gt;
+
+&lt;p&gt;&lt;h3&gt; Results &lt;/h3&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Our experiments demonstrate that WAPS is able to significantly outperform existing state-of-the-art weighted and projected sampler WeightGen, by up to $3$ orders of magnitude in terms of runtime while
+achieving a geometric speedup of $296\times$. For $incremental~sampling$ i.e. fetching multiple, relatively small-sized samples, repeatedly, WAPS achieves a geometric speedup of $3.69$. Also, WAPS is almost oblivious to the number of samples requested. Empirically, the distribution generated by WAPS is statistically indistinguishable from that generated by an ideal weighted and projected sampler.  Also, while performing conditioned sampling in WAPS, we incur no extra cost in terms of runtime in most of the cases. Moreover, the performance of our knowledge compilation based sampling technique is found to be oblivious to weight distribution. Detailed data is available at &lt;a href=&#34;https://github.com/meelgroup/waps&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;h3&gt; Final Thoughts &lt;/h3&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;This work has further tapped into the potential of sampling using knowledge compilations by developing procedures that allow weighted and projected sampling. We believe that the general idea of annotating knowledge compilations in different ways has even greater potential for sampling suited to a wider set of applications. Further work can also explore the development of faster sampling methods which leverage partially compiled d-DNNFs. Moreover, comparing the performance as well as functional capabilities with regard to sampling in different knowledge compilations such as SDDs(Sequential Decision Diagrams) is an interesting direction.&lt;/p&gt;
 </description>
     </item>
     
