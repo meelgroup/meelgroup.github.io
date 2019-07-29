@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.45.1" />
+  <meta name="generator" content="Hugo 0.40.1" />
   <meta name="author" content="MeelGroup">
 
   
@@ -292,7 +292,7 @@
 
   <span class="article-date">
     
-    <time datetime="2019-05-03 11:06:17 &#43;0530 &#43;0530" itemprop="datePublished dateModified">
+    <time datetime="2019-05-03 11:06:17 &#43;0530 IST" itemprop="datePublished dateModified">
       May 3, 2019
     </time>
   </span>
@@ -380,9 +380,9 @@
 <p>Let&rsquo;s look at what a typical d-DNNF looks like:
 <img src="dDNNFexample.png" alt="alt_text" /></p>
 
-<p>d-DNNF (Deterministic Decomposable Negation Normal Form) can be seen as a compact representation of the satisfying assignments for a given formula. One can also view it as the search space of component decomposition based DPLL procedures popularly employed in SAT solving and model counting. This perspective is helpful for Projected Sampling as you will see. Essentially, in a d-DNNF, the formulae given by children of OR nodes have different (inconsistent to be precise) satisfying assignments (determinism); so, you can choose one of the children if you were to sample a satisfying assignment. On the other hand, the children of AND nodes are drawn over mutually disjoint sets of variables (decomposability);thus allowing you to simply stitch samples drawn from different children to get an overall sample.</p>
+<p>d-DNNF (Deterministic Decomposable Negation Normal Form) can be seen as a form of compact representation for the satisfying assignments of a given formula. One can also view it as the search space of component decomposition based DPLL procedures popularly employed in SAT solving and model counting. This perspective is helpful for Projected Sampling as you will see. Essentially, in a d-DNNF, the children of OR nodes have different (inconsistent to be precise) satisfying assignments (determinism); so, you can choose one of the children if you were to sample a satisfying assignment. On the other hand, the children of AND nodes are drawn over mutually disjoint sets of variables (decomposability); thus allowing you to simply stitch samples drawn from different children to get an overall sample.</p>
 
-<p>WAPS proceeds by first compiling the given CNF formula into its d-DNNF. This is followed by Annotation. The central idea in WAPS is to annotate the compiled d-DNNF in a way which allows weighted sampling by simply performing weighted bernoulli trials over d-DNNF in the Sampling phase (Refer to our <a href="https://www.comp.nus.edu.sg/~meel/Papers/tacas19.pdf" target="_blank">paper</a> for more details).
+<p>WAPS proceeds by first compiling the given CNF formula into its d-DNNF. This is followed by Annotation. The central idea in WAPS is to annotate the compiled d-DNNF in a way which allows weighted sampling by simply performing weighted bernoulli trials over d-DNNF in the Sampling phase (Refer to our <a href="https://github.com/meelgroup/WAPS/raw/master/FullPaper.pdf" target="_blank">paper</a> for more details).
 The weight annotation is summarised by the figures below:</p>
 
 <div class="row">
@@ -405,7 +405,7 @@ $$\forall y \in R_{F\downarrow P}, \mathsf{Pr}\left[\mathcal{G}^{wp}(F, P, W) = 
 Intuitively, this means that samples drawn contain only a subset of variables ($P$) as opposed to all variables in the formula and these samples obey the weight distribution given by $W$ over the variables appearing in samples. This has applications in hardware verification and other places where encoding original problem into CNF generates additional Tseitin variables while weight distribution is only defined on original variables in the problem. In such cases, we are often interested in samples from variables of the original problem.</p>
 
 <p><h4>Projected Sampling </h4>
-To achieve Projected Sampling, we aim to produce a d-DNNF which represents the set of satisfying assignments projected over a given set of projecting variables. To accomplish this, we modified Dsharp, a state of the art d-DNNF compiler to search first on projecting variables and then simply check if the residual formula is satisfiable to retain the corresponding path in d-DNNF. Notably, this technique has been used in the context of Projected Model Counting and Quantitative Information Flow before.</p>
+To achieve Projected Sampling, we aim to produce a d-DNNF which represents the set of satisfying assignments projected over a given set of projecting variables. To accomplish this, we modified Dsharp, a state of the art d-DNNF compiler to search first on projecting variables and then simply check if the residual formula is satisfiable to retain the corresponding path in d-DNNF. Notably, this technique has been used in the context of <a href="https://arxiv.org/abs/1507.07648" target="_blank">Projected Model Counting</a> and <a href="https://link.springer.com/chapter/10.1007/978-3-642-40196-1_16" target="_blank">Quantitative Information Flow</a> before.</p>
 
 <p>The above technique combined with weighted sampling sums up the buildup of WAPS (Weighted and Projected Sampler).</p>
 

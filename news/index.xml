@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0530</lastBuildDate>
     
 	<atom:link href="/news/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Our paper on &lt;a href= &#34;https://bishwamittra.github.io/publication/irr-ghosh.pdf&#34;&gt;interpretable rules expressed as relaxed-CNF&lt;/a&gt; is accepted at IJCAI workshop on XAI (Explainable Artificial Intelligence) and DSO (Data Science meets Optimization), 2019. Authors: Bishwamittra Ghosh, Dmitry Malioutov, Kuldeep S. Meel.</title>
       <link>/news/23062019/</link>
-      <pubDate>Sun, 23 Jun 2019 00:00:00 +0800</pubDate>
+      <pubDate>Sun, 23 Jun 2019 00:00:00 +0530</pubDate>
       
       <guid>/news/23062019/</guid>
       <description></description>
@@ -24,7 +24,7 @@
     <item>
       <title>Kuldeep recieved notification of the award of &lt;a href= &#34;https://www.nrf.gov.sg/funding-grants/nrf-fellowship-for-artificial-intelligence&#34;&gt; NRF Fellowship for AI &lt;/a&gt; for the project: Provably Verified and Explainable Probabilistic Reasoning.</title>
       <link>/news/15052019/</link>
-      <pubDate>Wed, 15 May 2019 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 15 May 2019 00:00:00 +0530</pubDate>
       
       <guid>/news/15052019/</guid>
       <description></description>
@@ -33,7 +33,7 @@
     <item>
       <title>Two papers accepted to IJCAI.The first paper explores the phase transition behavior of conjunction of cardinality and XOR constraints. Authors: Yash Pote, Saurabh Joshi, Kuldeep Meel.&lt;br&gt; The second paper describes a radically new approach to exact counting wherein we compute estimates that are probabilistically exact! Authors: Shubham Sharma, Kuldeep Meel. Combined with our invited paper on &lt;a href= &#34;https://www.comp.nus.edu.sg/~meel/Papers/CP2018msv.pdf&#34;&gt; #DNF &lt;/a&gt;, this makes 3 papers that we will be presenting at IJCAI.</title>
       <link>/news/09052019/</link>
-      <pubDate>Thu, 09 May 2019 00:00:00 +0800</pubDate>
+      <pubDate>Thu, 09 May 2019 00:00:00 +0530</pubDate>
       
       <guid>/news/09052019/</guid>
       <description></description>
@@ -42,7 +42,7 @@
     <item>
       <title>Two papers accepted to SAT 2019. The first paper introduces the first version of CrystalBall, a framework intended to allow gazing into the black box of SAT solving. Authors: Kuldeep, Mate Soos, Raghav Kulkarni.&lt;br&gt; The second paper discusses how model counting can be used to analyze explanations provided by tools such as ANCHOR. Authors: Kuldeep, Nina Narodytska, Aditya Shrotri, Alexey Ignatiev, and Joao Marques Silva.</title>
       <link>/news/22042019/</link>
-      <pubDate>Mon, 22 Apr 2019 00:00:00 +0800</pubDate>
+      <pubDate>Mon, 22 Apr 2019 00:00:00 +0530</pubDate>
       
       <guid>/news/22042019/</guid>
       <description></description>
@@ -51,7 +51,7 @@
     <item>
       <title>Kuldeep  is appointed Visiting Assistant Professor in the  &lt;a href=&#34;https://www.cse.iitb.ac.in/&#34;&gt;Department of Computer Science and Engineering&lt;/a&gt;  at IIT Bombay.</title>
       <link>/news/11022019/</link>
-      <pubDate>Mon, 11 Feb 2019 00:00:00 +0800</pubDate>
+      <pubDate>Mon, 11 Feb 2019 00:00:00 +0530</pubDate>
       
       <guid>/news/11022019/</guid>
       <description></description>
@@ -60,7 +60,7 @@
     <item>
       <title>Paper on network reliability is accepted to &lt;a href=&#34;https://www.icasp13.snu.ac.kr/&#34;&gt;The 13th International Conference on Applications of Statistics and Probability in Civil Engineering &lt;/a&gt; Authors: Roger Paredes, Leonardo Duenas-Osorio, Kuldeep S. Meel, and Moshe Y. Vardi.</title>
       <link>/news/02022019/</link>
-      <pubDate>Sat, 02 Feb 2019 00:00:00 +0800</pubDate>
+      <pubDate>Sat, 02 Feb 2019 00:00:00 +0530</pubDate>
       
       <guid>/news/02022019/</guid>
       <description></description>
@@ -69,27 +69,9 @@
     <item>
       <title>Our paper on weighted and projected sampling is accepted at &lt;a href=&#34;https://conf.researchr.org/track/etaps-2019/tacas-2019-papers&#34;&gt;TACAS 2019&lt;/a&gt;. Authors: Shubham Sharma, Rahul Gupta, Subhajit Roy and Kuldeep S. Meel.</title>
       <link>/news/26012019/</link>
-      <pubDate>Sat, 26 Jan 2019 00:00:00 +0800</pubDate>
+      <pubDate>Sat, 26 Jan 2019 00:00:00 +0530</pubDate>
       
       <guid>/news/26012019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Paper with Alexis De Colnet demonstrating duality between different approaches to discrete integration has been accepted to &lt;a href=&#34;http://cp2019.a4cp.org/&#34;&gt; CP 2019&lt;/a&gt;. The paper is based on Alexis’ Masters thesis and also his first paper. Congratulations Alexis!</title>
-      <link>/news/01072019/</link>
-      <pubDate>Sat, 26 Jan 2019 00:00:00 +0800</pubDate>
-      
-      <guid>/news/01072019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Yang Suwei has been awarded &lt;a href = &#34;https://www.comp.nus.edu.sg/news/3056-2019-ourp/&#34;&gt;Outstanding Undergraduate Researcher Prize (OURP)&lt;/a&gt; for his FYP project Computational Sustainability: Forest Fire Prediction in Indonesia, jointly co-advised with Prof. Massimo Lupascu (Department of Geography). Congratulations Suwei!</title>
-      <link>/news/22062019/</link>
-      <pubDate>Sat, 26 Jan 2019 00:00:00 +0800</pubDate>
-      
-      <guid>/news/22062019/</guid>
       <description></description>
     </item>
     
