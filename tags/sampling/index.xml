@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sampling on MeelGroup</title>
+    <title>sampling on MeelGroup</title>
     <link>/tags/sampling/</link>
-    <description>Recent content in Sampling on MeelGroup</description>
+    <description>Recent content in sampling on MeelGroup</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
@@ -18,7 +18,7 @@
       <pubDate>Thu, 04 Apr 2019 00:00:00 +0530</pubDate>
       
       <guid>/software/waps/</guid>
-      <description>Previous work on applying Knowledge compilation has focused on uniform sampling over all the variables. Since the constraints are written in high level languages such as Verilog, the popular CNF encoding schemes as Tseitin encoding introduces additional auxiliary variables. The resulting CNF formulas are not equivalent but equisatisfiable. In particular, for a formula $G$ specified in high level language we obtain a CNF formula F such that $G (X) = \exists Y F(X,Y)$.</description>
+      <description>WAPS: Weighted and Projected Sampling</description>
     </item>
     
     <item>
@@ -27,7 +27,7 @@
       <pubDate>Wed, 01 Aug 2018 00:00:00 +0530</pubDate>
       
       <guid>/software/kus/</guid>
-      <description>Uniform sampling has drawn diverse applications in programming languages and software engineering, like in constrained-random verification (CRV), constrained-fuzzing and bug synthesis. The effectiveness of these applications depend on the uniformity of test stimuli generated from a given set of constraints. Despite significant progress over the past few years, the performance of the state of the art techniques still falls short of those of heuristic methods employed in the industry which sacrifice either uniformity or scalability when generating stimuli.</description>
+      <description>Knowledge Compilation meets Uniform Sampling</description>
     </item>
     
   </channel>

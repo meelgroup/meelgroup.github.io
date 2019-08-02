@@ -17,10 +17,11 @@
       
     
   
-  <meta name="description" content="A phaser is an expressive synchronization construct that unifies collective and point-to-point coordination with dynamic registration of parallel tasks. Each task can participate in a phaser as a signaler, a waiter, or both. The participants in a phaser may change over time as tasks are added and deleted. In this paper, we present a highly concurrent and scalable design of phasers for a distributed memory environment. Our design for a distributed phaser employs a pair of skip lists augmented with the ability to collect and propagate synchronization signals. To enable a high degree of concurrency, addition and deletion of participant tasks are performed in two phases: a &#34;fast single-link-modify&#34; step followed by multiple hand-over-hand &#34;lazy multi-link-modify&#34; steps. Verifying highly-concurrent protocols is difficult. We analyze our design for a distributed phaser using the SPIN model checker. A straight-forward approach to model checking a distributed phaser operation requires an infeasibly large state space. To address this issue, we employ a novel &#34;message-based&#34; model checking scheme to enable a non- approximate complete model checking of our phaser design. We guarantee the semantic properties of phaser operations by ensuring that a set of linear temporal logic formulae are valid during model checking. We also present complexity analysis of the cost of synchronization and structural operations.">
+  <meta name="description" content="This blogpost talks about our tool GANAK that inherits current advancements in SAT solving and model counting, improves upon them and contributes new ideas, thereby outperforming state-of-the-art exact and approximate model counters. The source code of GANAK is available here and the paper is available here. The main result is that we can solve a lot more problems than before: Let&rsquo;s first define Model Counting. Model Counting
+Given a Boolean formula $F$, over a set of variable $X$, model counting (aka #SAT) seeks to compute the number of solutions of $F$.">
 
   
-  <link rel="alternate" hreflang="en-us" href="/publication/pact15/">
+  <link rel="alternate" hreflang="en-us" href="/post/ganak/">
 
   
 
@@ -69,25 +70,26 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="/publication/pact15/">
+  <link rel="canonical" href="/post/ganak/">
 
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="MeelGroup">
-  <meta property="og:url" content="/publication/pact15/">
-  <meta property="og:title" content="Design and Verification of Distributed Phasers | MeelGroup">
-  <meta property="og:description" content="A phaser is an expressive synchronization construct that unifies collective and point-to-point coordination with dynamic registration of parallel tasks. Each task can participate in a phaser as a signaler, a waiter, or both. The participants in a phaser may change over time as tasks are added and deleted. In this paper, we present a highly concurrent and scalable design of phasers for a distributed memory environment. Our design for a distributed phaser employs a pair of skip lists augmented with the ability to collect and propagate synchronization signals. To enable a high degree of concurrency, addition and deletion of participant tasks are performed in two phases: a &#34;fast single-link-modify&#34; step followed by multiple hand-over-hand &#34;lazy multi-link-modify&#34; steps. Verifying highly-concurrent protocols is difficult. We analyze our design for a distributed phaser using the SPIN model checker. A straight-forward approach to model checking a distributed phaser operation requires an infeasibly large state space. To address this issue, we employ a novel &#34;message-based&#34; model checking scheme to enable a non- approximate complete model checking of our phaser design. We guarantee the semantic properties of phaser operations by ensuring that a set of linear temporal logic formulae are valid during model checking. We also present complexity analysis of the cost of synchronization and structural operations.">
+  <meta property="og:url" content="/post/ganak/">
+  <meta property="og:title" content="GANAK: A Scalable Probabilistic Exact Model Counter | MeelGroup">
+  <meta property="og:description" content="This blogpost talks about our tool GANAK that inherits current advancements in SAT solving and model counting, improves upon them and contributes new ideas, thereby outperforming state-of-the-art exact and approximate model counters. The source code of GANAK is available here and the paper is available here. The main result is that we can solve a lot more problems than before: Let&rsquo;s first define Model Counting. Model Counting
+Given a Boolean formula $F$, over a set of variable $X$, model counting (aka #SAT) seeks to compute the number of solutions of $F$.">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2016-01-01T00:00:00&#43;05:30">
+  <meta property="article:published_time" content="2019-04-03T11:06:17&#43;05:30">
   
-  <meta property="article:modified_time" content="2016-01-01T00:00:00&#43;05:30">
-  
-
-  
+  <meta property="article:modified_time" content="2019-04-03T11:06:17&#43;05:30">
   
 
-  <title>Design and Verification of Distributed Phasers | MeelGroup</title>
+  
+  
+
+  <title>GANAK: A Scalable Probabilistic Exact Model Counter | MeelGroup</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
@@ -277,46 +279,72 @@
   </div>
 </nav>
 
-<div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
 
   
 
 
   <div class="article-container">
-    <h1 itemprop="name">Design and Verification of Distributed Phasers</h1>
-    <span class="pub-authors" itemprop="author">
-      
-      Karthik, Murthy, Sri Raj, Paul, Kuldeep S. Meel, Tiago Cogumbreiro, John Mellor-Crummey
-      
-    </span>
-    <span class="pull-right">
-      
+    <h1 itemprop="name">GANAK: A Scalable Probabilistic Exact Model Counter</h1>
+
+    
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2019-04-03 11:06:17 &#43;0530 IST" itemprop="datePublished dateModified">
+      Apr 3, 2019
+    </time>
+  </span>
+  <span itemscope itemprop="author publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="MeelGroup">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    3 min read
+  </span>
+  
+
+  
+  
+
+  
+  
+  
+  
+
+  
+  
 <div class="share-box" aria-hidden="true">
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Design%20and%20Verification%20of%20Distributed%20Phasers&amp;url=https://meelgroup.github.io%2fpublication%2fpact15%2f"
+         href="https://twitter.com/intent/tweet?text=GANAK%3a%20A%20Scalable%20Probabilistic%20Exact%20Model%20Counter&amp;url=https://meelgroup.github.io%2fpost%2fganak%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https://meelgroup.github.io%2fpublication%2fpact15%2f"
+         href="https://www.facebook.com/sharer.php?u=https://meelgroup.github.io%2fpost%2fganak%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://meelgroup.github.io%2fpublication%2fpact15%2f&amp;title=Design%20and%20Verification%20of%20Distributed%20Phasers"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://meelgroup.github.io%2fpost%2fganak%2f&amp;title=GANAK%3a%20A%20Scalable%20Probabilistic%20Exact%20Model%20Counter"
          target="_blank" rel="noopener">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Design%20and%20Verification%20of%20Distributed%20Phasers&amp;body=https://meelgroup.github.io%2fpublication%2fpact15%2f">
+         href="mailto:?subject=GANAK%3a%20A%20Scalable%20Probabilistic%20Exact%20Model%20Counter&amp;body=https://meelgroup.github.io%2fpost%2fganak%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -324,121 +352,79 @@
 </div>
 
 
-    </span>
+  
 
-    
+</div>
 
-    
-    <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">A phaser is an expressive synchronization construct that unifies collective and point-to-point coordination with dynamic registration of parallel tasks. Each task can participate in a phaser as a signaler, a waiter, or both. The participants in a phaser may change over time as tasks are added and deleted. In this paper, we present a highly concurrent and scalable design of phasers for a distributed memory environment. Our design for a distributed phaser employs a pair of skip lists augmented with the ability to collect and propagate synchronization signals. To enable a high degree of concurrency, addition and deletion of participant tasks are performed in two phases: a &ldquo;fast single-link-modify&rdquo; step followed by multiple hand-over-hand &ldquo;lazy multi-link-modify&rdquo; steps. Verifying highly-concurrent protocols is difficult. We analyze our design for a distributed phaser using the SPIN model checker. A straight-forward approach to model checking a distributed phaser operation requires an infeasibly large state space. To address this issue, we employ a novel &ldquo;message-based&rdquo; model checking scheme to enable a non- approximate complete model checking of our phaser design. We guarantee the semantic properties of phaser operations by ensuring that a set of linear temporal logic formulae are valid during model checking. We also present complexity analysis of the cost of synchronization and structural operations.</p>
-    
 
-    
-    <div class="row">
-      <div class="col-sm-1"></div>
-      <div class="col-sm-10">
-        <div class="row">
-          <div class="col-xs-12 col-sm-3 pub-row-heading">Type</div>
-          <div class="col-xs-12 col-sm-9">
-            
-            <a href="/publication/#1">
-              Conference paper
-            </a>
-            
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-1"></div>
+    <div class="article-style" itemprop="articleBody">
+      <p>This blogpost talks about our tool <a href="https://github.com/meelgroup/ganak" target="_blank">GANAK</a> that inherits current advancements in SAT solving and model counting, improves upon them and contributes new ideas, thereby outperforming state-of-the-art exact and approximate model counters. The source code of GANAK is available <a href="https://github.com/meelgroup/ganak" target="_blank">here</a> and the paper is available <a href="https://www.comp.nus.edu.sg/~meel/Papers/ijcai19srsm.pdf" target="_blank">here</a>. The main result is that we can solve a lot more problems than before: <img src="cactus.png" alt="alt text" /></p>
+
+<p>Let&rsquo;s first define Model Counting.
+<h3>Model Counting</h3></p>
+
+<hr />
+
+<p>Given a Boolean formula $F$, over a set of variable $X$, model counting (aka #SAT) seeks to compute the number of solutions of $F$. In 1979 Valiant showed that #SAT is #P-complete problem and in 1989 Toda proved that every problem in the polynomial hierarchy could be solved by just one call to a #P oracle. Following types of model counting has been studied in the literature:</p>
+
+<p><h4>Exact Model Counting</h4>
+Given $F$, the problem of exact model counting is to compute the number of solutions of $F$.
+<h4> Probabilistic Exact Model Counting </h4>
+Given $F$ and $\delta \in (0,1]$, probabilistic exact model counting estimates $\texttt{count}$ and guarantees that: $\mathsf{Pr}\big[|Solutions(F)| = \texttt{count}\big]\geq 1-\delta$. A recent study of different relaxations of model counting shows that probabilistic exact model counting is almost as hard as exact model counting
+<h4> Approximate Model Counting </h4>
+Given $F$, a tolerance $\epsilon &gt; 0$ and a confidence  $1 - \delta \in (0,1]$, approximate model counting estimates $\texttt{count}$ and guarantees that:  $\mathsf{Pr}\Big[\frac{|Solutions(F)|}{(1 + \epsilon)} \leq \texttt{count} \leq (1 +\epsilon)|Solutions(F)|\Big] \geq 1 - \delta$.</p>
+
+<p>Let&rsquo;s see some of the applications of model counting
+<h3> Applications of Model Counting </h3></p>
+
+<hr />
+
+<p>Model counting is a fundamental problem with a wide variety of applications ranging from machine learning, quantified information flow, network reliability, planning, probabilistic reasoning, and many other related fields. For example, given a graph $G$ such that each of its edges fails with some probability and two nodes, $s$ and $t$, the problem of computing probability of existence of a path from $s$ to $t$ can be reduced to that of propositional model counting.</p>
+
+<p>Let&rsquo;s talk about GANAK
+<h3> GANAK </h3></p>
+
+<hr />
+
+<p>GANAK is a scalable probabilistic exact model counter that inherits the strength of a state-of-the-art exact model counter, sharpSAT, and is equipped with the following new algorithmic advances</p>
+
+<ul>
+<li>Probabilistic component caching (PCC)</li>
+<li>New variable branching heuristic (CSVSADS)</li>
+<li>New phase selection heuristic (PC)</li>
+<li>Independent support heuristic (IS)</li>
+<li>Exponentially decaying randomness heuristic (EDR)</li>
+<li>Learn and start over heuristic (LSO)</li>
+</ul>
+
+<p>Detailed discussion about each of these heuristic can be found <a href="https://www.comp.nus.edu.sg/~meel/Papers/ijcai19srsm.pdf" target="_blank">here</a></p>
+
+<p><h3> Results </h3></p>
+
+<hr />
+
+<p>We evaluate the runtime performance of GANAK on $2031$ publicly available benchmarks arising from a wide range of applications of model counting. Our experiments demonstrate that GANAK performs best when all the heuristics describe in the previous section (except EDR) are enabled. GANAK outperforms state-of-the-art exact and approximate model counters, both in terms of PAR-2 score and the number of instances solved. Finally, in our experiments, the model count returned by GANAK was equal to the exact model count for all the benchmarks.</p>
+
+<p>We are thankful to the <a href="https://www.nscc.sg/" target="_blank">National Supercomputing Center Singapore</a> for providing us computational resources to run our experiments.</p>
+
     </div>
-    <div class="visible-xs space-below"></div>
+
+    
+
+
+
+
+
+    
     
 
     
-    <div class="row">
-      <div class="col-sm-1"></div>
-      <div class="col-sm-10">
-        <div class="row">
-          <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-          <div class="col-xs-12 col-sm-9">In <em>Proceedings of International European Conference on Parallel and Distributed Computing (Euro-Par)</em></div>
-        </div>
-      </div>
-      <div class="col-sm-1"></div>
-    </div>
-    <div class="visible-xs space-below"></div>
-    
-
-    <div class="row">
-      <div class="col-sm-1"></div>
-      <div class="col-sm-10">
-        <div class="row">
-          <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
-          <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-            January, 2016
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-1"></div>
-    </div>
-    <div class="visible-xs space-below"></div>
-
-    <div class="row" style="padding-top: 10px">
-      <div class="col-sm-1"></div>
-      <div class="col-sm-10">
-        <div class="row">
-          <div class="col-xs-12 col-sm-3 pub-row-heading" style="line-height:34px;">Links</div>
-          <div class="col-xs-12 col-sm-9">
-
-            
-
-
-
-
-<a class="btn btn-primary btn-outline" href="http://www.comp.nus.edu.sg/~meel/Papers/PACT15.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-<button type="button" class="btn btn-primary btn-outline js-cite-modal"
-        data-filename="/files/citations/PACT15.bib">
-  Cite
-</button>
-
-
-<a class="btn btn-primary btn-outline" href="http://srp7.web.rice.edu/phaser/" target="_blank" rel="noopener">
-  Code
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-1"></div>
-    </div>
-    <div class="visible-xs space-below"></div>
-
-    <div class="space-below"></div>
-
-    <div class="article-style"></div>
 
     
 
 
   </div>
-</div>
-
-
+</article>
 
 <footer class="site-footer">
   <div class="container">
