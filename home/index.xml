@@ -78,7 +78,8 @@ At a more technical level, we work at the intersection of formal methods and art
       <description>Faculty Kuldeep Meel
 Postdoctoral Researchers Mate Soos 
 PhD Students  body .column { float: left; width: 33.33%; padding: 5px; }
-/* Clear floats after image containers */ .row::after { content: &amp;ldquo;&amp;rdquo;; clear: both; display: table; }   Yash Pote   Priyanka Golia   Bishwamittra Ghosh    Suwei    Masters Students   .column { float: left; width: 33.33%; padding: 5px; }</description>
+/* Clear floats after image containers */ .row::after { content: &amp;ldquo;&amp;rdquo;; clear: both; display: table; }   Yash Pote   Priyanka Golia   Bishwamittra Ghosh   Suwei   Masters Students   .column { float: left; width: 33.33%; padding: 5px; }
+/* Clear floats after image containers */ .</description>
     </item>
     
     <item>
