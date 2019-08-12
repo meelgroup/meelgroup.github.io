@@ -4,8 +4,9 @@
     
     <url>
     
-      <loc>/software/approxmc/</loc>
-      <lastmod>2019-07-09T00:00:00+05:30</lastmod>
+      <loc>/</loc>
+      <lastmod>2019-08-12T00:00:00+05:30</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -13,9 +14,17 @@
     
     <url>
     
-      <loc>/</loc>
+      <loc>/news/12082019/</loc>
+      <lastmod>2019-08-12T00:00:00+05:30</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/software/approxmc/</loc>
       <lastmod>2019-07-09T00:00:00+05:30</lastmod>
-      <priority>0</priority>
     </url>
     
   
