@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Sat, 15 Jun 2019 00:00:00 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 15 Jun 2019 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="/tags/counting/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,10 +15,10 @@
     <item>
       <title>GANAK</title>
       <link>/software/ganak/</link>
-      <pubDate>Sat, 15 Jun 2019 00:00:00 +0530</pubDate>
+      <pubDate>Sat, 15 Jun 2019 00:00:00 +0800</pubDate>
       
       <guid>/software/ganak/</guid>
-      <description>GANAK: A Scalable Probabilistic Exact Model Counter</description>
+      <description>Given a Boolean formula $F$, the problem of model counting, also referred to as #SAT, seeks to compute the number of solutions of $F$. Model counting is a fundamental problem with a wide variety of applications ranging from planning, quantified information flow to probabilistic reasoning and the like. The modern #SAT solvers tend to be either based on static decomposition, dynamic decomposition, or a hybrid of the two. Despite dynamic decomposition based #SAT solvers sharing much of their architecture with SAT solvers, the core design and heuristics of dynamic decomposition-based #SAT solvers has remained constant for over a decade.</description>
     </item>
     
   </channel>

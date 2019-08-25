@@ -7,24 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Tue, 09 Jul 2019 00:00:00 +0530</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>sampling-and-counting</title>
-      <link>/tags/sampling-and-counting/</link>
-      <pubDate>Tue, 09 Jul 2019 00:00:00 +0530</pubDate>
-      
-      <guid>/tags/sampling-and-counting/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>counting</title>
       <link>/tags/counting/</link>
-      <pubDate>Sat, 15 Jun 2019 00:00:00 +0530</pubDate>
+      <pubDate>Sat, 15 Jun 2019 00:00:00 +0800</pubDate>
       
       <guid>/tags/counting/</guid>
       <description></description>
@@ -33,9 +23,18 @@
     <item>
       <title>sampling</title>
       <link>/tags/sampling/</link>
-      <pubDate>Thu, 04 Apr 2019 00:00:00 +0530</pubDate>
+      <pubDate>Thu, 04 Apr 2019 00:00:00 +0800</pubDate>
       
       <guid>/tags/sampling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sampling-and-counting</title>
+      <link>/tags/sampling-and-counting/</link>
+      <pubDate>Tue, 09 Jul 2019 00:00:00 +0800</pubDate>
+      
+      <guid>/tags/sampling-and-counting/</guid>
       <description></description>
     </item>
     
