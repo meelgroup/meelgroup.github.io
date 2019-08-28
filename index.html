@@ -337,7 +337,25 @@
 <p>Welcome to the Meel Group&rsquo;s web page. We are situated at National
 University of Singapore.</p>
 
-<p><img src="/img/group.jpg" alt="Meelgroup">
+<style type="text/css">
+    .card {
+    position: relative;
+    }
+
+    .card .img-top {
+        display: none;
+        position: absolute;
+    }
+    .card:hover .img-top {
+        display: inline;
+
+    }
+</style>
+
+<p><div class = "card">
+<img src="/img/group.jpg" class="img-top" alt="Meelgroup">
+<img src="/img/flip.jpg"  alt="flipside">
+</div>
 <h3>Interests</h3></p>
 
 <ul style="list-style-type:disc">
@@ -1371,7 +1389,7 @@ Yong Lai
 
 <div class="column">
 <img src="/img/Teodora.jpg" alt="Teo" style="width: 200px; height: 200px"/>
- Teodora
+ <a href = https://comp.nus.edu.sg/~teodorab>Teodora</a>
 </div>
 </div>
 
@@ -1426,6 +1444,13 @@ body
 <div class="column">
 <img src="/img/arijit.jpg" alt="Arijit" style="width: 200px; height: 200px"/>
 Arijit Shaw
+</div>
+
+<div class="row">
+
+<div class="column">
+<img src="/img/Kurt.jpg" alt="Kurt" style="width: 200px; height: 200px"/>
+Kurt Warren
 </div>
 
 <p></div></p>
