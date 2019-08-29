@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title> Quantitative Verification of Neural Networks And its Security Applications  </title>
+      <link>/publication/ccs19/</link>
+      <pubDate>Fri, 16 Aug 2019 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/ccs19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>We presented three papers at IJCAI-19. 1) The first paper explores the [phase transition behavior of conjunction of cardinality and XOR constraints](https://www.comp.nus.edu.sg/~meel/Papers/ijcai19pjm.pdf). 2) The second paper describes a radically new approach to exact counting wherein we compute estimates that are [probabilistically exact](https://www.comp.nus.edu.sg/~meel/Papers/ijcai19srsm.pdf)! 3) The third one is our invited paper on [#DNF](https://www.comp.nus.edu.sg/~meel/Papers/ijcai19msv.pdf).</title>
       <link>/news/13082019/</link>
       <pubDate>Tue, 13 Aug 2019 00:00:00 +0800</pubDate>
@@ -34,6 +43,15 @@
       <pubDate>Tue, 30 Jul 2019 00:00:00 +0800</pubDate>
       
       <guid>/news/30072019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dual Hashing-based Algorithms for Discrete Integration  </title>
+      <link>/publication/cp19/</link>
+      <pubDate>Sat, 20 Jul 2019 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/cp19/</guid>
       <description></description>
     </item>
     
@@ -142,38 +160,20 @@
     </item>
     
     <item>
+      <title>Not All FPRASs are Equal: Demystifying FPRASs for DNF-Counting (Extended Abstract)  </title>
+      <link>/publication/ijcai19_dnfcounter/</link>
+      <pubDate>Mon, 20 May 2019 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/ijcai19_dnfcounter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Phase Transition Behavior of Cardinality and XOR Constraints  </title>
       <link>/publication/ijcai19_cardxor/</link>
       <pubDate>Mon, 20 May 2019 00:00:00 +0800</pubDate>
       
       <guid>/publication/ijcai19_cardxor/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Kuldeep recieved notification of the award of &lt;a href= &#34;https://www.nrf.gov.sg/funding-grants/nrf-fellowship-for-artificial-intelligence&#34;&gt; NRF Fellowship for AI &lt;/a&gt; for the project: Provably Verified and Explainable Probabilistic Reasoning.</title>
-      <link>/news/15052019/</link>
-      <pubDate>Wed, 15 May 2019 00:00:00 +0800</pubDate>
-      
-      <guid>/news/15052019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Two papers accepted to IJCAI.The first paper explores the phase transition behavior of conjunction of cardinality and XOR constraints. Authors: Yash Pote, Saurabh Joshi, Kuldeep Meel.&lt;br&gt; The second paper describes a radically new approach to exact counting wherein we compute estimates that are probabilistically exact! Authors: Shubham Sharma, Kuldeep Meel. Combined with our invited paper on &lt;a href= &#34;https://www.comp.nus.edu.sg/~meel/Papers/CP2018msv.pdf&#34;&gt; #DNF &lt;/a&gt;, this makes 3 papers that we will be presenting at IJCAI.</title>
-      <link>/news/09052019/</link>
-      <pubDate>Thu, 09 May 2019 00:00:00 +0800</pubDate>
-      
-      <guid>/news/09052019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Assessing Heuristic Machine Learning Explanations with Model Counting  </title>
-      <link>/publication/sat19_heu/</link>
-      <pubDate>Sun, 05 May 2019 00:00:00 +0800</pubDate>
-      
-      <guid>/publication/sat19_heu/</guid>
       <description></description>
     </item>
     

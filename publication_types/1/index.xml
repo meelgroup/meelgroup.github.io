@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Tue, 21 May 2019 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 16 Aug 2019 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title> Quantitative Verification of Neural Networks And its Security Applications  </title>
+      <link>/publication/ccs19/</link>
+      <pubDate>Fri, 16 Aug 2019 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/ccs19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dual Hashing-based Algorithms for Discrete Integration  </title>
+      <link>/publication/cp19/</link>
+      <pubDate>Sat, 20 Jul 2019 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/cp19/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>GANAK: A Scalable Probabilistic Exact Model Counter</title>
@@ -18,6 +36,15 @@
       <pubDate>Tue, 21 May 2019 00:00:00 +0800</pubDate>
       
       <guid>/publication/ijcai19_ganak/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Not All FPRASs are Equal: Demystifying FPRASs for DNF-Counting (Extended Abstract)  </title>
+      <link>/publication/ijcai19_dnfcounter/</link>
+      <pubDate>Mon, 20 May 2019 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/ijcai19_dnfcounter/</guid>
       <description></description>
     </item>
     
@@ -58,6 +85,15 @@
     </item>
     
     <item>
+      <title>BOSPHORUS: Bridging ANF and CNF Solvers </title>
+      <link>/publication/date_cscm19/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/date_cscm19/</guid>
+      <description>Algebraic Normal Form (ANF) and Conjunctive Normal Form (CNF) are commonly used to encode problems in Boolean algebra. ANFs are typically solved via Gröbner basis algorithms, often using more memory than is feasible; while CNFs are solved using SAT solvers, which cannot exploit the algebra of polynomials naturally. We propose a paradigm that bridges between ANF and CNF solving techniques: the techniques are applied in an iterative manner to learn facts to augment the original problems.</description>
+    </item>
+    
+    <item>
       <title> IMLI: An Incremental Framework for MaxSAT-Based Learning of Interpretable Classification Rules </title>
       <link>/publication/aies19/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0800</pubDate>
@@ -73,15 +109,6 @@
       
       <guid>/publication/aaai19_bird/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>BOSPHORUS: Bridging ANF and CNF Solvers </title>
-      <link>/publication/date_cscm19/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0800</pubDate>
-      
-      <guid>/publication/date_cscm19/</guid>
-      <description>Algebraic Normal Form (ANF) and Conjunctive Normal Form (CNF) are commonly used to encode problems in Boolean algebra. ANFs are typically solved via Gröbner basis algorithms, often using more memory than is feasible; while CNFs are solved using SAT solvers, which cannot exploit the algebra of polynomials naturally. We propose a paradigm that bridges between ANF and CNF solving techniques: the techniques are applied in an iterative manner to learn facts to augment the original problems.</description>
     </item>
     
     <item>

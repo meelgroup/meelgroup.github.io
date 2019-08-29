@@ -5,6 +5,15 @@
     
     <url>
     
+      <loc>/publication/ccs19/</loc>
+      <lastmod>2019-08-16T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/news/13082019/</loc>
       <lastmod>2019-08-13T00:00:00+08:00</lastmod>
     </url>
@@ -25,6 +34,15 @@
     
       <loc>/news/30072019/</loc>
       <lastmod>2019-07-30T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/cp19/</loc>
+      <lastmod>2019-07-20T00:00:00+08:00</lastmod>
     </url>
     
   
@@ -97,6 +115,15 @@
     
       <loc>/publication/ijcai19_ganak/</loc>
       <lastmod>2019-05-21T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/ijcai19_dnfcounter/</loc>
+      <lastmod>2019-05-20T00:00:00+08:00</lastmod>
     </url>
     
   
@@ -221,6 +248,15 @@
     
     <url>
     
+      <loc>/publication/date_cscm19/</loc>
+      <lastmod>2019-02-01T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/news/26012019/</loc>
       <lastmod>2019-01-26T00:00:00+08:00</lastmod>
     </url>
@@ -258,15 +294,6 @@
     <url>
     
       <loc>/publication/aaai19_bird/</loc>
-      <lastmod>2019-01-01T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/date_cscm19/</loc>
       <lastmod>2019-01-01T00:00:00+08:00</lastmod>
     </url>
     
@@ -582,7 +609,7 @@
     <url>
     
       <loc>/publication_types/1/</loc>
-      <lastmod>2019-05-21T00:00:00+08:00</lastmod>
+      <lastmod>2019-08-16T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -641,7 +668,7 @@
     <url>
     
       <loc>/publication_types/</loc>
-      <lastmod>2019-05-21T00:00:00+08:00</lastmod>
+      <lastmod>2019-08-16T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     
