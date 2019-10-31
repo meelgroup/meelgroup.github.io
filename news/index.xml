@@ -13,6 +13,24 @@
     
     
     <item>
+      <title> Alexis will be presenting our work on &lt;a href=&#34;https://www.comp.nus.edu.sg/~meel/Papers/cp19-dm.pdf&#34;&gt;unifying hashing-based approaches for discrete integration&lt;/a&gt;, and Bishwa will present on &lt;a href=&#34;https://bishwamittra.github.io/publication/irr-ghosh.pdf&#34;&lt;/a&gt; learning interpretable classifiers at &lt;a href=&#34;https://cp2019.a4cp.org/&#34;&gt;CP2019&lt;/a&gt;.</title>
+      <link>/news/30092019/</link>
+      <pubDate>Mon, 30 Sep 2019 00:00:00 +0800</pubDate>
+      
+      <guid>/news/30092019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Our Paper on &lt;a href=&#34;https://arxiv.org/abs/1909.01161&#34;&gt;embedding symbolic knowledge into Neural Networks&lt;/a&gt; is accepted to &lt;a href=&#34;https://nips.cc/&#34;&gt;NeurIPS 2019&lt;/a&gt;.&#34; Authors: Yaqi Xie, Ziwei Xu, Mohan S. Kankanhalli, Kuldeep S. Meel, Harold Soh</title>
+      <link>/news/01092019/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0800</pubDate>
+      
+      <guid>/news/01092019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>We presented three papers at IJCAI-19. 1) The first paper explores the [phase transition behavior of conjunction of cardinality and XOR constraints](https://www.comp.nus.edu.sg/~meel/Papers/ijcai19pjm.pdf). 2) The second paper describes a radically new approach to exact counting wherein we compute estimates that are [probabilistically exact](https://www.comp.nus.edu.sg/~meel/Papers/ijcai19srsm.pdf)! 3) The third one is our invited paper on [#DNF](https://www.comp.nus.edu.sg/~meel/Papers/ijcai19msv.pdf).</title>
       <link>/news/13082019/</link>
       <pubDate>Tue, 13 Aug 2019 00:00:00 +0800</pubDate>
