@@ -11,11 +11,31 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>CrystalBall: SAT solving, Data Gathering, and Machine Learning</title>
+      <link>/post/crystallball/</link>
+      <pubDate>Sun, 03 Nov 2019 00:00:00 +0800</pubDate>
+      
+      <guid>/post/crystallball/</guid>
+      <description>&lt;p&gt; &lt;/i&gt;Link to the  &lt;a href=&#34;https://www.msoos.org/2019/06/crystalball-sat-solving-data-gathering-and-machine-learning/&#34;&gt;original post&lt;/a&gt; on CrystallBall.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title> Alexis will be presenting our work on &lt;a href=&#34;https://www.comp.nus.edu.sg/~meel/Papers/cp19-dm.pdf&#34;&gt;unifying hashing-based approaches for discrete integration&lt;/a&gt;, and Bishwa will present on &lt;a href=&#34;https://bishwamittra.github.io/publication/irr-ghosh.pdf&#34;&lt;/a&gt; learning interpretable classifiers at &lt;a href=&#34;https://cp2019.a4cp.org/&#34;&gt;CP2019&lt;/a&gt;.</title>
       <link>/news/30092019/</link>
       <pubDate>Mon, 30 Sep 2019 00:00:00 +0800</pubDate>
       
       <guid>/news/30092019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Embedding Symbolic Knowledge into Deep Networks </title>
+      <link>/publication/neurips19/</link>
+      <pubDate>Mon, 30 Sep 2019 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/neurips19/</guid>
       <description></description>
     </item>
     
@@ -157,24 +177,6 @@
 &lt;li&gt;&lt;a href=&#34;https://www.comp.nus.edu.sg/~meel/Papers/ijcai19srsm.pdf&#34; title=&#34;IJCAI 2019&#34; target=&#34;_blank&#34;&gt;IJCAI 2019&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Network Reliability Estimation in Theory and Practice </title>
-      <link>/publication/ress/</link>
-      <pubDate>Sat, 01 Jun 2019 00:00:00 +0800</pubDate>
-      
-      <guid>/publication/ress/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>GANAK: A Scalable Probabilistic Exact Model Counter</title>
-      <link>/publication/ijcai19_ganak/</link>
-      <pubDate>Tue, 21 May 2019 00:00:00 +0800</pubDate>
-      
-      <guid>/publication/ijcai19_ganak/</guid>
-      <description></description>
     </item>
     
   </channel>

@@ -5,7 +5,25 @@
     
     <url>
     
+      <loc>/post/crystallball/</loc>
+      <lastmod>2019-11-03T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/news/30092019/</loc>
+      <lastmod>2019-09-30T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/neurips19/</loc>
       <lastmod>2019-09-30T00:00:00+08:00</lastmod>
     </url>
     
@@ -627,7 +645,7 @@
     <url>
     
       <loc>/publication_types/1/</loc>
-      <lastmod>2019-08-16T00:00:00+08:00</lastmod>
+      <lastmod>2019-09-30T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -686,7 +704,7 @@
     <url>
     
       <loc>/publication_types/</loc>
-      <lastmod>2019-08-16T00:00:00+08:00</lastmod>
+      <lastmod>2019-09-30T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     
