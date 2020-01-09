@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Mon, 30 Sep 2019 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A MaxSAT-based Framework for Group Testing</title>
+      <link>/publication/aaai20/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/aaai20/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title> Embedding Symbolic Knowledge into Deep Networks </title>

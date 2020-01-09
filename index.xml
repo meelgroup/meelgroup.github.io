@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>A MaxSAT-based Framework for Group Testing</title>
+      <link>/publication/aaai20/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/aaai20/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>CrystalBall: SAT solving, Data Gathering, and Machine Learning</title>
       <link>/post/crystallball/</link>
       <pubDate>Sun, 03 Nov 2019 00:00:00 +0800</pubDate>
@@ -36,6 +45,24 @@
       <pubDate>Mon, 30 Sep 2019 00:00:00 +0800</pubDate>
       
       <guid>/publication/neurips19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Our &lt;a href=&#34;https://bishwamittra.github.io/publication/aaai_2020/AAAI-CiampiconiL.690.pdf&#34;&gt;paper&lt;/a&gt; on  MaxSAT-based formulation for group testing is accepted in &lt;a href=&#34;https://aaai.org/Conferences/AAAI-20/&#34;&gt;AAAI 2020&lt;/a&gt;. Authors: Lorenzo Ciampiconi, Bishwamittra Ghosh, Jonathan Scarlett and Kuldeep S. Meel</title>
+      <link>/news/11112019/</link>
+      <pubDate>Mon, 30 Sep 2019 00:00:00 +0800</pubDate>
+      
+      <guid>/news/11112019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Our AIES-19 &lt;a href=&#34;https://bishwamittra.github.io/publication/imli-ghosh.pdf&#34;&gt;paper&lt;/a&gt; on incremental classification rule learning is accepted as a poster presentation with a spollight talk at &lt;a href=&#34;http://www.starai.org/2020/&#34;&gt;StarAI 2020&lt;/a&gt; workshop in &lt;a href=&#34;https://aaai.org/Conferences/AAAI-20/&#34;&gt;AAAI 2020&lt;/a&gt;. Authors: Bishwamittra Ghosh and Kuldeep S. Meel</title>
+      <link>/news/07122019/</link>
+      <pubDate>Mon, 30 Sep 2019 00:00:00 +0800</pubDate>
+      
+      <guid>/news/07122019/</guid>
       <description></description>
     </item>
     
@@ -141,40 +168,6 @@
 &lt;li&gt;&lt;a href=&#34;https://www.comp.nus.edu.sg/~meel/Papers/Tacas15.pdf&#34; title=&#34;TACAS 2015&#34; target=&#34;_blank&#34;&gt;TACAS 2015&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.comp.nus.edu.sg/~meel/Papers/DAC2014.pdf&#34; title=&#34;DAC 2014&#34; target=&#34;_blank&#34;&gt;DAC 2014&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.comp.nus.edu.sg/~meel/Papers/cav13.pdf&#34; title=&#34;CAV 2013&#34; target=&#34;_blank&#34;&gt;CAV 2013&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title> Interpretable Classification Rules in Relaxed Logical Form </title>
-      <link>/publication/ijcai19_irr/</link>
-      <pubDate>Sun, 23 Jun 2019 00:00:00 +0800</pubDate>
-      
-      <guid>/publication/ijcai19_irr/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Our paper on &lt;a href= &#34;https://bishwamittra.github.io/publication/irr-ghosh.pdf&#34;&gt;interpretable rules expressed as relaxed-CNF&lt;/a&gt; is accepted at IJCAI workshop on XAI (Explainable Artificial Intelligence) and DSO (Data Science meets Optimization), 2019. Authors: Bishwamittra Ghosh, Dmitry Malioutov, Kuldeep S. Meel.</title>
-      <link>/news/23062019/</link>
-      <pubDate>Sun, 23 Jun 2019 00:00:00 +0800</pubDate>
-      
-      <guid>/news/23062019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>GANAK</title>
-      <link>/software/ganak/</link>
-      <pubDate>Sat, 15 Jun 2019 00:00:00 +0800</pubDate>
-      
-      <guid>/software/ganak/</guid>
-      <description>&lt;p&gt;Given a Boolean formula $F$, the problem of  model counting, also referred to as #SAT, seeks to compute the number of solutions of $F$. Model counting is a fundamental problem with a wide variety of applications ranging from planning, quantified information flow to probabilistic reasoning and the like. The modern #SAT solvers tend to be either based on static decomposition, dynamic decomposition, or a hybrid of the two. Despite dynamic decomposition based #SAT solvers sharing much of their architecture with SAT solvers, the core design and heuristics of dynamic decomposition-based #SAT solvers has remained constant for over a decade. In this paper, we revisit the architecture of the state-of-the-art dynamic decomposition-based #SAT tool, sharpSAT, and demonstrate that by introducing a new notion of probabilistic component caching and the usage of universal hashing for exact model counting along with the development of several new heuristics can lead to significant performance improvement over state-of-the-art model-counters. In particular, we develop GANAK, a new scalable probabilistic exact model counter that outperforms state-of-the-art exact and approximate model counters sharpSAT and ApproxMC3 respectively, both in terms of PAR-2 score and the number of instances solved. Furthermore, in our experiments, the model count returned by GANAK was equal to the exact model count for all the benchmarks. Finally, we observe that recently proposed preprocessing techniques for model counting benefit exact model counters while hurting the performance of approximate model counters.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Relevant Papers:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.comp.nus.edu.sg/~meel/Papers/ijcai19srsm.pdf&#34; title=&#34;IJCAI 2019&#34; target=&#34;_blank&#34;&gt;IJCAI 2019&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

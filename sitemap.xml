@@ -5,6 +5,15 @@
     
     <url>
     
+      <loc>/publication/aaai20/</loc>
+      <lastmod>2020-01-01T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/post/crystallball/</loc>
       <lastmod>2019-11-03T00:00:00+08:00</lastmod>
     </url>
@@ -24,6 +33,24 @@
     <url>
     
       <loc>/publication/neurips19/</loc>
+      <lastmod>2019-09-30T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/news/11112019/</loc>
+      <lastmod>2019-09-30T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/news/07122019/</loc>
       <lastmod>2019-09-30T00:00:00+08:00</lastmod>
     </url>
     
@@ -645,7 +672,7 @@
     <url>
     
       <loc>/publication_types/1/</loc>
-      <lastmod>2019-09-30T00:00:00+08:00</lastmod>
+      <lastmod>2020-01-01T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -704,7 +731,7 @@
     <url>
     
       <loc>/publication_types/</loc>
-      <lastmod>2019-09-30T00:00:00+08:00</lastmod>
+      <lastmod>2020-01-01T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     
