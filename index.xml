@@ -11,11 +11,38 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Our paper &#34;Classification rules in relaxed logical form&#34; is accepted in ECAI-2020.</title>
+      <link>/news/15012020/</link>
+      <pubDate>Wed, 15 Jan 2020 00:00:00 +0800</pubDate>
+      
+      <guid>/news/15012020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>A MaxSAT-based Framework for Group Testing</title>
       <link>/publication/aaai20/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0800</pubDate>
       
       <guid>/publication/aaai20/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Our paper on Symmetry breaking and model counting is accepted to &lt;a href=&#34;https://www.etaps.org/2020/tacas&#34;&gt;TACAS 2020&lt;/a&gt;.</title>
+      <link>/news/23122019/</link>
+      <pubDate>Mon, 23 Dec 2019 00:00:00 +0800</pubDate>
+      
+      <guid>/news/23122019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Two of our group&amp;apos;s papers are accepted to accepted as poster presentations with a spotlight talk at &lt;a href=&#34;http://www.starai.org/2020/&#34;&gt;StarAI 2020&lt;/a&gt; workshop in &lt;a href=&#34;https://aaai.org/Conferences/AAAI-20/&#34;&gt;AAAI 2020&lt;/a&gt;: Our AIES-19 &lt;a href=&#34;https://bishwamittra.github.io/publication/imli-ghosh.pdf&#34;&gt;paper&lt;/a&gt; on incremental classification rule learning and our CCS-19 &lt;a href=&#34;https://www.comp.nus.edu.sg/~teodorab/papers/NPAQ.pdf&#34;&gt;paper&lt;/a&gt; on quantiatative verification for binarized neural networks.</title>
+      <link>/news/07122019/</link>
+      <pubDate>Sat, 07 Dec 2019 00:00:00 +0800</pubDate>
+      
+      <guid>/news/07122019/</guid>
       <description></description>
     </item>
     
@@ -54,15 +81,6 @@
       <pubDate>Mon, 30 Sep 2019 00:00:00 +0800</pubDate>
       
       <guid>/news/11112019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title> Our AIES-19 &lt;a href=&#34;https://bishwamittra.github.io/publication/imli-ghosh.pdf&#34;&gt;paper&lt;/a&gt; on incremental classification rule learning is accepted as a poster presentation with a spollight talk at &lt;a href=&#34;http://www.starai.org/2020/&#34;&gt;StarAI 2020&lt;/a&gt; workshop in &lt;a href=&#34;https://aaai.org/Conferences/AAAI-20/&#34;&gt;AAAI 2020&lt;/a&gt;. Authors: Bishwamittra Ghosh and Kuldeep S. Meel</title>
-      <link>/news/07122019/</link>
-      <pubDate>Mon, 30 Sep 2019 00:00:00 +0800</pubDate>
-      
-      <guid>/news/07122019/</guid>
       <description></description>
     </item>
     
@@ -134,40 +152,6 @@
 &lt;li&gt;&lt;a href=&#34;https://www.comp.nus.edu.sg/~meel/Papers/ijcai16_counting.pdf&#34; title=&#34;IJCAI 2016&#34; target=&#34;_blank&#34;&gt;IJCAI 2016&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.comp.nus.edu.sg/~meel/Papers/constraints16.pdf&#34; title=&#34;Constraints 2016&#34; target=&#34;_blank&#34;&gt;Constraints 2016&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.comp.nus.edu.sg/~meel/Papers/CP2013.pdf&#34; title=&#34;CP 2013&#34; target=&#34;_blank&#34;&gt;CP 2013&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>CrystalBall</title>
-      <link>/software/crystalball/</link>
-      <pubDate>Sun, 07 Jul 2019 00:00:00 +0800</pubDate>
-      
-      <guid>/software/crystalball/</guid>
-      <description>&lt;p&gt;Boolean satisfiability is a fundamental problem in computerscience with a wide range of applications including planning, configurationmanagement, design and verification of software/hardware systems. Modern SAT solvers achieve scalability and ro-bustness with sophisticated heuristics that are challenging to understandand explain. We propose to view modern conflict-driven clause learning (CDCL) solvers as a composition of classifiers and regressors for different tasks such as branching, clause memory management, and restarting. The current version of CrystalBall focuses on deriving a classifier to keep or throw away a learned clause. In a departure from recent machine learning based techniques, CrystalBall employs supervised learning anduses extensive, multi-gigabyte data extracted from runs of a single SAT solver to perform predictive analytics. Read this &lt;a href=&#34;https://www.msoos.org/2019/06/crystalball-sat-solving-data-gathering-and-machine-learning/&#34; target=&#34;_blank&#34;&gt;blog post&lt;/a&gt; for more details.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Relevant Papers:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.msoos.org/wordpress/wp-content/uploads/2019/06/sat19-skm.pdf&#34; title=&#34;SAT 2019&#34; target=&#34;_blank&#34;&gt;SAT 2019&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>UniGen</title>
-      <link>/software/unigen/</link>
-      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/software/unigen/</guid>
-      <description>&lt;p&gt;UniGen is a hashing-based algorithm to generate uniform samples subject to given set of constraints. The primary application of UniGen is in random stimuli generation for hardware and software verification. The current version of the tool has been developed over the years and is parallelizable without losing theoretical guarantees.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Relevant Papers:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.comp.nus.edu.sg/~meel/Papers/Tacas15.pdf&#34; title=&#34;TACAS 2015&#34; target=&#34;_blank&#34;&gt;TACAS 2015&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.comp.nus.edu.sg/~meel/Papers/DAC2014.pdf&#34; title=&#34;DAC 2014&#34; target=&#34;_blank&#34;&gt;DAC 2014&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.comp.nus.edu.sg/~meel/Papers/cav13.pdf&#34; title=&#34;CAV 2013&#34; target=&#34;_blank&#34;&gt;CAV 2013&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
