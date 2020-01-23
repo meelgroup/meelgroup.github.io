@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Classification Rules in Relaxed Logical Form</title>
+      <link>/publication/ecai20/</link>
+      <pubDate>Thu, 23 Jan 2020 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/ecai20/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Our paper on classification rules in relaxed logical form is accepted in &lt;a href=&#34;http://ecai2020.eu&#34;&gt;ECAI-2020&lt;/a&gt;.</title>
       <link>/news/15012020/</link>
       <pubDate>Wed, 15 Jan 2020 00:00:00 +0800</pubDate>
@@ -136,24 +145,6 @@
       
       <guid>/publication/cp19/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>ApproxMC</title>
-      <link>/software/approxmc/</link>
-      <pubDate>Tue, 09 Jul 2019 00:00:00 +0800</pubDate>
-      
-      <guid>/software/approxmc/</guid>
-      <description>&lt;p&gt;ApproxMC is a hashing-based algorithm for approximate discrete integration over finite domains and provides ($\epsilon$,$\delta$) guarantees. This implementation handles the case when the function is implicitely defined by SAT formula. To the best of our knowledge, the current implementation has the best runtime performance among approximate counting algorithms. We are actively improving algorithm as well as implementation and would love to hear your feedback.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Relevant Papers:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.comp.nus.edu.sg/~meel/Papers/ijcai16_counting.pdf&#34; title=&#34;IJCAI 2016&#34; target=&#34;_blank&#34;&gt;IJCAI 2016&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.comp.nus.edu.sg/~meel/Papers/constraints16.pdf&#34; title=&#34;Constraints 2016&#34; target=&#34;_blank&#34;&gt;Constraints 2016&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.comp.nus.edu.sg/~meel/Papers/CP2013.pdf&#34; title=&#34;CP 2013&#34; target=&#34;_blank&#34;&gt;CP 2013&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
     </item>
     
   </channel>
