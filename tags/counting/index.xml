@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Sat, 15 Jun 2019 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jan 2020 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="/tags/counting/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>NPAQ</title>
+      <link>/software/npaq/</link>
+      <pubDate>Sun, 26 Jan 2020 00:00:00 +0800</pubDate>
+      
+      <guid>/software/npaq/</guid>
+      <description>Neural networks are increasingly employed in safety-critical domains. This has prompted interest in verifying or certifying logically encoded properties of neural networks. Prior work has largely focused on checking existential properties, wherein the goal is to check whether there exists any input that violates a given property of interest. However, neural network training is a stochastic process, and many questions arising in their analysis require probabilistic and quantitative reasoning, i.e., estimating how many inputs satisfy a given property.</description>
+    </item>
     
     <item>
       <title>GANAK</title>

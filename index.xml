@@ -11,6 +11,22 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>NPAQ</title>
+      <link>/software/npaq/</link>
+      <pubDate>Sun, 26 Jan 2020 00:00:00 +0800</pubDate>
+      
+      <guid>/software/npaq/</guid>
+      <description>&lt;p&gt;Neural networks are increasingly employed in safety-critical domains. This has prompted interest in verifying or certifying logically encoded properties of neural networks. Prior work has largely focused on checking existential properties, wherein the goal is to check whether there exists any input that violates a given property of interest. However, neural network training is a stochastic process, and many questions arising in their analysis require probabilistic and quantitative reasoning, i.e., estimating how many inputs satisfy a given property. To this end, our paper proposes a novel and principled framework to quantitative verification of logical properties specified over neural networks. Our framework is the first to provide PAC-style soundness guarantees, in that its quantitative estimates are within a controllable and bounded error from the true count. We instantiate our algorithmic framework by building a prototype tool called NPAQ that enables checking rich properties over binarized neural networks. We show how emerging security analyses can utilize our framework in 3 applications: quantifying robustness to adversarial inputs, efficacy of trojan attacks, and fairness/bias of given neural networks.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Relevant Papers:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.comp.nus.edu.sg/~teodorab/papers/NPAQ.pdf&#34; title=&#34;CCS 2019&#34; target=&#34;_blank&#34;&gt;CCS 2019&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Classification Rules in Relaxed Logical Form</title>
       <link>/publication/ecai20/</link>
       <pubDate>Thu, 23 Jan 2020 00:00:00 +0800</pubDate>
@@ -135,15 +151,6 @@
       <pubDate>Tue, 30 Jul 2019 00:00:00 +0800</pubDate>
       
       <guid>/news/30072019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dual Hashing-based Algorithms for Discrete Integration  </title>
-      <link>/publication/cp19/</link>
-      <pubDate>Sat, 20 Jul 2019 00:00:00 +0800</pubDate>
-      
-      <guid>/publication/cp19/</guid>
       <description></description>
     </item>
     
