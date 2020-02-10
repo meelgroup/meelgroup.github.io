@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Sun, 26 Jan 2020 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 10 Feb 2020 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="/software/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>1-CARD-XOR</title>
+      <link>/software/1cardxor/</link>
+      <pubDate>Mon, 10 Feb 2020 00:00:00 +0800</pubDate>
+      
+      <guid>/software/1cardxor/</guid>
+      <description>The runtime performance of modern SAT solvers is deeply connected to the phase transition behavior of CNF formulas. While CNF solving has witnessed significant runtime improvement over the past two decades, the same does not hold for several other classes such as the conjunction of cardinality and XOR constraints, denoted as CARD-XOR formulas. The problem of determining satisfiability of CARDXOR formulas is a fundamental problem with wide variety of applications ranging from discrete integration in the field of artificial intelligence to maximum likelihood decoding in coding theory.</description>
+    </item>
     
     <item>
       <title>NPAQ</title>

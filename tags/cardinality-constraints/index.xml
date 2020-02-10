@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cardinality-constraints on MeelGroup</title>
+    <link>/tags/cardinality-constraints/</link>
+    <description>Recent content in Cardinality-constraints on MeelGroup</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019</copyright>
+    <lastBuildDate>Mon, 10 Feb 2020 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/tags/cardinality-constraints/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>1-CARD-XOR</title>
+      <link>/software/1cardxor/</link>
+      <pubDate>Mon, 10 Feb 2020 00:00:00 +0800</pubDate>
+      
+      <guid>/software/1cardxor/</guid>
+      <description>The runtime performance of modern SAT solvers is deeply connected to the phase transition behavior of CNF formulas. While CNF solving has witnessed significant runtime improvement over the past two decades, the same does not hold for several other classes such as the conjunction of cardinality and XOR constraints, denoted as CARD-XOR formulas. The problem of determining satisfiability of CARDXOR formulas is a fundamental problem with wide variety of applications ranging from discrete integration in the field of artificial intelligence to maximum likelihood decoding in coding theory.</description>
+    </item>
+    
+  </channel>
+</rss>
