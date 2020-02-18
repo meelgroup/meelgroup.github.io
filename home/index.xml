@@ -76,7 +76,7 @@ At a more technical level, we work at the intersection of formal methods and art
       
       <guid>/home/people/</guid>
       <description>Faculty Kuldeep Meel
- body .column { float: left; width: 33.33%; padding: 5px; } /* Clear floats after image containers */ .row::after { content: &#34;&#34;; clear: both; display: table; }  Postdoctoral Researchers Yong Lai   PhD Students  Yash Pote   Priyanka Golia   Bishwamittra Ghosh   Suwei  Teodora   Masters Students   .column { float: left; width: 33.33%; padding: 5px; }</description>
+ body .column { float: left; width: 33.33%; padding: 5px; } /* Clear floats after image containers */ .row::after { content: &#34;&#34;; clear: both; display: table; }  Postdoctoral Researchers Yong Lai   PhD Students  Yash Pote   Priyanka Golia   Bishwamittra Ghosh   Suwei Yang   Teodora Baluta    .column { float: left; width: 33.33%; padding: 5px; } /* Clear floats after image containers */ .</description>
     </item>
     
     <item>
