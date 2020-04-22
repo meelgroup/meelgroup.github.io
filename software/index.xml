@@ -18,7 +18,7 @@
       <pubDate>Mon, 10 Feb 2020 00:00:00 +0800</pubDate>
       
       <guid>/software/1cardxor/</guid>
-      <description>The runtime performance of modern SAT solvers is deeply connected to the phase transition behavior of CNF formulas. While CNF solving has witnessed significant runtime improvement over the past two decades, the same does not hold for several other classes such as the conjunction of cardinality and XOR constraints, denoted as CARD-XOR formulas. The problem of determining satisfiability of CARDXOR formulas is a fundamental problem with wide variety of applications ranging from discrete integration in the field of artificial intelligence to maximum likelihood decoding in coding theory.</description>
+      <description>Phase Transition Behavior of Cardinality and XOR Constraints</description>
     </item>
     
     <item>
@@ -27,7 +27,7 @@
       <pubDate>Sun, 26 Jan 2020 00:00:00 +0800</pubDate>
       
       <guid>/software/npaq/</guid>
-      <description>Neural networks are increasingly employed in safety-critical domains. This has prompted interest in verifying or certifying logically encoded properties of neural networks. Prior work has largely focused on checking existential properties, wherein the goal is to check whether there exists any input that violates a given property of interest. However, neural network training is a stochastic process, and many questions arising in their analysis require probabilistic and quantitative reasoning, i.e., estimating how many inputs satisfy a given property.</description>
+      <description>NPAQ: Neural Property Approximate Quantifier</description>
     </item>
     
     <item>
@@ -36,9 +36,7 @@
       <pubDate>Tue, 09 Jul 2019 00:00:00 +0800</pubDate>
       
       <guid>/software/approxmc/</guid>
-      <description>ApproxMC is a hashing-based algorithm for approximate discrete integration over finite domains and provides ($\epsilon$,$\delta$) guarantees. This implementation handles the case when the function is implicitely defined by SAT formula. To the best of our knowledge, the current implementation has the best runtime performance among approximate counting algorithms. We are actively improving algorithm as well as implementation and would love to hear your feedback.
-Relevant Papers:
- IJCAI 2016 Constraints 2016 CP 2013  </description>
+      <description>A hashing-based algorithm for discrete integration over finite domains.</description>
     </item>
     
     <item>
@@ -47,7 +45,7 @@ Relevant Papers:
       <pubDate>Sun, 07 Jul 2019 00:00:00 +0800</pubDate>
       
       <guid>/software/crystalball/</guid>
-      <description>Boolean satisfiability is a fundamental problem in computerscience with a wide range of applications including planning, configurationmanagement, design and verification of software/hardware systems. Modern SAT solvers achieve scalability and ro-bustness with sophisticated heuristics that are challenging to understandand explain. We propose to view modern conflict-driven clause learning (CDCL) solvers as a composition of classifiers and regressors for different tasks such as branching, clause memory management, and restarting. The current version of CrystalBall focuses on deriving a classifier to keep or throw away a learned clause.</description>
+      <description>A framework to provide white-box access to the execution of SAT solver.</description>
     </item>
     
     <item>
@@ -56,9 +54,7 @@ Relevant Papers:
       <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>/software/unigen/</guid>
-      <description>UniGen is a hashing-based algorithm to generate uniform samples subject to given set of constraints. The primary application of UniGen is in random stimuli generation for hardware and software verification. The current version of the tool has been developed over the years and is parallelizable without losing theoretical guarantees.
-Relevant Papers:
- TACAS 2015 DAC 2014 CAV 2013  </description>
+      <description>An algorithm to generate uniform samples subject to given set of constraints.</description>
     </item>
     
     <item>
@@ -67,7 +63,7 @@ Relevant Papers:
       <pubDate>Sat, 15 Jun 2019 00:00:00 +0800</pubDate>
       
       <guid>/software/ganak/</guid>
-      <description>Given a Boolean formula $F$, the problem of model counting, also referred to as #SAT, seeks to compute the number of solutions of $F$. Model counting is a fundamental problem with a wide variety of applications ranging from planning, quantified information flow to probabilistic reasoning and the like. The modern #SAT solvers tend to be either based on static decomposition, dynamic decomposition, or a hybrid of the two. Despite dynamic decomposition based #SAT solvers sharing much of their architecture with SAT solvers, the core design and heuristics of dynamic decomposition-based #SAT solvers has remained constant for over a decade.</description>
+      <description>GANAK: A Scalable Probabilistic Exact Model Counter</description>
     </item>
     
     <item>
@@ -76,7 +72,7 @@ Relevant Papers:
       <pubDate>Thu, 04 Apr 2019 00:00:00 +0800</pubDate>
       
       <guid>/software/waps/</guid>
-      <description>Previous work on applying Knowledge compilation has focused on uniform sampling over all the variables. Since the constraints are written in high level languages such as Verilog, the popular CNF encoding schemes as Tseitin encoding introduces additional auxiliary variables. The resulting CNF formulas are not equivalent but equisatisfiable. In particular, for a formula $G$ specified in high level language we obtain a CNF formula F such that $G (X) = \exists Y F(X,Y)$.</description>
+      <description>WAPS: Weighted and Projected Sampling</description>
     </item>
     
     <item>
@@ -85,7 +81,7 @@ Relevant Papers:
       <pubDate>Sat, 05 Jan 2019 00:00:00 +0800</pubDate>
       
       <guid>/software/bosphorus/</guid>
-      <description>Algebraic Normal Form (ANF) and Conjunctive Normal Form (CNF) are commonly used to encode problems in Boolean algebra. ANFs are typically solved via Gröbner basis algorithms, often using more memory than is feasible; while CNFs are solved using SAT solvers, which cannot exploit the algebra of polynomials naturally. We propose a paradigm that bridges between ANF and CNF solving techniques: the techniques are applied in an iterative manner to learn facts to augment the original problems.</description>
+      <description>An ANF and CNF simplifier and converter.</description>
     </item>
     
     <item>
@@ -94,7 +90,7 @@ Relevant Papers:
       <pubDate>Wed, 01 Aug 2018 00:00:00 +0800</pubDate>
       
       <guid>/software/kus/</guid>
-      <description>Uniform sampling has drawn diverse applications in programming languages and software engineering, like in constrained-random verification (CRV), constrained-fuzzing and bug synthesis. The effectiveness of these applications depend on the uniformity of test stimuli generated from a given set of constraints. Despite significant progress over the past few years, the performance of the state of the art techniques still falls short of those of heuristic methods employed in the industry which sacrifice either uniformity or scalability when generating stimuli.</description>
+      <description>Knowledge Compilation meets Uniform Sampling</description>
     </item>
     
     <item>
@@ -103,9 +99,7 @@ Relevant Papers:
       <pubDate>Mon, 05 Sep 2016 00:00:00 +0800</pubDate>
       
       <guid>/software/mis/</guid>
-      <description>MIS computes minimal Independent Support for a given CNF formula. The implementation is based on MIS algorithm proposed in our CP&amp;rsquo;15 paper, which also won the Best Student Paper Award.
-Relevant Papers:
- CP 2016  </description>
+      <description>An algorithm to compute minimal independent support for a given CNF formula.</description>
     </item>
     
     <item>
@@ -114,9 +108,7 @@ Relevant Papers:
       <pubDate>Fri, 12 Feb 2016 00:00:00 +0800</pubDate>
       
       <guid>/software/smtapproxmc/</guid>
-      <description>SMTApproxMC is an approximate model counter for Bitvector theory. Given a set of constraints and weight function over assignments, WeightGen outputs samples that satisfy constraints according to weight function.
-Relevant Papers:
- AAAI 2016  </description>
+      <description>An approximate model counter for Bitvector theory.</description>
     </item>
     
     <item>
@@ -125,9 +117,7 @@ Relevant Papers:
       <pubDate>Sun, 27 Jul 2014 00:00:00 +0800</pubDate>
       
       <guid>/software/weightgen/</guid>
-      <description>WeightGen is hashing-based approximate weighted sampling for weighted CNF formulas. Given a set of constraints and weight function over assignments, WeightGen outputs samples that satisfy constraints according to weight function.
-Relevant Papers:
- AAAI 2014  </description>
+      <description>A hashing-based approximate sampler for weighted CNF formulas.</description>
     </item>
     
     <item>
@@ -136,9 +126,7 @@ Relevant Papers:
       <pubDate>Sun, 27 Jul 2014 00:00:00 +0800</pubDate>
       
       <guid>/software/weightmc/</guid>
-      <description>WeightMC is hashing-based algorithm for weighted counting (discrete integration) over Boolean domains. It takes a CNF formula and weight function as inputs and returns weighted count. In contrast to previous attempts to develop weighted counting that rely on use of Optimization oracles, WeightMC only uses feasibility oracle. A simple reworking of this algorithm was used by Belle et al to predicate delays in UK transportation network.
-Relevant Papers:
- AAAI 2014  </description>
+      <description>A weighted model counter over Boolean domains.</description>
     </item>
     
   </channel>

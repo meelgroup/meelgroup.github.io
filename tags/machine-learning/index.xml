@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Machine-learning on MeelGroup</title>
+    <title>machine-learning on MeelGroup</title>
     <link>/tags/machine-learning/</link>
-    <description>Recent content in Machine-learning on MeelGroup</description>
+    <description>Recent content in machine-learning on MeelGroup</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
@@ -18,7 +18,7 @@
       <pubDate>Sun, 26 Jan 2020 00:00:00 +0800</pubDate>
       
       <guid>/software/npaq/</guid>
-      <description>Neural networks are increasingly employed in safety-critical domains. This has prompted interest in verifying or certifying logically encoded properties of neural networks. Prior work has largely focused on checking existential properties, wherein the goal is to check whether there exists any input that violates a given property of interest. However, neural network training is a stochastic process, and many questions arising in their analysis require probabilistic and quantitative reasoning, i.e., estimating how many inputs satisfy a given property.</description>
+      <description>NPAQ: Neural Property Approximate Quantifier</description>
     </item>
     
   </channel>

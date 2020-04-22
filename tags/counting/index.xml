@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Counting on MeelGroup</title>
+    <title>counting on MeelGroup</title>
     <link>/tags/counting/</link>
-    <description>Recent content in Counting on MeelGroup</description>
+    <description>Recent content in counting on MeelGroup</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
@@ -18,7 +18,7 @@
       <pubDate>Sun, 26 Jan 2020 00:00:00 +0800</pubDate>
       
       <guid>/software/npaq/</guid>
-      <description>Neural networks are increasingly employed in safety-critical domains. This has prompted interest in verifying or certifying logically encoded properties of neural networks. Prior work has largely focused on checking existential properties, wherein the goal is to check whether there exists any input that violates a given property of interest. However, neural network training is a stochastic process, and many questions arising in their analysis require probabilistic and quantitative reasoning, i.e., estimating how many inputs satisfy a given property.</description>
+      <description>NPAQ: Neural Property Approximate Quantifier</description>
     </item>
     
     <item>
@@ -27,7 +27,7 @@
       <pubDate>Sat, 15 Jun 2019 00:00:00 +0800</pubDate>
       
       <guid>/software/ganak/</guid>
-      <description>Given a Boolean formula $F$, the problem of model counting, also referred to as #SAT, seeks to compute the number of solutions of $F$. Model counting is a fundamental problem with a wide variety of applications ranging from planning, quantified information flow to probabilistic reasoning and the like. The modern #SAT solvers tend to be either based on static decomposition, dynamic decomposition, or a hybrid of the two. Despite dynamic decomposition based #SAT solvers sharing much of their architecture with SAT solvers, the core design and heuristics of dynamic decomposition-based #SAT solvers has remained constant for over a decade.</description>
+      <description>GANAK: A Scalable Probabilistic Exact Model Counter</description>
     </item>
     
   </channel>

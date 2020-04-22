@@ -13,7 +13,25 @@
     
     
     <item>
-      <title>Three Papers accepted at Computer Aided Verification (CAV) 2020 conference.</title>
+      <title>Paper on Sparse Hashing for Approximate Model counting accepted to &lt;a href=&#34;https://lics.siglog.org/lics20/&#34;&gt;LICS 2020&lt;/a&gt;. Authors: S. Akshay and Kuldeep S. Meel&lt;br&gt;One of the reviews: &#34;Rarely it is that there is a paper that proves a beautiful new theoretical result, explaining and simplifying previous work, and on top of that shows how it can be used to improve state-of-the-art practical algorithms. The paper &#34;Sparse hashing for scalable approximate model counting: theory and practice&#34; achieves exactly that.&#34;</title>
+      <link>/news/10042020/</link>
+      <pubDate>Fri, 10 Apr 2020 00:00:00 +0800</pubDate>
+      
+      <guid>/news/10042020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Paper accepted to &lt;a href=&#34;https://easychair.org/smart-program/LPAR23/&#34;&gt;LPAR-23&lt;/a&gt;. The paper formalizes Induction Models on N extending the classical work of Henkin. Authors: A Dileep, Kuldeep S. Meel and Ammar F. Sabili</title>
+      <link>/news/08042020/</link>
+      <pubDate>Wed, 08 Apr 2020 00:00:00 +0800</pubDate>
+      
+      <guid>/news/08042020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Three Papers accepted at &lt;a href=&#34;https://www.facebook.com/groups/cavconference/?fref=mentions&#34;&gt;Computer Aided Verification (CAV)&lt;/a&gt; 2020 conference.&lt;br&gt;1. The first paper proposes a new approach that combines sampling&#43;machine learning&#43;MaxSAT to achieve a significant progress in solving Boolean Functional Synthesis. Authors: Priyanka Golia, Subhajit Roy, and Kuldeep S. Meel&lt;br&gt;2. The second paper builds on our CNF-XOR solving paradigm (BIRD) and as a result, the new versions of ApproxMC and UniGen are faster than ever. Stay tuned for our releases. Authors: Mate Soos, Stephan Gocht, and Kuldeep S. Meel&lt;br&gt;3. The third paper proposes the first algorithm for approximate MUS counting. Authors: Jaroslav Bendik and Kuldeep S. Meel</title>
       <link>/news/06042020/</link>
       <pubDate>Mon, 06 Apr 2020 00:00:00 +0800</pubDate>
       

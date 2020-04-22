@@ -13,7 +13,7 @@
     
     
     <item>
-      <title>Cardinality-constraints</title>
+      <title>cardinality-constraints</title>
       <link>/tags/cardinality-constraints/</link>
       <pubDate>Mon, 10 Feb 2020 00:00:00 +0800</pubDate>
       
@@ -22,7 +22,7 @@
     </item>
     
     <item>
-      <title>Counting</title>
+      <title>counting</title>
       <link>/tags/counting/</link>
       <pubDate>Sun, 26 Jan 2020 00:00:00 +0800</pubDate>
       
@@ -31,7 +31,7 @@
     </item>
     
     <item>
-      <title>Machine-learning</title>
+      <title>machine-learning</title>
       <link>/tags/machine-learning/</link>
       <pubDate>Sun, 26 Jan 2020 00:00:00 +0800</pubDate>
       
@@ -40,20 +40,20 @@
     </item>
     
     <item>
-      <title>Sampling</title>
-      <link>/tags/sampling/</link>
-      <pubDate>Thu, 04 Apr 2019 00:00:00 +0800</pubDate>
-      
-      <guid>/tags/sampling/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sampling-and-counting</title>
+      <title>sampling-and-counting</title>
       <link>/tags/sampling-and-counting/</link>
       <pubDate>Tue, 09 Jul 2019 00:00:00 +0800</pubDate>
       
       <guid>/tags/sampling-and-counting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sampling</title>
+      <link>/tags/sampling/</link>
+      <pubDate>Thu, 04 Apr 2019 00:00:00 +0800</pubDate>
+      
+      <guid>/tags/sampling/</guid>
       <description></description>
     </item>
     
