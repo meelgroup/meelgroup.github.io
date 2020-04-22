@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Three Papers accepted at Computer Aided Verification (CAV) 2020 conference.</title>
+      <link>/news/06042020/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0800</pubDate>
+      
+      <guid>/news/06042020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Sampling-based approach for quantittive quantitative verification of Deep Neural Nets. We propose a new attack agnostic metric adversarial hardness to capture the model&amp;apos;s robustness: &lt;a href=&#34;https://arxiv.org/pdf/2002.06864.pdf&#34;&gt;https://arxiv.org/pdf/2002.06864.pdf&lt;/a&gt;  Authors: Teodora Baluta, Zheng Leong Chua, Kuldeep S. Meel and Prateek Saxena.</title>
       <link>/news/18022020/</link>
       <pubDate>Tue, 18 Feb 2020 00:00:00 +0800</pubDate>
@@ -149,15 +158,6 @@
       <pubDate>Sun, 01 Sep 2019 00:00:00 +0800</pubDate>
       
       <guid>/news/01092019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title> Quantitative Verification of Neural Networks And Its Security Applications  </title>
-      <link>/publication/ccs19/</link>
-      <pubDate>Fri, 16 Aug 2019 00:00:00 +0800</pubDate>
-      
-      <guid>/publication/ccs19/</guid>
       <description></description>
     </item>
     
