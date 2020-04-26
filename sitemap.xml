@@ -291,15 +291,6 @@
     
     <url>
     
-      <loc>/software/unigen/</loc>
-      <lastmod>2019-07-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/publication/ijcai19_irr/</loc>
       <lastmod>2019-06-23T00:00:00+08:00</lastmod>
     </url>
@@ -430,6 +421,15 @@
     
       <loc>/post/waps/</loc>
       <lastmod>2019-05-03T11:06:17+05:30</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/software/unigen/</loc>
+      <lastmod>2019-05-01T00:00:00+00:00</lastmod>
     </url>
     
   

@@ -40,21 +40,21 @@
     </item>
     
     <item>
-      <title>UniGen</title>
-      <link>/software/unigen/</link>
-      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/software/unigen/</guid>
-      <description>An algorithm to generate uniform samples subject to given set of constraints.</description>
-    </item>
-    
-    <item>
       <title>GANAK</title>
       <link>/software/ganak/</link>
       <pubDate>Sat, 15 Jun 2019 00:00:00 +0800</pubDate>
       
       <guid>/software/ganak/</guid>
       <description>GANAK: A Scalable Probabilistic Exact Model Counter</description>
+    </item>
+    
+    <item>
+      <title>UniGen</title>
+      <link>/software/unigen/</link>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/software/unigen/</guid>
+      <description>An algorithm to generate uniform samples subject to given set of constraints.</description>
     </item>
     
     <item>
