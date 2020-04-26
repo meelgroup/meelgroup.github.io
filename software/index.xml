@@ -7,19 +7,10 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Mon, 10 Feb 2020 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jan 2020 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="/software/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>1-CARD-XOR</title>
-      <link>/software/1cardxor/</link>
-      <pubDate>Mon, 10 Feb 2020 00:00:00 +0800</pubDate>
-      
-      <guid>/software/1cardxor/</guid>
-      <description>Phase Transition Behavior of Cardinality and XOR Constraints</description>
-    </item>
     
     <item>
       <title>NPAQ</title>
@@ -127,6 +118,15 @@
       
       <guid>/software/weightmc/</guid>
       <description>A weighted model counter over Boolean domains.</description>
+    </item>
+    
+    <item>
+      <title>1-CARD-XOR</title>
+      <link>/software/1cardxor/</link>
+      <pubDate>Fri, 10 Jan 2014 00:00:00 +0800</pubDate>
+      
+      <guid>/software/1cardxor/</guid>
+      <description>Phase Transition Behavior of Cardinality and XOR Constraints</description>
     </item>
     
   </channel>

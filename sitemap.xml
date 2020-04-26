@@ -50,45 +50,6 @@
     
     <url>
     
-      <loc>/software/1cardxor/</loc>
-      <lastmod>2020-02-10T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/software/</loc>
-      <lastmod>2020-02-10T00:00:00+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/</loc>
-      <lastmod>2020-02-10T00:00:00+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/cardinality-constraints/</loc>
-      <lastmod>2020-02-10T00:00:00+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/news/08022020/</loc>
       <lastmod>2020-02-08T00:00:00+08:00</lastmod>
     </url>
@@ -100,6 +61,26 @@
     
       <loc>/software/npaq/</loc>
       <lastmod>2020-01-26T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/software/</loc>
+      <lastmod>2020-01-26T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/</loc>
+      <lastmod>2020-01-26T00:00:00+08:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -865,6 +846,25 @@
     
       <loc>/publication/dac14/</loc>
       <lastmod>2014-06-01T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/software/1cardxor/</loc>
+      <lastmod>2014-01-10T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/cardinality-constraints/</loc>
+      <lastmod>2014-01-10T00:00:00+08:00</lastmod>
+      <priority>0</priority>
     </url>
     
   

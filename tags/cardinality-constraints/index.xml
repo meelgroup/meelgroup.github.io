@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Mon, 10 Feb 2020 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jan 2014 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="/tags/cardinality-constraints/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>1-CARD-XOR</title>
       <link>/software/1cardxor/</link>
-      <pubDate>Mon, 10 Feb 2020 00:00:00 +0800</pubDate>
+      <pubDate>Fri, 10 Jan 2014 00:00:00 +0800</pubDate>
       
       <guid>/software/1cardxor/</guid>
       <description>Phase Transition Behavior of Cardinality and XOR Constraints</description>
