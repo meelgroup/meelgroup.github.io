@@ -13,6 +13,15 @@
     
     
     <item>
+      <title>Two Papers accepted to &lt;a href=&#34;https://sat2020.idea-researchlab.org/&#34;&gt;SAT 2020&lt;/a&gt;. &lt;br&gt; 1. The first paper shows that the currently known bounds for sparse hashing are too weak to be used for algorithms such as ApproxMC. Authors: Durgesh Agarwal, Bhavishya and Kuldeep S. Meel &lt;br&gt; 2. The second paper proposes a new phase selection strategy for SAT solvers. Improving SAT solvers is just a very very hard job and we are excited about the improvements that our proposal brings to the world of SAT solving. Authors: Arijit Shaw and Kuldeep S. Meel</title>
+      <link>/news/25042020/</link>
+      <pubDate>Sat, 25 Apr 2020 00:00:00 +0800</pubDate>
+      
+      <guid>/news/25042020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Paper on Sparse Hashing for Approximate Model counting accepted to &lt;a href=&#34;https://lics.siglog.org/lics20/&#34;&gt;LICS 2020&lt;/a&gt;. Authors: S. Akshay and Kuldeep S. Meel&lt;br&gt;One of the reviews: &#34;Rarely it is that there is a paper that proves a beautiful new theoretical result, explaining and simplifying previous work, and on top of that shows how it can be used to improve state-of-the-art practical algorithms. The paper &#34;Sparse hashing for scalable approximate model counting: theory and practice&#34; achieves exactly that.&#34;</title>
       <link>/news/10042020/</link>
       <pubDate>Fri, 10 Apr 2020 00:00:00 +0800</pubDate>

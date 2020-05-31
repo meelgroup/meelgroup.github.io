@@ -6,8 +6,80 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Fri, 10 Apr 2020 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 19 May 2020 00:00:00 +0800</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Designing New Phase Selection Heuristics</title>
+      <link>/publication/sat20sm/</link>
+      <pubDate>Tue, 19 May 2020 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/sat20sm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the Sparsity of XORs in Approximate Model Counting</title>
+      <link>/publication/sat20abm/</link>
+      <pubDate>Tue, 19 May 2020 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/sat20abm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sparse Hashing for Scalable Approximate Model Counting: Theory and Practice</title>
+      <link>/publication/lics-20-am/</link>
+      <pubDate>Mon, 18 May 2020 00:00:01 +0800</pubDate>
+      
+      <guid>/publication/lics-20-am/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Approximate Counting of Minimal Unsatisfiable Subsets</title>
+      <link>/publication/cav20bm/</link>
+      <pubDate>Mon, 18 May 2020 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/cav20bm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Manthan: A Data-Driven Approach for Boolean Function Synthesis</title>
+      <link>/publication/cav20_manthan/</link>
+      <pubDate>Mon, 18 May 2020 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/cav20_manthan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tinted, Detached, and Lazy CNF-XOR solving and its Applications to Counting and Sampling</title>
+      <link>/publication/cav20sgm/</link>
+      <pubDate>Mon, 18 May 2020 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/cav20sgm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Induction Models on N</title>
+      <link>/publication/lpar20dms/</link>
+      <pubDate>Sat, 16 May 2020 00:00:01 +0800</pubDate>
+      
+      <guid>/publication/lpar20dms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Two Papers accepted to &lt;a href=&#34;https://sat2020.idea-researchlab.org/&#34;&gt;SAT 2020&lt;/a&gt;. &lt;br&gt; 1. The first paper shows that the currently known bounds for sparse hashing are too weak to be used for algorithms such as ApproxMC. Authors: Durgesh Agarwal, Bhavishya and Kuldeep S. Meel &lt;br&gt; 2. The second paper proposes a new phase selection strategy for SAT solvers. Improving SAT solvers is just a very very hard job and we are excited about the improvements that our proposal brings to the world of SAT solving. Authors: Arijit Shaw and Kuldeep S. Meel</title>
+      <link>/news/25042020/</link>
+      <pubDate>Sat, 25 Apr 2020 00:00:00 +0800</pubDate>
+      
+      <guid>/news/25042020/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Paper on Sparse Hashing for Approximate Model counting accepted to &lt;a href=&#34;https://lics.siglog.org/lics20/&#34;&gt;LICS 2020&lt;/a&gt;. Authors: S. Akshay and Kuldeep S. Meel&lt;br&gt;One of the reviews: &#34;Rarely it is that there is a paper that proves a beautiful new theoretical result, explaining and simplifying previous work, and on top of that shows how it can be used to improve state-of-the-art practical algorithms. The paper &#34;Sparse hashing for scalable approximate model counting: theory and practice&#34; achieves exactly that.&#34;</title>
@@ -33,6 +105,15 @@
       <pubDate>Mon, 06 Apr 2020 00:00:00 +0800</pubDate>
       
       <guid>/news/06042020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Study of Symmetry Breaking Predicates and Model Counting</title>
+      <link>/publication/tacas20wuawmk/</link>
+      <pubDate>Sat, 04 Apr 2020 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/tacas20wuawmk/</guid>
       <description></description>
     </item>
     
@@ -68,89 +149,6 @@
 &lt;li&gt;&lt;a href=&#34;https://www.comp.nus.edu.sg/~teodorab/papers/NPAQ.pdf&#34; title=&#34;CCS 2019&#34; target=&#34;_blank&#34;&gt;CCS 2019&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Classification Rules in Relaxed Logical Form</title>
-      <link>/publication/ecai20/</link>
-      <pubDate>Thu, 23 Jan 2020 00:00:00 +0800</pubDate>
-      
-      <guid>/publication/ecai20/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Our paper on classification rules in relaxed logical form is accepted in &lt;a href=&#34;http://ecai2020.eu&#34;&gt;ECAI-2020&lt;/a&gt;. Authors: Bishwamittra Ghosh, Dmitry Malioutov, and Kuldeep S. Meel</title>
-      <link>/news/15012020/</link>
-      <pubDate>Wed, 15 Jan 2020 00:00:00 +0800</pubDate>
-      
-      <guid>/news/15012020/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A MaxSAT-based Framework for Group Testing</title>
-      <link>/publication/aaai20/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0800</pubDate>
-      
-      <guid>/publication/aaai20/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Our paper on Symmetry breaking and model counting is accepted to &lt;a href=&#34;https://www.etaps.org/2020/tacas&#34;&gt;TACAS 2020&lt;/a&gt;. Authors: Wenxi Wang, Muhammad Usman, Alyas Almaawi, Kaiyuan Wang, Kuldeep S. Meel, and Sarfraz Khurshid</title>
-      <link>/news/23122019/</link>
-      <pubDate>Mon, 23 Dec 2019 00:00:00 +0800</pubDate>
-      
-      <guid>/news/23122019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title> Two of our group&amp;apos;s papers are accepted to accepted as poster presentations with a spotlight talk at &lt;a href=&#34;http://www.starai.org/2020/&#34;&gt;StarAI 2020&lt;/a&gt; workshop in &lt;a href=&#34;https://aaai.org/Conferences/AAAI-20/&#34;&gt;AAAI 2020&lt;/a&gt;: Our AIES-19 &lt;a href=&#34;https://bishwamittra.github.io/publication/imli-ghosh.pdf&#34;&gt;paper&lt;/a&gt; on incremental classification rule learning and our CCS-19 &lt;a href=&#34;https://www.comp.nus.edu.sg/~teodorab/papers/NPAQ.pdf&#34;&gt;paper&lt;/a&gt; on quantiatative verification for binarized neural networks.</title>
-      <link>/news/07122019/</link>
-      <pubDate>Sat, 07 Dec 2019 00:00:00 +0800</pubDate>
-      
-      <guid>/news/07122019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CrystalBall: SAT solving, Data Gathering, and Machine Learning</title>
-      <link>/post/crystallball/</link>
-      <pubDate>Sun, 03 Nov 2019 00:00:00 +0800</pubDate>
-      
-      <guid>/post/crystallball/</guid>
-      <description>&lt;p&gt; &lt;/i&gt;Link to the  &lt;a href=&#34;https://www.msoos.org/2019/06/crystalball-sat-solving-data-gathering-and-machine-learning/&#34;&gt;original post&lt;/a&gt; on CrystallBall.&lt;/p&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title> Alexis will be presenting our work on &lt;a href=&#34;https://www.comp.nus.edu.sg/~meel/Papers/cp19-dm.pdf&#34;&gt;unifying hashing-based approaches for discrete integration&lt;/a&gt;, and Bishwa will present on &lt;a href=&#34;https://bishwamittra.github.io/publication/irr-ghosh.pdf&#34;&lt;/a&gt; learning interpretable classifiers at &lt;a href=&#34;https://cp2019.a4cp.org/&#34;&gt;CP2019&lt;/a&gt;.</title>
-      <link>/news/30092019/</link>
-      <pubDate>Mon, 30 Sep 2019 00:00:00 +0800</pubDate>
-      
-      <guid>/news/30092019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title> Embedding Symbolic Knowledge into Deep Networks </title>
-      <link>/publication/neurips19/</link>
-      <pubDate>Mon, 30 Sep 2019 00:00:00 +0800</pubDate>
-      
-      <guid>/publication/neurips19/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title> Our &lt;a href=&#34;https://bishwamittra.github.io/publication/aaai_2020/AAAI-CiampiconiL.690.pdf&#34;&gt;paper&lt;/a&gt; on  MaxSAT-based formulation for group testing is accepted in &lt;a href=&#34;https://aaai.org/Conferences/AAAI-20/&#34;&gt;AAAI 2020&lt;/a&gt;. Authors: Lorenzo Ciampiconi, Bishwamittra Ghosh, Jonathan Scarlett and Kuldeep S. Meel</title>
-      <link>/news/11112019/</link>
-      <pubDate>Mon, 30 Sep 2019 00:00:00 +0800</pubDate>
-      
-      <guid>/news/11112019/</guid>
-      <description></description>
     </item>
     
   </channel>

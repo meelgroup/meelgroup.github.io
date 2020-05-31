@@ -13,6 +13,78 @@
     
     
     <item>
+      <title>Designing New Phase Selection Heuristics</title>
+      <link>/publication/sat20sm/</link>
+      <pubDate>Tue, 19 May 2020 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/sat20sm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the Sparsity of XORs in Approximate Model Counting</title>
+      <link>/publication/sat20abm/</link>
+      <pubDate>Tue, 19 May 2020 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/sat20abm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sparse Hashing for Scalable Approximate Model Counting: Theory and Practice</title>
+      <link>/publication/lics-20-am/</link>
+      <pubDate>Mon, 18 May 2020 00:00:01 +0800</pubDate>
+      
+      <guid>/publication/lics-20-am/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Approximate Counting of Minimal Unsatisfiable Subsets</title>
+      <link>/publication/cav20bm/</link>
+      <pubDate>Mon, 18 May 2020 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/cav20bm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Manthan: A Data-Driven Approach for Boolean Function Synthesis</title>
+      <link>/publication/cav20_manthan/</link>
+      <pubDate>Mon, 18 May 2020 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/cav20_manthan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tinted, Detached, and Lazy CNF-XOR solving and its Applications to Counting and Sampling</title>
+      <link>/publication/cav20sgm/</link>
+      <pubDate>Mon, 18 May 2020 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/cav20sgm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Induction Models on N</title>
+      <link>/publication/lpar20dms/</link>
+      <pubDate>Sat, 16 May 2020 00:00:01 +0800</pubDate>
+      
+      <guid>/publication/lpar20dms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Study of Symmetry Breaking Predicates and Model Counting</title>
+      <link>/publication/tacas20wuawmk/</link>
+      <pubDate>Sat, 04 Apr 2020 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/tacas20wuawmk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Classification Rules in Relaxed Logical Form</title>
       <link>/publication/ecai20/</link>
       <pubDate>Thu, 23 Jan 2020 00:00:00 +0800</pubDate>
