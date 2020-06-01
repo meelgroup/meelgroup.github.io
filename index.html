@@ -1,342 +1,821 @@
-<!DOCTYPE html>
-<html lang="en-us">
+<!DOCTYPE html><html lang="en-us" >
+
 <head>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.55.6" />
-  <meta name="author" content="MeelGroup">
-
-  
-  
-  
-  
-  <meta name="description" content="">
-
-  
-  <link rel="alternate" hreflang="en-us" href="/">
-
-  
-
+  <meta name="generator" content="Source Themes Academic 4.8.0">
 
   
 
   
-  
-  <meta name="theme-color" content="#0095eb">
   
   
   
   
     
+    
+    
   
   
+
+  <meta name="author" content="Meel Group">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Computer Science Department, School of Computing National University of Singapore">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://meelgroup.github.io/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
     
     
       
-        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
       
     
-  
-  
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
-  
-  
-  
-  
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
-  
-  <link rel="stylesheet" href="/styles.css">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+
   
 
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+  
+
+
+  
+  
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   
 
   
   <link rel="alternate" href="/index.xml" type="application/rss+xml" title="MeelGroup">
-  <link rel="feed" href="/index.xml" type="application/rss+xml" title="MeelGroup">
   
 
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="icon" type="image/png" href="/img/icon.png">
-  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="/">
+  <link rel="canonical" href="https://meelgroup.github.io/">
 
-  <meta property="twitter:card" content="summary_large_image">
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="MeelGroup">
-  <meta property="og:url" content="/">
+  <meta property="og:url" content="https://meelgroup.github.io/">
   <meta property="og:title" content="MeelGroup">
-  <meta property="og:description" content="">
-  <meta property="og:locale" content="en-us">
+  <meta property="og:description" content="Computer Science Department, School of Computing National University of Singapore"><meta property="og:image" content="https://meelgroup.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="twitter:image" content="https://meelgroup.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2020-05-19T00:00:00&#43;08:00">
+    <meta property="og:updated_time" content="2018-06-28T00:00:00&#43;01:00">
   
 
   
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://meelgroup.github.io/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  },
+  "url": "https://meelgroup.github.io/"
+}
+</script>
+
+
   
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://meelgroup.github.io/",
+  "name": "Meel Group",
+  "logo": "https://meelgroup.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png",
+  
+  
+  
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "15 Computing Dr",
+    "addressLocality": "",
+    "addressRegion": "Singapore",
+    "postalCode": "117418",
+    "addressCountry": "65"
+  },
+  
+  "telephone": "+65-651 61422 ",
+  "url": "https://meelgroup.github.io/"
+}
+</script>
+
+  
+
+
+  
+
+
+  
+
+
+
+
 
   <title>MeelGroup</title>
 
 </head>
-<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71" >
 
-<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
   <div class="container">
 
     
-    <div class="navbar-header">
-      
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-              data-target=".navbar-collapse" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      
+    <div class="d-none d-lg-inline-flex">
       <a class="navbar-brand" href="/">MeelGroup</a>
     </div>
+    
 
     
-    <div class="collapse navbar-collapse">
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
 
-      
-      
-      <ul class="nav navbar-nav navbar-right">
-        
-
-        
-        
-        
-        
-        
-          
-        
-
-        <li class="nav-item">
-          <a href="/#about" data-target="#about">
-            
-            <span>Home</span>
-            
-          </a>
-        </li>
-
-        
-        
-
-        
-        
-        
-        
-        
-          
-        
-
-        <li class="nav-item">
-          <a href="/#research" data-target="#research">
-            
-            <span>Research</span>
-            
-          </a>
-        </li>
-
-        
-        
-
-        
-        
-        
-        
-        
-          
-        
-
-        <li class="nav-item">
-          <a href="/#publications" data-target="#publications">
-            
-            <span>Publications</span>
-            
-          </a>
-        </li>
-
-        
-        
-
-        
-        
-        
-        
-        
-          
-        
-
-        <li class="nav-item">
-          <a href="/#posts" data-target="#posts">
-            
-            <span>Blogs</span>
-            
-          </a>
-        </li>
-
-        
-        
-
-        
-        
-        
-        
-        
-          
-        
-
-        <li class="nav-item">
-          <a href="/#news" data-target="#news">
-            
-            <span>News</span>
-            
-          </a>
-        </li>
-
-        
-        
-
-        
-        
-        
-        
-        
-          
-        
-
-        <li class="nav-item">
-          <a href="/#projects" data-target="#projects">
-            
-            <span>Software</span>
-            
-          </a>
-        </li>
-
-        
-        
-
-        
-        
-        
-        
-        
-          
-        
-
-        <li class="nav-item">
-          <a href="/#people" data-target="#people">
-            
-            <span>People</span>
-            
-          </a>
-        </li>
-
-        
-        
-
-        
-        
-        
-        
-        
-          
-        
-
-        <li class="nav-item">
-          <a href="/#openings" data-target="#openings">
-            
-            <span>Openings</span>
-            
-          </a>
-        </li>
-
-        
-        
-      
-
-      
-      </ul>
-
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">MeelGroup</a>
     </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about_group" data-target="#about_group"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#research" data-target="#research"><span>Research</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#publications" data-target="#publications"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts" data-target="#posts"><span>Blogs</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#talk" data-target="#talk"><span>News</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects" data-target="#projects"><span>Softwares</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#people" data-target="#people"><span>People</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#openings" data-target="#openings"><span>Openings</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact" data-target="#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link js-theme-selector" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-palette" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+
+    </ul>
+
   </div>
 </nav>
 
 
-
-<span id="homepage" style="display: none"></span>
-
-
   
 
 
 
 
 
+
+
+
+
+
+
+<span class="js-widget-page d-none"></span>
+
+
+
+
+
   
   
   
-  <section id="about" class="home-section">
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="hero" class="home-section wg-hero dark  bg-image parallax " style="background-image:  url(&#39;https://meelgroup.github.io/img/flip.jpg&#39;);background-size: contain;" >
     <div class="container">
       
 
 
 
-<div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person" itemref="person-email person-telephone person-address">
-  <div class="col-xs-12 col-md-4">
-    <div id="profile">
 
-      
 
-      <div class="portrait-title">
-        <h2 itemprop="name">MeelGroup</h2>
-        
-
-        
-        
-
-        
-        <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
-          <a href="http://www.comp.nus.edu.sg/" target="_blank" itemprop="url" rel="noopener">
-          <span itemprop="name">Computer Science Department, School of Computing National University of Singapore</span>
-          </a>
-        </h3>
-        
-      </div>
-
-      <link itemprop="url" href="/">
-
-      <ul class="network-icon" aria-hidden="true">
-        
-        
-        <li>
-          <a itemprop="sameAs" href="https://scholar.google.com/citations?user=bvW5Hs8AAAAJ&amp;hl=en" target="_blank" rel="noopener">
-            <i class="ai ai-google-scholar big-icon"></i>
-          </a>
-        </li>
-        
-      </ul>
-
-    </div>
-  </div>
-  <div class="col-xs-12 col-md-8" itemprop="description">
+    <h1 class="hero-title">
+      Meel Group
+    </h1>
 
     
+    <div class="hero-lead"><p><br><br><br><br><br><br><br><br></p>
+</div>
+    
 
-<h1 id="meel-group">Meel Group</h1>
+    
+    
 
-<p>Welcome to the Meel Group&rsquo;s web page. We are situated at National
-University of Singapore.</p>
+    
+    
 
+  
+  
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="about_group" class="home-section wg-blank   "  >
+    <div class="container">
+      
+
+
+<div class="row">
+  
+    <div class="col-12 col-lg-4 section-heading">
+      <h1>Meel Group</h1>
+      <p>Computer Science Department, School of Computing National University of Singapore</p>
+    </div>
+    <div class="col-12 col-lg-8">
+      <p>Welcome to the Meel Group’s web page. We are situated at National University of Singapore.</p>
 <style type="text/css">
     .card {
     position: relative;
@@ -351,13 +830,11 @@ University of Singapore.</p>
 
     }
 </style>
-
-<p><div class = "card">
+<div class = "card">
 <img src="/img/group.jpg" class="img-top" alt="Meelgroup">
 <img src="/img/flip.jpg"  alt="flipside">
 </div>
-<h3>Interests</h3></p>
-
+<h3>Interests</h3>
 <ul style="list-style-type:disc">
 <li> Artificial Intelligence
 </li><li> Constrained Sampling and Counting
@@ -365,68 +842,78 @@ University of Singapore.</p>
 </li><li> Formal Methods
 </li><li> Interpretable Models
 </li></ul>
-
-
-    <div class="row">
-
-      
-
-      
-
     </div>
-  </div>
+  
 </div>
 
     </div>
   </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
   
 
   
   
   
-  <section id="research" class="home-section">
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="research" class="home-section wg-blank   "  >
     <div class="container">
       
 
 
 <div class="row">
   
-  <div class="col-xs-12 col-md-4 section-heading">
-    <h1>Research</h1>
-    
-  </div>
-  <div class="col-xs-12 col-md-8">
-    
-
-<h1 id="overview"><strong>Overview</strong></h1>
-
+    <div class="col-12 col-lg-4 section-heading">
+      <h1>Research</h1>
+      
+    </div>
+    <div class="col-12 col-lg-8">
+      <h1 id="__overview__"><strong>Overview</strong></h1>
 <p>Broadly, our research group is focused on the development of a rigorous
 mathematical framework for <b> provably verified, correct-by-construction,
 explainable probabilistic reasoning systems </b> building on recent
 breakthroughs in formal methods and symbolic reasoning; and deployment of our
 algorithmic framework in the real world including applications in reliability
 estimation of critical infrastructure and computational sustainability.</p>
-
 <p>At a more technical level, we work at the intersection of formal methods and
 artificial intelligence. We seek to develop formal methods for AI techniques and
 also employ advances in AI techniques for the development of formal method
 algorithmic and system frameworks.</p>
-
-<h2 id="u-theme-1-revisiting-np-revolution-new-paradigms-for-sat-smt-maxsat-solvers-u"><u> Theme 1: Revisiting NP Revolution: New Paradigms for SAT/SMT/MaxSAT Solvers </u></h2>
-
+<h2 id="u-theme-1-revisiting-np-revolution-new-paradigms-for-satsmtmaxsat-solvers-u"><u> Theme 1: Revisiting NP Revolution: New Paradigms for SAT/SMT/MaxSAT Solvers </u></h2>
 <p>Two observations motivate this research theme:</p>
-
 <p>O1: The success of SAT/SMT/MaxSAT solvers has allowed researchers to employ them
 as &ldquo;oracles&rdquo; inside larger algorithmic components, which give rise to rich
 structure in the queries to the SAT solvers, and</p>
-
 <p>O2: Modern SAT/SMT solvers achieve scalability and robustness with sophisticated
 heuristics that are challenging to understand and explain.</p>
-
 <p>O1 necessitates design of solvers that can exploit the rich structures of
 queries without losing the generality offered by CNF. Our recent work has
-proposed new paradigms for CNF+XOR constraints <a href="/publication/aaai19_bird/" target="_blank">[aaai19]</a> and CNF+ANF constraints <a href="/publication/date_cscm19/" target="_blank">[date19]</a>.</p>
-
+proposed new paradigms for CNF+XOR constraints 
+<a href="https://meelgroup.github.io/publication/aaai19_bird/">[aaai19]</a> and CNF+ANF constraints 
+<a href="https://meelgroup.github.io/publication/date_cscm19/">[date19]</a>.</p>
 <p>A consequence of O2 is that the development of new algorithmic insights has been
 largely restricted to expert intuitions and evaluation of the new insights have
 been restricted to performance measurement in terms of the runtime of solvers or
@@ -436,11 +923,10 @@ modern conflict-driven clause learning (CDCL) solvers as a composition of
 classifiers and regressors for different tasks such as branching, clause memory
 management, and restarting. We will employ supervised learning and uses
 extensive, multi-gigabyte data extracted from runs of a single SAT solver to
-perform predictive analytics. Our <a href="/publication/sat19_cball/" target="_blank">[SAT-19]</a> paper presents the first version of the
+perform predictive analytics. Our 
+<a href="https://meelgroup.github.io/publication/sat19_cball/">[SAT-19]</a> paper presents the first version of the
 system, called CrystalBall, that we are building.</p>
-
-<h2 id="u-theme-2-constrained-sampling-and-integration-counting-u"><u> Theme 2: Constrained Sampling and Integration/Counting </u></h2>
-
+<h2 id="u-theme-2-constrained-sampling-and-integrationcounting-u"><u> Theme 2: Constrained Sampling and Integration/Counting </u></h2>
 <p>Constrained sampling and counting are two fundamental problems in data analysis.
 In constrained sampling, the task is to sample randomly, subject to a given
 weighting function, from the set of solutions to a set of given constraints
@@ -448,7 +934,6 @@ while for constrained counting, the task is to count the total weight, subject
 to a given weighting function, of the set of solutions of the given constraints.
 Both of these problems have applications in machine learning, probabilistic
 reasoning, planning, hardware, and software testing, among other areas.</p>
-
 <p>Our focus in on the development of new algorithmic techniques for constrained
 sampling and counting, combining the classical technique of universal hashing
 with advances in Boolean reasoning. Many of the ideas underlying the proposed
@@ -457,147 +942,236 @@ practice. Recent progress in Boolean reasoning is enabling us to reduce these
 algorithmic ideas to practice and obtain breakthrough results in constrained
 sampling and counting, providing a new algorithmic toolbox in design
 verification, machine learning, probabilistic reasoning, and the like.</p>
-
 <p>We are focused on</p>
-
 <ol>
-<li>Algorithmic advances in sampling and counting <a href="/publication/aaai19_bird/" target="_blank">[aaai19]</a>.</li>
+<li>Algorithmic advances in sampling and counting 
+<a href="https://meelgroup.github.io/publication/aaai19_bird/">[aaai19]</a>.</li>
 <li>Application of sampling and counting to problems arising in different domains
-<a href="/publication/sat19_heu/" target="_blank">[sat19]</a> <a href="/publication/vmcai18/" target="_blank">[vmcai19]</a>.</li>
+
+<a href="https://meelgroup.github.io/publication/sat19_heu/">[sat19]</a> 
+<a href="https://meelgroup.github.io/publication/vmcai18/">[vmcai19]</a>.</li>
 <li>Revisiting theoretical foundations in light of existence of solvers but not
 oracles.</li>
 </ol>
-
 <h2 id="u-theme-3-verification-of-ai-systems-u"><u> Theme 3: Verification of AI Systems </u></h2>
-
 <p>The modern AI systems significantly differ from traditional systems in
 their reliance on probabilistic reasoning.  Often statistical tests are
 employed to argue for the accuracy/robustness of these systems, but such
 statistical tests are usually performed on a tiny number of samples for
 which no theoretical guarantees exist for their accuracy.</p>
-
 <p>In contrast to testing for traditional hardware and software systems, where one
 trace is sufficient to prove the existence of a bug; such is not the case for
 samplers as one sample is typically not sufficient to prove non-conformity of
-the underlying systems. Our recent work <a href="/publication/aaai19_testing/" target="_blank">[aaai19]</a> showcased, to the best of our knowledge,
+the underlying systems. Our recent work 
+<a href="https://meelgroup.github.io/publication/aaai19_testing/">[aaai19]</a> showcased, to the best of our knowledge,
 the first algorithmic framework, Barbarik, to test whether the distribution
 generated is close to the uniform distribution.</p>
-
-<p>In our <a href="/publication/ccs19/" target="_blank">[ccs19]</a> we propose a quantitative
+<p>In our 
+<a href="https://meelgroup.github.io/publication/ccs19/">[ccs19]</a> we propose a quantitative
 verification framework instantiated on binarized neural networks that allows
 verification of robustness, fairness and trojan attack success properties. In
 this framework, the user can quantify how often a given property is true.
 However, often users are interested to bound the probability that a property is
-true. To this end, in our <a href="https://arxiv.org/abs/2002.06864" target="_blank">recent work</a> we propose a sound sampling-based
+true. To this end, in our 
+<a href="https://arxiv.org/abs/2002.06864" target="_blank" rel="noopener">recent work</a> we propose a sound sampling-based
 procedure called PROVERO and apply it to verify the robustness of deep neural
 networks. We propose a new attack agnostic metric adversarial hardness to
 capture model&rsquo;s robustness based on our procedure.</p>
-
 <h2 id="u-theme-4-interpretable-and-actionable-explanations-for-ai-systems-u"><u> Theme 4: Interpretable and Actionable Explanations for AI Systems </u></h2>
-
 <p>Interpretability has become a central thread in ML research. As ML algorithms
 continue to permeate critical application domains such as medicine, legal, and
 transportation, it becomes increasingly important to allow human domain experts
 to understand and interact with ML solutions. Providing meaningful explanations
 for automated decisions is an increasingly important task. In this research
 theme, we are investigating techniques for two categories of explanations:</p>
-
 <ol>
-<li><p>Interpretable explanations such as those specified using a small set of
+<li>
+<p>Interpretable explanations such as those specified using a small set of
 rules/formulas. In particular, we have designed a MaxSAT based formulation
-for learning interpretable rules in CNF/DNF <a href="/publication/mm18/" target="_blank">[cp18]</a> and later extended this formulation by
-incorporating incremental learning of small rules <a href="/publication/aies19/" target="_blank">[aies19]</a>. In the <a href="/publication/ecai20/" target="_blank">[ecai20]</a> paper we have proposed an efficient incremental
+for learning interpretable rules in CNF/DNF 
+<a href="https://meelgroup.github.io/publication/mm18/">[cp18]</a> and later extended this formulation by
+incorporating incremental learning of small rules 
+<a href="https://meelgroup.github.io/publication/aies19/">[aies19]</a>. In the 
+<a href="https://meelgroup.github.io/publication/ecai20/">[ecai20]</a> paper we have proposed an efficient incremental
 learning procedure for learning classification rules in a more expressible
-Boolean representation, namely relaxed-CNF.</p></li>
-
-<li><p>In settings where the cognitive burden of complete explanations is too high,
+Boolean representation, namely relaxed-CNF.</p>
+</li>
+<li>
+<p>In settings where the cognitive burden of complete explanations is too high,
 people often do not seek to know why a particular event happened, but rather
 why an alternative one didn’t. Due to the heuristic nature of explanations
 produced by existing tools, it is necessary to validate them, and our
 approach applies the development in formal methods to aid validation. As an
-example, our recent work <a href="/publication/sat19_heu/" target="_blank">[sat19]</a>
+example, our recent work 
+<a href="https://meelgroup.github.io/publication/sat19_heu/">[sat19]</a>
 proposed a counting-based method to assess the quality of explanations
-rigorously.</p></li>
+rigorously.</p>
+</li>
 </ol>
 
-  </div>
+    </div>
   
 </div>
 
     </div>
   </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
   
 
   
   
   
-  <section id="publications" class="home-section">
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="publications" class="home-section wg-pages   "  >
     <div class="container">
       
 
 
 
 
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
 <div class="row">
-  <div class="col-xs-12 col-md-4 section-heading">
+  <div class="col-12 col-lg-4 section-heading">
     <h1>Publications</h1>
     
-    
-    <p class="view-all">
-      <a href="/publication/">
-        More Publications
-        <i class="fa fa-angle-double-right"></i>
-      </a>
-    </p>
-    
   </div>
-  <div class="col-xs-12 col-md-8">
-    
+  <div class="col-12 col-lg-8">
+
+    <div class="alert alert-note">
+  <div>
+    Quickly discover relevant content by <a href="https://meelgroup.github.io/publication/">filtering publications</a>.
+  </div>
+</div>
+
 
     
       
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
     
 
-    
-
-    
-    
-      
-        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-  <span itemprop="author">
-    Arijit Shaw, Kuldeep S. Meel</span>.
-  <a href="/publication/sat20sm/" itemprop="name">Designing New Phase Selection Heuristics</a>.
-  In <em>Proceedings of the International Conference on Theory and Applications of Satisfiability Testing (SAT)</em>,
-  2020.
+  
+  <span><a href="/author/arijit-shaw/">Arijit Shaw</a></span>, <span><a href="/author/kuldeep-meel/">Kuldeep Meel</a></span>
+  </span>
+  (2020).
+  <a href="/publication/sat20sm/">Designing New Phase Selection Heuristics</a>.
+  In <em>Proceedings of the International Conference on Theory and Applications of Satisfiability Testing (SAT)</em>.
+  
   <p>
 
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/2005.04850" target="_blank" rel="noopener">
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2005.04850" target="_blank" rel="noopener">
   Preprint
 </a>
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="https://www.comp.nus.edu.sg/~meel/Papers/sat20-sm.pdf" target="_blank" rel="noopener">
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.comp.nus.edu.sg/~meel/Papers/sat20-sm.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
-
-<button type="button" class="btn btn-primary btn-outline btn-xs js-cite-modal"
-        data-filename="/files/citations/SAT20SM.bib">
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/sat20sm/cite.bib">
   Cite
 </button>
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/meelgroup/duriansat" target="_blank" rel="noopener">
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/meelgroup/duriansat" target="_blank" rel="noopener">
   Code
 </a>
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="https://doi.org/10.5281/zenodo.3817476" target="_blank" rel="noopener">
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.5281/zenodo.3817476" target="_blank" rel="noopener">
   Dataset
 </a>
 
@@ -609,39 +1183,67 @@ rigorously.</p></li>
 
 
 
+
+
+
 </p>
+
+  
+  
 </div>
 
       
     
       
-        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-  <span itemprop="author">
-    Durgesh Agrawal, Bhavishya, Kuldeep S. Meel</span>.
-  <a href="/publication/sat20abm/" itemprop="name">On the Sparsity of XORs in Approximate Model Counting</a>.
-  In <em>Proceedings of the International Conference on Theory and Applications of Satisfiability Testing (SAT)</em>,
-  2020.
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span><a href="/author/durgesh-agrawal/">Durgesh Agrawal</a></span>, <span><a href="/author/bhavishya/">Bhavishya</a></span>, <span><a href="/author/kuldeep-meel/">Kuldeep Meel</a></span>
+  </span>
+  (2020).
+  <a href="/publication/sat20abm/">On the Sparsity of XORs in Approximate Model Counting</a>.
+  In <em>Proceedings of the International Conference on Theory and Applications of Satisfiability Testing (SAT)</em>.
+  
   <p>
 
 
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="https://www.comp.nus.edu.sg/~meel/Papers/sat20-adm.pdf" target="_blank" rel="noopener">
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.comp.nus.edu.sg/~meel/Papers/sat20-adm.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
-
-<button type="button" class="btn btn-primary btn-outline btn-xs js-cite-modal"
-        data-filename="/files/citations/SAT20ABM.bib">
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/sat20abm/cite.bib">
   Cite
 </button>
 
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="http://doi.org/10.5281/zenodo.3792748" target="_blank" rel="noopener">
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://doi.org/10.5281/zenodo.3792748" target="_blank" rel="noopener">
   Dataset
 </a>
 
@@ -653,33 +1255,57 @@ rigorously.</p></li>
 
 
 
+
+
+
 </p>
+
+  
+  
 </div>
 
       
     
       
-        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-  <span itemprop="author">
-    Kuldeep S. Meel ⓡ S. Akshay</span>.
-  <a href="/publication/lics-20-am/" itemprop="name">Sparse Hashing for Scalable Approximate Model Counting: Theory and Practice</a>.
-  In <em>Proceedings of Logic in Computer science (LICS)</em>,
-  2020.
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span><a href="/author/kuldeep-meel/">Kuldeep Meel</a></span>
+  </span>
+  (2020).
+  <a href="/publication/lics-20-am/">Sparse Hashing for Scalable Approximate Model Counting: Theory and Practice</a>.
+  In <em>Proceedings of Logic in Computer science (LICS)</em>.
+  
   <p>
 
 
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="https://www.comp.nus.edu.sg/~meel/Papers/lics20-ma.pdf" target="_blank" rel="noopener">
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.comp.nus.edu.sg/~meel/Papers/lics20-ma.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
-
-<button type="button" class="btn btn-primary btn-outline btn-xs js-cite-modal"
-        data-filename="/files/citations/LICS-20-AM.bib">
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/lics-20-am/cite.bib">
   Cite
 </button>
 
@@ -693,33 +1319,57 @@ rigorously.</p></li>
 
 
 
+
+
+
 </p>
+
+  
+  
 </div>
 
       
     
       
-        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-  <span itemprop="author">
-    Jaroslav Bendik, Kuldeep S. Meel</span>.
-  <a href="/publication/cav20bm/" itemprop="name">Approximate Counting of Minimal Unsatisfiable Subsets</a>.
-  In <em>Proceedings of 32nd International Conference on Computer-Aided Verification (CAV)</em>,
-  2020.
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span><a href="/author/mate-soos/">Mate Soos</a></span>, <span>Stephan Gocht</span>, <span><a href="/author/kuldeep-meel/">Kuldeep Meel</a></span>
+  </span>
+  (2020).
+  <a href="/publication/cav20sgm/">Accelerating Approximate Techniques for Counting and Sampling Models Through Refined CNF-XOR Solving</a>.
+  In <em>Proceedings of 32nd International Conference on Computer-Aided Verification (CAV)</em>.
+  
   <p>
 
 
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="https://www.comp.nus.edu.sg/~meel/Papers/cav20-bm.pdf" target="_blank" rel="noopener">
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.comp.nus.edu.sg/~meel/Papers/cav20-sgm.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
-
-<button type="button" class="btn btn-primary btn-outline btn-xs js-cite-modal"
-        data-filename="/files/citations/CAV20BM.bib">
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/cav20sgm/cite.bib">
   Cite
 </button>
 
@@ -733,33 +1383,57 @@ rigorously.</p></li>
 
 
 
+
+
+
 </p>
+
+  
+  
 </div>
 
       
     
       
-        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-  <span itemprop="author">
-    Priyanka Golia, Subhajit Roy, Kuldeep S. Meel</span>.
-  <a href="/publication/cav20_manthan/" itemprop="name">Manthan: A Data-Driven Approach for Boolean Function Synthesis</a>.
-  In <em>Proceedings of 32nd International Conference on Computer-Aided Verification (CAV)</em>,
-  2020.
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span>Jaroslav Bendik</span>, <span><a href="/author/kuldeep-meel/">Kuldeep Meel</a></span>
+  </span>
+  (2020).
+  <a href="/publication/cav20bm/">Approximate Counting of Minimal Unsatisfiable Subsets</a>.
+  In <em>Proceedings of 32nd International Conference on Computer-Aided Verification (CAV)</em>.
+  
   <p>
 
 
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="/files/papers/cav20_manthan.pdf" target="_blank" rel="noopener">
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.comp.nus.edu.sg/~meel/Papers/cav20-bm.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
-
-<button type="button" class="btn btn-primary btn-outline btn-xs js-cite-modal"
-        data-filename="/files/citations/CAV20_manthan.bib">
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/cav20bm/cite.bib">
   Cite
 </button>
 
@@ -773,10 +1447,25 @@ rigorously.</p></li>
 
 
 
+
+
+
 </p>
+
+  
+  
 </div>
 
       
+    
+
+    
+    <div class="see-all">
+      <a href="/publication/">
+        See all publications
+        <i class="fas fa-angle-right"></i>
+      </a>
+    </div>
     
 
   </div>
@@ -784,162 +1473,255 @@ rigorously.</p></li>
 
     </div>
   </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
   
 
   
   
   
-  <section id="posts" class="home-section">
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="posts" class="home-section wg-pages   "  >
     <div class="container">
       
 
 
 
 
-<div class="row">
-  <div class="col-xs-12 col-md-4 section-heading">
 
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
     <h1>Blog Posts</h1>
     
-    
-    <p class="view-all">
-      <a href="/post/">
-        More Posts
-        <i class="fa fa-angle-double-right"></i>
-      </a>
-    </p>
-    
-
   </div>
-  <div class="col-xs-12 col-md-8">
+  <div class="col-12 col-lg-8">
 
     
 
     
       
-
-      
-      
-
         
 
-        
-        
 
-        
-        
 
-      
-      
-        
-        
-          
 
-<div class="pub-list-item" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
-  <i class="fa fa-newspaper-o pub-icon" aria-hidden="true"></i>
-  <a href="/post/crystallball/" itemprop="url"><span itemprop="headline">CrystalBall: SAT solving, Data Gathering, and Machine Learning</span></a>
+
+
+
+
+
+
+  
+
+
+<div class="view-list-item">
+  <i class="far fa-newspaper pub-icon" aria-hidden="true"></i>
+  
+    <a href="/post/crystallball/" >CrystalBall: SAT solving, Data Gathering, and Machine Learning</a>
+  
+
+  
+
+  
+
+  
+
 </div>
 
-        
       
-
-      
-
-        
-
-        
-        
-
-        
-        
-
-      
+    
       
         
-        
-          
 
-<div class="pub-list-item" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
-  <i class="fa fa-newspaper-o pub-icon" aria-hidden="true"></i>
-  <a href="/post/kus/" itemprop="url"><span itemprop="headline">Knowledge Compilation meets Uniform Sampling</span></a>
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="view-list-item">
+  <i class="far fa-newspaper pub-icon" aria-hidden="true"></i>
+  
+    <a href="/post/kus/" >Knowledge Compilation meets Uniform Sampling</a>
+  
+
+  
+
+  
+
+  
+
 </div>
 
-        
       
-
-      
-
-        
-
-        
-        
-
-        
-        
-
-      
+    
       
         
-        
-          
 
-<div class="pub-list-item" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
-  <i class="fa fa-newspaper-o pub-icon" aria-hidden="true"></i>
-  <a href="/post/waps/" itemprop="url"><span itemprop="headline">WAPS: Weighted and Projected Sampling</span></a>
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="view-list-item">
+  <i class="far fa-newspaper pub-icon" aria-hidden="true"></i>
+  
+    <a href="/post/waps/" >WAPS: Weighted and Projected Sampling</a>
+  
+
+  
+
+  
+
+  
+
 </div>
 
-        
       
-
-      
-
-        
-
-        
-        
-
-        
-        
-
-      
+    
       
         
-        
-          
 
-<div class="pub-list-item" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
-  <i class="fa fa-newspaper-o pub-icon" aria-hidden="true"></i>
-  <a href="/post/ganak/" itemprop="url"><span itemprop="headline">GANAK: A Scalable Probabilistic Exact Model Counter</span></a>
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="view-list-item">
+  <i class="far fa-newspaper pub-icon" aria-hidden="true"></i>
+  
+    <a href="/post/ganak/" >GANAK: A Scalable Probabilistic Exact Model Counter</a>
+  
+
+  
+
+  
+
+  
+
 </div>
 
-        
       
-
-      
-
-        
-
-        
-        
-
-        
-        
-
-      
+    
       
         
-        
-          
 
-<div class="pub-list-item" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
-  <i class="fa fa-newspaper-o pub-icon" aria-hidden="true"></i>
-  <a href="/post/bosphorus/" itemprop="url"><span itemprop="headline">Bosphorus: An ANF and CNF simplifier and converter</span></a>
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="view-list-item">
+  <i class="far fa-newspaper pub-icon" aria-hidden="true"></i>
+  
+    <a href="/post/bosphorus/" >Bosphorus: An ANF and CNF simplifier and converter</a>
+  
+
+  
+
+  
+
+  
+
 </div>
 
-        
       
+    
 
-      
+    
+    <div class="see-all">
+      <a href="/post/">
+        See all posts
+        <i class="fas fa-angle-right"></i>
+      </a>
+    </div>
     
 
   </div>
@@ -947,843 +1729,2255 @@ rigorously.</p></li>
 
     </div>
   </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
   
 
   
   
   
-  <section id="news" class="home-section">
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="talk" class="home-section wg-pages   "  >
     <div class="container">
       
 
 
 
 
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
 <div class="row">
-  <div class="col-xs-12 col-md-4 section-heading">
+  <div class="col-12 col-lg-4 section-heading">
     <h1>News</h1>
     
+  </div>
+  <div class="col-12 col-lg-8">
+
     
-    <p class="view-all">
-      <a href="/news/">
-        More News
-        <i class="fa fa-angle-double-right"></i>
+
+    
+      
+        
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="view-list-item">
+  <i class="far fa-calendar-alt pub-icon" aria-hidden="true"></i>
+  
+    <b>Two Papers accepted to <a href="https://sat2020.idea-researchlab.org/">SAT 2020</a>.</b> <br> 1. The first paper shows that the currently known bounds for sparse hashing are too weak to be used for algorithms such as ApproxMC. Authors: Durgesh Agarwal, Bhavishya and Kuldeep S. Meel <br> 2. The second paper proposes a new phase selection strategy for SAT solvers. Improving SAT solvers is just a very very hard job and we are excited about the improvements that our proposal brings to the world of SAT solving. Authors: Arijit Shaw and Kuldeep S. Meel
+  
+
+  
+  <div class="article-metadata">
+    <span>
+      Apr 25, 2020 12:00 AM
+    </span>
+    
+  </div>
+  
+
+  
+
+  
+
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="view-list-item">
+  <i class="far fa-calendar-alt pub-icon" aria-hidden="true"></i>
+  
+    <b>Paper on Sparse Hashing for Approximate Model counting accepted to <a href="https://lics.siglog.org/lics20/">LICS 2020</a>. Authors: S. Akshay and Kuldeep S. Meel </b><br>One of the reviews: &ldquo;Rarely it is that there is a paper that proves a beautiful new theoretical result, explaining and simplifying previous work, and on top of that shows how it can be used to improve state-of-the-art practical algorithms. The paper &ldquo;Sparse hashing for scalable approximate model counting: theory and practice&rdquo; achieves exactly that.&rdquo;
+  
+
+  
+  <div class="article-metadata">
+    <span>
+      Apr 10, 2020 12:00 AM
+    </span>
+    
+  </div>
+  
+
+  
+
+  
+
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="view-list-item">
+  <i class="far fa-calendar-alt pub-icon" aria-hidden="true"></i>
+  
+    <b>Paper accepted to <a href="https://easychair.org/smart-program/LPAR23/">LPAR-23</a>.</b> <br>The paper formalizes Induction Models on N extending the classical work of Henkin. Authors: A Dileep, Kuldeep S. Meel and Ammar F. Sabili
+  
+
+  
+  <div class="article-metadata">
+    <span>
+      Apr 8, 2020 12:00 AM
+    </span>
+    
+  </div>
+  
+
+  
+
+  
+
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="view-list-item">
+  <i class="far fa-calendar-alt pub-icon" aria-hidden="true"></i>
+  
+    <b>Three Papers accepted at <a href="https://www.facebook.com/groups/cavconference/?fref=mentions">Computer Aided Verification (CAV)</a> 2020 conference.</b><br>1. The first paper proposes a new approach that combines sampling+machine learning+MaxSAT to achieve a significant progress in solving Boolean Functional Synthesis. Authors: Priyanka Golia, Subhajit Roy, and Kuldeep S. Meel<br>2. The second paper builds on our CNF-XOR solving paradigm (BIRD) and as a result, the new versions of ApproxMC and UniGen are faster than ever. Stay tuned for our releases. Authors: Mate Soos, Stephan Gocht, and Kuldeep S. Meel<br>3. The third paper proposes the first algorithm for approximate MUS counting. Authors: Jaroslav Bendik and Kuldeep S. Meel
+  
+
+  
+  <div class="article-metadata">
+    <span>
+      Apr 6, 2020 12:00 AM
+    </span>
+    
+  </div>
+  
+
+  
+
+  
+
+</div>
+
+      
+    
+
+    
+    <div class="see-all">
+      <a href="/talk/">
+        See all talks
+        <i class="fas fa-angle-right"></i>
       </a>
-    </p>
-    
-  </div>
-  <div class="col-xs-12 col-md-8">
+    </div>
     
 
-    
-      
-        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/Event">
-  
-
-  <div itemprop="startDate">
-  	<i class="fa fa-calendar" aria-hidden="true" style='font-size:12px'></i>
-    
-    Apr 25, 2020
-    
-  </div>
-
-  <i class="fa fa-bullhorn pub-icon" aria-hidden="true"></i>
-  <span itemprop="name">Two Papers accepted to <a href="https://sat2020.idea-researchlab.org/">SAT 2020</a>. <br> 1. The first paper shows that the currently known bounds for sparse hashing are too weak to be used for algorithms such as ApproxMC. Authors: Durgesh Agarwal, Bhavishya and Kuldeep S. Meel <br> 2. The second paper proposes a new phase selection strategy for SAT solvers. Improving SAT solvers is just a very very hard job and we are excited about the improvements that our proposal brings to the world of SAT solving. Authors: Arijit Shaw and Kuldeep S. Meel</span>
-
-
-  <div class="news-metadata">
-    
-  </div>
-  <div class="news-links">
-    
-
-
-
-
-
-
-
-
-
-  </div>
-</div>
-
-      
-    
-      
-        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/Event">
-  
-
-  <div itemprop="startDate">
-  	<i class="fa fa-calendar" aria-hidden="true" style='font-size:12px'></i>
-    
-    Apr 10, 2020
-    
-  </div>
-
-  <i class="fa fa-bullhorn pub-icon" aria-hidden="true"></i>
-  <span itemprop="name">Paper on Sparse Hashing for Approximate Model counting accepted to <a href="https://lics.siglog.org/lics20/">LICS 2020</a>. Authors: S. Akshay and Kuldeep S. Meel<br>One of the reviews: &ldquo;Rarely it is that there is a paper that proves a beautiful new theoretical result, explaining and simplifying previous work, and on top of that shows how it can be used to improve state-of-the-art practical algorithms. The paper &ldquo;Sparse hashing for scalable approximate model counting: theory and practice&rdquo; achieves exactly that.&rdquo;</span>
-
-
-  <div class="news-metadata">
-    
-  </div>
-  <div class="news-links">
-    
-
-
-
-
-
-
-
-
-
-  </div>
-</div>
-
-      
-    
-      
-        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/Event">
-  
-
-  <div itemprop="startDate">
-  	<i class="fa fa-calendar" aria-hidden="true" style='font-size:12px'></i>
-    
-    Apr 8, 2020
-    
-  </div>
-
-  <i class="fa fa-bullhorn pub-icon" aria-hidden="true"></i>
-  <span itemprop="name">Paper accepted to <a href="https://easychair.org/smart-program/LPAR23/">LPAR-23</a>. The paper formalizes Induction Models on N extending the classical work of Henkin. Authors: A Dileep, Kuldeep S. Meel and Ammar F. Sabili</span>
-
-
-  <div class="news-metadata">
-    
-  </div>
-  <div class="news-links">
-    
-
-
-
-
-
-
-
-
-
-  </div>
-</div>
-
-      
-    
-      
-        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/Event">
-  
-
-  <div itemprop="startDate">
-  	<i class="fa fa-calendar" aria-hidden="true" style='font-size:12px'></i>
-    
-    Apr 6, 2020
-    
-  </div>
-
-  <i class="fa fa-bullhorn pub-icon" aria-hidden="true"></i>
-  <span itemprop="name">Three Papers accepted at <a href="https://www.facebook.com/groups/cavconference/?fref=mentions">Computer Aided Verification (CAV)</a> 2020 conference.<br>1. The first paper proposes a new approach that combines sampling+machine learning+MaxSAT to achieve a significant progress in solving Boolean Functional Synthesis. Authors: Priyanka Golia, Subhajit Roy, and Kuldeep S. Meel<br>2. The second paper builds on our CNF-XOR solving paradigm (BIRD) and as a result, the new versions of ApproxMC and UniGen are faster than ever. Stay tuned for our releases. Authors: Mate Soos, Stephan Gocht, and Kuldeep S. Meel<br>3. The third paper proposes the first algorithm for approximate MUS counting. Authors: Jaroslav Bendik and Kuldeep S. Meel</span>
-
-
-  <div class="news-metadata">
-    
-  </div>
-  <div class="news-links">
-    
-
-
-
-
-
-
-
-
-
-  </div>
-</div>
-
-      
-    
   </div>
 </div>
 
     </div>
   </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
   
 
   
   
   
-  <section id="projects" class="home-section">
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="projects" class="home-section wg-portfolio   "  >
     <div class="container">
       
 
 
 
+
+
+
+
+
+
+
 <div class="row">
-  <div class="col-xs-12 col-md-4 section-heading">
+  <div class="col-12 col-lg-4 section-heading">
+
     <h1>Software</h1>
     
+
   </div>
-  <div class="col-xs-12 col-md-8">
-    
+  <div class="col-12 col-lg-8">
 
-    
-    
 
-    
 
     
 
-    <div class="row isotope projects-container js-layout-masonry">
+    
 
-      
-      
-      
-      
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 project-item isotope-item machine-learning counting">
-        <div class="card">
-          
-          <a href="/software/npaq/" title="" class="card-image hover-overlay"
-             >
-            <img src="/img/NPAQ.jpg" alt="" class="img-responsive">
-          </a>
-          
-          <div class="card-text">
-            <h4><a href="/software/npaq/" >NPAQ</a></h4>
-            <div class="card-desription">
-              <p>NPAQ: Neural Property Approximate Quantifier</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      
-      
-      
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 project-item isotope-item sampling-and-counting">
-        <div class="card">
-          
-          <a href="/software/approxmc/" title="" class="card-image hover-overlay"
-             >
-            <img src="/img/ApproxMC.jpg" alt="" class="img-responsive">
-          </a>
-          
-          <div class="card-text">
-            <h4><a href="/software/approxmc/" >ApproxMC</a></h4>
-            <div class="card-desription">
-              <p>A hashing-based algorithm for discrete integration over finite domains.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      
-      
-      
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 project-item isotope-item sampling-and-counting">
-        <div class="card">
-          
-          <a href="/software/crystalball/" title="" class="card-image hover-overlay"
-             >
-            <img src="/img/CrystalBall.png" alt="" class="img-responsive">
-          </a>
-          
-          <div class="card-text">
-            <h4><a href="/software/crystalball/" >CrystalBall</a></h4>
-            <div class="card-desription">
-              <p>A framework to provide white-box access to the execution of SAT solver.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      
-      
-      
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 project-item isotope-item counting">
-        <div class="card">
-          
-          <a href="/software/ganak/" title="" class="card-image hover-overlay"
-             >
-            <img src="/img/ganak.png" alt="" class="img-responsive">
-          </a>
-          
-          <div class="card-text">
-            <h4><a href="/software/ganak/" >GANAK</a></h4>
-            <div class="card-desription">
-              <p>GANAK: A Scalable Probabilistic Exact Model Counter</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      
-      
-      
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 project-item isotope-item sampling-and-counting">
-        <div class="card">
-          
-          <a href="/software/unigen/" title="" class="card-image hover-overlay"
-             >
-            <img src="/img/UniGen.jpg" alt="" class="img-responsive">
-          </a>
-          
-          <div class="card-text">
-            <h4><a href="/software/unigen/" >UniGen</a></h4>
-            <div class="card-desription">
-              <p>An algorithm to generate uniform samples subject to given set of constraints.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      
-      
-      
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 project-item isotope-item sampling">
-        <div class="card">
-          
-          <a href="/software/waps/" title="" class="card-image hover-overlay"
-             >
-            <img src="/img/waps.png" alt="" class="img-responsive">
-          </a>
-          
-          <div class="card-text">
-            <h4><a href="/software/waps/" >WAPS</a></h4>
-            <div class="card-desription">
-              <p>WAPS: Weighted and Projected Sampling</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      
-      
-      
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 project-item isotope-item sampling-and-counting">
-        <div class="card">
-          
-          <a href="/software/bosphorus/" title="" class="card-image hover-overlay"
-             >
-            <img src="/img/Bosphorus.png" alt="" class="img-responsive">
-          </a>
-          
-          <div class="card-text">
-            <h4><a href="/software/bosphorus/" >Bosphorus</a></h4>
-            <div class="card-desription">
-              <p>An ANF and CNF simplifier and converter.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      
-      
-      
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 project-item isotope-item sampling">
-        <div class="card">
-          
-          <a href="/software/kus/" title="" class="card-image hover-overlay"
-             >
-            <img src="/img/kus.png" alt="" class="img-responsive">
-          </a>
-          
-          <div class="card-text">
-            <h4><a href="/software/kus/" >KUS</a></h4>
-            <div class="card-desription">
-              <p>Knowledge Compilation meets Uniform Sampling</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      
-      
-      
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 project-item isotope-item sampling-and-counting">
-        <div class="card">
-          
-          <a href="/software/mis/" title="" class="card-image hover-overlay"
-             >
-            <img src="/img/MIS.jpg" alt="" class="img-responsive">
-          </a>
-          
-          <div class="card-text">
-            <h4><a href="/software/mis/" >MIS</a></h4>
-            <div class="card-desription">
-              <p>An algorithm to compute minimal independent support for a given CNF formula.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      
-      
-      
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 project-item isotope-item sampling-and-counting">
-        <div class="card">
-          
-          <a href="/software/smtapproxmc/" title="" class="card-image hover-overlay"
-             >
-            <img src="/img/SMTApproxMC.jpg" alt="" class="img-responsive">
-          </a>
-          
-          <div class="card-text">
-            <h4><a href="/software/smtapproxmc/" >SMTApproxMC</a></h4>
-            <div class="card-desription">
-              <p>An approximate model counter for Bitvector theory.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      
-      
-      
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 project-item isotope-item sampling-and-counting">
-        <div class="card">
-          
-          <a href="/software/weightgen/" title="" class="card-image hover-overlay"
-             >
-            <img src="/img/WeightGen.jpg" alt="" class="img-responsive">
-          </a>
-          
-          <div class="card-text">
-            <h4><a href="/software/weightgen/" >WeightGen</a></h4>
-            <div class="card-desription">
-              <p>A hashing-based approximate sampler for weighted CNF formulas.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      
-      
-      
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 project-item isotope-item sampling-and-counting">
-        <div class="card">
-          
-          <a href="/software/weightmc/" title="" class="card-image hover-overlay"
-             >
-            <img src="/img/WeightMC.jpg" alt="" class="img-responsive">
-          </a>
-          
-          <div class="card-text">
-            <h4><a href="/software/weightmc/" >WeightMC</a></h4>
-            <div class="card-desription">
-              <p>A weighted model counter over Boolean domains.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      
-      
-      
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 project-item isotope-item cardinality-constraints">
-        <div class="card">
-          
-          <a href="/software/1cardxor/" title="" class="card-image hover-overlay"
-             >
-            <img src="/img/CardXOR.png" alt="" class="img-responsive">
-          </a>
-          
-          <div class="card-text">
-            <h4><a href="/software/1cardxor/" >1-CARD-XOR</a></h4>
-            <div class="card-desription">
-              <p>Phase Transition Behavior of Cardinality and XOR Constraints</p>
-            </div>
-          </div>
-        </div>
-      </div>
+    <div class="isotope projects-container js-layout-masonry ">
       
 
+        
+        
+        
+
+        
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-machine-learning js-id-counting">
+  <div class="card">
+    
+    
+    <a href="/project/npaq/"  class="card-image hover-overlay">
+      <img src="/project/npaq/featured_hu4a9482ca004bbcb3ab42fd6c14635174_52106_550x0_resize_q90_lanczos.jpg" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="/project/npaq/" >NPAQ</a></h4>
+      
+      <div class="article-style">
+        <p>NPAQ: Neural Property Approximate Quantifier</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-sampling-and-counting">
+  <div class="card">
+    
+    
+    <a href="/project/approxmc/"  class="card-image hover-overlay">
+      <img src="/project/approxmc/featured_hu09a10a588b12be599bfdae57a25f032a_74202_550x0_resize_q90_lanczos.jpg" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="/project/approxmc/" >ApproxMC</a></h4>
+      
+      <div class="article-style">
+        <p>A hashing-based algorithm for discrete integration over finite domains.</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-sampling-and-counting">
+  <div class="card">
+    
+    
+    <a href="/project/crystalball/"  class="card-image hover-overlay">
+      <img src="/project/crystalball/featured_hubd22937d9dd97d34d6cf30ec42f4270e_284825_550x0_resize_q90_lanczos_2.png" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="/project/crystalball/" >CrystalBall</a></h4>
+      
+      <div class="article-style">
+        <p>A framework to provide white-box access to the execution of SAT solver.</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-counting">
+  <div class="card">
+    
+    
+    <a href="/project/ganak/"  class="card-image hover-overlay">
+      <img src="/project/ganak/featured_hu318f4fc996b74ee4a06e4df123e92fc0_160885_550x0_resize_q90_lanczos_2.png" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="/project/ganak/" >GANAK</a></h4>
+      
+      <div class="article-style">
+        <p>GANAK: A Scalable Probabilistic Exact Model Counter</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-sampling-and-counting">
+  <div class="card">
+    
+    
+    <a href="/project/unigen/"  class="card-image hover-overlay">
+      <img src="/project/unigen/featured_hu09a10a588b12be599bfdae57a25f032a_27894_550x0_resize_q90_lanczos.jpg" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="/project/unigen/" >UniGen</a></h4>
+      
+      <div class="article-style">
+        <p>An algorithm to generate uniform samples subject to given set of constraints.</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-sampling">
+  <div class="card">
+    
+    
+    <a href="/project/waps/"  class="card-image hover-overlay">
+      <img src="/project/waps/featured_hu434849e8b69568fa5fb5c14081bfe628_35975_550x0_resize_q90_lanczos_2.png" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="/project/waps/" >WAPS</a></h4>
+      
+      <div class="article-style">
+        <p>WAPS: Weighted and Projected Sampling</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-sampling-and-counting">
+  <div class="card">
+    
+    
+    <a href="/project/bosphorus/"  class="card-image hover-overlay">
+      <img src="/project/bosphorus/featured_hudbe8dd21b96d5d82a0b80ebfb0541a7b_60276_550x0_resize_q90_lanczos_2.png" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="/project/bosphorus/" >Bosphorus</a></h4>
+      
+      <div class="article-style">
+        <p>An ANF and CNF simplifier and converter.</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-sampling">
+  <div class="card">
+    
+    
+    <a href="/project/kus/"  class="card-image hover-overlay">
+      <img src="/project/kus/featured_hu2471e3a252d4d2e68482cba94f6d1efd_42384_550x0_resize_q90_lanczos_2.png" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="/project/kus/" >KUS</a></h4>
+      
+      <div class="article-style">
+        <p>Knowledge Compilation meets Uniform Sampling</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-sampling-and-counting">
+  <div class="card">
+    
+    
+    <a href="/project/mis/"  class="card-image hover-overlay">
+      <img src="/project/mis/featured_hu09a10a588b12be599bfdae57a25f032a_32826_550x0_resize_q90_lanczos.jpg" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="/project/mis/" >MIS</a></h4>
+      
+      <div class="article-style">
+        <p>An algorithm to compute minimal independent support for a given CNF formula.</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-sampling-and-counting">
+  <div class="card">
+    
+    
+    <a href="/project/smtapproxmc/"  class="card-image hover-overlay">
+      <img src="/project/smtapproxmc/featured_hu09a10a588b12be599bfdae57a25f032a_28250_550x0_resize_q90_lanczos.jpg" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="/project/smtapproxmc/" >SMTApproxMC</a></h4>
+      
+      <div class="article-style">
+        <p>An approximate model counter for Bitvector theory.</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-sampling-and-counting">
+  <div class="card">
+    
+    
+    <a href="/project/weightgen/"  class="card-image hover-overlay">
+      <img src="/project/weightgen/featured_hu86649f5467f99050985b2920d8bc8bb0_127912_550x0_resize_q90_lanczos.jpg" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="/project/weightgen/" >WeightGen</a></h4>
+      
+      <div class="article-style">
+        <p>A hashing-based approximate sampler for weighted CNF formulas.</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-sampling-and-counting">
+  <div class="card">
+    
+    
+    <a href="/project/weightmc/"  class="card-image hover-overlay">
+      <img src="/project/weightmc/featured_hu0fd26f042159027517b0a3883d086e48_223098_550x0_resize_q90_lanczos.jpg" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="/project/weightmc/" >WeightMC</a></h4>
+      
+      <div class="article-style">
+        <p>A weighted model counter over Boolean domains.</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-cardinality-constraints">
+  <div class="card">
+    
+    
+    <a href="/project/1cardxor/"  class="card-image hover-overlay">
+      <img src="/project/1cardxor/featured_hu6d7e10231f3f7e40be4de8bb96c659c9_136491_550x0_resize_q90_lanczos_2.png" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="/project/1cardxor/" >1-CARD-XOR</a></h4>
+      
+      <div class="article-style">
+        <p>Phase Transition Behavior of Cardinality and XOR Constraints</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+        
+
+      
     </div>
 
-    
-
   </div>
-</div>
-
-    </div>
-  </section>
-  
-
-  
-  
-  
-  <section id="people" class="home-section">
-    <div class="container">
-      
-
-
-<div class="row">
-  
-  <div class="col-xs-12 col-md-4 section-heading">
-    <h1>People</h1>
-    
-  </div>
-  <div class="col-xs-12 col-md-8">
-    
-
-<h1 id="faculty"><strong>Faculty</strong></h1>
-
-<p><img src="/img/Kuldeep.jpg" alt="Kuldeep" style="width: 200px;"/>
- <a href="http://www.comp.nus.edu.sg/~meel/" target="_blank">Kuldeep Meel</a></p>
-
-<style>
-body
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-}
-
-/* Clear floats after image containers */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-</style>
-
-<h1 id="postdoctoral-researchers"><strong>Postdoctoral Researchers</strong></h1>
-
-<div class="row">
-
-
-
-
-<div class="column">
-<img src="/img/yong.jpg" alt="Yong" style="width: 200px; height: 200px"/>
-Yong Lai
-</div>
-</div>
-
-<h1 id="phd-students"><strong>PhD Students</strong></h1>
-
-<p><body>
-<div class="row"></p>
-
-<div class="column">
-<img src="/img/Yash.jpeg" alt="Yash" style="width: 200px; height: 200px"/>
-<a href=https://yashpote.com> Yash Pote </a>
-
-</div>
-<div class="column">
-<img src="/img/priyanka.jpg" alt="priya" style="width: 200px; height: 200px"/>
-<a href=https://priyanka-golia.github.io/> Priyanka Golia </a>
-
-</div>
-<div class="column">
-<img src="/img/bGhosh.jpg" alt="Mate" style="width: 200px; height: 200px"/>
-<a href=https://bishwamittra.github.io/> Bishwamittra Ghosh </a>
-</div>
-
-<div class="column">
-<img src="/img/Suwei.jpg" alt="Suwei" style="width: 200px; height: 200px"/>
- <a href="https://github.com/swxsw"> Suwei Yang </a>
-</div>
-
-<div class="column">
-<img src="/img/Teodora.jpg" alt="Teo" style="width: 200px; height: 200px"/>
- <a href = https://comp.nus.edu.sg/~teodorab>Teodora Baluta</a>
-</div>
-</div>
-
-<!--
-# **Masters Students**
-
-
-<style>
-<body>
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-}
-
-/* Clear floats after image containers */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-</style>
-<body>
-</body>
--->
-
-<h1 id="research-interns"><strong>Research Interns</strong></h1>
-
-<p><html></p>
-
-<p><style>
-body
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-}</p>
-
-<p>/* Clear floats after image containers */
-.row::after {
-  content: &ldquo;&rdquo;;
-  clear: both;
-  display: table;
-}
-</style>
-<body>
-<div class="row"></p>
-
-<div class="column">
-<img src="/img/arijit.jpg" alt="Arijit" style="width: 200px; height: 200px"/>
-<a href="https://arijitsh.github.io/"> Arijit Shaw </a>
-</div>
-
-<div class="column">
-<img src="/img/Chaman.jpg" alt="Chaman" style="width: 200px; height: 200px"/>
-Chaman Agrawal
-</div>
-
-<div class="column">
-<img src="/img/alex.jpg" alt="Alex" style="width: 200px; height: 200px"/>
-<a href="https://github.com/alexandru-dinu/"> Alexandru Dinu </a>
-</div>
-
-<div class="column">
-<img src="/img/pang.jpg" alt="Pang" style="width: 200px; height: 200px"/>
-<a href="https://github.com/pangzhan27/"> Zhanzhong Pang </a>
-</div>
-
-<p></div></p>
-
-<h1 id="alumni"><strong>Alumni</strong></h1>
-
-<p></body>
-<style>
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-}</p>
-
-<p>/* Clear floats after image containers */
-.row::after {
-  content: &ldquo;&rdquo;;
-  clear: both;
-  display: table;
-}
-</style>
-<div class="row"></p>
-
-<div class="column">
-<img src="/img/Mahi.jpg" alt="Mahi" style="width: 200px;"/>
-Mohimenul Kabir
-</div>
-<div class="column">
-<img src="/img/Durgesh.jpg" alt="Durgesh" style="width: 200px; height: 200px"/>
-<a href=https://durgeshra.github.io/> Durgesh Agrawal  </a>
-</div>
-<div class="column">
-<img src="/img/himanshu.jpg" alt="Himanshu" style="width: 200px; height: 200px"/>
-Himanshu Arora
-</div>
-
-<div class="column">
-<img src="/img/Bhavishya.png" alt="Bhavishya" style="width: 200px; height: 200px"/>
-<a href=http://bhavishyagopesh.github.io > Bhavishya </a>
-</div>
-
-<div class="column">
-<img src="/img/Alexis.jpg" alt="Alexis" style="width: 200px; height: 200px"/>
-Alexis de Colnet
-</div>
-
-<div class="column">
-<img src="/img/Andre.jpg" alt="Andre" style="width: 200px; height: 200px"/>
- Andre
-</div>
-
-<div class="column">
-<img src="/img/Shubham.jpg" alt="Shubham" style="width: 200px; height: 200px"/>
-<a href=https://smsharma1.github.io/> Shubham Sharma  </a>
-</div>
-
-<div class="column">
-<img src="/img/Rahul.jpg" alt="Rahul" style="width: 200px;height: 200px"/>
-<a href=http://home.iitk.ac.in/~grahul/> Rahul Gupta  </a>
-</div>
-
-<div class="column">
-<img src="/img/Kurt.jpg" alt="Kurt" style="width: 200px; height: 200px"/>
-Kurt Warren
-</div>
-
-<div class="column">
-<img src="/img/Mate.jpg" alt="Mate" style="width: 200px; height: 200px"/>
-<a href=http://www.msoos.org> Mate Soos  </a>
-</div>
-
-<p><div class="column">
-<img src="/img/Remi.jpg" alt="Rémi" style="width: 200px;"/>
-Rémi Delannoy
-</div>
-</div>
-</body></p>
-
-<h1 id="past-visitors"><strong>Past visitors</strong></h1>
-
-<p>2019</p>
-
-<ul>
-<li><p><a href="http://www.cmi.ac.in/~sourav/" target="_blank">Prof Sourav Chakraborty, CMI</a></p></li>
-
-<li><p><a href="http://www.csc.kth.se/~elffers/" target="_blank">Jan Elferrs, KTH</a></p></li>
-
-<li><p><a href="https://people.kth.se/~gocht/" target="_blank">Stephan Gocht, KTH</a></p></li>
-
-<li><p><a href="https://www.cs.iastate.edu/people/pavan-aduri" target="_blank">Prof Pavan Aduri, Iowa State</a></p></li>
-
-<li><p><a href="http://cc.ee.ntu.edu.tw/~jhjiang/" target="_blank">Prof Roland Jie-Hong, National Taiwan University</a></p></li>
-</ul>
-
-<p>2018</p>
-
-<ul>
-<li><p><a href="http://www.cmi.ac.in/~sourav/" target="_blank">Prof Sourav Chakraborty, CMI</a></p></li>
-
-<li><p><a href="https://ece.uwaterloo.ca/~vganesh/" target="_blank">Prof Vijay Ganesh, Waterloo</a></p></li>
-
-<li><p><a href="https://www.cs.rice.edu/~as128/" target="_blank">Aditya Shrotri, Rice</a></p></li>
-</ul>
-
-  </div>
-  
-</div>
-
-    </div>
-  </section>
-  
-
-  
-  
-  
-  <section id="openings" class="home-section">
-    <div class="container">
-      
-
-
-<div class="row">
-  
-  <div class="col-xs-12 col-md-4 section-heading">
-    <h1>Openings</h1>
-    
-  </div>
-  <div class="col-xs-12 col-md-8">
-    <p><font color="olive">We are always looking for highly motivated Ph.D. students, research assistants and summer internship for exceptional undergraduate interns in our group. We work at the intersection of algorithmic design and systems; therefore, an ideal candidate should have deeper expertise in one area and willingness to learn the other. A strong background in statistics, algorithms/formal methods and prior experience in coding is crucial to make a significant contribution to our research.
-</font></p>
-
-<h2> Application Procedure: </h2>
-
-<p><li> If you are a student at NUS, feel free to drop by
-Kuldeep&rsquo;s office or schedule a meeting with him. (See <a href="https://calendar.google.com/calendar/embed?src=meel%40comp.nus.edu.sg" target="_top">his calendar</a>). </li></p>
-
-<p><li> Post-doc position:  We have multiple post-doc positions available. Read  <a href="files/postdoc.html">advertisement</a> for more details about the positions and application procedure.</p>
-
-<p><li> Internship (&gt;=6 months): We strongly prefer candidates who want to use their internship as a way to apply for PhD programs (@NUS or elsewhere; of course, if you are good, we would like you to remain at NUS). Email <a href= "mailto:meel+interns@comp.nus.edu.sg">meel+interns@comp.nus.edu.sg</a> with a PDF of your CV. Make sure your subject contains the word &ldquo;olleh&rdquo; and you should include reviews of two of the papers published in the previous 3 years at AAAI/IJCAI/CP/SAT/CAV conferences. The reviews should be in the body of the email (and not as pdf). Furthermore, the body of your email should contain the phrase: &ldquo;Here are two papers that I have reviewed&rdquo;. You should also provide reason for your choice of the papers.
-</li></p>
-
-<p><li> Short term internship (=3 months): We may offer short term internship to exceptional undergraduates. Same process as above. </li></p>
-
-<p><li> PhD positions: Admissions to School of Computing@NUS are handled via a central admission procedure: You can either apply via Department of Computer Science or the Institute of Data Science. </li>
-</ul></p>
-
-<p><h3> NUS and Singapore </h3>
-NUS is a world-class university that provides an outstanding and
-supportive research environment. Its School of Computing is highly
-ranked (within the top 15) among the computer science departments in the
-world. Singapore is a vibrant, well-connected city with low taxes and
-research hub in Asia.</p>
-
-  </div>
-  
 </div>
 
     </div>
   </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
   
 
   
   
   
-  <section id="tags" class="home-section">
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="people" class="home-section wg-people   "  >
     <div class="container">
       
 
 
-<div class="row">
+
+
+
+
+
+<div class="row justify-content-center people-widget">
+  
+  <div class="col-md-12 section-heading">
+    <h1>Meet the Team</h1>
+    
+  </div>
+  
+
+  
+
+  
+  
+
   
   <div class="col-md-12">
-    
+    <h2 class="mb-4">Faculty</h2>
   </div>
+  
+
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <a href="http://www.comp.nus.edu.sg/~meel/"><img class="avatar avatar-circle" src="/author/kuldeep-meel/avatar_hu3d03a01dcc18bc5be0e67db3d8d209a6_220622_270x270_fill_q90_lanczos_center.jpg" alt="Avatar"></a>
+    
+
+    <div class="portrait-title">
+      <h2><a href="http://www.comp.nus.edu.sg/~meel/">Kuldeep Meel</a></h2>
+      
+      
+      
+    </div>
+  </div>
+  
+  
+  
+
+  
+  <div class="col-md-12">
+    <h2 class="mb-4">Postdoctoral Researchers</h2>
+  </div>
+  
+
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <img class="avatar avatar-circle" src="/author/yong-lai/avatar_hu22fa167672dd79e1aded9eeebf63aece_664124_270x270_fill_q90_lanczos_center.jpg" alt="Avatar">
+    
+
+    <div class="portrait-title">
+      <h2>Yong Lai</h2>
+      
+      
+      
+    </div>
+  </div>
+  
+  
+  
+
+  
+  <div class="col-md-12">
+    <h2 class="mb-4">PhD Students</h2>
+  </div>
+  
+
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <a href="https://priyanka-golia.github.io"><img class="avatar avatar-circle" src="/author/priyanka-golia/avatar_huae2b1e5bc30c29f58dfa05653333039e_62910_270x270_fill_q90_lanczos_center.jpg" alt="Avatar"></a>
+    
+
+    <div class="portrait-title">
+      <h2><a href="https://priyanka-golia.github.io">Priyanka Golia</a></h2>
+      
+      
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <a href="https://comp.nus.edu.sg/~teodorab"><img class="avatar avatar-circle" src="/author/teodora-baluta/avatar_hu33d8f2710ea4928d295bd08cdc05f6eb_179309_270x270_fill_q90_lanczos_center.jpg" alt="Avatar"></a>
+    
+
+    <div class="portrait-title">
+      <h2><a href="https://comp.nus.edu.sg/~teodorab">Teodora Baluta</a></h2>
+      
+      
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <a href="https://yashpote.com"><img class="avatar avatar-circle" src="/author/yash-pote/avatar_hufcba2ff20b33d3cd65ee81aa19e8e9eb_34694_270x270_fill_q90_lanczos_center.jpeg" alt="Avatar"></a>
+    
+
+    <div class="portrait-title">
+      <h2><a href="https://yashpote.com">Yash Pote</a></h2>
+      
+      
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <a href="https://bishwamittra.github.io"><img class="avatar avatar-circle" src="/author/bishwamittra-ghosh/avatar_hu92b9ff0b9fc644ed6e358a908f6e0fae_127272_270x270_fill_q90_lanczos_center.jpg" alt="Avatar"></a>
+    
+
+    <div class="portrait-title">
+      <h2><a href="https://bishwamittra.github.io">Bishwamittra Ghosh</a></h2>
+      
+      
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <a href="https://github.com/swxsw"><img class="avatar avatar-circle" src="/author/suwei-yang/avatar_huff4050c84021aa42d86de6ab7f382f2d_275592_270x270_fill_q90_lanczos_center.jpg" alt="Avatar"></a>
+    
+
+    <div class="portrait-title">
+      <h2><a href="https://github.com/swxsw">Suwei Yang</a></h2>
+      
+      
+      
+    </div>
+  </div>
+  
+  
+  
+
+  
+  <div class="col-md-12">
+    <h2 class="mb-4">Research Interns</h2>
+  </div>
+  
+
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <a href="https://arijitsh.github.io/"><img class="avatar avatar-circle" src="/author/arijit-shaw/avatar_hud2c9537bcb5d3ef13011f655c78888ab_147953_270x270_fill_q90_lanczos_center.jpg" alt="Avatar"></a>
+    
+
+    <div class="portrait-title">
+      <h2><a href="https://arijitsh.github.io/">Arijit Shaw</a></h2>
+      
+      
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <a href="https://github.com/alexandru-dinu/"><img class="avatar avatar-circle" src="/author/alexandru-dinu/avatar_hu5b22b1385c031bfa251073a8bdecff22_1242179_270x270_fill_q90_lanczos_center.jpg" alt="Avatar"></a>
+    
+
+    <div class="portrait-title">
+      <h2><a href="https://github.com/alexandru-dinu/">Alexandru Dinu</a></h2>
+      
+      
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <img class="avatar avatar-circle" src="/author/chaman-agrawal/avatar_hue6dd9476efda1e821591f36b056aaab5_157497_270x270_fill_q90_lanczos_center.jpg" alt="Avatar">
+    
+
+    <div class="portrait-title">
+      <h2>Chaman Agrawal</h2>
+      
+      
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <a href="https://github.com/AL-JiongYang"><img class="avatar avatar-circle" src="/author/jiong-yang/avatar_hu1568bc46f0efdd3bba891380bb30d2e1_404896_270x270_fill_q90_lanczos_center.jpg" alt="Avatar"></a>
+    
+
+    <div class="portrait-title">
+      <h2><a href="https://github.com/AL-JiongYang">Jiong Yang</a></h2>
+      
+      
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <a href="https://github.com/pangzhan27/"><img class="avatar avatar-circle" src="/author/zhanzhong-pang/avatar_huf0789fcafef9b46857da8555e45ad7a1_900013_270x270_fill_q90_lanczos_center.jpg" alt="Avatar"></a>
+    
+
+    <div class="portrait-title">
+      <h2><a href="https://github.com/pangzhan27/">Zhanzhong Pang</a></h2>
+      
+      
+      
+    </div>
+  </div>
+  
+  
+  
+
+  
+  <div class="col-md-12">
+    <h2 class="mb-4">Alumni</h2>
+  </div>
+  
+
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <a href="http://bhavishyagopesh.github.io"><img class="avatar avatar-circle" src="/author/bhavishya/avatar_hu4d2d50a26f26147f748ad478ecffd382_50472_270x270_fill_lanczos_center_2.png" alt="Avatar"></a>
+    
+
+    <div class="portrait-title">
+      <h2><a href="http://bhavishyagopesh.github.io">Bhavishya</a></h2>
+      
+      
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <a href="https://durgeshra.github.io/"><img class="avatar avatar-circle" src="/author/durgesh-agrawal/avatar_hu33d8f2710ea4928d295bd08cdc05f6eb_58339_270x270_fill_q90_lanczos_center.jpg" alt="Avatar"></a>
+    
+
+    <div class="portrait-title">
+      <h2><a href="https://durgeshra.github.io/">Durgesh Agrawal</a></h2>
+      
+      
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <a href="http://www.msoos.org"><img class="avatar avatar-circle" src="/author/mate-soos/avatar_hu2eaa5b508d372fb05e6603441b2b91e0_41204_270x270_fill_q90_lanczos_center.jpg" alt="Avatar"></a>
+    
+
+    <div class="portrait-title">
+      <h2><a href="http://www.msoos.org">Mate Soos</a></h2>
+      
+      
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <img class="avatar avatar-circle" src="/author/alexis-de-colnet/avatar_hu00fae2e40ce193829949212d9ab09b0a_220191_270x270_fill_q90_lanczos_center.jpg" alt="Avatar">
+    
+
+    <div class="portrait-title">
+      <h2>Alexis de Colnet</h2>
+      
+      
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <a href="https://smsharma1.github.io/"><img class="avatar avatar-circle" src="/author/shubham-sharma/avatar_huc4dd6d6743a5ce166def3beedbe51e88_17039_270x270_fill_q90_lanczos_center.jpg" alt="Avatar"></a>
+    
+
+    <div class="portrait-title">
+      <h2><a href="https://smsharma1.github.io/">Shubham Sharma</a></h2>
+      
+      
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <a href="http://home.iitk.ac.in/~grahul/"><img class="avatar avatar-circle" src="/author/rahul-gupta/avatar_hub7fd305174c3f38c3177040420aff9a2_802955_270x270_fill_q90_lanczos_center.jpg" alt="Avatar"></a>
+    
+
+    <div class="portrait-title">
+      <h2><a href="http://home.iitk.ac.in/~grahul/">Rahul Gupta</a></h2>
+      
+      
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <img class="avatar avatar-circle" src="/author/andre/avatar_hu988a79a51ee5a414bf7c7afcd775433d_667549_270x270_fill_q90_lanczos_center.jpg" alt="Avatar">
+    
+
+    <div class="portrait-title">
+      <h2>Andre</h2>
+      
+      
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <img class="avatar avatar-circle" src="/author/himanshu-arora/avatar_huffb77edd81096b570b71b3435f0b9ebb_944077_270x270_fill_q90_lanczos_center.jpg" alt="Avatar">
+    
+
+    <div class="portrait-title">
+      <h2>Himanshu Arora</h2>
+      
+      
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <img class="avatar avatar-circle" src="/author/kurt-warren/avatar_hub993e2e9e18f97bf4838cedb4b4a8339_2273619_270x270_fill_q90_lanczos_center.jpg" alt="Avatar">
+    
+
+    <div class="portrait-title">
+      <h2>Kurt Warren</h2>
+      
+      
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <img class="avatar avatar-circle" src="/author/mohimenul-kabir/avatar_hufab75e828b1b15f988c4c1a98e914ee3_85001_270x270_fill_q90_lanczos_center.jpg" alt="Avatar">
+    
+
+    <div class="portrait-title">
+      <h2>Mohimenul Kabir</h2>
+      
+      
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <img class="avatar avatar-circle" src="/author/remi-delannoy/avatar_hue0f0f7ab9e2ebbd3de6310515a1e8465_167099_270x270_fill_q90_lanczos_center.jpg" alt="Avatar">
+    
+
+    <div class="portrait-title">
+      <h2>Rémi Delannoy</h2>
+      
+      
+      
+    </div>
+  </div>
+  
+  
+  
+
+  
+  <div class="col-md-12">
+    <h2 class="mb-4">Past Visitors</h2>
+  </div>
+  
+
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+    
+
+    <div class="portrait-title">
+      <h2></h2>
+      
+      
+      
+    </div>
+  </div>
+  
+  
+  
+
+  
+  <div class="col-md-12">
+    <h2 class="mb-4">2019</h2>
+  </div>
+  
+
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+    
+
+    <div class="portrait-title">
+      <h2><a href="http://www.cmi.ac.in/~sourav/">Prof Sourav Chakraborty</a></h2>
+      <h3>CMI</h3>
+      
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+    
+
+    <div class="portrait-title">
+      <h2><a href="http://www.csc.kth.se/~elffers/">Jan Elferrs</a></h2>
+      <h3>KTH</h3>
+      
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+    
+
+    <div class="portrait-title">
+      <h2><a href="https://www.cs.iastate.edu/people/pavan-aduri">Prof Pavan Aduri</a></h2>
+      <h3>Iowa State</h3>
+      
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+    
+
+    <div class="portrait-title">
+      <h2><a href="http://cc.ee.ntu.edu.tw/~jhjiang/">Prof Roland Jie-Hong</a></h2>
+      <h3>National Taiwan University</h3>
+      
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+    
+
+    <div class="portrait-title">
+      <h2><a href="https://people.kth.se/~gocht/">Stephan Gocht</a></h2>
+      <h3>KTH</h3>
+      
+      
+    </div>
+  </div>
+  
+  
+  
+
+  
+  <div class="col-md-12">
+    <h2 class="mb-4">2018</h2>
+  </div>
+  
+
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+    
+
+    <div class="portrait-title">
+      <h2><a href="https://www.cs.rice.edu/~as128/">Aditya Shrotri</a></h2>
+      <h3>Rice</h3>
+      
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+    
+
+    <div class="portrait-title">
+      <h2><a href="http://www.cmi.ac.in/~sourav/">Prof Sourav Chakraborty</a></h2>
+      <h3>CMI</h3>
+      
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+    
+
+    <div class="portrait-title">
+      <h2><a href="https://ece.uwaterloo.ca/~vganesh/">Prof Vijay Ganesh</a></h2>
+      <h3>Waterloo</h3>
+      
+      
+    </div>
+  </div>
+  
   
 </div>
 
     </div>
   </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="openings" class="home-section wg-blank   "  >
+    <div class="container">
+      
+
+
+<div class="row">
+  
+    <div class="col-12 col-lg-4 section-heading">
+      <h1>Openings</h1>
+      
+    </div>
+    <div class="col-12 col-lg-8">
+      <p><font color="olive">We are always looking for highly motivated Ph.D. students, research assistants and summer internship for exceptional undergraduate interns in our group. We work at the intersection of algorithmic design and systems; therefore, an ideal candidate should have deeper expertise in one area and willingness to learn the other. A strong background in statistics, algorithms/formal methods and prior experience in coding is crucial to make a significant contribution to our research.
+</font></p>
+<h2> Application Procedure: </h2>
+<li> If you are a student at NUS, feel free to drop by 
+Kuldeep's office or schedule a meeting with him. (See <a href="https://calendar.google.com/calendar/embed?src=meel%40comp.nus.edu.sg" target="_top">his calendar</a>). </li>
+<li> Post-doc position:  We have multiple post-doc positions available. Read  <a href="files/postdoc.html">advertisement</a> for more details about the positions and application procedure. 
+<li> Internship (>=6 months): We strongly prefer candidates who want to use their internship as a way to apply for PhD programs (@NUS or elsewhere; of course, if you are good, we would like you to remain at NUS). Email <a href= "mailto:meel+interns@comp.nus.edu.sg">meel+interns@comp.nus.edu.sg</a> with a PDF of your CV. Make sure your subject contains the word "olleh" and you should include reviews of two of the papers published in the previous 3 years at AAAI/IJCAI/CP/SAT/CAV conferences. The reviews should be in the body of the email (and not as pdf). Furthermore, the body of your email should contain the phrase: "Here are two papers that I have reviewed". You should also provide reason for your choice of the papers. 
+</li>
+<li> Short term internship (=3 months): We may offer short term internship to exceptional undergraduates. Same process as above. </li>
+<li> PhD positions: Admissions to School of Computing@NUS are handled via a central admission procedure: You can either apply via Department of Computer Science or the Institute of Data Science. </li>
+</ul>
+<h3> NUS and Singapore </h3>
+NUS is a world-class university that provides an outstanding and 
+supportive research environment. Its School of Computing is highly 
+ranked (within the top 15) among the computer science departments in the 
+world. Singapore is a vibrant, well-connected city with low taxes and 
+research hub in Asia.
+
+    </div>
+  
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="tags" class="home-section wg-tag-cloud   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+
+
   
 
 
 
-<footer class="site-footer">
-  <div class="container">
-    <p class="powered-by">
 
-      &copy; 2019 &middot; 
 
-      Powered by the
-      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
-      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
 
-      <span class="pull-right" aria-hidden="true">
-        <a href="#" id="back_to_top">
-          <span class="button_icon">
-            <i class="fa fa-chevron-up fa-2x"></i>
-          </span>
-        </a>
-      </span>
-
-    </p>
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Popular Topics</h1>
+    
   </div>
+  <div class="col-12 col-lg-8">
+    
+
+    
+
+      
+      
+      
+      
+      
+      
+
+      <div class="tag-cloud">
+        
+          
+          
+          
+          <a href="/tag/cardinality-constraints/" style="font-size:0.7rem">cardinality-constraints</a>
+        
+          
+          
+          
+          <a href="/tag/counting/" style="font-size:1.1101043398214472rem">counting</a>
+        
+          
+          
+          
+          <a href="/tag/machine-learning/" style="font-size:0.7rem">machine-learning</a>
+        
+          
+          
+          
+          <a href="/tag/sampling/" style="font-size:1.1101043398214472rem">sampling</a>
+        
+          
+          
+          
+          <a href="/tag/sampling-and-counting/" style="font-size:1.9303130194643416rem">sampling-and-counting</a>
+        
+      </div>
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="contact" class="home-section wg-contact   "  >
+    <div class="container">
+      
+
+
+
+
+
+<div class="row contact-widget">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Contact</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+    
+
+    
+
+    <ul class="fa-ul">
+
+      
+      <li>
+        <i class="fa-li fas fa-envelope fa-2x" aria-hidden="true"></i>
+        <span id="person-email"><a href="mailto:meel@comp.nus.edu.sg">meel@comp.nus.edu.sg</a></span>
+      </li>
+      
+
+      
+      <li>
+        <i class="fa-li fas fa-phone fa-2x" aria-hidden="true"></i>
+        <span id="person-telephone"><a href="tel:&#43;65-651%2061422%20">&#43;65-651 61422 </a></span>
+      </li>
+      
+
+      
+      
+        
+        <li>
+          <i class="fa-li fas fa-map-marker fa-2x" aria-hidden="true"></i>
+          <span id="person-address">15 Computing Dr, Singapore 117418</span>
+        </li>
+      
+
+      
+      <li>
+        <i class="fa-li fas fa-compass fa-2x" aria-hidden="true"></i>
+        <span>COM2-03-41</span>
+      </li>
+      
+
+      
+      <li>
+        <i class="fa-li fas fa-clock fa-2x" aria-hidden="true"></i>
+        <span>Please consult  <a href="https://calendar.google.com/calendar/embed?src=meel%40comp.nus.edu.sg">my calendar</a> before suggesting a meeting time.</span>
+      </li>
+      
+
+      
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <i class="fa-li ai ai-google-scholar fa-2x" aria-hidden="true"></i>
+        <a href="https://scholar.google.com/citations?user=bvW5Hs8AAAAJ&amp;hl=en" target="_blank" rel="noopener">Kuldeep Meel</a>
+      </li>
+      
+
+    </ul>
+
+    
+    <div class="d-none">
+      <input id="map-provider" value="2">
+      <input id="map-lat" value="1.294412">
+      <input id="map-lng" value="103.774096">
+      <input id="map-dir" value="15 Computing Dr, Singapore 117418">
+      <input id="map-zoom" value="15">
+      <input id="map-api-key" value="">
+    </div>
+    <div id="map"></div>
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = false;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.37431be2d92d7fb0160054761ab79602.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+  <p class="powered-by">
+    
+    
+      
+      <a href="/terms/">Terms</a>
+    
+  </p>
+  
+
+  <p class="powered-by">
+    © 2019
+  </p>
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
 </footer>
 
+  </div>
+  
 
+  
 <div id="modal" class="modal fade" role="dialog">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Cite</h4>
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
       </div>
-      <div>
-        <pre><code class="modal-body tex"></code></pre>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
       </div>
       <div class="modal-footer">
-        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
-          <i class="fa fa-copy"></i> Copy
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
         </a>
-        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
-          <i class="fa fa-download"></i> Download
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
         </a>
         <div id="modal-error"></div>
       </div>
@@ -1791,49 +3985,5 @@ research hub in Asia.</p>
   </div>
 </div>
 
-    
-
-    
-    
-
-    
-
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
-    
-    
-    <script src="/js/hugo-academic.js"></script>
-    
-
-    
-    
-      
-      
-      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
-      
-
-      
-
-      
-
-      <script>hljs.initHighlightingOnLoad();</script>
-    
-
-    
-    
-    <script type="text/x-mathjax-config">
-        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
-    </script>
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML" integrity="sha512-tOav5w1OjvsSJzePRtt2uQPFwBoHt1VZcUq8l8nm5284LEKE9FSJBQryzMBzHxY5P0zRdNqEcpLIRVYFNgu1jw==" crossorigin="anonymous"></script>
-    
-    
-
-  </body>
+</body>
 </html>
-
-

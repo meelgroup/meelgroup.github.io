@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jaroslav Bendik | MeelGroup</title>
+    <link>https://meelgroup.github.io/author/jaroslav-bendik/</link>
+      <atom:link href="https://meelgroup.github.io/author/jaroslav-bendik/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jaroslav Bendik</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Mon, 18 May 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://meelgroup.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Jaroslav Bendik</title>
+      <link>https://meelgroup.github.io/author/jaroslav-bendik/</link>
+    </image>
+    
+    <item>
+      <title>Approximate Counting of Minimal Unsatisfiable Subsets</title>
+      <link>https://meelgroup.github.io/publication/cav20bm/</link>
+      <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/cav20bm/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

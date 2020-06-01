@@ -1,979 +1,1030 @@
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-    
-    
-    <url>
-    
-      <loc>/publication_types/1/</loc>
-      <lastmod>2020-05-19T00:00:00+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/sat20sm/</loc>
-      <lastmod>2020-05-19T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/</loc>
-      <lastmod>2020-05-19T00:00:00+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/sat20abm/</loc>
-      <lastmod>2020-05-19T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication_types/</loc>
-      <lastmod>2020-05-19T00:00:00+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/lics-20-am/</loc>
-      <lastmod>2020-05-18T00:00:01+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/cav20bm/</loc>
-      <lastmod>2020-05-18T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/cav20_manthan/</loc>
-      <lastmod>2020-05-18T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/cav20sgm/</loc>
-      <lastmod>2020-05-18T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/lpar20dms/</loc>
-      <lastmod>2020-05-16T00:00:01+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/news/25042020/</loc>
-      <lastmod>2020-04-25T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/news/10042020/</loc>
-      <lastmod>2020-04-10T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/news/08042020/</loc>
-      <lastmod>2020-04-08T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/news/06042020/</loc>
-      <lastmod>2020-04-06T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/tacas20wuawmk/</loc>
-      <lastmod>2020-04-04T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/news/18022020/</loc>
-      <lastmod>2020-02-18T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/news/08022020/</loc>
-      <lastmod>2020-02-08T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/software/npaq/</loc>
-      <lastmod>2020-01-26T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/software/</loc>
-      <lastmod>2020-01-26T00:00:00+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/</loc>
-      <lastmod>2020-01-26T00:00:00+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/counting/</loc>
-      <lastmod>2020-01-26T00:00:00+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/machine-learning/</loc>
-      <lastmod>2020-01-26T00:00:00+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/ecai20/</loc>
-      <lastmod>2020-01-23T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/news/15012020/</loc>
-      <lastmod>2020-01-15T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/aaai20/</loc>
-      <lastmod>2020-01-01T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/news/23122019/</loc>
-      <lastmod>2019-12-23T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/news/07122019/</loc>
-      <lastmod>2019-12-07T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/post/crystallball/</loc>
-      <lastmod>2019-11-03T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/news/30092019/</loc>
-      <lastmod>2019-09-30T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/neurips19/</loc>
-      <lastmod>2019-09-30T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/news/11112019/</loc>
-      <lastmod>2019-09-30T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/news/01092019/</loc>
-      <lastmod>2019-09-01T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/ccs19/</loc>
-      <lastmod>2019-08-16T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/news/13082019/</loc>
-      <lastmod>2019-08-13T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/news/12082019/</loc>
-      <lastmod>2019-08-12T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/news/30072019/</loc>
-      <lastmod>2019-07-30T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/cp19/</loc>
-      <lastmod>2019-07-20T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/software/approxmc/</loc>
-      <lastmod>2019-07-09T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/sampling-and-counting/</loc>
-      <lastmod>2019-07-09T00:00:00+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/software/crystalball/</loc>
-      <lastmod>2019-07-07T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/ijcai19_irr/</loc>
-      <lastmod>2019-06-23T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication_types/7/</loc>
-      <lastmod>2019-06-23T00:00:00+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/news/23062019/</loc>
-      <lastmod>2019-06-23T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/software/ganak/</loc>
-      <lastmod>2019-06-15T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication_types/2/</loc>
-      <lastmod>2019-06-01T00:00:00+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/ress/</loc>
-      <lastmod>2019-06-01T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/ijcai19_ganak/</loc>
-      <lastmod>2019-05-21T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/ijcai19_dnfcounter/</loc>
-      <lastmod>2019-05-20T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/ijcai19_cardxor/</loc>
-      <lastmod>2019-05-20T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/news/15052019/</loc>
-      <lastmod>2019-05-15T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/news/09052019/</loc>
-      <lastmod>2019-05-09T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/sat19_heu/</loc>
-      <lastmod>2019-05-05T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/sat19_cball/</loc>
-      <lastmod>2019-05-05T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/post/kus/</loc>
-      <lastmod>2019-05-03T11:06:17+05:30</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/post/waps/</loc>
-      <lastmod>2019-05-03T11:06:17+05:30</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/software/unigen/</loc>
-      <lastmod>2019-05-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/news/22042019/</loc>
-      <lastmod>2019-04-22T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/software/waps/</loc>
-      <lastmod>2019-04-04T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/tacas19/</loc>
-      <lastmod>2019-04-04T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/sampling/</loc>
-      <lastmod>2019-04-04T00:00:00+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/post/ganak/</loc>
-      <lastmod>2019-04-03T11:06:17+05:30</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/news/11022019/</loc>
-      <lastmod>2019-02-11T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/news/02022019/</loc>
-      <lastmod>2019-02-02T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/date_cscm19/</loc>
-      <lastmod>2019-02-01T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/news/26012019/</loc>
-      <lastmod>2019-01-26T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/post/bosphorus/</loc>
-      <lastmod>2019-01-05T11:06:17+05:30</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/software/bosphorus/</loc>
-      <lastmod>2019-01-05T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/aies19/</loc>
-      <lastmod>2019-01-01T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/aaai19_bird/</loc>
-      <lastmod>2019-01-01T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/aaai19_testing/</loc>
-      <lastmod>2019-01-01T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/aaai19_hardness/</loc>
-      <lastmod>2019-01-01T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/post/approxmcv3/</loc>
-      <lastmod>2018-11-25T11:06:17+05:30</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/software/kus/</loc>
-      <lastmod>2018-08-01T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/lpar18/</loc>
-      <lastmod>2018-08-01T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/cp18/</loc>
-      <lastmod>2018-08-01T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/mm18/</loc>
-      <lastmod>2018-06-02T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/vmcai18/</loc>
-      <lastmod>2018-01-01T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/fsttcs17/</loc>
-      <lastmod>2017-12-01T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication_types/8/</loc>
-      <lastmod>2017-09-29T00:00:00+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/meel-phdthesis/</loc>
-      <lastmod>2017-09-29T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/ijcai17/</loc>
-      <lastmod>2017-08-01T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/aaai17/</loc>
-      <lastmod>2017-02-01T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/news/</loc>
-      <lastmod>2017-01-01T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/post/</loc>
-      <lastmod>2017-01-01T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/</loc>
-      <lastmod>2017-01-01T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/software/mis/</loc>
-      <lastmod>2016-09-05T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/immv16/</loc>
-      <lastmod>2016-09-01T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/ijcai16_counting/</loc>
-      <lastmod>2016-07-01T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/ijcai16_cnfxor/</loc>
-      <lastmod>2016-07-01T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/aaai16/</loc>
-      <lastmod>2016-06-01T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/cc16/</loc>
-      <lastmod>2016-03-01T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/software/smtapproxmc/</loc>
-      <lastmod>2016-02-12T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/bnp16/</loc>
-      <lastmod>2016-02-01T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/pact15/</loc>
-      <lastmod>2016-01-01T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/cp15/</loc>
-      <lastmod>2015-09-01T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/ijcai15/</loc>
-      <lastmod>2015-07-01T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/tacas15/</loc>
-      <lastmod>2015-04-01T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/mmbs14/</loc>
-      <lastmod>2014-08-01T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/software/weightgen/</loc>
-      <lastmod>2014-07-27T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/software/weightmc/</loc>
-      <lastmod>2014-07-27T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/aaai14/</loc>
-      <lastmod>2014-07-01T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/dac14/</loc>
-      <lastmod>2014-06-01T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/software/1cardxor/</loc>
-      <lastmod>2014-01-10T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/cardinality-constraints/</loc>
-      <lastmod>2014-01-10T00:00:00+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/cp13/</loc>
-      <lastmod>2013-09-01T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/cav13/</loc>
-      <lastmod>2013-07-01T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/categories/</loc>
-      <priority>0</priority>
-    </url>
-    
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication-type/1/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/arijit-shaw/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/arijit-shaw/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/authors/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/bhavishya/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/sat20sm/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/durgesh-agrawal/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/durgesh-agrawal/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/kuldeep-meel/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/kuldeep-s.-meel/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/sat20abm/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication_types/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/kuldeep-s.-meel-s.-akshay/</loc>
+    <lastmod>2020-05-18T00:00:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/lics-20-am/</loc>
+    <lastmod>2020-05-18T00:00:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/cav20sgm/</loc>
+    <lastmod>2020-05-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/cav20bm/</loc>
+    <lastmod>2020-05-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/jaroslav-bendik/</loc>
+    <lastmod>2020-05-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/cav20_manthan/</loc>
+    <lastmod>2020-05-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/mate-soos/</loc>
+    <lastmod>2020-05-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/mate-soos/</loc>
+    <lastmod>2020-05-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/priyanka-golia/</loc>
+    <lastmod>2020-05-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/priyanka-golia/</loc>
+    <lastmod>2020-05-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/stephan-gocht/</loc>
+    <lastmod>2020-05-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/subhajit-roy/</loc>
+    <lastmod>2020-05-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/a.-dileep/</loc>
+    <lastmod>2020-05-16T00:00:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/ammar-f.-sabili/</loc>
+    <lastmod>2020-05-16T00:00:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/lpar20dms/</loc>
+    <lastmod>2020-05-16T00:00:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/talk/25042020/</loc>
+    <lastmod>2020-04-25T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/talk/</loc>
+    <lastmod>2020-04-25T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/talk/10042020/</loc>
+    <lastmod>2020-04-10T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/talk/08042020/</loc>
+    <lastmod>2020-04-08T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/talk/06042020/</loc>
+    <lastmod>2020-04-06T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/tacas20wuawmk/</loc>
+    <lastmod>2020-04-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/alyas-almaawi/</loc>
+    <lastmod>2020-04-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/kaiyuan-wang/</loc>
+    <lastmod>2020-04-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/muhammad-usman/</loc>
+    <lastmod>2020-04-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/sarfraz-khurshid/</loc>
+    <lastmod>2020-04-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/wenxi-wang/</loc>
+    <lastmod>2020-04-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/talk/18022020/</loc>
+    <lastmod>2020-02-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/talk/08022020/</loc>
+    <lastmod>2020-02-08T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/tag/counting/</loc>
+    <lastmod>2020-01-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/tag/machine-learning/</loc>
+    <lastmod>2020-01-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/project/npaq/</loc>
+    <lastmod>2020-01-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/project/</loc>
+    <lastmod>2020-01-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/tags/</loc>
+    <lastmod>2020-01-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/bishwamittra-ghosh/</loc>
+    <lastmod>2020-01-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/ecai20/</loc>
+    <lastmod>2020-01-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/dmitry-malioutov/</loc>
+    <lastmod>2020-01-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/talk/15012020/</loc>
+    <lastmod>2020-01-15T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/aaai20/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/jonathan-scarlett/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/lorenzo-ciampiconi/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/talk/23122019/</loc>
+    <lastmod>2019-12-23T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/talk/07122019/</loc>
+    <lastmod>2019-12-07T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/post/crystallball/</loc>
+    <lastmod>2019-11-03T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/post/</loc>
+    <lastmod>2019-11-03T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/neurips19/</loc>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/harold-soh/</loc>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/mohan-s.-kankanhalli/</loc>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/yaqi-xie/</loc>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/ziwei-xu/</loc>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/talk/30092019/</loc>
+    <lastmod>2019-09-30T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/talk/11112019/</loc>
+    <lastmod>2019-09-30T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/talk/01092019/</loc>
+    <lastmod>2019-09-01T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/ccs19/</loc>
+    <lastmod>2019-08-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/prateek-saxena/</loc>
+    <lastmod>2019-08-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/shiqi-shen/</loc>
+    <lastmod>2019-08-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/shweta-shinde/</loc>
+    <lastmod>2019-08-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/teodora-baluta/</loc>
+    <lastmod>2019-08-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/teodora-baluta/</loc>
+    <lastmod>2019-08-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/talk/13082019/</loc>
+    <lastmod>2019-08-13T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/talk/12082019/</loc>
+    <lastmod>2019-08-12T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/talk/30072019/</loc>
+    <lastmod>2019-07-30T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/alexandru-dinu/</loc>
+    <lastmod>2019-07-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/alexis-colnet/</loc>
+    <lastmod>2019-07-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/alexis-de-colnet/</loc>
+    <lastmod>2019-07-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/cp19/</loc>
+    <lastmod>2019-07-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/project/approxmc/</loc>
+    <lastmod>2019-07-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/tag/sampling/</loc>
+    <lastmod>2019-07-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/tag/sampling-and-counting/</loc>
+    <lastmod>2019-07-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/project/crystalball/</loc>
+    <lastmod>2019-07-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/ijcai19_irr/</loc>
+    <lastmod>2019-06-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication-type/9/</loc>
+    <lastmod>2019-06-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/talk/23062019/</loc>
+    <lastmod>2019-06-23T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/project/ganak/</loc>
+    <lastmod>2019-06-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication-type/2/</loc>
+    <lastmod>2019-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/leonardo-duenas-osorio/</loc>
+    <lastmod>2019-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/moshe-y.-vardi/</loc>
+    <lastmod>2019-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/ress/</loc>
+    <lastmod>2019-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/roger-paredes/</loc>
+    <lastmod>2019-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/ijcai19_ganak/</loc>
+    <lastmod>2019-05-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/shubham-sharma/</loc>
+    <lastmod>2019-05-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/shubham-sharma/</loc>
+    <lastmod>2019-05-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/aditya-a.-shrotri/</loc>
+    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/ijcai19_dnfcounter/</loc>
+    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/ijcai19_cardxor/</loc>
+    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/saurabh-joshi/</loc>
+    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/yash-pote/</loc>
+    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/yash-pote/</loc>
+    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/talk/15052019/</loc>
+    <lastmod>2019-05-15T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/talk/09052019/</loc>
+    <lastmod>2019-05-09T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/aditya-shrotri/</loc>
+    <lastmod>2019-05-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/alexey-ignatiev/</loc>
+    <lastmod>2019-05-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/sat19_heu/</loc>
+    <lastmod>2019-05-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/sat19_cball/</loc>
+    <lastmod>2019-05-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/joao-marques-silva/</loc>
+    <lastmod>2019-05-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/nina-narodytska/</loc>
+    <lastmod>2019-05-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/raghav-kulkarni/</loc>
+    <lastmod>2019-05-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/post/kus/</loc>
+    <lastmod>2019-05-03T11:06:17+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/rahul-gupta/</loc>
+    <lastmod>2019-05-03T11:06:17+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/rahul-gupta/</loc>
+    <lastmod>2019-05-03T11:06:17+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/post/waps/</loc>
+    <lastmod>2019-05-03T11:06:17+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/project/unigen/</loc>
+    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/talk/22042019/</loc>
+    <lastmod>2019-04-22T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/project/waps/</loc>
+    <lastmod>2019-04-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/tacas19/</loc>
+    <lastmod>2019-04-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/post/ganak/</loc>
+    <lastmod>2019-04-03T11:06:17+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/talk/11022019/</loc>
+    <lastmod>2019-02-11T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/talk/02022019/</loc>
+    <lastmod>2019-02-02T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/date_cscm19/</loc>
+    <lastmod>2019-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/davin-choo/</loc>
+    <lastmod>2019-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/kian-ming-a.-chai/</loc>
+    <lastmod>2019-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/talk/26012019/</loc>
+    <lastmod>2019-01-26T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/post/bosphorus/</loc>
+    <lastmod>2019-01-05T11:06:17+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/project/bosphorus/</loc>
+    <lastmod>2019-01-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/aies19/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/aaai19_bird/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/aaai19_testing/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/aaai19_hardness/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/prof-sourav-chakraborty/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/sourav-chakraborty/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/supratik-chakraborty/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/post/approxmcv3/</loc>
+    <lastmod>2018-11-25T11:06:17+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/lpar18/</loc>
+    <lastmod>2018-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/kuldeep-meel/</loc>
+    <lastmod>2018-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/project/kus/</loc>
+    <lastmod>2018-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/cp18/</loc>
+    <lastmod>2018-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/</loc>
+    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/terms/</loc>
+    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/mm18/</loc>
+    <lastmod>2018-06-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/annelie-heuser/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/axel-legay/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/fabrizio-biondi/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/jean-quilbeuf/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/michael-enescu/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/vmcai18/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/fsttcs17/</loc>
+    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication-type/7/</loc>
+    <lastmod>2017-09-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/meel-phdthesis/</loc>
+    <lastmod>2017-09-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/jeffrey-dudek/</loc>
+    <lastmod>2017-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/ijcai17/</loc>
+    <lastmod>2017-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/aaai17/</loc>
+    <lastmod>2017-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/project/mis/</loc>
+    <lastmod>2016-09-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/alexander-ivrii/</loc>
+    <lastmod>2016-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/immv16/</loc>
+    <lastmod>2016-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/sharad-malik/</loc>
+    <lastmod>2016-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/ijcai16_counting/</loc>
+    <lastmod>2016-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/ijcai16_cnfxor/</loc>
+    <lastmod>2016-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/aaai16/</loc>
+    <lastmod>2016-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/rakesh-mistry/</loc>
+    <lastmod>2016-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/cc16/</loc>
+    <lastmod>2016-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/deepak-majeti/</loc>
+    <lastmod>2016-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/raj-barik/</loc>
+    <lastmod>2016-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/vivek-sarkar/</loc>
+    <lastmod>2016-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/project/smtapproxmc/</loc>
+    <lastmod>2016-02-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/bnp16/</loc>
+    <lastmod>2016-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/daniel-j.-fremont/</loc>
+    <lastmod>2016-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/dror-fried/</loc>
+    <lastmod>2016-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/sanjit-a.-seshia/</loc>
+    <lastmod>2016-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/pact15/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/john-mellor-crummey/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/karthik/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/murthy/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/paul/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/sri-raj/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/tiago-cogumbreiro/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/cp15/</loc>
+    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/ijcai15/</loc>
+    <lastmod>2015-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/tacas15/</loc>
+    <lastmod>2015-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/mmbs14/</loc>
+    <lastmod>2014-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/project/weightgen/</loc>
+    <lastmod>2014-07-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/project/weightmc/</loc>
+    <lastmod>2014-07-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/aaai14/</loc>
+    <lastmod>2014-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/dac14/</loc>
+    <lastmod>2014-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/project/1cardxor/</loc>
+    <lastmod>2014-01-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/tag/cardinality-constraints/</loc>
+    <lastmod>2014-01-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/cp13/</loc>
+    <lastmod>2013-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/cav13/</loc>
+    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/</loc>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/andre/</loc>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/bishwamittra-ghosh/</loc>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/chaman-agrawal/</loc>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/himanshu-arora/</loc>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/jan-elferrs/</loc>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/jiong-yang/</loc>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/kurt-warren/</loc>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/meel-group/</loc>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/mohimenul-kabir/</loc>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/nelson-bighetti/</loc>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/prof-pavan-aduri/</loc>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/prof-roland-jie-hong/</loc>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/prof-vijay-ganesh/</loc>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/remi-delannoy/</loc>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/stephan-gocht/</loc>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/suwei-yang/</loc>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/yong-lai/</loc>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/zhanzhong-pang/</loc>
+  </url>
   
 </urlset>
