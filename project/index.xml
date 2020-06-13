@@ -5,12 +5,22 @@
     <link>https://meelgroup.github.io/project/</link>
       <atom:link href="https://meelgroup.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Sun, 26 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Sat, 04 Apr 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://meelgroup.github.io/images/icon_hu1dd832c4da814f17fe02e3737f0ae144_14882_512x512_fill_lanczos_center_2.png</url>
       <title>Projects</title>
       <link>https://meelgroup.github.io/project/</link>
     </image>
+    
+    <item>
+      <title>Manthan</title>
+      <link>https://meelgroup.github.io/project/manthan/</link>
+      <pubDate>Sat, 04 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/project/manthan/</guid>
+      <description>&lt;p&gt;Boolean functional synthesis is a fundamental problem in computer science with wide-ranging applications and has witnessed a surge of interest resulting in progressively improved techniques over the past decade. Despite intense algorithmic development, a large number of problems remain beyond the reach of the state of the art techniques. Motivated by the progress in machine learning, we propose Manthan, a novel data-driven approach to Boolean functional synthesis. Manthan views functional synthesis as a classification problem, relying on advances in constrained sampling for data generation, and advances in automated reasoning for a novel proof-guided refinement and provable verification.&lt;/p&gt;
+&lt;p&gt;Manthan significantly improves upon the current state of the art, solving 356 benchmarks in comparison to 280, which is the most solved by a state of the art technique; thereby, it demonstrate an increase of 76 benchmarks over the current state of the art. Furthermore, Manthan solves 60 benchmarks that none of the current state of the art techniques could solve.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>NPAQ</title>
@@ -55,6 +65,16 @@
       <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
       <guid>https://meelgroup.github.io/project/unigen/</guid>
       <description>&lt;p&gt;UniGen is a hashing-based algorithm to generate uniform samples subject to given set of constraints. The primary application of UniGen is in random stimuli generation for hardware and software verification. The current version of the tool has been developed over the years and is parallelizable without losing theoretical guarantees.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Barbarik</title>
+      <link>https://meelgroup.github.io/project/barbarik/</link>
+      <pubDate>Thu, 04 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/project/barbarik/</guid>
+      <description>&lt;p&gt;The divide between the existence of sampling techniques that have strong theoretical guarantees but fail to scale and scalable techniques with weak or no theoretical guarantees mirrors the gap in software engineering between poor scalability of classical program synthesis techniques and billions of programs that are routinely used by practitioners. One bridge connecting the two extremes in the context of software engineering has been program testing. In contrast to testing for deterministic programs, where one trace is sufficient to prove the existence of a bug, in case of samplers one sample is typically not sufficient to prove non-conformity of the sampler to the desired distribution. This makes one wonder whether it is possible to design testing methodology to test whether a sampler under test generates samples close to a given distribution.&lt;/p&gt;
+&lt;p&gt;We present, Barbarik, to test whether the distribution generated is ε−close or η−far from the uniform distribution. In contrast to the sampling techniques that require an exponential or sub-exponential number of samples for sampler whose support can be represented by n bits, Barbarik requires only O(1/(η − ε)4) samples.&lt;/p&gt;
 </description>
     </item>
     
