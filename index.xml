@@ -13,6 +13,30 @@
     </image>
     
     <item>
+      <title>&lt;b&gt; We presented three papers at [CAV 2020](http://i-cav.org/2020/). &lt;/b&gt; &lt;br&gt; 1. The first paper builds on our CNF-XOR solving paradigm (BIRD) and as a result, the new versions of [ApproxMC and UniGen](https://www.comp.nus.edu.sg/~meel/Papers/cav20-sgm.pdf) are faster than ever. &lt;br&gt; 2. The second paper proposes the first algorithm for [approximate MUS counting](https://www.comp.nus.edu.sg/~meel/Papers/cav20-bm.pdf). &lt;br&gt; 3. The third one proposes a data-driven approach for [Boolean functional synthesis](https://www.comp.nus.edu.sg/~meel/Papers/cav20-grm.pdf), which works at the intersection of constrained sampling, machine learning and automated reasoning.</title>
+      <link>https://meelgroup.github.io/talk/22072020/</link>
+      <pubDate>Wed, 22 Jul 2020 00:00:00 +0800</pubDate>
+      <guid>https://meelgroup.github.io/talk/22072020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>We have released the source code of [Manthan](https://github.com/meelgroup/manthan).</title>
+      <link>https://meelgroup.github.io/talk/07072020/</link>
+      <pubDate>Mon, 13 Jul 2020 00:00:00 +0800</pubDate>
+      <guid>https://meelgroup.github.io/talk/07072020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>We have released [ApproxMC 4](https://github.com/meelgroup/approxmc).</title>
+      <link>https://meelgroup.github.io/talk/13072020/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0800</pubDate>
+      <guid>https://meelgroup.github.io/talk/13072020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Designing New Phase Selection Heuristics</title>
       <link>https://meelgroup.github.io/publication/sat20sm/</link>
       <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
@@ -792,7 +816,7 @@ GANAK is a scalable probabilistic exact model counter that inherits the strength
       <link>https://meelgroup.github.io/project/mis/</link>
       <pubDate>Mon, 05 Sep 2016 00:00:00 +0000</pubDate>
       <guid>https://meelgroup.github.io/project/mis/</guid>
-      <description>&lt;p&gt;MIS computes minimal Independent Support for a given CNF formula. The implementation is based on MIS algorithm proposed in our CP&amp;rsquo;15 paper, which also won the Best Student Paper Award.&lt;/p&gt;
+      <description>&lt;p&gt;MIS computes minimal Independent Support for a given CNF formula. The implementation is based on MIS algorithm proposed in our CP&#39;15 paper, which also won the Best Student Paper Award.&lt;/p&gt;
 </description>
     </item>
     
