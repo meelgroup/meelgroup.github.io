@@ -15,7 +15,7 @@
     <item>
       <title>&lt;b&gt; We presented three papers at [CAV 2020](http://i-cav.org/2020/). &lt;/b&gt; &lt;br&gt; 1. The first paper builds on our CNF-XOR solving paradigm (BIRD) and as a result, the new versions of [ApproxMC and UniGen](https://www.comp.nus.edu.sg/~meel/Papers/cav20-sgm.pdf) are faster than ever. &lt;br&gt; 2. The second paper proposes the first algorithm for [approximate MUS counting](https://www.comp.nus.edu.sg/~meel/Papers/cav20-bm.pdf). &lt;br&gt; 3. The third one proposes a data-driven approach for [Boolean functional synthesis](https://www.comp.nus.edu.sg/~meel/Papers/cav20-grm.pdf), which works at the intersection of constrained sampling, machine learning and automated reasoning.</title>
       <link>https://meelgroup.github.io/talk/22072020/</link>
-      <pubDate>Wed, 22 Jul 2020 00:00:00 +0530</pubDate>
+      <pubDate>Wed, 22 Jul 2020 00:00:00 +0800</pubDate>
       <guid>https://meelgroup.github.io/talk/22072020/</guid>
       <description></description>
     </item>
@@ -23,7 +23,7 @@
     <item>
       <title>We have released the source code of [Manthan](https://github.com/meelgroup/manthan).</title>
       <link>https://meelgroup.github.io/talk/07072020/</link>
-      <pubDate>Mon, 13 Jul 2020 00:00:00 +0530</pubDate>
+      <pubDate>Mon, 13 Jul 2020 00:00:00 +0800</pubDate>
       <guid>https://meelgroup.github.io/talk/07072020/</guid>
       <description></description>
     </item>
@@ -31,7 +31,7 @@
     <item>
       <title>We have released [ApproxMC 4](https://github.com/meelgroup/approxmc).</title>
       <link>https://meelgroup.github.io/talk/13072020/</link>
-      <pubDate>Tue, 07 Jul 2020 00:00:00 +0530</pubDate>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0800</pubDate>
       <guid>https://meelgroup.github.io/talk/13072020/</guid>
       <description></description>
     </item>
@@ -95,7 +95,7 @@
     <item>
       <title>&lt;b&gt;Two Papers accepted to &lt;a href=&#34;https://sat2020.idea-researchlab.org/&#34;&gt;SAT 2020&lt;/a&gt;.&lt;/b&gt; &lt;br&gt; 1. The first paper shows that the currently known bounds for sparse hashing are too weak to be used for algorithms such as ApproxMC. Authors: Durgesh Agarwal, Bhavishya and Kuldeep S. Meel &lt;br&gt; 2. The second paper proposes a new phase selection strategy for SAT solvers. Improving SAT solvers is just a very very hard job and we are excited about the improvements that our proposal brings to the world of SAT solving. Authors: Arijit Shaw and Kuldeep S. Meel</title>
       <link>https://meelgroup.github.io/talk/25042020/</link>
-      <pubDate>Sat, 25 Apr 2020 00:00:00 +0530</pubDate>
+      <pubDate>Sat, 25 Apr 2020 00:00:00 +0800</pubDate>
       <guid>https://meelgroup.github.io/talk/25042020/</guid>
       <description></description>
     </item>
@@ -103,7 +103,7 @@
     <item>
       <title>&lt;b&gt;Paper on Sparse Hashing for Approximate Model counting accepted to &lt;a href=&#34;https://lics.siglog.org/lics20/&#34;&gt;LICS 2020&lt;/a&gt;. Authors: S. Akshay and Kuldeep S. Meel &lt;/b&gt;&lt;br&gt;One of the reviews: &#34;Rarely it is that there is a paper that proves a beautiful new theoretical result, explaining and simplifying previous work, and on top of that shows how it can be used to improve state-of-the-art practical algorithms. The paper &#34;Sparse hashing for scalable approximate model counting: theory and practice&#34; achieves exactly that.&#34;</title>
       <link>https://meelgroup.github.io/talk/10042020/</link>
-      <pubDate>Fri, 10 Apr 2020 00:00:00 +0530</pubDate>
+      <pubDate>Fri, 10 Apr 2020 00:00:00 +0800</pubDate>
       <guid>https://meelgroup.github.io/talk/10042020/</guid>
       <description></description>
     </item>
@@ -111,7 +111,7 @@
     <item>
       <title>&lt;b&gt;Paper accepted to &lt;a href=&#34;https://easychair.org/smart-program/LPAR23/&#34;&gt;LPAR-23&lt;/a&gt;.&lt;/b&gt; &lt;br&gt;The paper formalizes Induction Models on N extending the classical work of Henkin. Authors: A Dileep, Kuldeep S. Meel and Ammar F. Sabili</title>
       <link>https://meelgroup.github.io/talk/08042020/</link>
-      <pubDate>Wed, 08 Apr 2020 00:00:00 +0530</pubDate>
+      <pubDate>Wed, 08 Apr 2020 00:00:00 +0800</pubDate>
       <guid>https://meelgroup.github.io/talk/08042020/</guid>
       <description></description>
     </item>
@@ -119,7 +119,7 @@
     <item>
       <title>&lt;b&gt;Three Papers accepted at &lt;a href=&#34;https://www.facebook.com/groups/cavconference/?fref=mentions&#34;&gt;Computer Aided Verification (CAV)&lt;/a&gt; 2020 conference.&lt;/b&gt;&lt;br&gt;1. The first paper proposes a new approach that combines sampling&#43;machine learning&#43;MaxSAT to achieve a significant progress in solving Boolean Functional Synthesis. Authors: Priyanka Golia, Subhajit Roy, and Kuldeep S. Meel&lt;br&gt;2. The second paper builds on our CNF-XOR solving paradigm (BIRD) and as a result, the new versions of ApproxMC and UniGen are faster than ever. Stay tuned for our releases. Authors: Mate Soos, Stephan Gocht, and Kuldeep S. Meel&lt;br&gt;3. The third paper proposes the first algorithm for approximate MUS counting. Authors: Jaroslav Bendik and Kuldeep S. Meel</title>
       <link>https://meelgroup.github.io/talk/06042020/</link>
-      <pubDate>Mon, 06 Apr 2020 00:00:00 +0530</pubDate>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0800</pubDate>
       <guid>https://meelgroup.github.io/talk/06042020/</guid>
       <description></description>
     </item>
@@ -145,7 +145,7 @@
     <item>
       <title>&lt;b&gt; Sampling-based approach for quantittive quantitative verification of Deep Neural Nets. &lt;/b&gt;&lt;br&gt;We propose a new attack agnostic metric adversarial hardness to capture the model&amp;apos;s robustness: &lt;a href=&#34;https://arxiv.org/pdf/2002.06864.pdf&#34;&gt;https://arxiv.org/pdf/2002.06864.pdf&lt;/a&gt;  Authors: Teodora Baluta, Zheng Leong Chua, Kuldeep S. Meel and Prateek Saxena.</title>
       <link>https://meelgroup.github.io/talk/18022020/</link>
-      <pubDate>Tue, 18 Feb 2020 00:00:00 +0530</pubDate>
+      <pubDate>Tue, 18 Feb 2020 00:00:00 +0800</pubDate>
       <guid>https://meelgroup.github.io/talk/18022020/</guid>
       <description></description>
     </item>
@@ -153,7 +153,7 @@
     <item>
       <title>&lt;b&gt;Alexey Ignatiev, Joao Marques-Silva, Kuldeep S. Meel and Nina Narodytska give a tutorial at the Tutorial Forum in AAAI&amp;apos;20: &lt;a href=&#34;https://aaai.org/Conferences/AAAI-20/aaai20tutorials/&#34;&gt;Rigorous Verification and Explanation of ML Models&lt;/a&gt;.&lt;/b&gt;</title>
       <link>https://meelgroup.github.io/talk/08022020/</link>
-      <pubDate>Sat, 08 Feb 2020 00:00:00 +0530</pubDate>
+      <pubDate>Sat, 08 Feb 2020 00:00:00 +0800</pubDate>
       <guid>https://meelgroup.github.io/talk/08022020/</guid>
       <description></description>
     </item>
@@ -178,7 +178,7 @@
     <item>
       <title>&lt;b&gt;Our paper on classification rules in relaxed logical form is accepted in &lt;a href=&#34;http://ecai2020.eu&#34;&gt;ECAI-2020&lt;/a&gt;. Authors: Bishwamittra Ghosh, Dmitry Malioutov, and Kuldeep S. Meel&lt;/b&gt;</title>
       <link>https://meelgroup.github.io/talk/15012020/</link>
-      <pubDate>Wed, 15 Jan 2020 00:00:00 +0530</pubDate>
+      <pubDate>Wed, 15 Jan 2020 00:00:00 +0800</pubDate>
       <guid>https://meelgroup.github.io/talk/15012020/</guid>
       <description></description>
     </item>
@@ -194,7 +194,7 @@
     <item>
       <title>Our paper on Symmetry breaking and model counting is accepted to &lt;a href=&#34;https://www.etaps.org/2020/tacas&#34;&gt;TACAS 2020&lt;/a&gt;. Authors: Wenxi Wang, Muhammad Usman, Alyas Almaawi, Kaiyuan Wang, Kuldeep S. Meel, and Sarfraz Khurshid</title>
       <link>https://meelgroup.github.io/talk/23122019/</link>
-      <pubDate>Mon, 23 Dec 2019 00:00:00 +0530</pubDate>
+      <pubDate>Mon, 23 Dec 2019 00:00:00 +0800</pubDate>
       <guid>https://meelgroup.github.io/talk/23122019/</guid>
       <description></description>
     </item>
@@ -202,7 +202,7 @@
     <item>
       <title> Two of our group&amp;apos;s papers are accepted to accepted as poster presentations with a spotlight talk at &lt;a href=&#34;http://www.starai.org/2020/&#34;&gt;StarAI 2020&lt;/a&gt; workshop in &lt;a href=&#34;https://aaai.org/Conferences/AAAI-20/&#34;&gt;AAAI 2020&lt;/a&gt;: Our AIES-19 &lt;a href=&#34;https://bishwamittra.github.io/publication/imli-ghosh.pdf&#34;&gt;paper&lt;/a&gt; on incremental classification rule learning and our CCS-19 &lt;a href=&#34;https://www.comp.nus.edu.sg/~teodorab/papers/NPAQ.pdf&#34;&gt;paper&lt;/a&gt; on quantiatative verification for binarized neural networks.</title>
       <link>https://meelgroup.github.io/talk/07122019/</link>
-      <pubDate>Sat, 07 Dec 2019 00:00:00 +0530</pubDate>
+      <pubDate>Sat, 07 Dec 2019 00:00:00 +0800</pubDate>
       <guid>https://meelgroup.github.io/talk/07122019/</guid>
       <description></description>
     </item>
@@ -210,7 +210,7 @@
     <item>
       <title>CrystalBall: SAT solving, Data Gathering, and Machine Learning</title>
       <link>https://meelgroup.github.io/post/crystallball/</link>
-      <pubDate>Sun, 03 Nov 2019 00:00:00 +0530</pubDate>
+      <pubDate>Sun, 03 Nov 2019 00:00:00 +0800</pubDate>
       <guid>https://meelgroup.github.io/post/crystallball/</guid>
       <description>&lt;p&gt; &lt;/i&gt;Link to the  &lt;a href=&#34;https://www.msoos.org/2019/06/crystalball-sat-solving-data-gathering-and-machine-learning/&#34;&gt;original post&lt;/a&gt; on CrystallBall.&lt;/p&gt;
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
@@ -228,7 +228,7 @@
     <item>
       <title> Alexis will be presenting our work on &lt;a href=&#34;https://www.comp.nus.edu.sg/~meel/Papers/cp19-dm.pdf&#34;&gt;unifying hashing-based approaches for discrete integration&lt;/a&gt;, and Bishwa will present on &lt;a href=&#34;https://bishwamittra.github.io/publication/irr-ghosh.pdf&#34;&lt;/a&gt; learning interpretable classifiers at &lt;a href=&#34;https://cp2019.a4cp.org/&#34;&gt;CP2019&lt;/a&gt;.</title>
       <link>https://meelgroup.github.io/talk/30092019/</link>
-      <pubDate>Mon, 30 Sep 2019 00:00:00 +0530</pubDate>
+      <pubDate>Mon, 30 Sep 2019 00:00:00 +0800</pubDate>
       <guid>https://meelgroup.github.io/talk/30092019/</guid>
       <description></description>
     </item>
@@ -236,7 +236,7 @@
     <item>
       <title> Our &lt;a href=&#34;https://bishwamittra.github.io/publication/aaai_2020/AAAI-CiampiconiL.690.pdf&#34;&gt;paper&lt;/a&gt; on  MaxSAT-based formulation for group testing is accepted in &lt;a href=&#34;https://aaai.org/Conferences/AAAI-20/&#34;&gt;AAAI 2020&lt;/a&gt;. Authors: Lorenzo Ciampiconi, Bishwamittra Ghosh, Jonathan Scarlett and Kuldeep S. Meel</title>
       <link>https://meelgroup.github.io/talk/11112019/</link>
-      <pubDate>Mon, 30 Sep 2019 00:00:00 +0530</pubDate>
+      <pubDate>Mon, 30 Sep 2019 00:00:00 +0800</pubDate>
       <guid>https://meelgroup.github.io/talk/11112019/</guid>
       <description></description>
     </item>
@@ -244,7 +244,7 @@
     <item>
       <title>Our Paper on &lt;a href=&#34;https://arxiv.org/abs/1909.01161&#34;&gt;embedding symbolic knowledge into Neural Networks&lt;/a&gt; is accepted to &lt;a href=&#34;https://nips.cc/&#34;&gt;NeurIPS 2019&lt;/a&gt;.&#34; Authors: Yaqi Xie, Ziwei Xu, Mohan S. Kankanhalli, Kuldeep S. Meel, Harold Soh</title>
       <link>https://meelgroup.github.io/talk/01092019/</link>
-      <pubDate>Sun, 01 Sep 2019 00:00:00 +0530</pubDate>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0800</pubDate>
       <guid>https://meelgroup.github.io/talk/01092019/</guid>
       <description></description>
     </item>
@@ -260,7 +260,7 @@
     <item>
       <title>We presented three papers at IJCAI-19. 1) The first paper explores the [phase transition behavior of conjunction of cardinality and XOR constraints](https://www.comp.nus.edu.sg/~meel/Papers/ijcai19pjm.pdf). 2) The second paper describes a radically new approach to exact counting wherein we compute estimates that are [probabilistically exact](https://www.comp.nus.edu.sg/~meel/Papers/ijcai19srsm.pdf)! 3) The third one is our invited paper on [#DNF](https://www.comp.nus.edu.sg/~meel/Papers/ijcai19msv.pdf).</title>
       <link>https://meelgroup.github.io/talk/13082019/</link>
-      <pubDate>Tue, 13 Aug 2019 00:00:00 +0530</pubDate>
+      <pubDate>Tue, 13 Aug 2019 00:00:00 +0800</pubDate>
       <guid>https://meelgroup.github.io/talk/13082019/</guid>
       <description></description>
     </item>
@@ -268,7 +268,7 @@
     <item>
       <title>We have released the source code of [GANAK](https://github.com/meelgroup/ganak).</title>
       <link>https://meelgroup.github.io/talk/12082019/</link>
-      <pubDate>Mon, 12 Aug 2019 00:00:00 +0530</pubDate>
+      <pubDate>Mon, 12 Aug 2019 00:00:00 +0800</pubDate>
       <guid>https://meelgroup.github.io/talk/12082019/</guid>
       <description></description>
     </item>
@@ -276,7 +276,7 @@
     <item>
       <title>Our &lt;a href=&#34;https://arxiv.org/abs/1906.10395&#34;&gt;NPAQ framework &lt;/a&gt;focused on providing PAC guarantees for verification of Neural Networks is accepted to &lt;a href=&#34;https://www.sigsac.org/ccs/CCS2019/&#34;&gt;CCS-19&lt;/a&gt; Quoting reviewer: “This work is pioneering a new technique to solve an incredibly challenging problem, and it shows that smaller problem can be solved. I can live with that, future work can improve computational efficiency.&#34; Authors: Teodora Baluta, Shiqi Shen, Shweta Shinde, Kuldeep S. Meel, Prateek Saxena</title>
       <link>https://meelgroup.github.io/talk/30072019/</link>
-      <pubDate>Tue, 30 Jul 2019 00:00:00 +0530</pubDate>
+      <pubDate>Tue, 30 Jul 2019 00:00:00 +0800</pubDate>
       <guid>https://meelgroup.github.io/talk/30072019/</guid>
       <description></description>
     </item>
@@ -319,7 +319,7 @@
     <item>
       <title>Our paper on &lt;a href= &#34;https://bishwamittra.github.io/publication/irr-ghosh.pdf&#34;&gt;interpretable rules expressed as relaxed-CNF&lt;/a&gt; is accepted at IJCAI workshop on XAI (Explainable Artificial Intelligence) and DSO (Data Science meets Optimization), 2019. Authors: Bishwamittra Ghosh, Dmitry Malioutov, Kuldeep S. Meel.</title>
       <link>https://meelgroup.github.io/talk/23062019/</link>
-      <pubDate>Sun, 23 Jun 2019 00:00:00 +0530</pubDate>
+      <pubDate>Sun, 23 Jun 2019 00:00:00 +0800</pubDate>
       <guid>https://meelgroup.github.io/talk/23062019/</guid>
       <description></description>
     </item>
@@ -368,7 +368,7 @@
     <item>
       <title>Kuldeep recieved notification of the award of &lt;a href= &#34;https://www.nrf.gov.sg/funding-grants/nrf-fellowship-for-artificial-intelligence&#34;&gt; NRF Fellowship for AI &lt;/a&gt; for the project: Provably Verified and Explainable Probabilistic Reasoning.</title>
       <link>https://meelgroup.github.io/talk/15052019/</link>
-      <pubDate>Wed, 15 May 2019 00:00:00 +0530</pubDate>
+      <pubDate>Wed, 15 May 2019 00:00:00 +0800</pubDate>
       <guid>https://meelgroup.github.io/talk/15052019/</guid>
       <description></description>
     </item>
@@ -376,7 +376,7 @@
     <item>
       <title>Two papers accepted to IJCAI.The first paper explores the phase transition behavior of conjunction of cardinality and XOR constraints. Authors: Yash Pote, Saurabh Joshi, Kuldeep Meel.&lt;br&gt; The second paper describes a radically new approach to exact counting wherein we compute estimates that are probabilistically exact! Authors: Shubham Sharma, Kuldeep Meel. Combined with our invited paper on &lt;a href= &#34;https://www.comp.nus.edu.sg/~meel/Papers/CP2018msv.pdf&#34;&gt; #DNF &lt;/a&gt;, this makes 3 papers that we will be presenting at IJCAI.</title>
       <link>https://meelgroup.github.io/talk/09052019/</link>
-      <pubDate>Thu, 09 May 2019 00:00:00 +0530</pubDate>
+      <pubDate>Thu, 09 May 2019 00:00:00 +0800</pubDate>
       <guid>https://meelgroup.github.io/talk/09052019/</guid>
       <description></description>
     </item>
@@ -507,7 +507,7 @@ This work has further tapped into the potential of sampling using knowledge comp
     <item>
       <title>Two papers accepted to SAT 2019. The first paper introduces the first version of CrystalBall, a framework intended to allow gazing into the black box of SAT solving. Authors: Kuldeep, Mate Soos, Raghav Kulkarni.&lt;br&gt; The second paper discusses how model counting can be used to analyze explanations provided by tools such as ANCHOR. Authors: Kuldeep, Nina Narodytska, Aditya Shrotri, Alexey Ignatiev, and Joao Marques Silva.</title>
       <link>https://meelgroup.github.io/talk/22042019/</link>
-      <pubDate>Mon, 22 Apr 2019 00:00:00 +0530</pubDate>
+      <pubDate>Mon, 22 Apr 2019 00:00:00 +0800</pubDate>
       <guid>https://meelgroup.github.io/talk/22042019/</guid>
       <description></description>
     </item>
@@ -585,7 +585,7 @@ GANAK is a scalable probabilistic exact model counter that inherits the strength
     <item>
       <title>Kuldeep  is appointed Visiting Assistant Professor in the  &lt;a href=&#34;https://www.cse.iitb.ac.in/&#34;&gt;Department of Computer Science and Engineering&lt;/a&gt;  at IIT Bombay.</title>
       <link>https://meelgroup.github.io/talk/11022019/</link>
-      <pubDate>Mon, 11 Feb 2019 00:00:00 +0530</pubDate>
+      <pubDate>Mon, 11 Feb 2019 00:00:00 +0800</pubDate>
       <guid>https://meelgroup.github.io/talk/11022019/</guid>
       <description></description>
     </item>
@@ -593,7 +593,7 @@ GANAK is a scalable probabilistic exact model counter that inherits the strength
     <item>
       <title>Paper on network reliability is accepted to &lt;a href=&#34;https://www.icasp13.snu.ac.kr/&#34;&gt;The 13th International Conference on Applications of Statistics and Probability in Civil Engineering &lt;/a&gt; Authors: Roger Paredes, Leonardo Duenas-Osorio, Kuldeep S. Meel, and Moshe Y. Vardi.</title>
       <link>https://meelgroup.github.io/talk/02022019/</link>
-      <pubDate>Sat, 02 Feb 2019 00:00:00 +0530</pubDate>
+      <pubDate>Sat, 02 Feb 2019 00:00:00 +0800</pubDate>
       <guid>https://meelgroup.github.io/talk/02022019/</guid>
       <description></description>
     </item>
@@ -610,7 +610,7 @@ GANAK is a scalable probabilistic exact model counter that inherits the strength
     <item>
       <title>Our paper on weighted and projected sampling is accepted at &lt;a href=&#34;https://conf.researchr.org/track/etaps-2019/tacas-2019-papers&#34;&gt;TACAS 2019&lt;/a&gt;. Authors: Shubham Sharma, Rahul Gupta, Subhajit Roy and Kuldeep S. Meel.</title>
       <link>https://meelgroup.github.io/talk/26012019/</link>
-      <pubDate>Sat, 26 Jan 2019 00:00:00 +0530</pubDate>
+      <pubDate>Sat, 26 Jan 2019 00:00:00 +0800</pubDate>
       <guid>https://meelgroup.github.io/talk/26012019/</guid>
       <description></description>
     </item>
