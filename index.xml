@@ -13,6 +13,22 @@
     </image>
     
     <item>
+      <title>&lt;b&gt;Three Papers accepted to &lt;a href=&#34;https://nips.cc/&#34;&gt;NeurIPS 2020&lt;/a&gt;.&lt;/b&gt; &lt;br&gt;1. The first paper on &lt;a href=&#34;https://arxiv.org/abs/2010.12918&#34;&gt;On Testing of Samplers&lt;/a&gt;. &lt;br&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;  Authors: Kuldeep S Meel, Yash Pralhad Pote and Sourav Chakraborty&lt;/br&gt; 2. The second paper on &lt;a href=&#34;https://arxiv.org/abs/2010.10724&#34;&gt;Taming Discrete Integration via the Boon of Dimensionality&lt;/a&gt;. &lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Authors: Jeffrey M. Dudek, Dror Fried and Kuldeep S. Meel&lt;/br&gt; 3. The third paper on &lt;a href=&#34;https://arxiv.org/abs/2002.05378&#34;&gt;Efficient Distance Approximation for Structured High-Dimensional Distributions via Learning&lt;/a&gt;. &lt;br&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp; Authors: Arnab Bhattacharyya, Sutanu Gayen, Kuldeep S. Meel and N. V. Vinodchandran</title>
+      <link>https://meelgroup.github.io/talk/25092020/</link>
+      <pubDate>Fri, 25 Sep 2020 00:00:00 +0800</pubDate>
+      <guid>https://meelgroup.github.io/talk/25092020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>&lt;b&gt;Our Paper on Model Counting meets F0 Estimation (public version forthcoming!) is accepted to &lt;a href=&#34;https://2021.sigmod.org/&#34;&gt;PODS 2021&lt;/a&gt;.&lt;/b&gt;&lt;br&gt; Authors: Arnab Bhattacharyya, Kuldeep Meel, A. Pavan and N.V. Vinodchandran</title>
+      <link>https://meelgroup.github.io/talk/18092020/</link>
+      <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
+      <guid>https://meelgroup.github.io/talk/18092020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>&lt;b&gt; We presented three papers at [CAV 2020](http://i-cav.org/2020/). &lt;/b&gt; &lt;br&gt; 1. The first paper builds on our CNF-XOR solving paradigm (BIRD) and as a result, the new versions of [ApproxMC and UniGen](https://www.comp.nus.edu.sg/~meel/Papers/cav20-sgm.pdf) are faster than ever. &lt;br&gt; 2. The second paper proposes the first algorithm for [approximate MUS counting](https://www.comp.nus.edu.sg/~meel/Papers/cav20-bm.pdf). &lt;br&gt; 3. The third one proposes a data-driven approach for [Boolean functional synthesis](https://www.comp.nus.edu.sg/~meel/Papers/cav20-grm.pdf), which works at the intersection of constrained sampling, machine learning and automated reasoning.</title>
       <link>https://meelgroup.github.io/talk/22072020/</link>
       <pubDate>Wed, 22 Jul 2020 00:00:00 +0800</pubDate>
@@ -21,7 +37,7 @@
     </item>
     
     <item>
-      <title>We have released the source code of [Manthan](https://github.com/meelgroup/manthan).</title>
+      <title>&lt;b&gt;We have released the source code of [Manthan](https://github.com/meelgroup/manthan).&lt;/b&gt;</title>
       <link>https://meelgroup.github.io/talk/07072020/</link>
       <pubDate>Mon, 13 Jul 2020 00:00:00 +0800</pubDate>
       <guid>https://meelgroup.github.io/talk/07072020/</guid>
@@ -29,7 +45,15 @@
     </item>
     
     <item>
-      <title>We have released [ApproxMC 4](https://github.com/meelgroup/approxmc).</title>
+      <title>&lt;b&gt;Our Paper on &lt;a href=&#34;https://arxiv.org/abs/2007.10400&#34;&gt;Phase Transition Behaviour in Knowledge Compilation&lt;/a&gt; is accepted to &lt;a href=&#34;https://cp2020.a4cp.org/&#34;&gt;CP 2020&lt;/a&gt;.&lt;/b&gt;&lt;br&gt; Authors: Rahul Gupta, Subhajit Roy and Kuldeep S. Meel</title>
+      <link>https://meelgroup.github.io/talk/08072020/</link>
+      <pubDate>Wed, 08 Jul 2020 00:00:00 +0800</pubDate>
+      <guid>https://meelgroup.github.io/talk/08072020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>&lt;b&gt;We have released [ApproxMC 4](https://github.com/meelgroup/approxmc).&lt;/b&gt;</title>
       <link>https://meelgroup.github.io/talk/13072020/</link>
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0800</pubDate>
       <guid>https://meelgroup.github.io/talk/13072020/</guid>
@@ -242,7 +266,7 @@
     </item>
     
     <item>
-      <title>Our Paper on &lt;a href=&#34;https://arxiv.org/abs/1909.01161&#34;&gt;embedding symbolic knowledge into Neural Networks&lt;/a&gt; is accepted to &lt;a href=&#34;https://nips.cc/&#34;&gt;NeurIPS 2019&lt;/a&gt;.&#34; Authors: Yaqi Xie, Ziwei Xu, Mohan S. Kankanhalli, Kuldeep S. Meel, Harold Soh</title>
+      <title>Our Paper on &lt;a href=&#34;https://arxiv.org/abs/1909.01161&#34;&gt;embedding symbolic knowledge into Neural Networks&lt;/a&gt; is accepted to &lt;a href=&#34;https://nips.cc/&#34;&gt;NeurIPS 2019&lt;/a&gt;. Authors: Yaqi Xie, Ziwei Xu, Mohan S. Kankanhalli, Kuldeep S. Meel, Harold Soh</title>
       <link>https://meelgroup.github.io/talk/01092019/</link>
       <pubDate>Sun, 01 Sep 2019 00:00:00 +0800</pubDate>
       <guid>https://meelgroup.github.io/talk/01092019/</guid>
