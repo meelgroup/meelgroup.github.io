@@ -5,12 +5,20 @@
     <link>https://meelgroup.github.io/author/subhajit-roy/</link>
       <atom:link href="https://meelgroup.github.io/author/subhajit-roy/index.xml" rel="self" type="application/rss+xml" />
     <description>Subhajit Roy</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Mon, 18 May 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Wed, 08 Jul 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://meelgroup.github.io/images/icon_hu1dd832c4da814f17fe02e3737f0ae144_14882_512x512_fill_lanczos_center_2.png</url>
       <title>Subhajit Roy</title>
       <link>https://meelgroup.github.io/author/subhajit-roy/</link>
     </image>
+    
+    <item>
+      <title>Phase Transition Behaviour in Knowledge Compilation</title>
+      <link>https://meelgroup.github.io/publication/cp20/</link>
+      <pubDate>Wed, 08 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/cp20/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Manthan: A Data-Driven Approach for Boolean Function Synthesis</title>
