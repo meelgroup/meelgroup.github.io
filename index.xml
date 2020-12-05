@@ -13,6 +13,14 @@
     </image>
     
     <item>
+      <title>&lt;b&gt;Yash will be presenting our work &lt;a href=&#34;https://arxiv.org/abs/2010.12918&#34;&gt;On Testing of Samplers&lt;/a&gt; at &lt;a href=&#34;https://nips.cc/virtual/2020/public/cal_main.html&#34;&gt;NeurIPS 2021&lt;/a&gt;.&lt;/b&gt; &lt;br&gt; The presentation will be in the Poster Session 6, which is scheduled to be at 1am on Friday (12-Dec-2021).</title>
+      <link>https://meelgroup.github.io/talk/05122020/</link>
+      <pubDate>Sat, 05 Dec 2020 14:15:00 +0800</pubDate>
+      <guid>https://meelgroup.github.io/talk/05122020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Efficient Distance Approximation for Structured High-Dimensional Distributions via Learning</title>
       <link>https://meelgroup.github.io/publication/neurips20_approx/</link>
       <pubDate>Fri, 25 Sep 2020 00:00:00 +0000</pubDate>
@@ -827,6 +835,14 @@ GANAK is a scalable probabilistic exact model counter that inherits the strength
     </item>
     
     <item>
+      <title>Divide and Conquer: Towards Faster Pseudo-Boolean Solving</title>
+      <link>https://meelgroup.github.io/publication/ijcai-2018-180/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/ijcai-2018-180/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Terms</title>
       <link>https://meelgroup.github.io/terms/</link>
       <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
@@ -880,6 +896,14 @@ GANAK is a scalable probabilistic exact model counter that inherits the strength
       <link>https://meelgroup.github.io/publication/aaai17/</link>
       <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
       <guid>https://meelgroup.github.io/publication/aaai17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bounding and Counting Linear Regions of Deep Neural Networks</title>
+      <link>https://meelgroup.github.io/publication/dblp-journalscorrabs-1711-02114/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/dblp-journalscorrabs-1711-02114/</guid>
       <description></description>
     </item>
     
