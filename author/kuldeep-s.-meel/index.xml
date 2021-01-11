@@ -5,12 +5,52 @@
     <link>https://meelgroup.github.io/author/kuldeep-s.-meel/</link>
       <atom:link href="https://meelgroup.github.io/author/kuldeep-s.-meel/index.xml" rel="self" type="application/rss+xml" />
     <description>Kuldeep S. Meel</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Fri, 25 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Mon, 11 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://meelgroup.github.io/images/icon_hu1dd832c4da814f17fe02e3737f0ae144_14882_512x512_fill_lanczos_center_2.png</url>
       <title>Kuldeep S. Meel</title>
       <link>https://meelgroup.github.io/author/kuldeep-s.-meel/</link>
     </image>
+    
+    <item>
+      <title>Counting Maximal Satisfiable Subsets</title>
+      <link>https://meelgroup.github.io/publication/aaai21_mss/</link>
+      <pubDate>Mon, 11 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/aaai21_mss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Justicia A Stochastic SAT Approach to Formally Verify Fairness</title>
+      <link>https://meelgroup.github.io/publication/aaai21_justicia/</link>
+      <pubDate>Mon, 11 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/aaai21_justicia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Predicting Forest Fire Using Remote Sensing Data And Machine Learning</title>
+      <link>https://meelgroup.github.io/publication/aaai21_forest/</link>
+      <pubDate>Mon, 11 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/aaai21_forest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Symmetric Component Caching for Model Counting on Structured Instances</title>
+      <link>https://meelgroup.github.io/publication/aaai21_symganak/</link>
+      <pubDate>Mon, 11 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/aaai21_symganak/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Power of Literal Equivalence in Model Counting</title>
+      <link>https://meelgroup.github.io/publication/aaai21_-exactmc/</link>
+      <pubDate>Mon, 11 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/aaai21_-exactmc/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Efficient Distance Approximation for Structured High-Dimensional Distributions via Learning</title>

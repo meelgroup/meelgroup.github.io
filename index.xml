@@ -13,6 +13,46 @@
     </image>
     
     <item>
+      <title>Counting Maximal Satisfiable Subsets</title>
+      <link>https://meelgroup.github.io/publication/aaai21_mss/</link>
+      <pubDate>Mon, 11 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/aaai21_mss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Justicia A Stochastic SAT Approach to Formally Verify Fairness</title>
+      <link>https://meelgroup.github.io/publication/aaai21_justicia/</link>
+      <pubDate>Mon, 11 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/aaai21_justicia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Predicting Forest Fire Using Remote Sensing Data And Machine Learning</title>
+      <link>https://meelgroup.github.io/publication/aaai21_forest/</link>
+      <pubDate>Mon, 11 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/aaai21_forest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Symmetric Component Caching for Model Counting on Structured Instances</title>
+      <link>https://meelgroup.github.io/publication/aaai21_symganak/</link>
+      <pubDate>Mon, 11 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/aaai21_symganak/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Power of Literal Equivalence in Model Counting</title>
+      <link>https://meelgroup.github.io/publication/aaai21_-exactmc/</link>
+      <pubDate>Mon, 11 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/aaai21_-exactmc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>&lt;b&gt;We will be presenting three papers at &lt;a href=&#34;https://nips.cc/virtual/2020/public/cal_main.html&#34;&gt;NeurIPS-20&lt;/a&gt;.&lt;/b&gt; &lt;br&gt;1. The [first paper](https://arxiv.org/abs/2002.05378) focuses on efficient distance approximation in high dimension distributions. We propose an amazingly simple method that can compute L1 distance with rigorous guarantees. Come [Poster Session 5](https://neurips.cc/virtual/2020/public/poster_a8acc28734d4fe90ea24353d901ae678.html) on Thursday. &lt;br&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp; Joint work with A. Bhattacharya, S. Gayen, and N.V. Vinodchandran &lt;br&gt;2. The [second paper](https://arxiv.org/abs/2010.12918) provides the first scalable method to test samplers in practice. Barbarik can now test samplers that sample from log-linear models. If you propose a sampling technique but can&amp;apos;t prove its correctness, you can now use Barbarik to check its quality. Just the way we use testing for our software. ([Poster](https://t.co/zRZVsPZNka?amp=1)) &lt;br&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp; Joint work with S. Chakraborty and Y. Pote &lt;br&gt;3. The [third paper](https://arxiv.org/abs/2010.10724) seeks to tame discrete integration with the boon of dimensionality (Yes, the boon not the curse). We extended our IJCAI-15&amp;apos;s work of weighted to unweighted counting (thereby increasing the dimensionality) to handle rational weights. ([Poster](https://t.co/J4rYz0j8Vh?amp=1)) &lt;br&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp; Joint work with J.M. Dudek and D. Fried</title>
       <link>https://meelgroup.github.io/talk/05122020/</link>
       <pubDate>Sat, 05 Dec 2020 14:15:00 +0800</pubDate>
@@ -843,14 +883,6 @@ GANAK is a scalable probabilistic exact model counter that inherits the strength
     </item>
     
     <item>
-      <title>Divide and Conquer: Towards Faster Pseudo-Boolean Solving</title>
-      <link>https://meelgroup.github.io/publication/ijcai-2018-180/</link>
-      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>https://meelgroup.github.io/publication/ijcai-2018-180/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Terms</title>
       <link>https://meelgroup.github.io/terms/</link>
       <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
@@ -904,14 +936,6 @@ GANAK is a scalable probabilistic exact model counter that inherits the strength
       <link>https://meelgroup.github.io/publication/aaai17/</link>
       <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
       <guid>https://meelgroup.github.io/publication/aaai17/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bounding and Counting Linear Regions of Deep Neural Networks</title>
-      <link>https://meelgroup.github.io/publication/dblp-journalscorrabs-1711-02114/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://meelgroup.github.io/publication/dblp-journalscorrabs-1711-02114/</guid>
       <description></description>
     </item>
     
