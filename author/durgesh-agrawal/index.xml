@@ -7,14 +7,13 @@
     <description>Durgesh Agrawal</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Tue, 19 May 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://meelgroup.github.io/author/durgesh-agrawal/avatar_hu33d8f2710ea4928d295bd08cdc05f6eb_58339_270x270_fill_q90_lanczos_center.jpg</url>
+      <url>https://meelgroup.github.io/images/icon_hu1dd832c4da814f17fe02e3737f0ae144_14882_512x512_fill_lanczos_center_2.png</url>
       <title>Durgesh Agrawal</title>
       <link>https://meelgroup.github.io/author/durgesh-agrawal/</link>
     </image>
     
-  </channel>
-</rss>
-f XORs in Approximate Model Counting</title>
+    <item>
+      <title>On the Sparsity of XORs in Approximate Model Counting</title>
       <link>https://meelgroup.github.io/publication/sat20abm/</link>
       <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
       <guid>https://meelgroup.github.io/publication/sat20abm/</guid>
