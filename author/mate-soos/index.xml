@@ -5,12 +5,20 @@
     <link>https://meelgroup.github.io/author/mate-soos/</link>
       <atom:link href="https://meelgroup.github.io/author/mate-soos/index.xml" rel="self" type="application/rss+xml" />
     <description>Mate Soos</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Mon, 18 May 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Sun, 11 Jul 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://meelgroup.github.io/images/icon_hu1dd832c4da814f17fe02e3737f0ae144_14882_512x512_fill_lanczos_center_2.png</url>
       <title>Mate Soos</title>
       <link>https://meelgroup.github.io/author/mate-soos/</link>
     </image>
+    
+    <item>
+      <title>Designing Samplers is Easy: The Boon of Testers</title>
+      <link>https://meelgroup.github.io/publication/fmcad21/</link>
+      <pubDate>Sun, 11 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/fmcad21/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Tinted, Detached, and Lazy CNF-XOR solving and its Applications to Counting and Sampling</title>

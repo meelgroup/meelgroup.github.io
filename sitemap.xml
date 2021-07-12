@@ -3,57 +3,117 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://meelgroup.github.io/talk/11072021/</loc>
+    <lastmod>2021-07-11T14:15:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/talk/</loc>
+    <lastmod>2021-07-11T14:15:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication-type/1/</loc>
+    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/authors/</loc>
+    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/fmcad21/</loc>
+    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/kuldeep-s.-meel/</loc>
+    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/kuldeep-s.-meel/</loc>
+    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/mate-soos/</loc>
+    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/mate-soos/</loc>
+    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/priyanka-golia/</loc>
+    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/priyanka-golia/</loc>
+    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication_types/</loc>
+    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/</loc>
+    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/sourav-chakraborty/</loc>
+    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/sourav-chakraborty/</loc>
+    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/talk/01052021/</loc>
+    <lastmod>2021-05-01T14:15:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/durgesh-agrawal/</loc>
+    <lastmod>2021-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/durgesh-agrawal/</loc>
+    <lastmod>2021-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/ijcai21_partition/</loc>
+    <lastmod>2021-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/yash-pote/</loc>
+    <lastmod>2021-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/yash-pote/</loc>
+    <lastmod>2021-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://meelgroup.github.io/talk/30042021/</loc>
     <lastmod>2021-04-30T14:15:00+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://meelgroup.github.io/talk/</loc>
-    <lastmod>2021-04-30T14:15:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://meelgroup.github.io/publication-type/1/</loc>
-    <lastmod>2021-04-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://meelgroup.github.io/authors/</loc>
-    <lastmod>2021-04-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://meelgroup.github.io/author/kuldeep-s.-meel/</loc>
-    <lastmod>2021-04-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://meelgroup.github.io/author/kuldeep-s.-meel/</loc>
-    <lastmod>2021-04-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://meelgroup.github.io/author/priyanka-golia/</loc>
-    <lastmod>2021-04-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://meelgroup.github.io/author/priyanka-golia/</loc>
-    <lastmod>2021-04-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://meelgroup.github.io/publication/ijcai21_programsynthesis/</loc>
-    <lastmod>2021-04-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://meelgroup.github.io/publication_types/</loc>
-    <lastmod>2021-04-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://meelgroup.github.io/publication/</loc>
     <lastmod>2021-04-30T00:00:00+00:00</lastmod>
   </url>
   
@@ -248,32 +308,12 @@
   </url>
   
   <url>
-    <loc>https://meelgroup.github.io/author/sourav-chakraborty/</loc>
-    <lastmod>2020-09-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://meelgroup.github.io/author/sourav-chakraborty/</loc>
-    <lastmod>2020-09-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://meelgroup.github.io/author/sutanu-gayen/</loc>
     <lastmod>2020-09-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://meelgroup.github.io/publication/neurips20_taming/</loc>
-    <lastmod>2020-09-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://meelgroup.github.io/author/yash-pote/</loc>
-    <lastmod>2020-09-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://meelgroup.github.io/author/yash-pote/</loc>
     <lastmod>2020-09-25T00:00:00+00:00</lastmod>
   </url>
   
@@ -368,16 +408,6 @@
   </url>
   
   <url>
-    <loc>https://meelgroup.github.io/author/durgesh-agrawal/</loc>
-    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://meelgroup.github.io/author/durgesh-agrawal/</loc>
-    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://meelgroup.github.io/publication/sat20abm/</loc>
     <lastmod>2020-05-19T00:00:00+00:00</lastmod>
   </url>
@@ -399,16 +429,6 @@
   
   <url>
     <loc>https://meelgroup.github.io/publication/cav20_manthan/</loc>
-    <lastmod>2020-05-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://meelgroup.github.io/author/mate-soos/</loc>
-    <lastmod>2020-05-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://meelgroup.github.io/author/mate-soos/</loc>
     <lastmod>2020-05-18T00:00:00+00:00</lastmod>
   </url>
   
