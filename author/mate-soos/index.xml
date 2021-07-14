@@ -21,6 +21,14 @@
     </item>
     
     <item>
+      <title>Leveraging GPUs for Effective Clause Sharing in Parallel SAT Solving</title>
+      <link>https://meelgroup.github.io/publication/sat21_gpu/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/sat21_gpu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Tinted, Detached, and Lazy CNF-XOR solving and its Applications to Counting and Sampling</title>
       <link>https://meelgroup.github.io/publication/cav20sgm/</link>
       <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>

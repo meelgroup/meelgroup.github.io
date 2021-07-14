@@ -21,6 +21,30 @@
     </item>
     
     <item>
+      <title>Counting Minimal Unsatisfiable Subsets</title>
+      <link>https://meelgroup.github.io/publication/cav21_mus/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/cav21_mus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Leveraging GPUs for Effective Clause Sharing in Parallel SAT Solving</title>
+      <link>https://meelgroup.github.io/publication/sat21_gpu/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/sat21_gpu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the Usefulness of Linear Modular Arithmetic in Constraint Programming</title>
+      <link>https://meelgroup.github.io/publication/cpaior21_linmodar/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/cpaior21_linmodar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Partition Function Estimation: A Quantitative Study</title>
       <link>https://meelgroup.github.io/publication/ijcai21_partition/</link>
       <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
@@ -78,9 +102,9 @@
     
     <item>
       <title>The Power of Literal Equivalence in Model Counting</title>
-      <link>https://meelgroup.github.io/publication/aaai21_-exactmc/</link>
+      <link>https://meelgroup.github.io/publication/aaai21_exactmc/</link>
       <pubDate>Mon, 11 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://meelgroup.github.io/publication/aaai21_-exactmc/</guid>
+      <guid>https://meelgroup.github.io/publication/aaai21_exactmc/</guid>
       <description></description>
     </item>
     
