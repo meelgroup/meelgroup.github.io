@@ -5,12 +5,20 @@
     <link>https://meelgroup.github.io/publication/</link>
       <atom:link href="https://meelgroup.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Tue, 13 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Wed, 28 Jul 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://meelgroup.github.io/images/icon_hu1dd832c4da814f17fe02e3737f0ae144_14882_512x512_fill_lanczos_center_2.png</url>
       <title>Publications</title>
       <link>https://meelgroup.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Engineering an Efficient PB-XOR Solver</title>
+      <link>https://meelgroup.github.io/publication/cp21/</link>
+      <pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/cp21/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Engineering an Efficient Boolean Functional Synthesis Engine</title>

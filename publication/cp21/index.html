@@ -27,10 +27,10 @@
   
     
   
-  <meta name="description" content="Computer Science Department, School of Computing National University of Singapore">
+  <meta name="description" content="Despite the NP-completeness of Boolean satisfiability, modern SAT solvers are routinely able to handle large practical instances, and consequently have found wide ranging applications. The primary workhorse behind the success of SAT solvers is the widely acclaimed Conflict Driven Clause Learning (CDCL) paradigm, which was originally proposed in the context of Boolean formulas in CNF. The wide ranging applications of SAT solvers have highlighted that for several domains, CNF is not a natural representation and the reliance of modern SAT solvers on resolution proof system limit their ability to efficiently solve several families of constraints. Consequently, the past decade has witnessed the design of solvers with native support for constraints such as Pseudo-Boolean (PB) and CNF-XOR. The primary contribution of our work is an efficient solver engineered for PB-XOR formulas, i.e., formulas consisting of a conjunction of PB and XOR constraints. We first observe that a simple adaption of CNF-XOR architecture does not provide an improvement over baseline; our analysis highlights the need for careful engineering of the order of propagations. To this end, we propose three different tactics, all of which achieve significant performance improvements over the baseline. Our work is motivated by applications arising from binarized neural network verification where the verification of properties such as robustness, fairness, trojan attacks can be reduced to model counting queries; the state of the art model counters reduce counting to polynomially many SAT queries over the original formula conjuncted with randomly generated XOR constraints. To this end, we augment ApproxMC with LinPB and we call the resulting counter as ApproxMCPB. In an extensive empirical comparison over 1076 benchmarks, we observe that ApproxMCPB can solve 912 instances while the baseline version of ApproxMC4 (augmented with CryptoMiniSat) can solve only 802 instances.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://meelgroup.github.io/authors/">
+  <link rel="alternate" hreflang="en-us" href="https://meelgroup.github.io/publication/cp21/">
 
   
 
@@ -215,14 +215,12 @@
   
 
   
-  <link rel="alternate" href="/authors/index.xml" type="application/rss+xml" title="MeelGroup">
-  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/images/icon_hu1dd832c4da814f17fe02e3737f0ae144_14882_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu1dd832c4da814f17fe02e3737f0ae144_14882_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://meelgroup.github.io/authors/">
+  <link rel="canonical" href="https://meelgroup.github.io/publication/cp21/">
 
   
   
@@ -238,18 +236,61 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="MeelGroup">
-  <meta property="og:url" content="https://meelgroup.github.io/authors/">
-  <meta property="og:title" content="Authors | MeelGroup">
-  <meta property="og:description" content="Computer Science Department, School of Computing National University of Singapore"><meta property="og:image" content="https://meelgroup.github.io/images/icon_hu1dd832c4da814f17fe02e3737f0ae144_14882_512x512_fill_lanczos_center_2.png">
+  <meta property="og:url" content="https://meelgroup.github.io/publication/cp21/">
+  <meta property="og:title" content="Engineering an Efficient PB-XOR Solver | MeelGroup">
+  <meta property="og:description" content="Despite the NP-completeness of Boolean satisfiability, modern SAT solvers are routinely able to handle large practical instances, and consequently have found wide ranging applications. The primary workhorse behind the success of SAT solvers is the widely acclaimed Conflict Driven Clause Learning (CDCL) paradigm, which was originally proposed in the context of Boolean formulas in CNF. The wide ranging applications of SAT solvers have highlighted that for several domains, CNF is not a natural representation and the reliance of modern SAT solvers on resolution proof system limit their ability to efficiently solve several families of constraints. Consequently, the past decade has witnessed the design of solvers with native support for constraints such as Pseudo-Boolean (PB) and CNF-XOR. The primary contribution of our work is an efficient solver engineered for PB-XOR formulas, i.e., formulas consisting of a conjunction of PB and XOR constraints. We first observe that a simple adaption of CNF-XOR architecture does not provide an improvement over baseline; our analysis highlights the need for careful engineering of the order of propagations. To this end, we propose three different tactics, all of which achieve significant performance improvements over the baseline. Our work is motivated by applications arising from binarized neural network verification where the verification of properties such as robustness, fairness, trojan attacks can be reduced to model counting queries; the state of the art model counters reduce counting to polynomially many SAT queries over the original formula conjuncted with randomly generated XOR constraints. To this end, we augment ApproxMC with LinPB and we call the resulting counter as ApproxMCPB. In an extensive empirical comparison over 1076 benchmarks, we observe that ApproxMCPB can solve 912 instances while the baseline version of ApproxMC4 (augmented with CryptoMiniSat) can solve only 802 instances."><meta property="og:image" content="https://meelgroup.github.io/images/icon_hu1dd832c4da814f17fe02e3737f0ae144_14882_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="https://meelgroup.github.io/images/icon_hu1dd832c4da814f17fe02e3737f0ae144_14882_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2021-07-28T00:00:00&#43;00:00">
+    
+      <meta property="article:published_time" content="2021-07-28T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2021-07-28T00:00:00&#43;00:00">
   
 
   
 
 
+    
 
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://meelgroup.github.io/publication/cp21/"
+  },
+  "headline": "Engineering an Efficient PB-XOR Solver",
+  
+  "datePublished": "2021-07-28T00:00:00Z",
+  "dateModified": "2021-07-28T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Jiong Yang"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Meel Group",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://meelgroup.github.io/images/icon_hu1dd832c4da814f17fe02e3737f0ae144_14882_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "Despite the NP-completeness of Boolean satisfiability, modern SAT solvers are routinely able to handle large practical instances, and consequently have found wide ranging applications. The primary workhorse behind the success of SAT solvers is the widely acclaimed Conflict Driven Clause Learning (CDCL) paradigm, which was originally proposed in the context of Boolean formulas in CNF. The wide ranging applications of SAT solvers have highlighted that for several domains, CNF is not a natural representation and the reliance of modern SAT solvers on resolution proof system limit their ability to efficiently solve several families of constraints. Consequently, the past decade has witnessed the design of solvers with native support for constraints such as Pseudo-Boolean (PB) and CNF-XOR. The primary contribution of our work is an efficient solver engineered for PB-XOR formulas, i.e., formulas consisting of a conjunction of PB and XOR constraints. We first observe that a simple adaption of CNF-XOR architecture does not provide an improvement over baseline; our analysis highlights the need for careful engineering of the order of propagations. To this end, we propose three different tactics, all of which achieve significant performance improvements over the baseline. Our work is motivated by applications arising from binarized neural network verification where the verification of properties such as robustness, fairness, trojan attacks can be reduced to model counting queries; the state of the art model counters reduce counting to polynomially many SAT queries over the original formula conjuncted with randomly generated XOR constraints. To this end, we augment ApproxMC with LinPB and we call the resulting counter as ApproxMCPB. In an extensive empirical comparison over 1076 benchmarks, we observe that ApproxMCPB can solve 912 instances while the baseline version of ApproxMC4 (augmented with CryptoMiniSat) can solve only 802 instances."
+}
+</script>
+
+  
 
   
 
@@ -257,10 +298,13 @@
   
 
 
+  
 
 
 
-  <title>Authors | MeelGroup</title>
+
+
+  <title>Engineering an Efficient PB-XOR Solver | MeelGroup</title>
 
 </head>
 
@@ -637,6 +681,92 @@
 </nav>
 
 
+  <div class="pub">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Engineering an Efficient PB-XOR Solver</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  
+  <span><a href="https://github.com/AL-JiongYang">Jiong Yang</a></span>,&nbsp;and <span><a href="http://www.comp.nus.edu.sg/~meel/">Kuldeep S. Meel</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    July 2021
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+<div class="btn-links mb-3">
+  
   
 
 
@@ -646,80 +776,249 @@
 
 
 
-
-
-
-
-
-
+  
+    
   
 
-  
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="/files/publications/CP21.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
+        data-filename="/publication/cp21/cite.bib">
+  Cite
+</button>
+
+
   
   
     
   
-<div class="universal-wrapper pt-3">
-  <h1>Authors</h1>
+<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/meelgroup/linpb" target="_blank" rel="noopener">
+  Code
+</a>
+
 
   
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="https://doi.org/10.5281/zenodo.5526835" target="_blank" rel="noopener">
+  Dataset
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
 
   
 </div>
 
 
 
-<div class="universal-wrapper">
-  
+  <div class="article-container">
 
-  <ul>
     
+    <h3>Abstract</h3>
+    <p class="pub-abstract">Despite the NP-completeness of Boolean satisfiability, modern SAT solvers are routinely able to handle large practical instances, and consequently have found wide ranging applications. The primary workhorse behind the success of SAT solvers is the widely acclaimed Conflict Driven Clause Learning (CDCL) paradigm, which was originally proposed in the context of Boolean formulas in CNF. The wide ranging applications of SAT solvers have highlighted that for several domains, CNF is not a natural representation and the reliance of modern SAT solvers on resolution proof system limit their ability to efficiently solve several families of constraints. Consequently, the past decade has witnessed the design of solvers with native support for constraints such as Pseudo-Boolean (PB) and CNF-XOR. The primary contribution of our work is an efficient solver engineered for PB-XOR formulas, i.e., formulas consisting of a conjunction of PB and XOR constraints. We first observe that a simple adaption of CNF-XOR architecture does not provide an improvement over baseline; our analysis highlights the need for careful engineering of the order of propagations. To this end, we propose three different tactics, all of which achieve significant performance improvements over the baseline. Our work is motivated by applications arising from binarized neural network verification where the verification of properties such as robustness, fairness, trojan attacks can be reduced to model counting queries; the state of the art model counters reduce counting to polynomially many SAT queries over the original formula conjuncted with randomly generated XOR constraints. To this end, we augment ApproxMC with LinPB and we call the resulting counter as ApproxMCPB. In an extensive empirical comparison over 1076 benchmarks, we observe that ApproxMCPB can solve 912 instances while the baseline version of ApproxMC4 (augmented with CryptoMiniSat) can solve only 802 instances.</p>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            
+            <a href="/publication/#1">
+              Conference paper
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">In <em>Proceedings of International Conference on Constraint Programming (CP)</em></div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
     
       
-      <li><a href="https://meelgroup.github.io/author/shweta-shinde/">Shweta Shinde</a></li>
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://meelgroup.github.io/publication/cp21/&amp;text=Engineering%20an%20Efficient%20PB-XOR%20Solver" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
     
       
-      <li><a href="https://meelgroup.github.io/author/alexis-colnet/">Alexis Colnet</a></li>
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://meelgroup.github.io/publication/cp21/&amp;t=Engineering%20an%20Efficient%20PB-XOR%20Solver" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
     
       
-      <li><a href="https://meelgroup.github.io/author/alexis-de-colnet/">Alexis de Colnet</a></li>
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Engineering%20an%20Efficient%20PB-XOR%20Solver&amp;body=https://meelgroup.github.io/publication/cp21/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
     
       
-      <li><a href="https://meelgroup.github.io/author/leonardo-duenas-osorio/">Leonardo Duenas-Osorio</a></li>
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://meelgroup.github.io/publication/cp21/&amp;title=Engineering%20an%20Efficient%20PB-XOR%20Solver" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
     
       
-      <li><a href="https://meelgroup.github.io/author/moshe-y.-vardi/">Moshe Y. Vardi</a></li>
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=Engineering%20an%20Efficient%20PB-XOR%20Solver%20https://meelgroup.github.io/publication/cp21/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
     
       
-      <li><a href="https://meelgroup.github.io/author/roger-paredes/">Roger Paredes</a></li>
-    
       
-      <li><a href="https://meelgroup.github.io/author/aditya-a.-shrotri/">Aditya A. Shrotri</a></li>
-    
       
-      <li><a href="https://meelgroup.github.io/author/saurabh-joshi/">Saurabh Joshi</a></li>
-    
+        
       
-      <li><a href="https://meelgroup.github.io/author/aditya-shrotri/">Aditya Shrotri</a></li>
-    
       
-      <li><a href="https://meelgroup.github.io/author/alexey-ignatiev/">Alexey Ignatiev</a></li>
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://meelgroup.github.io/publication/cp21/&amp;title=Engineering%20an%20Efficient%20PB-XOR%20Solver" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
     
   </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
 
   
-<nav>
-  <ul class="pagination justify-content-center">
-    
-    <li class="page-item"><a class="page-link" href="/authors/page/7/">&laquo;</a></li>
     
     
-    <li class="page-item"><a class="page-link" href="/authors/page/9/">&raquo;</a></li>
-    
-  </ul>
-</nav>
 
 
+
+
+
+  
+
+
+  
+    
+    
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  </div>
 </div>
 
       
