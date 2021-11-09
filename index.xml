@@ -13,6 +13,22 @@
     </image>
     
     <item>
+      <title>Testing Probabilistic Circuits</title>
+      <link>https://meelgroup.github.io/publication/neurips21_teq/</link>
+      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/neurips21_teq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>&lt;b&gt;Our paper on &lt;a href=&#34;https://meelgroup.github.io/files/publications/NeurIPS21_PCtest.pdf&#34;&gt;Testing of Probabilistic Cirucits&lt;/a&gt; is accepted to &lt;a href=&#34;https://nips.cc/&#34;&gt;NeurIPS 2021&lt;/a&gt;.&lt;/b&gt;&lt;br&gt; Authors: Yash Pote and Kuldeep S. Meel</title>
+      <link>https://meelgroup.github.io/talk/07112021/</link>
+      <pubDate>Sun, 07 Nov 2021 00:00:00 +0800</pubDate>
+      <guid>https://meelgroup.github.io/talk/07112021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Engineering an Efficient PB-XOR Solver</title>
       <link>https://meelgroup.github.io/publication/cp21/</link>
       <pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate>

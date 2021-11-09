@@ -5,12 +5,20 @@
     <link>https://meelgroup.github.io/talk/</link>
       <atom:link href="https://meelgroup.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>News</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Wed, 28 Jul 2021 00:00:00 +0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Sun, 07 Nov 2021 00:00:00 +0800</lastBuildDate>
     <image>
       <url>https://meelgroup.github.io/images/icon_hu1dd832c4da814f17fe02e3737f0ae144_14882_512x512_fill_lanczos_center_2.png</url>
       <title>News</title>
       <link>https://meelgroup.github.io/talk/</link>
     </image>
+    
+    <item>
+      <title>&lt;b&gt;Our paper on &lt;a href=&#34;https://meelgroup.github.io/files/publications/NeurIPS21_PCtest.pdf&#34;&gt;Testing of Probabilistic Cirucits&lt;/a&gt; is accepted to &lt;a href=&#34;https://nips.cc/&#34;&gt;NeurIPS 2021&lt;/a&gt;.&lt;/b&gt;&lt;br&gt; Authors: Yash Pote and Kuldeep S. Meel</title>
+      <link>https://meelgroup.github.io/talk/07112021/</link>
+      <pubDate>Sun, 07 Nov 2021 00:00:00 +0800</pubDate>
+      <guid>https://meelgroup.github.io/talk/07112021/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>&lt;b&gt;Our paper on &lt;a href=&#34;https://meelgroup.github.io/files/publications/CP21.pdf&#34;&gt;Engineering an Efficient PB-XOR Solver&lt;/a&gt; is accepted to &lt;a href=&#34;https://cp2021.a4cp.org/&#34;&gt;CP 2021&lt;/a&gt;.&lt;/b&gt;&lt;br&gt; Authors: Jiong Yang and Kuldeep S. Meel</title>
