@@ -5,12 +5,28 @@
     <link>https://meelgroup.github.io/author/priyanka-golia/</link>
       <atom:link href="https://meelgroup.github.io/author/priyanka-golia/index.xml" rel="self" type="application/rss+xml" />
     <description>Priyanka Golia</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Tue, 13 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Mon, 09 May 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://meelgroup.github.io/images/icon_hu1dd832c4da814f17fe02e3737f0ae144_14882_512x512_fill_lanczos_center_2.png</url>
       <title>Priyanka Golia</title>
       <link>https://meelgroup.github.io/author/priyanka-golia/</link>
     </image>
+    
+    <item>
+      <title>A Scalable Shannon Entropy Estimator</title>
+      <link>https://meelgroup.github.io/publication/cav22/</link>
+      <pubDate>Mon, 09 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/cav22/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On Quantitative Testing of Samplers</title>
+      <link>https://meelgroup.github.io/publication/cp22/</link>
+      <pubDate>Mon, 09 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/cp22/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Engineering an Efficient Boolean Functional Synthesis Engine</title>
