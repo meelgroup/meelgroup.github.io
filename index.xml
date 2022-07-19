@@ -13,6 +13,30 @@
     </image>
     
     <item>
+      <title>On Almost-Uniform Generation of SAT Solutions: The power of 3-wise independent hashing</title>
+      <link>https://meelgroup.github.io/publication/lics22/</link>
+      <pubDate>Thu, 23 Jun 2022 00:00:01 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/lics22/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Estimation of the Size of Union of Delphic Sets: Achieving Independence from Stream Size</title>
+      <link>https://meelgroup.github.io/publication/pods22/</link>
+      <pubDate>Wed, 22 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/pods22/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ApproxASP – A Scalable Approximate Answer Set Counter</title>
+      <link>https://meelgroup.github.io/publication/aaai22-approxasp/</link>
+      <pubDate>Thu, 09 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/aaai22-approxasp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Algorithmic Fairness Verification with Graphical Models</title>
       <link>https://meelgroup.github.io/publication/aaai22_fvgm/</link>
       <pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate>

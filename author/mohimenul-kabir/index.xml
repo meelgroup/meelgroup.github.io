@@ -14,3 +14,15 @@
     
   </channel>
 </rss>
+    </image>
+    
+    <item>
+      <title>ApproxASP – A Scalable Approximate Answer Set Counter</title>
+      <link>https://meelgroup.github.io/publication/aaai22-approxasp/</link>
+      <pubDate>Thu, 09 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/aaai22-approxasp/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

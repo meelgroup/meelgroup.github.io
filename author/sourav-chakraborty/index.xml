@@ -5,12 +5,20 @@
     <link>https://meelgroup.github.io/author/sourav-chakraborty/</link>
       <atom:link href="https://meelgroup.github.io/author/sourav-chakraborty/index.xml" rel="self" type="application/rss+xml" />
     <description>Sourav Chakraborty</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Mon, 09 May 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Wed, 22 Jun 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://meelgroup.github.io/images/icon_hu1dd832c4da814f17fe02e3737f0ae144_14882_512x512_fill_lanczos_center_2.png</url>
       <title>Sourav Chakraborty</title>
       <link>https://meelgroup.github.io/author/sourav-chakraborty/</link>
     </image>
+    
+    <item>
+      <title>Estimation of the Size of Union of Delphic Sets: Achieving Independence from Stream Size</title>
+      <link>https://meelgroup.github.io/publication/pods22/</link>
+      <pubDate>Wed, 22 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/pods22/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>On Quantitative Testing of Samplers</title>
