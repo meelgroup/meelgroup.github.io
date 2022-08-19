@@ -5,12 +5,20 @@
     <link>https://meelgroup.github.io/publication/</link>
       <atom:link href="https://meelgroup.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Thu, 23 Jun 2022 00:00:01 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Mon, 01 Aug 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://meelgroup.github.io/images/icon_hu1dd832c4da814f17fe02e3737f0ae144_14882_512x512_fill_lanczos_center_2.png</url>
       <title>Publications</title>
       <link>https://meelgroup.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Projected Model Counting: Beyond Independent Support</title>
+      <link>https://meelgroup.github.io/publication/atva22/</link>
+      <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/atva22/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>On Almost-Uniform Generation of SAT Solutions: The power of 3-wise independent hashing</title>

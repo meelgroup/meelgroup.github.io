@@ -27,10 +27,10 @@
   
     
   
-  <meta name="description" content="The problem of uniform sampling is, given a formula F , sample solutions of F uniformly atrandom from the solution space of F . Uniform sampling is a fundamental problem with widespread applications, including configuration testing, bug synthesis, function synthesis, and many more. State-of-the-art approaches for uniform sampling have a trade-off between scalability and theoretical guarantees. Many state of the art uniform samplers do not provide any theoretical guarantees on the distribution of samples generated, however, empirically they have shown promising results. In such cases, the main challenge is to test whether the distribution according to which samples are generated is indeed uniform or not. Recently, Chakraborty and Meel (2019) designed the first scalable sampling tester, Barbarik, based on a grey-box sampling technique for testing if the distribution, according to which the given sampler is sampling, is close to the uniform or far from uniform. They were able to show that many off-the-self samplers are far from a uniform sampler. The availability of Barbarik increased the test-driven development of samplers. More recently, Golia, Soos, Chakraborty and Meel (2021), designed a uniform like sampler, CMSGen, which was shown to be accepted by Barbarik on all the instances. However, CMSGen does not provide any theoretical analysis of the sampling quality. CMSGen leads us to observe the need for a tester to provide a quantitative answer to determine the quality of underlying samplers instead of merely a qualitative answer of Accept or Reject. Towards this goal, we design a computational hardness-based tester ScalBarbarik that provides a more nuanced analysis of the quality of a sampler. ScalBarbarik allows more expressive measurement of the quality of the underlying samplers. We empirically show that the state-of-the-art sampler, CMSGen is not accepted as a uniform-like sampler by ScalBarbarik. Furthermore, we show that ScalBarbarik can be used to design a sampler that can achieve balance between scalability and uniformity.">
+  <meta name="description" content="Given a system of constraints over a set $X$ of variables, projected model counting asks us to count satisfying assignments of the constraint system projected on a subset $P$ of $X$. A key idea used in modern projected counters is to first compute an &lt;em&gt;independent support&lt;/em&gt;, say $I$, that is often a small subset of $P$, and to then count models projected on $I$ instead of on $P$. While this has been effective in scaling performance of counters, the question of whether we can benefit by projecting on variables beyond $P$ has not been explored. In this paper, we study this question and show that contrary to intuition, it can be beneficial to project on variables even beyond $P$. In several applications, a good upper bound of the projected model count often suffices. We show that in several such cases, we can identify a set of variables, called &lt;em&gt;upper bound support (UBS)&lt;/em&gt;, that is not necessarily a subset of $P$, and yet counting models projected on UBS guarantees an upper bound of the projected model count. Theoretically, a UBS can be exponentially smaller than the smallest independent support. Our experiments show that even otherwise, UBS-based projected counting can be faster than independent support-based projected counting, while yielding bounds of high quality. Based on extensive experiments, we find that UBS-based projected counting can solve many problem instances that are beyond the reach of a state-of-the-art independent support-based projected model counter.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://meelgroup.github.io/publication/cp22/">
+  <link rel="alternate" hreflang="en-us" href="https://meelgroup.github.io/publication/atva22/">
 
   
 
@@ -220,7 +220,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hu1dd832c4da814f17fe02e3737f0ae144_14882_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu1dd832c4da814f17fe02e3737f0ae144_14882_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://meelgroup.github.io/publication/cp22/">
+  <link rel="canonical" href="https://meelgroup.github.io/publication/atva22/">
 
   
   
@@ -236,15 +236,15 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="MeelGroup">
-  <meta property="og:url" content="https://meelgroup.github.io/publication/cp22/">
-  <meta property="og:title" content="On Quantitative Testing of Samplers | MeelGroup">
-  <meta property="og:description" content="The problem of uniform sampling is, given a formula F , sample solutions of F uniformly atrandom from the solution space of F . Uniform sampling is a fundamental problem with widespread applications, including configuration testing, bug synthesis, function synthesis, and many more. State-of-the-art approaches for uniform sampling have a trade-off between scalability and theoretical guarantees. Many state of the art uniform samplers do not provide any theoretical guarantees on the distribution of samples generated, however, empirically they have shown promising results. In such cases, the main challenge is to test whether the distribution according to which samples are generated is indeed uniform or not. Recently, Chakraborty and Meel (2019) designed the first scalable sampling tester, Barbarik, based on a grey-box sampling technique for testing if the distribution, according to which the given sampler is sampling, is close to the uniform or far from uniform. They were able to show that many off-the-self samplers are far from a uniform sampler. The availability of Barbarik increased the test-driven development of samplers. More recently, Golia, Soos, Chakraborty and Meel (2021), designed a uniform like sampler, CMSGen, which was shown to be accepted by Barbarik on all the instances. However, CMSGen does not provide any theoretical analysis of the sampling quality. CMSGen leads us to observe the need for a tester to provide a quantitative answer to determine the quality of underlying samplers instead of merely a qualitative answer of Accept or Reject. Towards this goal, we design a computational hardness-based tester ScalBarbarik that provides a more nuanced analysis of the quality of a sampler. ScalBarbarik allows more expressive measurement of the quality of the underlying samplers. We empirically show that the state-of-the-art sampler, CMSGen is not accepted as a uniform-like sampler by ScalBarbarik. Furthermore, we show that ScalBarbarik can be used to design a sampler that can achieve balance between scalability and uniformity."><meta property="og:image" content="https://meelgroup.github.io/images/icon_hu1dd832c4da814f17fe02e3737f0ae144_14882_512x512_fill_lanczos_center_2.png">
+  <meta property="og:url" content="https://meelgroup.github.io/publication/atva22/">
+  <meta property="og:title" content="Projected Model Counting: Beyond Independent Support | MeelGroup">
+  <meta property="og:description" content="Given a system of constraints over a set $X$ of variables, projected model counting asks us to count satisfying assignments of the constraint system projected on a subset $P$ of $X$. A key idea used in modern projected counters is to first compute an &lt;em&gt;independent support&lt;/em&gt;, say $I$, that is often a small subset of $P$, and to then count models projected on $I$ instead of on $P$. While this has been effective in scaling performance of counters, the question of whether we can benefit by projecting on variables beyond $P$ has not been explored. In this paper, we study this question and show that contrary to intuition, it can be beneficial to project on variables even beyond $P$. In several applications, a good upper bound of the projected model count often suffices. We show that in several such cases, we can identify a set of variables, called &lt;em&gt;upper bound support (UBS)&lt;/em&gt;, that is not necessarily a subset of $P$, and yet counting models projected on UBS guarantees an upper bound of the projected model count. Theoretically, a UBS can be exponentially smaller than the smallest independent support. Our experiments show that even otherwise, UBS-based projected counting can be faster than independent support-based projected counting, while yielding bounds of high quality. Based on extensive experiments, we find that UBS-based projected counting can solve many problem instances that are beyond the reach of a state-of-the-art independent support-based projected model counter."><meta property="og:image" content="https://meelgroup.github.io/images/icon_hu1dd832c4da814f17fe02e3737f0ae144_14882_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="https://meelgroup.github.io/images/icon_hu1dd832c4da814f17fe02e3737f0ae144_14882_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2022-05-09T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2022-08-01T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2022-05-09T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2022-08-01T00:00:00&#43;00:00">
   
 
   
@@ -266,16 +266,16 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://meelgroup.github.io/publication/cp22/"
+    "@id": "https://meelgroup.github.io/publication/atva22/"
   },
-  "headline": "On Quantitative Testing of Samplers",
+  "headline": "Projected Model Counting: Beyond Independent Support",
   
-  "datePublished": "2022-05-09T00:00:00Z",
-  "dateModified": "2022-05-09T00:00:00Z",
+  "datePublished": "2022-08-01T00:00:00Z",
+  "dateModified": "2022-08-01T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Mate Soos"
+    "name": "Jiong Yang"
   },
   
   "publisher": {
@@ -286,7 +286,7 @@
       "url": "https://meelgroup.github.io/images/icon_hu1dd832c4da814f17fe02e3737f0ae144_14882_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "The problem of uniform sampling is, given a formula F , sample solutions of F uniformly atrandom from the solution space of F . Uniform sampling is a fundamental problem with widespread applications, including configuration testing, bug synthesis, function synthesis, and many more. State-of-the-art approaches for uniform sampling have a trade-off between scalability and theoretical guarantees. Many state of the art uniform samplers do not provide any theoretical guarantees on the distribution of samples generated, however, empirically they have shown promising results. In such cases, the main challenge is to test whether the distribution according to which samples are generated is indeed uniform or not. Recently, Chakraborty and Meel (2019) designed the first scalable sampling tester, Barbarik, based on a grey-box sampling technique for testing if the distribution, according to which the given sampler is sampling, is close to the uniform or far from uniform. They were able to show that many off-the-self samplers are far from a uniform sampler. The availability of Barbarik increased the test-driven development of samplers. More recently, Golia, Soos, Chakraborty and Meel (2021), designed a uniform like sampler, CMSGen, which was shown to be accepted by Barbarik on all the instances. However, CMSGen does not provide any theoretical analysis of the sampling quality. CMSGen leads us to observe the need for a tester to provide a quantitative answer to determine the quality of underlying samplers instead of merely a qualitative answer of Accept or Reject. Towards this goal, we design a computational hardness-based tester ScalBarbarik that provides a more nuanced analysis of the quality of a sampler. ScalBarbarik allows more expressive measurement of the quality of the underlying samplers. We empirically show that the state-of-the-art sampler, CMSGen is not accepted as a uniform-like sampler by ScalBarbarik. Furthermore, we show that ScalBarbarik can be used to design a sampler that can achieve balance between scalability and uniformity."
+  "description": "Given a system of constraints over a set $X$ of variables, projected model counting asks us to count satisfying assignments of the constraint system projected on a subset $P$ of $X$. A key idea used in modern projected counters is to first compute an \u003cem\u003eindependent support\u003c/em\u003e, say $I$, that is often a small subset of $P$, and to then count models projected on $I$ instead of on $P$. While this has been effective in scaling performance of counters, the question of whether we can benefit by projecting on variables beyond $P$ has not been explored. In this paper, we study this question and show that contrary to intuition, it can be beneficial to project on variables even beyond $P$. In several applications, a good upper bound of the projected model count often suffices. We show that in several such cases, we can identify a set of variables, called \u003cem\u003eupper bound support (UBS)\u003c/em\u003e, that is not necessarily a subset of $P$, and yet counting models projected on UBS guarantees an upper bound of the projected model count. Theoretically, a UBS can be exponentially smaller than the smallest independent support. Our experiments show that even otherwise, UBS-based projected counting can be faster than independent support-based projected counting, while yielding bounds of high quality. Based on extensive experiments, we find that UBS-based projected counting can solve many problem instances that are beyond the reach of a state-of-the-art independent support-based projected model counter."
 }
 </script>
 
@@ -304,7 +304,7 @@
 
 
 
-  <title>On Quantitative Testing of Samplers | MeelGroup</title>
+  <title>Projected Model Counting: Beyond Independent Support | MeelGroup</title>
 
 </head>
 
@@ -702,7 +702,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>On Quantitative Testing of Samplers</h1>
+  <h1>Projected Model Counting: Beyond Independent Support</h1>
 
   
 
@@ -721,7 +721,7 @@
 
   
   
-  <span><a href="http://www.msoos.org">Mate Soos</a></span>,&nbsp;<span><a href="https://priyanka-golia.github.io">Priyanka Golia</a></span>,&nbsp;<span><a href="http://www.cmi.ac.in/~sourav/">Sourav Chakraborty</a></span>,&nbsp;and <span><a href="http://www.comp.nus.edu.sg/~meel/">Kuldeep S. Meel</a></span>
+  <span><a href="https://github.com/AL-JiongYang">Jiong Yang</a></span>,&nbsp;<span>Supratik Chakraborty</span>,&nbsp;and <span><a href="http://www.comp.nus.edu.sg/~meel/">Kuldeep S. Meel</a></span>
   </div>
   
   
@@ -732,7 +732,7 @@
     
       
     
-    May 2022
+    August 2022
   </span>
   
 
@@ -782,14 +782,14 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="/files/publications/cp22_shakuni.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="/files/publications/ATVA22.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
 <button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
-        data-filename="/publication/cp22/cite.bib">
+        data-filename="/publication/atva22/cite.bib">
   Cite
 </button>
 
@@ -798,7 +798,7 @@
   
     
   
-<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/meelgroup/scalbarbarik" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/meelgroup/arjun" target="_blank" rel="noopener">
   Code
 </a>
 
@@ -827,7 +827,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">The problem of uniform sampling is, given a formula F , sample solutions of F uniformly atrandom from the solution space of F . Uniform sampling is a fundamental problem with widespread applications, including configuration testing, bug synthesis, function synthesis, and many more. State-of-the-art approaches for uniform sampling have a trade-off between scalability and theoretical guarantees. Many state of the art uniform samplers do not provide any theoretical guarantees on the distribution of samples generated, however, empirically they have shown promising results. In such cases, the main challenge is to test whether the distribution according to which samples are generated is indeed uniform or not. Recently, Chakraborty and Meel (2019) designed the first scalable sampling tester, Barbarik, based on a grey-box sampling technique for testing if the distribution, according to which the given sampler is sampling, is close to the uniform or far from uniform. They were able to show that many off-the-self samplers are far from a uniform sampler. The availability of Barbarik increased the test-driven development of samplers. More recently, Golia, Soos, Chakraborty and Meel (2021), designed a uniform like sampler, CMSGen, which was shown to be accepted by Barbarik on all the instances. However, CMSGen does not provide any theoretical analysis of the sampling quality. CMSGen leads us to observe the need for a tester to provide a quantitative answer to determine the quality of underlying samplers instead of merely a qualitative answer of Accept or Reject. Towards this goal, we design a computational hardness-based tester ScalBarbarik that provides a more nuanced analysis of the quality of a sampler. ScalBarbarik allows more expressive measurement of the quality of the underlying samplers. We empirically show that the state-of-the-art sampler, CMSGen is not accepted as a uniform-like sampler by ScalBarbarik. Furthermore, we show that ScalBarbarik can be used to design a sampler that can achieve balance between scalability and uniformity.</p>
+    <p class="pub-abstract">Given a system of constraints over a set $X$ of variables, projected model counting asks us to count satisfying assignments of the constraint system projected on a subset $P$ of $X$. A key idea used in modern projected counters is to first compute an <em>independent support</em>, say $I$, that is often a small subset of $P$, and to then count models projected on $I$ instead of on $P$. While this has been effective in scaling performance of counters, the question of whether we can benefit by projecting on variables beyond $P$ has not been explored. In this paper, we study this question and show that contrary to intuition, it can be beneficial to project on variables even beyond $P$. In several applications, a good upper bound of the projected model count often suffices. We show that in several such cases, we can identify a set of variables, called <em>upper bound support (UBS)</em>, that is not necessarily a subset of $P$, and yet counting models projected on UBS guarantees an upper bound of the projected model count. Theoretically, a UBS can be exponentially smaller than the smallest independent support. Our experiments show that even otherwise, UBS-based projected counting can be faster than independent support-based projected counting, while yielding bounds of high quality. Based on extensive experiments, we find that UBS-based projected counting can solve many problem instances that are beyond the reach of a state-of-the-art independent support-based projected model counter.</p>
     
 
     
@@ -857,7 +857,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">In <em>Proceedings of International Conference on Constraint Programming (CP)</em></div>
+          <div class="col-12 col-md-9">In <em>International Symposium on Automated Technology for Verification and Analysis (ATVA)</em></div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -888,7 +888,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://meelgroup.github.io/publication/cp22/&amp;text=On%20Quantitative%20Testing%20of%20Samplers" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://meelgroup.github.io/publication/atva22/&amp;text=Projected%20Model%20Counting:%20Beyond%20Independent%20Support" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -901,7 +901,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://meelgroup.github.io/publication/cp22/&amp;t=On%20Quantitative%20Testing%20of%20Samplers" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://meelgroup.github.io/publication/atva22/&amp;t=Projected%20Model%20Counting:%20Beyond%20Independent%20Support" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -914,7 +914,7 @@
       
       
       <li>
-        <a href="mailto:?subject=On%20Quantitative%20Testing%20of%20Samplers&amp;body=https://meelgroup.github.io/publication/cp22/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Projected%20Model%20Counting:%20Beyond%20Independent%20Support&amp;body=https://meelgroup.github.io/publication/atva22/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -927,7 +927,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://meelgroup.github.io/publication/cp22/&amp;title=On%20Quantitative%20Testing%20of%20Samplers" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://meelgroup.github.io/publication/atva22/&amp;title=Projected%20Model%20Counting:%20Beyond%20Independent%20Support" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -940,7 +940,7 @@
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=On%20Quantitative%20Testing%20of%20Samplers%20https://meelgroup.github.io/publication/cp22/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=Projected%20Model%20Counting:%20Beyond%20Independent%20Support%20https://meelgroup.github.io/publication/atva22/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -953,7 +953,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://meelgroup.github.io/publication/cp22/&amp;title=On%20Quantitative%20Testing%20of%20Samplers" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://meelgroup.github.io/publication/atva22/&amp;title=Projected%20Model%20Counting:%20Beyond%20Independent%20Support" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -970,17 +970,6 @@
 
 
 
-
-
-  
-    
-    
-
-
-
-
-
-  
 
 
   
