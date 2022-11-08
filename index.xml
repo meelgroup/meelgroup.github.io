@@ -13,6 +13,22 @@
     </image>
     
     <item>
+      <title>&lt;b&gt;Our paper &lt;a href=&#34;https://meelgroup.github.io/files/publications/NeurIPS22_ScalTest.pdf&#34;&gt;On Scalable Testing of Samplers&lt;/a&gt; is accepted to &lt;a href=&#34;https://nips.cc/&#34;&gt;NeurIPS 2022&lt;/a&gt;.&lt;/b&gt;&lt;br&gt; Authors: Yash Pote and Kuldeep S. Meel</title>
+      <link>https://meelgroup.github.io/talk/14092022/</link>
+      <pubDate>Sun, 06 Nov 2022 00:00:00 +0800</pubDate>
+      <guid>https://meelgroup.github.io/talk/14092022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On Scalable Testing of Samplers</title>
+      <link>https://meelgroup.github.io/publication/neurips22/</link>
+      <pubDate>Wed, 14 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/neurips22/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>INC: A Scalable Incremental Weighted Sampler</title>
       <link>https://meelgroup.github.io/publication/fmcad22/</link>
       <pubDate>Mon, 22 Aug 2022 00:00:00 +0000</pubDate>
