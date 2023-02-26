@@ -5,12 +5,20 @@
     <link>https://meelgroup.github.io/talk/</link>
       <atom:link href="https://meelgroup.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>News</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Wed, 16 Nov 2022 14:15:00 +0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Sat, 25 Feb 2023 12:00:00 +0800</lastBuildDate>
     <image>
       <url>https://meelgroup.github.io/images/icon_hu1dd832c4da814f17fe02e3737f0ae144_14882_512x512_fill_lanczos_center_2.png</url>
       <title>News</title>
       <link>https://meelgroup.github.io/talk/</link>
     </image>
+    
+    <item>
+      <title>&lt;b&gt;Our paper &lt;a href=&#34;https://meelgroup.github.io/files/publications/cpaior23_wmc.pdf&#34;&gt;Generating Random Instances of Weighted Model Counting: An Empirical Analysis with Varying Primal Treewidth&lt;/a&gt; has been accepted to &lt;a href=&#34;https://sites.google.com/view/cpaior2023/&#34;&gt;CPAIOR 2023&lt;/a&gt;.&lt;/b&gt;&lt;br&gt;We introduce a random model and use it to discover some critical differences among weighted model counting algorithms.&lt;br&gt;Authors: Paulius Dilkas&lt;br&gt;</title>
+      <link>https://meelgroup.github.io/talk/25022023/</link>
+      <pubDate>Sat, 25 Feb 2023 12:00:00 +0800</pubDate>
+      <guid>https://meelgroup.github.io/talk/25022023/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>&lt;b&gt;Our paper on Synthesis with Explicit Dependencies has been accepted to &lt;a href=&#34;https://www.date-conference.com/&#34;&gt;DATE 2023&lt;/a&gt;&lt;/b&gt;. Moreover, it has also received the &lt;b&gt;best paper award nomination&lt;/b&gt;.&lt;br&gt;We present an approach that combines advances in machine learning with automated reasoning for efficiently synthesizing functions with explicit dependencies.&lt;br&gt;Authors: Priyanka Golia, Subhajit Roy, and Kuldeep S. Meel&lt;br&gt;</title>

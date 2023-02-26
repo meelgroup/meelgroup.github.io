@@ -13,10 +13,26 @@
     </image>
     
     <item>
+      <title>Generating Random Instances of Weighted Model Counting: An Empirical Analysis with Varying Primal Treewidth</title>
+      <link>https://meelgroup.github.io/publication/cpaior23/</link>
+      <pubDate>Mon, 29 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/cpaior23/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Synthesis with Explicit Dependencies</title>
       <link>https://meelgroup.github.io/publication/date23/</link>
       <pubDate>Mon, 17 Apr 2023 00:00:00 +0000</pubDate>
       <guid>https://meelgroup.github.io/publication/date23/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>&lt;b&gt;Our paper &lt;a href=&#34;https://meelgroup.github.io/files/publications/cpaior23_wmc.pdf&#34;&gt;Generating Random Instances of Weighted Model Counting: An Empirical Analysis with Varying Primal Treewidth&lt;/a&gt; has been accepted to &lt;a href=&#34;https://sites.google.com/view/cpaior2023/&#34;&gt;CPAIOR 2023&lt;/a&gt;.&lt;/b&gt;&lt;br&gt;We introduce a random model and use it to discover some critical differences among weighted model counting algorithms.&lt;br&gt;Authors: Paulius Dilkas&lt;br&gt;</title>
+      <link>https://meelgroup.github.io/talk/25022023/</link>
+      <pubDate>Sat, 25 Feb 2023 12:00:00 +0800</pubDate>
+      <guid>https://meelgroup.github.io/talk/25022023/</guid>
       <description></description>
     </item>
     
