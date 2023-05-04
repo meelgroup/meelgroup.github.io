@@ -27,10 +27,10 @@
   
     
   
-  <meta name="description" content="Computer Science Department, School of Computing National University of Singapore">
+  <meta name="description" content="Sampling over combinatorial spaces is a fundamental problem in artificial intelligence with a wide variety of applications. Since state-of-the-art techniques heavily rely on heuristics whose rigorous analysis remain beyond the reach of current theoretical tools, the past few years have witnessed interest in the design of techniques to test the quality of samplers. The current state-ofthe-art techniques, Barbarik and Barbarik2, focus on the cases where combinatorial spaces are encoded as Conjunctive Normal Form (CNF) formulas. While CNF is a general-purpose form, often techniques rely on exploiting specific representations to achieve speedup. Of particular interest are Horn clauses, which form the basis of the logic programming tools in AI. In this context, a natural question is whether it is possible to design a tester that can determine the correctness of a given Horn sampler. The primary contribution of this paper is an affirmative answer to the above question. We design the first tester, Flash, which tests the correctness of a given Horn sampler: given a specific distribution $\mathcal{I}$ and parameters $\eta$, $\varepsilon$, and $\delta$ the tester Flash correctly (with probability at least $1 - \delta$) distinguishes whether the underlying distribution of the Horn-sampler is “$\varepsilon$-close” to $\mathcal{I}$ or “$\eta$-far” from $\mathcal{I}$ by sampling only $\mathcal{O}(tilt^3/(\eta - \varepsilon)^4)$ samples from the Hornsampler, where the tilt is the ratio of the maximum and the minimum (non-zero) probability masses of $\mathcal{I}$. We also provide a prototype implementation of Flash and test three state-of-the-art samplers on a set of benchmarks">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://meelgroup.github.io/author/kuldeep-s.-meel/">
+  <link rel="alternate" hreflang="en-us" href="https://meelgroup.github.io/publication/aistats23/">
 
   
 
@@ -215,14 +215,12 @@
   
 
   
-  <link rel="alternate" href="/author/kuldeep-s.-meel/index.xml" type="application/rss+xml" title="MeelGroup">
-  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/images/icon_hu1dd832c4da814f17fe02e3737f0ae144_14882_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu1dd832c4da814f17fe02e3737f0ae144_14882_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://meelgroup.github.io/author/kuldeep-s.-meel/">
+  <link rel="canonical" href="https://meelgroup.github.io/publication/aistats23/">
 
   
   
@@ -238,18 +236,61 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="MeelGroup">
-  <meta property="og:url" content="https://meelgroup.github.io/author/kuldeep-s.-meel/">
-  <meta property="og:title" content="Kuldeep S. Meel | MeelGroup">
-  <meta property="og:description" content="Computer Science Department, School of Computing National University of Singapore"><meta property="og:image" content="https://meelgroup.github.io/images/icon_hu1dd832c4da814f17fe02e3737f0ae144_14882_512x512_fill_lanczos_center_2.png">
+  <meta property="og:url" content="https://meelgroup.github.io/publication/aistats23/">
+  <meta property="og:title" content="Testing of Horn Samplers | MeelGroup">
+  <meta property="og:description" content="Sampling over combinatorial spaces is a fundamental problem in artificial intelligence with a wide variety of applications. Since state-of-the-art techniques heavily rely on heuristics whose rigorous analysis remain beyond the reach of current theoretical tools, the past few years have witnessed interest in the design of techniques to test the quality of samplers. The current state-ofthe-art techniques, Barbarik and Barbarik2, focus on the cases where combinatorial spaces are encoded as Conjunctive Normal Form (CNF) formulas. While CNF is a general-purpose form, often techniques rely on exploiting specific representations to achieve speedup. Of particular interest are Horn clauses, which form the basis of the logic programming tools in AI. In this context, a natural question is whether it is possible to design a tester that can determine the correctness of a given Horn sampler. The primary contribution of this paper is an affirmative answer to the above question. We design the first tester, Flash, which tests the correctness of a given Horn sampler: given a specific distribution $\mathcal{I}$ and parameters $\eta$, $\varepsilon$, and $\delta$ the tester Flash correctly (with probability at least $1 - \delta$) distinguishes whether the underlying distribution of the Horn-sampler is “$\varepsilon$-close” to $\mathcal{I}$ or “$\eta$-far” from $\mathcal{I}$ by sampling only $\mathcal{O}(tilt^3/(\eta - \varepsilon)^4)$ samples from the Hornsampler, where the tilt is the ratio of the maximum and the minimum (non-zero) probability masses of $\mathcal{I}$. We also provide a prototype implementation of Flash and test three state-of-the-art samplers on a set of benchmarks"><meta property="og:image" content="https://meelgroup.github.io/images/icon_hu1dd832c4da814f17fe02e3737f0ae144_14882_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="https://meelgroup.github.io/images/icon_hu1dd832c4da814f17fe02e3737f0ae144_14882_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2023-04-17T00:00:00&#43;00:00">
+    
+      <meta property="article:published_time" content="2023-01-20T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2023-01-20T00:00:00&#43;00:00">
   
 
   
 
 
+    
 
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://meelgroup.github.io/publication/aistats23/"
+  },
+  "headline": "Testing of Horn Samplers",
+  
+  "datePublished": "2023-01-20T00:00:00Z",
+  "dateModified": "2023-01-20T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Ansuman Banerjee"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Meel Group",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://meelgroup.github.io/images/icon_hu1dd832c4da814f17fe02e3737f0ae144_14882_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "Sampling over combinatorial spaces is a fundamental problem in artificial intelligence with a wide variety of applications. Since state-of-the-art techniques heavily rely on heuristics whose rigorous analysis remain beyond the reach of current theoretical tools, the past few years have witnessed interest in the design of techniques to test the quality of samplers. The current state-ofthe-art techniques, Barbarik and Barbarik2, focus on the cases where combinatorial spaces are encoded as Conjunctive Normal Form (CNF) formulas. While CNF is a general-purpose form, often techniques rely on exploiting specific representations to achieve speedup. Of particular interest are Horn clauses, which form the basis of the logic programming tools in AI. In this context, a natural question is whether it is possible to design a tester that can determine the correctness of a given Horn sampler. The primary contribution of this paper is an affirmative answer to the above question. We design the first tester, Flash, which tests the correctness of a given Horn sampler: given a specific distribution $\\mathcal{I}$ and parameters $\\eta$, $\\varepsilon$, and $\\delta$ the tester Flash correctly (with probability at least $1 - \\delta$) distinguishes whether the underlying distribution of the Horn-sampler is “$\\varepsilon$-close” to $\\mathcal{I}$ or “$\\eta$-far” from $\\mathcal{I}$ by sampling only $\\mathcal{O}(tilt^3/(\\eta - \\varepsilon)^4)$ samples from the Hornsampler, where the tilt is the ratio of the maximum and the minimum (non-zero) probability masses of $\\mathcal{I}$. We also provide a prototype implementation of Flash and test three state-of-the-art samplers on a set of benchmarks"
+}
+</script>
+
+  
 
   
 
@@ -257,10 +298,13 @@
   
 
 
+  
 
 
 
-  <title>Kuldeep S. Meel | MeelGroup</title>
+
+
+  <title>Testing of Horn Samplers | MeelGroup</title>
 
 </head>
 
@@ -637,336 +681,397 @@
 </nav>
 
 
+  <div class="pub">
+
   
 
 
 
-<div class="universal-wrapper pt-3">
-  <h1>Kuldeep S. Meel</h1>
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Testing of Horn Samplers</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  
+  <span>Ansuman Banerjee</span>,&nbsp;<span>Shayak Chakraborty</span>,&nbsp;<span><a href="http://www.cmi.ac.in/~sourav/">Sourav Chakraborty</a></span>,&nbsp;<span><a href="http://www.comp.nus.edu.sg/~meel/">Kuldeep S. Meel</a></span>,&nbsp;<span><a href="https://github.com/uddaloksarkar">Uddalok Sarkar</a></span>,&nbsp;and <span>Sayantan Sen</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    January 2023
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://proceedings.mlr.press/v206/banerjee23a/banerjee23a.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
+        data-filename="/publication/aistats23/cite.bib">
+  Cite
+</button>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/uddaloksarkar/flash" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="https://virtual.aistats.org/media/PosterPDFs/AISTATS%202023/5771.png?t=1681236772.5409713" target="_blank" rel="noopener">
+  Poster
+</a>
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="https://youtu.be/vP4i-a6SiBU" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+
+
 </div>
 
 
-<section id="profile-page" class="pt-5">
-  <div class="container">
+  
+</div>
+
+
+
+  <div class="article-container">
+
     
+    <h3>Abstract</h3>
+    <p class="pub-abstract">Sampling over combinatorial spaces is a fundamental problem in artificial intelligence with a wide variety of applications. Since state-of-the-art techniques heavily rely on heuristics whose rigorous analysis remain beyond the reach of current theoretical tools, the past few years have witnessed interest in the design of techniques to test the quality of samplers. The current state-ofthe-art techniques, Barbarik and Barbarik2, focus on the cases where combinatorial spaces are encoded as Conjunctive Normal Form (CNF) formulas. While CNF is a general-purpose form, often techniques rely on exploiting specific representations to achieve speedup. Of particular interest are Horn clauses, which form the basis of the logic programming tools in AI. In this context, a natural question is whether it is possible to design a tester that can determine the correctness of a given Horn sampler. The primary contribution of this paper is an affirmative answer to the above question. We design the first tester, Flash, which tests the correctness of a given Horn sampler: given a specific distribution $\mathcal{I}$ and parameters $\eta$, $\varepsilon$, and $\delta$ the tester Flash correctly (with probability at least $1 - \delta$) distinguishes whether the underlying distribution of the Horn-sampler is “$\varepsilon$-close” to $\mathcal{I}$ or “$\eta$-far” from $\mathcal{I}$ by sampling only $\mathcal{O}(tilt^3/(\eta - \varepsilon)^4)$ samples from the Hornsampler, where the tilt is the ratio of the maximum and the minimum (non-zero) probability masses of $\mathcal{I}$. We also provide a prototype implementation of Flash and test three state-of-the-art samplers on a set of benchmarks</p>
     
 
     
-    
-    
-    <div class="article-widget content-widget-hr">
-      <h3>Latest</h3>
-      <ul>
-        
-        <li>
-          <a href="/publication/date23/">Synthesis with Explicit Dependencies</a>
-        </li>
-        
-        <li>
-          <a href="/publication/aistats23/">Testing of Horn Samplers</a>
-        </li>
-        
-        <li>
-          <a href="/publication/neurips22/">On Scalable Testing of Samplers</a>
-        </li>
-        
-        <li>
-          <a href="/publication/fmcad22/">INC: A Scalable Incremental Weighted Sampler</a>
-        </li>
-        
-        <li>
-          <a href="/publication/atva22/">Projected Model Counting: Beyond Independent Support</a>
-        </li>
-        
-        <li>
-          <a href="/publication/aaai22-approxasp/">ApproxASP – A Scalable Approximate Answer Set Counter</a>
-        </li>
-        
-        <li>
-          <a href="/publication/aaai22_fvgm/">Algorithmic Fairness Verification with Graphical Models</a>
-        </li>
-        
-        <li>
-          <a href="/publication/cav22/">A Scalable Shannon Entropy Estimator</a>
-        </li>
-        
-        <li>
-          <a href="/publication/cp22/">On Quantitative Testing of Samplers</a>
-        </li>
-        
-        <li>
-          <a href="/publication/kr21/">Gaussian Elimination Meets Maximum Satisfiability</a>
-        </li>
-        
-        <li>
-          <a href="/publication/neurips21_teq/">Testing Probabilistic Circuits</a>
-        </li>
-        
-        <li>
-          <a href="/publication/cp21/">Engineering an Efficient PB-XOR Solver</a>
-        </li>
-        
-        <li>
-          <a href="/publication/iccad21/">Engineering an Efficient Boolean Functional Synthesis Engine</a>
-        </li>
-        
-        <li>
-          <a href="/publication/fmcad21/">Designing Samplers is Easy: The Boon of Testers</a>
-        </li>
-        
-        <li>
-          <a href="/publication/cav21_mus/">Counting Minimal Unsatisfiable Subsets</a>
-        </li>
-        
-        <li>
-          <a href="/publication/sat21_gpu/">Leveraging GPUs for Effective Clause Sharing in Parallel SAT Solving</a>
-        </li>
-        
-        <li>
-          <a href="/publication/cpaior21_linmodar/">On the Usefulness of Linear Modular Arithmetic in Constraint Programming</a>
-        </li>
-        
-        <li>
-          <a href="/publication/ijcai21_partition/">Partition Function Estimation: A Quantitative Study</a>
-        </li>
-        
-        <li>
-          <a href="/publication/ijcai21_programsynthesis/">Program Synthesis as Dependency Quantified Formula Modulo Theory</a>
-        </li>
-        
-        <li>
-          <a href="/publication/icse21/">Scalable Quantitative Verification For Deep Neural Networks</a>
-        </li>
-        
-        <li>
-          <a href="/publication/aaai21_mss/">Counting Maximal Satisfiable Subsets</a>
-        </li>
-        
-        <li>
-          <a href="/publication/aaai21_justicia/">Justicia A Stochastic SAT Approach to Formally Verify Fairness</a>
-        </li>
-        
-        <li>
-          <a href="/publication/aaai21_forest/">Predicting Forest Fire Using Remote Sensing Data And Machine Learning</a>
-        </li>
-        
-        <li>
-          <a href="/publication/aaai21_symganak/">Symmetric Component Caching for Model Counting on Structured Instances</a>
-        </li>
-        
-        <li>
-          <a href="/publication/aaai21_exactmc/">The Power of Literal Equivalence in Model Counting</a>
-        </li>
-        
-        <li>
-          <a href="/publication/fse20/">Baital: An Adaptive Weighted Sampling Approach for Improved t-wise Coverage</a>
-        </li>
-        
-        <li>
-          <a href="/publication/neurips20_approx/">Efficient Distance Approximation for Structured High-Dimensional Distributions via Learning</a>
-        </li>
-        
-        <li>
-          <a href="/publication/neurips20_testing/">On Testing of Samplers</a>
-        </li>
-        
-        <li>
-          <a href="/publication/neurips20_taming/">Taming Discrete Integration via the Boon of Dimensionality</a>
-        </li>
-        
-        <li>
-          <a href="/publication/cp20/">Phase Transition Behaviour in Knowledge Compilation</a>
-        </li>
-        
-        <li>
-          <a href="/publication/sat20sm/">Designing New Phase Selection Heuristics</a>
-        </li>
-        
-        <li>
-          <a href="/publication/sat20abm/">On the Sparsity of XORs in Approximate Model Counting</a>
-        </li>
-        
-        <li>
-          <a href="/publication/cav20bm/">Approximate Counting of Minimal Unsatisfiable Subsets</a>
-        </li>
-        
-        <li>
-          <a href="/publication/cav20_manthan/">Manthan: A Data-Driven Approach for Boolean Function Synthesis</a>
-        </li>
-        
-        <li>
-          <a href="/publication/cav20sgm/">Tinted, Detached, and Lazy CNF-XOR solving and its Applications to Counting and Sampling</a>
-        </li>
-        
-        <li>
-          <a href="/publication/lpar20dms/">Induction Models on N</a>
-        </li>
-        
-        <li>
-          <a href="/publication/tacas20wuawmk/">A Study of Symmetry Breaking Predicates and Model Counting</a>
-        </li>
-        
-        <li>
-          <a href="/publication/ecai20/">Classification Rules in Relaxed Logical Form</a>
-        </li>
-        
-        <li>
-          <a href="/publication/aaai20/">A MaxSAT-based Framework for Group Testing</a>
-        </li>
-        
-        <li>
-          <a href="/publication/neurips19/"> Embedding Symbolic Knowledge into Deep Networks </a>
-        </li>
-        
-        <li>
-          <a href="/publication/ccs19/"> Quantitative Verification of Neural Networks And Its Security Applications  </a>
-        </li>
-        
-        <li>
-          <a href="/publication/cp19/">Dual Hashing-based Algorithms for Discrete Integration  </a>
-        </li>
-        
-        <li>
-          <a href="/publication/ress/">Network Reliability Estimation in Theory and Practice </a>
-        </li>
-        
-        <li>
-          <a href="/publication/ijcai19_ganak/">GANAK: A Scalable Probabilistic Exact Model Counter</a>
-        </li>
-        
-        <li>
-          <a href="/publication/ijcai19_dnfcounter/">Not All FPRASs are Equal: Demystifying FPRASs for DNF-Counting (Extended Abstract)  </a>
-        </li>
-        
-        <li>
-          <a href="/publication/ijcai19_cardxor/">Phase Transition Behavior of Cardinality and XOR Constraints  </a>
-        </li>
-        
-        <li>
-          <a href="/publication/sat19_heu/">Assessing Heuristic Machine Learning Explanations with Model Counting  </a>
-        </li>
-        
-        <li>
-          <a href="/publication/sat19_cball/">CrystalBall: Gazing in the Black Box of SAT Solving </a>
-        </li>
-        
-        <li>
-          <a href="/publication/tacas19/">WAPS: Weighted and Projected Sampling </a>
-        </li>
-        
-        <li>
-          <a href="/publication/date_cscm19/">BOSPHORUS: Bridging ANF and CNF Solvers </a>
-        </li>
-        
-        <li>
-          <a href="/publication/aies19/"> IMLI: An Incremental Framework for MaxSAT-Based Learning of Interpretable Classification Rules </a>
-        </li>
-        
-        <li>
-          <a href="/publication/aaai19_bird/">BIRD: Engineering an Efficient CNF-XOR SAT Solver and its Applications to Approximate Model Counting</a>
-        </li>
-        
-        <li>
-          <a href="/publication/aaai19_testing/">On testing of Uniform Samplers </a>
-        </li>
-        
-        <li>
-          <a href="/publication/aaai19_hardness/">On the Hardness of Probabilistic Inference Relaxations</a>
-        </li>
-        
-        <li>
-          <a href="/publication/cp18/">Not All FPRASs are Equal: Demystifying FPRASs for DNF-Counting </a>
-        </li>
-        
-        <li>
-          <a href="/publication/mm18/">MLIC: A MaxSAT-Based framework for learning interpretable classification rules</a>
-        </li>
-        
-        <li>
-          <a href="/publication/vmcai18/">Scalable Approximation of Quantitative Information Flow in Programs</a>
-        </li>
-        
-        <li>
-          <a href="/publication/fsttcs17/">On Hashing-Based Approaches to Approximate DNF-Counting </a>
-        </li>
-        
-        <li>
-          <a href="/publication/meel-phdthesis/">Constrained Counting and Sampling: Bridging the Gap between Theory and Practice </a>
-        </li>
-        
-        <li>
-          <a href="/publication/ijcai17/">The Hard Problems Are Almost Everywhere For Random CNF-XOR Formulas  </a>
-        </li>
-        
-        <li>
-          <a href="/publication/aaai17/">Counting-Based Reliability Estimation for Power-Transmission Grids</a>
-        </li>
-        
-        <li>
-          <a href="/publication/immv16/">On Computing Minimal Independent Support and Its Applications to Sampling and Counting </a>
-        </li>
-        
-        <li>
-          <a href="/publication/ijcai16_counting/">Algorithmic Improvements in Approximate Counting for Probabilistic Inference: From Linear to Logarithmic SAT Calls  </a>
-        </li>
-        
-        <li>
-          <a href="/publication/ijcai16_cnfxor/">Combining the k-CNF and XOR Phase-Transitions </a>
-        </li>
-        
-        <li>
-          <a href="/publication/aaai16/">Approximate Probabilistic Inference via Word-Level Counting </a>
-        </li>
-        
-        <li>
-          <a href="/publication/cc16/">Automatic Data Layout Generation and Kernel Mapping for CPU&#43;GPU Architectures </a>
-        </li>
-        
-        <li>
-          <a href="/publication/bnp16/">Constrained Sampling and Counting: Universal Hashing meets SAT Solving</a>
-        </li>
-        
-        <li>
-          <a href="/publication/pact15/">Design and Verification of Distributed Phasers</a>
-        </li>
-        
-        <li>
-          <a href="/publication/cp15/">On Computing Minimal Independent Support and Its Applications to Sampling and Counting </a>
-        </li>
-        
-        <li>
-          <a href="/publication/ijcai15/">From Weighted to Unweighted Model Counting </a>
-        </li>
-        
-        <li>
-          <a href="/publication/tacas15/">On Parallel Scalable Uniform SAT Witness Generator</a>
-        </li>
-        
-        <li>
-          <a href="/publication/mmbs14/">ADHA: Automatic Data layout framework for Heterogeneous Architectures</a>
-        </li>
-        
-        <li>
-          <a href="/publication/aaai14/">Distribution-Aware Sampling and Weighted Model Counting for SAT</a>
-        </li>
-        
-        <li>
-          <a href="/publication/dac14/">Balancing Scalability and Uniformity in SAT-Witness Generator </a>
-        </li>
-        
-        <li>
-          <a href="/publication/cp13/">A Scalable Approximate Model Counter </a>
-        </li>
-        
-        <li>
-          <a href="/publication/cav13/">A Scalable and Nearly Uniform Generator of SAT Witnesses</a>
-        </li>
-        
-      </ul>
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            
+            <a href="/publication/#1">
+              Conference paper
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
     </div>
+    <div class="d-md-none space-below"></div>
     
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">In <em>International Conference on Artificial Intelligence and Statistics (AISTATS)</em></div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://meelgroup.github.io/publication/aistats23/&amp;text=Testing%20of%20Horn%20Samplers" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://meelgroup.github.io/publication/aistats23/&amp;t=Testing%20of%20Horn%20Samplers" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Testing%20of%20Horn%20Samplers&amp;body=https://meelgroup.github.io/publication/aistats23/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://meelgroup.github.io/publication/aistats23/&amp;title=Testing%20of%20Horn%20Samplers" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=Testing%20of%20Horn%20Samplers%20https://meelgroup.github.io/publication/aistats23/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://meelgroup.github.io/publication/aistats23/&amp;title=Testing%20of%20Horn%20Samplers" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+
+
+
+
+
+  
+
+
+  
+    
+    
+
+
+
+
+
+  
+
+
+  
+    
+    
+
+
+
+
+
+  
+
+
+  
+    
+    
+
+
+
+
+
+  
+
+
+  
+    
+    
+
+
+
+
+
+  
+
+
+  
+    
+    
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
   </div>
-</section>
+</div>
 
       
 

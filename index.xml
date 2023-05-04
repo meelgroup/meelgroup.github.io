@@ -37,6 +37,14 @@
     </item>
     
     <item>
+      <title>Testing of Horn Samplers</title>
+      <link>https://meelgroup.github.io/publication/aistats23/</link>
+      <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/aistats23/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>&lt;b&gt;Our paper on Synthesis with Explicit Dependencies has been accepted to &lt;a href=&#34;https://www.date-conference.com/&#34;&gt;DATE 2023&lt;/a&gt;&lt;/b&gt;. Moreover, it has also received the &lt;b&gt;best paper award nomination&lt;/b&gt;.&lt;br&gt;We present an approach that combines advances in machine learning with automated reasoning for efficiently synthesizing functions with explicit dependencies.&lt;br&gt;Authors: Priyanka Golia, Subhajit Roy, and Kuldeep S. Meel&lt;br&gt;</title>
       <link>https://meelgroup.github.io/talk/16112022/</link>
       <pubDate>Wed, 16 Nov 2022 14:15:00 +0800</pubDate>
