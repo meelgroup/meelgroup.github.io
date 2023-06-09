@@ -13,6 +13,22 @@
     </image>
     
     <item>
+      <title>&lt;b&gt;Our paper &lt;a href=&#34;https://meelgroup.github.io/files/publications/kr23_fomc.pdf&#34;&gt;Synthesising Recursive Functions for First-Order Model Counting: Challenges, Progress, and Conjectures&lt;/a&gt; has been accepted to &lt;a href=&#34;https://kr.org/KR2023/&#34;&gt;KR 2023&lt;/a&gt;.&lt;/b&gt;&lt;br&gt;We extend the first-order model counting algorithm ForcLift with new compilation rules, enabling it to discover recursive solutions to previously-unsolved instances.&lt;br&gt;Authors: Paulius Dilkas, Vaishak Belle&lt;br&gt;</title>
+      <link>https://meelgroup.github.io/talk/09062023/</link>
+      <pubDate>Fri, 09 Jun 2023 12:00:00 +0800</pubDate>
+      <guid>https://meelgroup.github.io/talk/09062023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Synthesising Recursive Functions for First-Order Model Counting: Challenges, Progress, and Conjectures</title>
+      <link>https://meelgroup.github.io/publication/kr23/</link>
+      <pubDate>Fri, 09 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/kr23/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Generating Random Instances of Weighted Model Counting: An Empirical Analysis with Varying Primal Treewidth</title>
       <link>https://meelgroup.github.io/publication/cpaior23/</link>
       <pubDate>Mon, 29 May 2023 00:00:00 +0000</pubDate>

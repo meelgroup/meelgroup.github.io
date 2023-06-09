@@ -27,10 +27,10 @@
   
     
   
-  <meta name="description" content="Computer Science Department, School of Computing National University of Singapore">
+  <meta name="description" content="First-order model counting (FOMC) is a computational problem that asks to count the models of a sentence in finite-domain first-order logic. In this paper, we argue that the capabilities of FOMC algorithms to date are limited by their inability to express many types of recursive computations. To enable such computations, we relax the restrictions that typically accompany domain recursion and generalise the circuits used to express a solution to an FOMC problem to directed graphs that may contain cycles. To this end, we adapt the most well-established (weighted) FOMC algorithm ForcLift to work with such graphs and introduce new compilation rules that can create cycle-inducing edges that encode recursive function calls. These improvements allow the algorithm to find efficient solutions to counting problems that were previously beyond its reach, including those that cannot be solved efficiently by any other exact FOMC algorithm. We end with a few conjectures on what classes of instances could be domain-liftable as a result.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://meelgroup.github.io/authors/">
+  <link rel="alternate" hreflang="en-us" href="https://meelgroup.github.io/publication/kr23/">
 
   
 
@@ -215,14 +215,12 @@
   
 
   
-  <link rel="alternate" href="/authors/index.xml" type="application/rss+xml" title="MeelGroup">
-  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/images/icon_hu1dd832c4da814f17fe02e3737f0ae144_14882_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu1dd832c4da814f17fe02e3737f0ae144_14882_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://meelgroup.github.io/authors/">
+  <link rel="canonical" href="https://meelgroup.github.io/publication/kr23/">
 
   
   
@@ -238,18 +236,61 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="MeelGroup">
-  <meta property="og:url" content="https://meelgroup.github.io/authors/">
-  <meta property="og:title" content="Authors | MeelGroup">
-  <meta property="og:description" content="Computer Science Department, School of Computing National University of Singapore"><meta property="og:image" content="https://meelgroup.github.io/images/icon_hu1dd832c4da814f17fe02e3737f0ae144_14882_512x512_fill_lanczos_center_2.png">
+  <meta property="og:url" content="https://meelgroup.github.io/publication/kr23/">
+  <meta property="og:title" content="Synthesising Recursive Functions for First-Order Model Counting: Challenges, Progress, and Conjectures | MeelGroup">
+  <meta property="og:description" content="First-order model counting (FOMC) is a computational problem that asks to count the models of a sentence in finite-domain first-order logic. In this paper, we argue that the capabilities of FOMC algorithms to date are limited by their inability to express many types of recursive computations. To enable such computations, we relax the restrictions that typically accompany domain recursion and generalise the circuits used to express a solution to an FOMC problem to directed graphs that may contain cycles. To this end, we adapt the most well-established (weighted) FOMC algorithm ForcLift to work with such graphs and introduce new compilation rules that can create cycle-inducing edges that encode recursive function calls. These improvements allow the algorithm to find efficient solutions to counting problems that were previously beyond its reach, including those that cannot be solved efficiently by any other exact FOMC algorithm. We end with a few conjectures on what classes of instances could be domain-liftable as a result."><meta property="og:image" content="https://meelgroup.github.io/images/icon_hu1dd832c4da814f17fe02e3737f0ae144_14882_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="https://meelgroup.github.io/images/icon_hu1dd832c4da814f17fe02e3737f0ae144_14882_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2023-06-09T00:00:00&#43;00:00">
+    
+      <meta property="article:published_time" content="2023-06-09T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2023-06-09T00:00:00&#43;00:00">
   
 
   
 
 
+    
 
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://meelgroup.github.io/publication/kr23/"
+  },
+  "headline": "Synthesising Recursive Functions for First-Order Model Counting: Challenges, Progress, and Conjectures",
+  
+  "datePublished": "2023-06-09T00:00:00Z",
+  "dateModified": "2023-06-09T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Paulius Dilkas"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Meel Group",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://meelgroup.github.io/images/icon_hu1dd832c4da814f17fe02e3737f0ae144_14882_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "First-order model counting (FOMC) is a computational problem that asks to count the models of a sentence in finite-domain first-order logic. In this paper, we argue that the capabilities of FOMC algorithms to date are limited by their inability to express many types of recursive computations. To enable such computations, we relax the restrictions that typically accompany domain recursion and generalise the circuits used to express a solution to an FOMC problem to directed graphs that may contain cycles. To this end, we adapt the most well-established (weighted) FOMC algorithm ForcLift to work with such graphs and introduce new compilation rules that can create cycle-inducing edges that encode recursive function calls. These improvements allow the algorithm to find efficient solutions to counting problems that were previously beyond its reach, including those that cannot be solved efficiently by any other exact FOMC algorithm. We end with a few conjectures on what classes of instances could be domain-liftable as a result."
+}
+</script>
+
+  
 
   
 
@@ -257,10 +298,13 @@
   
 
 
+  
 
 
 
-  <title>Authors | MeelGroup</title>
+
+
+  <title>Synthesising Recursive Functions for First-Order Model Counting: Challenges, Progress, and Conjectures | MeelGroup</title>
 
 </head>
 
@@ -637,6 +681,92 @@
 </nav>
 
 
+  <div class="pub">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Synthesising Recursive Functions for First-Order Model Counting: Challenges, Progress, and Conjectures</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  
+  <span><a href="https://dilkas.github.io/">Paulius Dilkas</a></span>,&nbsp;and <span>Vaishak Belle</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    June 2023
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+<div class="btn-links mb-3">
+  
   
 
 
@@ -646,60 +776,241 @@
 
 
 
-
-
-
-
-
-
+  
+    
   
 
-  
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="/files/publications/kr23_fomc.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
+        data-filename="/publication/kr23/cite.bib">
+  Cite
+</button>
+
+
   
   
     
   
-<div class="universal-wrapper pt-3">
-  <h1>Authors</h1>
+<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/dilkas/kr23-db" target="_blank" rel="noopener">
+  Code
+</a>
 
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
 
   
 </div>
 
 
 
-<div class="universal-wrapper">
-  
+  <div class="article-container">
 
-  <ul>
     
+    <h3>Abstract</h3>
+    <p class="pub-abstract">First-order model counting (FOMC) is a computational problem that asks to count the models of a sentence in finite-domain first-order logic. In this paper, we argue that the capabilities of FOMC algorithms to date are limited by their inability to express many types of recursive computations. To enable such computations, we relax the restrictions that typically accompany domain recursion and generalise the circuits used to express a solution to an FOMC problem to directed graphs that may contain cycles. To this end, we adapt the most well-established (weighted) FOMC algorithm ForcLift to work with such graphs and introduce new compilation rules that can create cycle-inducing edges that encode recursive function calls. These improvements allow the algorithm to find efficient solutions to counting problems that were previously beyond its reach, including those that cannot be solved efficiently by any other exact FOMC algorithm. We end with a few conjectures on what classes of instances could be domain-liftable as a result.</p>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            
+            <a href="/publication/#1">
+              Conference paper
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">In <em>Proceedings of the International Conference on Principles of Knowledge Representation and Reasoning (KR)</em></div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
     
       
-      <li><a href="https://meelgroup.github.io/author/vignesh-sivaraman/">Vignesh Sivaraman</a></li>
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://meelgroup.github.io/publication/kr23/&amp;text=Synthesising%20Recursive%20Functions%20for%20First-Order%20Model%20Counting:%20Challenges,%20Progress,%20and%20Conjectures" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
     
       
-      <li><a href="https://meelgroup.github.io/author/vijay-ganesh/">Vijay Ganesh</a></li>
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://meelgroup.github.io/publication/kr23/&amp;t=Synthesising%20Recursive%20Functions%20for%20First-Order%20Model%20Counting:%20Challenges,%20Progress,%20and%20Conjectures" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
     
       
-      <li><a href="https://meelgroup.github.io/author/yacine-izza/">Yacine Izza</a></li>
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Synthesising%20Recursive%20Functions%20for%20First-Order%20Model%20Counting:%20Challenges,%20Progress,%20and%20Conjectures&amp;body=https://meelgroup.github.io/publication/kr23/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
     
       
-      <li><a href="https://meelgroup.github.io/author/zhanzhong-pang/">Zhanzhong Pang</a></li>
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://meelgroup.github.io/publication/kr23/&amp;title=Synthesising%20Recursive%20Functions%20for%20First-Order%20Model%20Counting:%20Challenges,%20Progress,%20and%20Conjectures" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=Synthesising%20Recursive%20Functions%20for%20First-Order%20Model%20Counting:%20Challenges,%20Progress,%20and%20Conjectures%20https://meelgroup.github.io/publication/kr23/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://meelgroup.github.io/publication/kr23/&amp;title=Synthesising%20Recursive%20Functions%20for%20First-Order%20Model%20Counting:%20Challenges,%20Progress,%20and%20Conjectures" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
     
   </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
 
   
-<nav>
-  <ul class="pagination justify-content-center">
-    
-    <li class="page-item"><a class="page-link" href="/authors/page/14/">&laquo;</a></li>
     
     
-  </ul>
-</nav>
 
 
+
+
+
+  
+
+
+  
+    
+    
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  </div>
 </div>
 
       
