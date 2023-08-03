@@ -5,12 +5,20 @@
     <link>https://meelgroup.github.io/author/mohimenul-kabir/</link>
       <atom:link href="https://meelgroup.github.io/author/mohimenul-kabir/index.xml" rel="self" type="application/rss+xml" />
     <description>Mohimenul Kabir</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Thu, 09 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019--2023</copyright><lastBuildDate>Fri, 28 Jul 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://meelgroup.github.io/images/icon_hu1dd832c4da814f17fe02e3737f0ae144_14882_512x512_fill_lanczos_center_2.png</url>
       <title>Mohimenul Kabir</title>
       <link>https://meelgroup.github.io/author/mohimenul-kabir/</link>
     </image>
+    
+    <item>
+      <title>A Fast and Accurate ASP Counting Based Network Reliability Estimator</title>
+      <link>https://meelgroup.github.io/publication/lpar23_relnet/</link>
+      <pubDate>Fri, 28 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/lpar23_relnet/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>ApproxASP – A Scalable Approximate Answer Set Counter</title>

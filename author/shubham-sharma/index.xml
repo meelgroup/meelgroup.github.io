@@ -5,7 +5,7 @@
     <link>https://meelgroup.github.io/author/shubham-sharma/</link>
       <atom:link href="https://meelgroup.github.io/author/shubham-sharma/index.xml" rel="self" type="application/rss+xml" />
     <description>Shubham Sharma</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Mon, 11 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019--2023</copyright><lastBuildDate>Mon, 11 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://meelgroup.github.io/images/icon_hu1dd832c4da814f17fe02e3737f0ae144_14882_512x512_fill_lanczos_center_2.png</url>
       <title>Shubham Sharma</title>
@@ -34,7 +34,7 @@
       <pubDate>Fri, 03 May 2019 11:06:17 +0530</pubDate>
       <guid>https://meelgroup.github.io/post/kus/</guid>
       <description>&lt;p&gt;This blogpost is based on our 
-&lt;a href=&#34;https://www.comp.nus.edu.sg/~meel/Papers/lpar18.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; that got published in the procedings of International Conference on Logic for Programming, Artificial Intelligence and Reasoning (LPAR), 2018. The code is available 
+&lt;a href=&#34;https://www.cs.toronto.edu/~meel/Papers/lpar18.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; that got published in the procedings of International Conference on Logic for Programming, Artificial Intelligence and Reasoning (LPAR), 2018. The code is available 
 &lt;a href=&#34;https://github.com/meelgroup/KUS&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. The primary contribution of this work is marrying knowledge compilation with uniform sampling to design a new uniform sampler KUS. The main result is that KUS is able to solve more number of benchmarks than existing state-of-the-art uniform and almost-uniform samplers beating them by orders of magnitude in terms of runtime:
 &lt;img src=&#34;cactus.png&#34; alt=&#34;alt text&#34;&gt;&lt;/p&gt;
 &lt;h3&gt;Uniform Sampling&lt;/h3&gt;
@@ -64,7 +64,8 @@ Our experiments demonstrated that KUS outperformed both SPUR and UniGen2 state-o
 &lt;li&gt;In this work, we have proposed a new approach for uniform sampling that builds on breakthrough progress in knowledge compilation&lt;/li&gt;
 &lt;li&gt;Experimentally we have demonstrated that KUS outperformed state-of-the-art uniform and almost-uniform samplers&lt;/li&gt;
 &lt;li&gt;We believe that the success of KUS will motivate researchers in verification and knowledge compilation communities to investigate a broader set of logical forms amenable to efficient uniform generation&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -83,7 +84,7 @@ Our experiments demonstrated that KUS outperformed both SPUR and UniGen2 state-o
       <description>&lt;p&gt;This blogpost talks about our tool 
 &lt;a href=&#34;https://github.com/meelgroup/ganak&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GANAK&lt;/a&gt; that inherits current advancements in SAT solving and model counting, improves upon them and contributes new ideas, thereby outperforming state-of-the-art model counters. The source code of GANAK is available 
 &lt;a href=&#34;https://github.com/meelgroup/ganak&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt; and the paper is available 
-&lt;a href=&#34;https://www.comp.nus.edu.sg/~meel/Papers/ijcai19srsm.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. The main result is that we can solve a lot more problems than before: &lt;img src=&#34;cactus.png&#34; alt=&#34;alt text&#34;&gt;&lt;/p&gt;
+&lt;a href=&#34;https://www.cs.toronto.edu/~meel/Papers/ijcai19srsm.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. The main result is that we can solve a lot more problems than before: &lt;img src=&#34;cactus.png&#34; alt=&#34;alt text&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Let&amp;rsquo;s first define Model Counting.&lt;/p&gt;
 &lt;h3&gt;Model Counting&lt;/h3&gt;
 ***
@@ -109,7 +110,7 @@ GANAK is a scalable probabilistic exact model counter that inherits the strength
 &lt;li&gt;Learn and start over heuristic (LSO)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Detailed discussion about each of these heuristic can be found 
-&lt;a href=&#34;https://www.comp.nus.edu.sg/~meel/Papers/ijcai19srsm.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://www.cs.toronto.edu/~meel/Papers/ijcai19srsm.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt; Results &lt;/h3&gt;
 ***
 &lt;p&gt;We evaluate the runtime performance of GANAK on $2031$ publicly available benchmarks arising from a wide range of applications of model counting. Our experiments demonstrate that GANAK performs best when all the heuristics describe in the previous section (except EDR) are enabled. GANAK outperforms state-of-the-art exact model counter, both in terms of PAR-2 score and the number of instances solved. Finally, in our experiments, the model count returned by GANAK was equal to the exact model count for all the benchmarks.&lt;/p&gt;

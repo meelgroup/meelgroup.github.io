@@ -1,16 +1,48 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Joao Marques Silva | MeelGroup</title>
+    <title>Joao Marques-Silva | MeelGroup</title>
     <link>https://meelgroup.github.io/author/joao-marques-silva/</link>
       <atom:link href="https://meelgroup.github.io/author/joao-marques-silva/index.xml" rel="self" type="application/rss+xml" />
-    <description>Joao Marques Silva</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Sun, 05 May 2019 00:00:00 +0000</lastBuildDate>
+    <description>Joao Marques-Silva</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019--2023</copyright><lastBuildDate>Mon, 01 May 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://meelgroup.github.io/images/icon_hu1dd832c4da814f17fe02e3737f0ae144_14882_512x512_fill_lanczos_center_2.png</url>
-      <title>Joao Marques Silva</title>
+      <title>Joao Marques-Silva</title>
       <link>https://meelgroup.github.io/author/joao-marques-silva/</link>
     </image>
+    
+    <item>
+      <title>On Tackling Explanation Redundancy in Decision Trees</title>
+      <link>https://meelgroup.github.io/publication/ijcai23jt/</link>
+      <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/ijcai23jt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On computing probabilistic abductive explanations</title>
+      <link>https://meelgroup.github.io/publication/ijar23/</link>
+      <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/ijar23/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Solving Explainability Queries with Quantification: The Case of Feature Relevancy</title>
+      <link>https://meelgroup.github.io/publication/aaai23frp/</link>
+      <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/aaai23frp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Constraint-Driven Explanations of Black-Box ML Models</title>
+      <link>https://meelgroup.github.io/publication/aaai22-explanations/</link>
+      <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/aaai22-explanations/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Assessing Heuristic Machine Learning Explanations with Model Counting  </title>

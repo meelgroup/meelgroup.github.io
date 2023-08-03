@@ -5,12 +5,28 @@
     <link>https://meelgroup.github.io/author/nina-narodytska/</link>
       <atom:link href="https://meelgroup.github.io/author/nina-narodytska/index.xml" rel="self" type="application/rss+xml" />
     <description>Nina Narodytska</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Sun, 05 May 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019--2023</copyright><lastBuildDate>Sat, 01 Apr 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://meelgroup.github.io/images/icon_hu1dd832c4da814f17fe02e3737f0ae144_14882_512x512_fill_lanczos_center_2.png</url>
       <title>Nina Narodytska</title>
       <link>https://meelgroup.github.io/author/nina-narodytska/</link>
     </image>
+    
+    <item>
+      <title>On computing probabilistic abductive explanations</title>
+      <link>https://meelgroup.github.io/publication/ijar23/</link>
+      <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/ijar23/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Constraint-Driven Explanations of Black-Box ML Models</title>
+      <link>https://meelgroup.github.io/publication/aaai22-explanations/</link>
+      <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/aaai22-explanations/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Assessing Heuristic Machine Learning Explanations with Model Counting  </title>

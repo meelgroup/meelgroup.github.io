@@ -5,12 +5,20 @@
     <link>https://meelgroup.github.io/talk/</link>
       <atom:link href="https://meelgroup.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>News</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Fri, 09 Jun 2023 12:00:00 +0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019--2023</copyright><lastBuildDate>Thu, 03 Aug 2023 12:00:00 +0800</lastBuildDate>
     <image>
       <url>https://meelgroup.github.io/images/icon_hu1dd832c4da814f17fe02e3737f0ae144_14882_512x512_fill_lanczos_center_2.png</url>
       <title>News</title>
       <link>https://meelgroup.github.io/talk/</link>
     </image>
+    
+    <item>
+      <title>&lt;b&gt;We will present our paper &lt;a href=&#34;https://arxiv.org/abs/2306.15693&#34; target=&#34;_blank&#34;&gt;Solving the Identifying Code Set Problem with Grouped Independent Support&lt;/a&gt; this month at &lt;a href=&#34;https://ijcai-23.org/&#34; target=&#34;_blank&#34;&gt;IJCAI 2023&lt;/a&gt;.&lt;/b&gt;&lt;br&gt;We show how reducing an NP-hard problem to a problem in the second order of the polynomial hierarchy helps us to exponentially decrease the encoding size. By leveraging modern solvers that solve problems beyond NP, we can solve much larger problem instances than the former state of the art.&lt;br&gt;If you are attending IJCAI in Macau, please come to our talk on &lt;b&gt;Wednesday 23rd August, at 11:45am&lt;/b&gt; in the &lt;i&gt;CSO: Constraint Programming&lt;/i&gt; session, or join us for the poster session afterwards, from 5pm until 6:30pm. You can also check out &lt;a href=&#34;https://arxiv.org/abs/2306.15693&#34; target=&#34;_blank&#34;&gt;our preprint&lt;/a&gt; or watch &lt;a href=&#34;https://recorder-v3.slideslive.com/?share=85269&amp;s=87084c60-5772-4990-acdf-cd0b9655757d&#34; target=&#34;_blank&#34;&gt;this short video&lt;/a&gt;, which  summarises our contribution.&lt;br&gt;Authors: Anna L.D. Latour, Arunabha Sen, Kuldeep S. Meel</title>
+      <link>https://meelgroup.github.io/talk/23082023/</link>
+      <pubDate>Thu, 03 Aug 2023 12:00:00 +0800</pubDate>
+      <guid>https://meelgroup.github.io/talk/23082023/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>&lt;b&gt;Our paper &lt;a href=&#34;https://meelgroup.github.io/files/publications/kr23_fomc.pdf&#34;&gt;Synthesising Recursive Functions for First-Order Model Counting: Challenges, Progress, and Conjectures&lt;/a&gt; has been accepted to &lt;a href=&#34;https://kr.org/KR2023/&#34;&gt;KR 2023&lt;/a&gt;.&lt;/b&gt;&lt;br&gt;We extend the first-order model counting algorithm ForcLift with new compilation rules, enabling it to discover recursive solutions to previously-unsolved instances.&lt;br&gt;Authors: Paulius Dilkas, Vaishak Belle&lt;br&gt;</title>
@@ -301,7 +309,7 @@
     </item>
     
     <item>
-      <title>&lt;b&gt; We presented three papers at [CAV 2020](http://i-cav.org/2020/). &lt;/b&gt; &lt;br&gt; 1. The first paper builds on our CNF-XOR solving paradigm (BIRD) and as a result, the new versions of [ApproxMC and UniGen](https://www.comp.nus.edu.sg/~meel/Papers/cav20-sgm.pdf) are faster than ever. &lt;br&gt; 2. The second paper proposes the first algorithm for [approximate MUS counting](https://www.comp.nus.edu.sg/~meel/Papers/cav20-bm.pdf). &lt;br&gt; 3. The third one proposes a data-driven approach for [Boolean functional synthesis](https://www.comp.nus.edu.sg/~meel/Papers/cav20-grm.pdf), which works at the intersection of constrained sampling, machine learning and automated reasoning.</title>
+      <title>&lt;b&gt; We presented three papers at [CAV 2020](http://i-cav.org/2020/). &lt;/b&gt; &lt;br&gt; 1. The first paper builds on our CNF-XOR solving paradigm (BIRD) and as a result, the new versions of [ApproxMC and UniGen](https://www.cs.toronto.edu/~meel/Papers/cav20-sgm.pdf) are faster than ever. &lt;br&gt; 2. The second paper proposes the first algorithm for [approximate MUS counting](https://www.cs.toronto.edu/~meel/Papers/cav20-bm.pdf). &lt;br&gt; 3. The third one proposes a data-driven approach for [Boolean functional synthesis](https://www.cs.toronto.edu/~meel/Papers/cav20-grm.pdf), which works at the intersection of constrained sampling, machine learning and automated reasoning.</title>
       <link>https://meelgroup.github.io/talk/22072020/</link>
       <pubDate>Wed, 22 Jul 2020 00:00:00 +0800</pubDate>
       <guid>https://meelgroup.github.io/talk/22072020/</guid>
@@ -405,7 +413,7 @@
     </item>
     
     <item>
-      <title> Alexis will be presenting our work on &lt;a href=&#34;https://www.comp.nus.edu.sg/~meel/Papers/cp19-dm.pdf&#34;&gt;unifying hashing-based approaches for discrete integration&lt;/a&gt;, and Bishwa will present on &lt;a href=&#34;https://bishwamittra.github.io/publication/irr-ghosh.pdf&#34;&lt;/a&gt; learning interpretable classifiers at &lt;a href=&#34;https://cp2019.a4cp.org/&#34;&gt;CP2019&lt;/a&gt;.</title>
+      <title> Alexis will be presenting our work on &lt;a href=&#34;https://www.cs.toronto.edu/~meel/Papers/cp19-dm.pdf&#34;&gt;unifying hashing-based approaches for discrete integration&lt;/a&gt;, and Bishwa will present on &lt;a href=&#34;https://bishwamittra.github.io/publication/irr-ghosh.pdf&#34;&gt;learning interpretable classifiers&lt;/a&gt; at &lt;a href=&#34;https://cp2019.a4cp.org/&#34;&gt;CP2019&lt;/a&gt;.</title>
       <link>https://meelgroup.github.io/talk/30092019/</link>
       <pubDate>Mon, 30 Sep 2019 00:00:00 +0800</pubDate>
       <guid>https://meelgroup.github.io/talk/30092019/</guid>
@@ -429,7 +437,7 @@
     </item>
     
     <item>
-      <title>We presented three papers at IJCAI-19. 1) The first paper explores the [phase transition behavior of conjunction of cardinality and XOR constraints](https://www.comp.nus.edu.sg/~meel/Papers/ijcai19pjm.pdf). 2) The second paper describes a radically new approach to exact counting wherein we compute estimates that are [probabilistically exact](https://www.comp.nus.edu.sg/~meel/Papers/ijcai19srsm.pdf)! 3) The third one is our invited paper on [#DNF](https://www.comp.nus.edu.sg/~meel/Papers/ijcai19msv.pdf).</title>
+      <title>We presented three papers at IJCAI-19. 1) The first paper explores the [phase transition behavior of conjunction of cardinality and XOR constraints](https://www.cs.toronto.edu/~meel/Papers/ijcai19pjm.pdf). 2) The second paper describes a radically new approach to exact counting wherein we compute estimates that are [probabilistically exact](https://www.cs.toronto.edu/~meel/Papers/ijcai19srsm.pdf)! 3) The third one is our invited paper on [#DNF](https://www.cs.toronto.edu/~meel/Papers/ijcai19msv.pdf).</title>
       <link>https://meelgroup.github.io/talk/13082019/</link>
       <pubDate>Tue, 13 Aug 2019 00:00:00 +0800</pubDate>
       <guid>https://meelgroup.github.io/talk/13082019/</guid>
@@ -469,7 +477,7 @@
     </item>
     
     <item>
-      <title>Two papers accepted to IJCAI.The first paper explores the phase transition behavior of conjunction of cardinality and XOR constraints. Authors: Yash Pote, Saurabh Joshi, Kuldeep Meel.&lt;br&gt; The second paper describes a radically new approach to exact counting wherein we compute estimates that are probabilistically exact! Authors: Shubham Sharma, Kuldeep Meel. Combined with our invited paper on &lt;a href= &#34;https://www.comp.nus.edu.sg/~meel/Papers/CP2018msv.pdf&#34;&gt; #DNF &lt;/a&gt;, this makes 3 papers that we will be presenting at IJCAI.</title>
+      <title>Two papers accepted to IJCAI. The first paper explores the phase transition behavior of conjunction of cardinality and XOR constraints. Authors: Yash Pote, Saurabh Joshi, Kuldeep Meel.&lt;br&gt; The second paper describes a radically new approach to exact counting wherein we compute estimates that are probabilistically exact! Authors: Shubham Sharma, Kuldeep Meel. Combined with our invited paper on &lt;a href= &#34;https://www.cs.toronto.edu/~meel/Papers/CP2018msv.pdf&#34;&gt; #DNF&lt;/a&gt;, this makes 3 papers that we will be presenting at IJCAI.</title>
       <link>https://meelgroup.github.io/talk/09052019/</link>
       <pubDate>Thu, 09 May 2019 00:00:00 +0800</pubDate>
       <guid>https://meelgroup.github.io/talk/09052019/</guid>

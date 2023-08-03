@@ -5,12 +5,36 @@
     <link>https://meelgroup.github.io/author/arnab-bhattacharyya/</link>
       <atom:link href="https://meelgroup.github.io/author/arnab-bhattacharyya/index.xml" rel="self" type="application/rss+xml" />
     <description>Arnab Bhattacharyya</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Thu, 18 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019--2023</copyright><lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://meelgroup.github.io/images/icon_hu1dd832c4da814f17fe02e3737f0ae144_14882_512x512_fill_lanczos_center_2.png</url>
       <title>Arnab Bhattacharyya</title>
       <link>https://meelgroup.github.io/author/arnab-bhattacharyya/</link>
     </image>
+    
+    <item>
+      <title>On Approximating Total Variation Distance</title>
+      <link>https://meelgroup.github.io/publication/ijcai23_totvardist/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/ijcai23_totvardist/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Constraint Optimization over Semirings</title>
+      <link>https://meelgroup.github.io/publication/aaai23_semirings/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/aaai23_semirings/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Model Counting Meets Distinct Elements in a Data Stream</title>
+      <link>https://meelgroup.github.io/publication/sigmod22/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/sigmod22/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Model Counting meets F0 Estimation</title>

@@ -5,7 +5,7 @@
     <link>https://meelgroup.github.io/post/</link>
       <atom:link href="https://meelgroup.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Sun, 03 Nov 2019 00:00:00 +0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019--2023</copyright><lastBuildDate>Sun, 03 Nov 2019 00:00:00 +0800</lastBuildDate>
     <image>
       <url>https://meelgroup.github.io/images/icon_hu1dd832c4da814f17fe02e3737f0ae144_14882_512x512_fill_lanczos_center_2.png</url>
       <title>Posts</title>
@@ -28,7 +28,7 @@
       <pubDate>Fri, 03 May 2019 11:06:17 +0530</pubDate>
       <guid>https://meelgroup.github.io/post/kus/</guid>
       <description>&lt;p&gt;This blogpost is based on our 
-&lt;a href=&#34;https://www.comp.nus.edu.sg/~meel/Papers/lpar18.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; that got published in the procedings of International Conference on Logic for Programming, Artificial Intelligence and Reasoning (LPAR), 2018. The code is available 
+&lt;a href=&#34;https://www.cs.toronto.edu/~meel/Papers/lpar18.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; that got published in the procedings of International Conference on Logic for Programming, Artificial Intelligence and Reasoning (LPAR), 2018. The code is available 
 &lt;a href=&#34;https://github.com/meelgroup/KUS&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. The primary contribution of this work is marrying knowledge compilation with uniform sampling to design a new uniform sampler KUS. The main result is that KUS is able to solve more number of benchmarks than existing state-of-the-art uniform and almost-uniform samplers beating them by orders of magnitude in terms of runtime:
 &lt;img src=&#34;cactus.png&#34; alt=&#34;alt text&#34;&gt;&lt;/p&gt;
 &lt;h3&gt;Uniform Sampling&lt;/h3&gt;
@@ -58,7 +58,8 @@ Our experiments demonstrated that KUS outperformed both SPUR and UniGen2 state-o
 &lt;li&gt;In this work, we have proposed a new approach for uniform sampling that builds on breakthrough progress in knowledge compilation&lt;/li&gt;
 &lt;li&gt;Experimentally we have demonstrated that KUS outperformed state-of-the-art uniform and almost-uniform samplers&lt;/li&gt;
 &lt;li&gt;We believe that the success of KUS will motivate researchers in verification and knowledge compilation communities to investigate a broader set of logical forms amenable to efficient uniform generation&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -68,8 +69,8 @@ Our experiments demonstrated that KUS outperformed both SPUR and UniGen2 state-o
       <guid>https://meelgroup.github.io/post/waps/</guid>
       <description>&lt;p&gt;This blogpost talks about our tool 
 &lt;a href=&#34;https://github.com/meelgroup/WAPS&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;WAPS&lt;/a&gt;. Specifically, we will talk about how we are able to utilize the idea of sampling using knowledge compilations (d-DNNFs) from our previous work (
-&lt;a href=&#34;https://www.comp.nus.edu.sg/~meel/Papers/lpar18.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;KUS&lt;/a&gt;) and generalize it in order to achieve weighted and projected sampling. You can read the paper 
-&lt;a href=&#34;https://www.comp.nus.edu.sg/~meel/Papers/tacas19.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt; and get the tool 
+&lt;a href=&#34;https://www.cs.toronto.edu/~meel/Papers/lpar18.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;KUS&lt;/a&gt;) and generalize it in order to achieve weighted and projected sampling. You can read the paper 
+&lt;a href=&#34;https://www.cs.toronto.edu/~meel/Papers/tacas19.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt; and get the tool 
 &lt;a href=&#34;https://github.com/meelgroup/WAPS&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. You can read the previous 
 &lt;a href=&#34;https://meelgroup.github.io/post/kus/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;blog&lt;/a&gt; that describes uniform sampling using knowledge compilations, though it is not absolutely necessary for this post.&lt;/p&gt;
 &lt;!-- Don&#39;t worry if you haven&#39;t read the previous blog, I am going to mention the required details here.  --&gt;
@@ -128,7 +129,7 @@ This work has further tapped into the potential of sampling using knowledge comp
       <description>&lt;p&gt;This blogpost talks about our tool 
 &lt;a href=&#34;https://github.com/meelgroup/ganak&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GANAK&lt;/a&gt; that inherits current advancements in SAT solving and model counting, improves upon them and contributes new ideas, thereby outperforming state-of-the-art model counters. The source code of GANAK is available 
 &lt;a href=&#34;https://github.com/meelgroup/ganak&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt; and the paper is available 
-&lt;a href=&#34;https://www.comp.nus.edu.sg/~meel/Papers/ijcai19srsm.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. The main result is that we can solve a lot more problems than before: &lt;img src=&#34;cactus.png&#34; alt=&#34;alt text&#34;&gt;&lt;/p&gt;
+&lt;a href=&#34;https://www.cs.toronto.edu/~meel/Papers/ijcai19srsm.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. The main result is that we can solve a lot more problems than before: &lt;img src=&#34;cactus.png&#34; alt=&#34;alt text&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Let&amp;rsquo;s first define Model Counting.&lt;/p&gt;
 &lt;h3&gt;Model Counting&lt;/h3&gt;
 ***
@@ -154,7 +155,7 @@ GANAK is a scalable probabilistic exact model counter that inherits the strength
 &lt;li&gt;Learn and start over heuristic (LSO)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Detailed discussion about each of these heuristic can be found 
-&lt;a href=&#34;https://www.comp.nus.edu.sg/~meel/Papers/ijcai19srsm.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://www.cs.toronto.edu/~meel/Papers/ijcai19srsm.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt; Results &lt;/h3&gt;
 ***
 &lt;p&gt;We evaluate the runtime performance of GANAK on $2031$ publicly available benchmarks arising from a wide range of applications of model counting. Our experiments demonstrate that GANAK performs best when all the heuristics describe in the previous section (except EDR) are enabled. GANAK outperforms state-of-the-art exact model counter, both in terms of PAR-2 score and the number of instances solved. Finally, in our experiments, the model count returned by GANAK was equal to the exact model count for all the benchmarks.&lt;/p&gt;
@@ -168,7 +169,7 @@ GANAK is a scalable probabilistic exact model counter that inherits the strength
       <link>https://meelgroup.github.io/post/bosphorus/</link>
       <pubDate>Sat, 05 Jan 2019 11:06:17 +0530</pubDate>
       <guid>https://meelgroup.github.io/post/bosphorus/</guid>
-      <description>&lt;p&gt;We are happy to release our ANF and CNF simplifier and converter called &lt;a href=&#34;https://github.com/meelgroup/bosphorus&#34;&gt;Bosphorus&lt;/a&gt;. It has helped us break multiple real-world ciphers. It has been re-released with major work by Davin Choo &amp;amp; Kian Ming A. Chai from &lt;a href=&#34;https://www.dso.org.sg/&#34;&gt;DSO National Laboratories&lt;/a&gt; Singapore and Mate Soos &amp;amp; Kuldeep Meel from NUS. The &lt;a href=&#34;https://www.comp.nus.edu.sg/~meel/Papers/date-cscm19.pdf&#34;&gt;paper&lt;/a&gt; will be published at the &lt;a href=&#34;https://www.date-conference.com/&#34;&gt;DATE 2019&lt;/a&gt; conference.&lt;/p&gt;
+      <description>&lt;p&gt;We are happy to release our ANF and CNF simplifier and converter called &lt;a href=&#34;https://github.com/meelgroup/bosphorus&#34;&gt;Bosphorus&lt;/a&gt;. It has helped us break multiple real-world ciphers. It has been re-released with major work by Davin Choo &amp;amp; Kian Ming A. Chai from &lt;a href=&#34;https://www.dso.org.sg/&#34;&gt;DSO National Laboratories&lt;/a&gt; Singapore and Mate Soos &amp;amp; Kuldeep Meel from NUS. The &lt;a href=&#34;https://www.cs.toronto.edu/~meel/Papers/date-cscm19.pdf&#34;&gt;paper&lt;/a&gt; will be published at the &lt;a href=&#34;https://www.date-conference.com/&#34;&gt;DATE 2019&lt;/a&gt; conference.&lt;/p&gt;
 &lt;h3&gt;ANFs and CNFs&lt;/h3&gt;
 &lt;p&gt;Algebraic Normal Form is a form that is used by most cryptographers to describe symmetric ciphers, hash algorithms, and lately a lot of &lt;a href=&#34;https://csrc.nist.gov/projects/post-quantum-cryptography&#34;&gt;post-quantum asymmetric ciphers&lt;/a&gt;. It’s a very simple notation that basically looks like this:&lt;/p&gt;
 &lt;pre class=&#34;wp-block-preformatted&#34;&gt;x1 ⊕ x2 ⊕ x3 = 0&lt;br&gt;x1 * x2 ⊕ x2 * x3 + 1 = 0&lt;/pre&gt;
@@ -187,7 +188,7 @@ GANAK is a scalable probabilistic exact model counter that inherits the strength
 &lt;p&gt;ANF-to-CNF conversion is not considered that hard, and that’s why there hasn’t been too much academic effort devoted to it. However, it’s an important step without which a lot of opportunities would be missed.&lt;/p&gt;
 &lt;p&gt;The implemented system contains a pretty advanced ANF-to-CNF converter, using Karnaugh tables through &lt;a href=&#34;https://en.wikipedia.org/wiki/Espresso_heuristic_logic_minimizer&#34;&gt;Espresso&lt;/a&gt;, XOR cutting, monomial reuse, etc. It should give a pretty optimal CNF for all ANFs. So Bosphorus can be used also just as an ANF-to-CNF converter, though it’s so much more.&lt;/p&gt;
 &lt;h3&gt;Final Thoughts&lt;/h3&gt;
-&lt;p&gt;One of the biggest capabilities of &lt;a href=&#34;https://github.com/meelgroup/bosphorus&#34;&gt;Bosphorus&lt;/a&gt; is that it can simplify/preprocess ANF systems so more heavyweight ANF solvers can have a go at them. Its ANF simplification is so powerful, it can even help to solve some CNFs by lifting them to ANF, running the ANF simplifiers, converting it back to CNF, and solving that(!). We believe our initial results, published in the &lt;a href=&#34;https://www.comp.nus.edu.sg/~meel/Papers/date-cscm19.pdf&#34;&gt;paper&lt;/a&gt;, are very encouraging. Further, the system is in a ready-to-use state: there is a &lt;a href=&#34;https://cloud.docker.com/repository/docker/msoos/bosphorus&#34;&gt;Docker image&lt;/a&gt;, the source should build without a hitch, and there is even a precompiled Linux &lt;a href=&#34;https://github.com/meelgroup/bosphorus/releases/&#34;&gt;binary&lt;/a&gt;. We would love to hear about your experience using it.&lt;/p&gt;
+&lt;p&gt;One of the biggest capabilities of &lt;a href=&#34;https://github.com/meelgroup/bosphorus&#34;&gt;Bosphorus&lt;/a&gt; is that it can simplify/preprocess ANF systems so more heavyweight ANF solvers can have a go at them. Its ANF simplification is so powerful, it can even help to solve some CNFs by lifting them to ANF, running the ANF simplifiers, converting it back to CNF, and solving that(!). We believe our initial results, published in the &lt;a href=&#34;https://www.cs.toronto.edu/~meel/Papers/date-cscm19.pdf&#34;&gt;paper&lt;/a&gt;, are very encouraging. Further, the system is in a ready-to-use state: there is a &lt;a href=&#34;https://cloud.docker.com/repository/docker/msoos/bosphorus&#34;&gt;Docker image&lt;/a&gt;, the source should build without a hitch, and there is even a precompiled Linux &lt;a href=&#34;https://github.com/meelgroup/bosphorus/releases/&#34;&gt;binary&lt;/a&gt;. We would love to hear about your experience using it.&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Thanks to Karsten Nohl from &lt;a href=&#34;https://srlabs.de/&#34;&gt;Security Research Labs.&lt;/a&gt;&lt;/i&gt; This post has been adapted from &lt;a href=&#34;https://www.msoos.org/2019/01/bosphorus-an-anf-and-cnf-simplifier-and-converter/&#34;&gt;Mate&amp;rsquo;s post&lt;/a&gt; on Bosphorus.&lt;/p&gt;
 </description>
     </item>
@@ -197,7 +198,7 @@ GANAK is a scalable probabilistic exact model counter that inherits the strength
       <link>https://meelgroup.github.io/post/approxmcv3/</link>
       <pubDate>Sun, 25 Nov 2018 11:06:17 +0530</pubDate>
       <guid>https://meelgroup.github.io/post/approxmcv3/</guid>
-      <description>&lt;p&gt;ApproxMC is a scalable, approximate model counter that provides PAC (probably approximately correct) guarantees. We have been working very hard on speeding up approximate model counting for SAT and have made real progress. The research paper, accepted at AAAI-19 is available &lt;a href=&#34;https://www.comp.nus.edu.sg/~meel/Papers/aaai19-sm.pdf&#34;&gt;here&lt;/a&gt;. The code is available &lt;a href=&#34;https://github.com/meelgroup/ApproxMC&#34;&gt;here&lt;/a&gt; (release with static binary &lt;a href=&#34;https://github.com/meelgroup/ApproxMC/releases&#34;&gt;here&lt;/a&gt;). The main result is that we can solve a &lt;strong&gt;lot&lt;/strong&gt; more problems than before. The speed of solving is orders(!) of magnitude faster than the previous best system:&lt;/p&gt;
+      <description>&lt;p&gt;ApproxMC is a scalable, approximate model counter that provides PAC (probably approximately correct) guarantees. We have been working very hard on speeding up approximate model counting for SAT and have made real progress. The research paper, accepted at AAAI-19 is available &lt;a href=&#34;https://www.cs.toronto.edu/~meel/Papers/aaai19-sm.pdf&#34;&gt;here&lt;/a&gt;. The code is available &lt;a href=&#34;https://github.com/meelgroup/ApproxMC&#34;&gt;here&lt;/a&gt; (release with static binary &lt;a href=&#34;https://github.com/meelgroup/ApproxMC/releases&#34;&gt;here&lt;/a&gt;). The main result is that we can solve a &lt;strong&gt;lot&lt;/strong&gt; more problems than before. The speed of solving is orders(!) of magnitude faster than the previous best system:&lt;/p&gt;
 &lt;p&gt;&lt;img class=&#34;size-full wp-image-3214 aligncenter&#34; src=&#34;http://www.msoos.org/wordpress/wp-content/uploads/2018/11/Screenshot_20181125_202611.png&#34; alt=&#34;&#34; width=&#34;1202&#34; height=&#34;740&#34; srcset=&#34;https://www.msoos.org/wordpress/wp-content/uploads/2018/11/Screenshot_20181125_202611.png 1202w, https://www.msoos.org/wordpress/wp-content/uploads/2018/11/Screenshot_20181125_202611-300x185.png 300w, https://www.msoos.org/wordpress/wp-content/uploads/2018/11/Screenshot_20181125_202611-768x473.png 768w, https://www.msoos.org/wordpress/wp-content/uploads/2018/11/Screenshot_20181125_202611-1024x630.png 1024w&#34; sizes=&#34;(max-width: 1202px) 100vw, 1202px&#34; /&gt;&lt;/p&gt;
 &lt;h3&gt;Background&lt;/h3&gt;
 &lt;p&gt;The idea of approximate model counting, originally &lt;a href=&#34;https://arxiv.org/pdf/1306.5726&#34;&gt;by Chakraborty, Meel and Vardi&lt;/a&gt; was a huge hit back in 2013, and many papers have followed it, trying to improve its results. All of them were basically tied to &lt;a href=&#34;https://github.com/msoos/cryptominisat&#34;&gt;CryptoMiniSat&lt;/a&gt;, the SAT solver that is maintained by Mate, as all of them relied on XOR constraints being added to the regular CNF of a typical SAT problem.&lt;/p&gt;
@@ -229,7 +230,7 @@ GANAK is a scalable probabilistic exact model counter that inherits the strength
 -x1 V  x2
 &lt;/pre&gt;
 &lt;p&gt;This is almost equivalent to the previous set of clauses, but misses a literal from one of the clauses. It still implies the XOR of course. Now what? And what to do when missing literals mean that an entire clause can be missing? The algorithm to recover XORs in such cases is non-trivial. It&amp;#8217;s non-trivial not only because of the complexity of how many combinations of missing literals and clauses there can be (it&amp;#8217;s exponential) but because one must do this work extremely fast because SAT solvers are sensitive to time.&lt;/p&gt;
-&lt;p&gt;The algorithm that is in the &lt;a href=&#34;https://www.comp.nus.edu.sg/~meel/Papers/aaai19-sm.pdf&#34;&gt;paper&lt;/a&gt; explains all the bit-fiddling and cache-friendly data layout used along with some fun algorithms. We even managed to use compiler intrinsics to use target-specific assembly instructions for hamming weight calculation.&lt;/p&gt;
+&lt;p&gt;The algorithm that is in the &lt;a href=&#34;https://www.cs.toronto.edu/~meel/Papers/aaai19-sm.pdf&#34;&gt;paper&lt;/a&gt; explains all the bit-fiddling and cache-friendly data layout used along with some fun algorithms. We even managed to use compiler intrinsics to use target-specific assembly instructions for hamming weight calculation.&lt;/p&gt;
 &lt;h3&gt;The results&lt;/h3&gt;
 &lt;p&gt;The results, as shown above, speak for themselves. Problems that took thousands of seconds to solve can now be solved under 20. The reason for such incredible speedup is basically the following: CryptoMiniSatv2 was way too clunky and didn&amp;#8217;t have all the fun stuff that CryptoMiniSatv5 has, plus the XOR handling was incorrect, loosing XORs and the like. The published algorithm solves the underlying issue and allows CNF pre- and inprocessing to happen independent of XORs, thus enabling CryptoMiniSatv5 to be used in all its glory. And CryptoMiniSatv5 is &lt;em&gt;fast,&lt;/em&gt; as per the this year&amp;#8217;s SAT Competition &lt;a href=&#34;http://sat2018.forsyte.tuwien.ac.at/index.php?cat=results&#34;&gt;results&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;We thank the &lt;a href=&#34;https://www.nscc.sg/&#34;&gt;National Supercomputing Center Singapore&lt;/a&gt;  that allowed us to run a large number of benchmarks on their machines, using at least 200 thousand CPU hours to make this paper. &lt;/i&gt;This post has been adapted from &lt;a href=&#34;https://www.msoos.org/2018/11/approxmcv3-a-modern-approximate-model-counter/&#34;&gt;Mate&#39;s post&lt;/a&gt; on ApproxMCv3.&lt;/p&gt;

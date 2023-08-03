@@ -5,7 +5,7 @@
     <link>https://meelgroup.github.io/publication/</link>
       <atom:link href="https://meelgroup.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Fri, 09 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019--2023</copyright><lastBuildDate>Fri, 28 Jul 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://meelgroup.github.io/images/icon_hu1dd832c4da814f17fe02e3737f0ae144_14882_512x512_fill_lanczos_center_2.png</url>
       <title>Publications</title>
@@ -13,10 +13,82 @@
     </image>
     
     <item>
+      <title>A Fast and Accurate ASP Counting Based Network Reliability Estimator</title>
+      <link>https://meelgroup.github.io/publication/lpar23_relnet/</link>
+      <pubDate>Fri, 28 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/lpar23_relnet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Approximate Model Counting: Is SAT Oracle More Powerful than NP Oracle?</title>
+      <link>https://meelgroup.github.io/publication/icalp23/</link>
+      <pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/icalp23/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Support Size Estimation: The Power of Conditioning</title>
+      <link>https://meelgroup.github.io/publication/mfcs23/</link>
+      <pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/mfcs23/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On Approximating Total Variation Distance</title>
+      <link>https://meelgroup.github.io/publication/ijcai23_totvardist/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/ijcai23_totvardist/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Solving the Identifying Code Set Problem with Grouped Independent Support</title>
+      <link>https://meelgroup.github.io/publication/ijcai23_gismo/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/ijcai23_gismo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Explaining SAT Solving Using Causal Reasoning</title>
+      <link>https://meelgroup.github.io/publication/sat23/</link>
+      <pubDate>Tue, 27 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/sat23/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rounding Meets Approximate Model Counting</title>
+      <link>https://meelgroup.github.io/publication/cav23/</link>
+      <pubDate>Tue, 27 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/cav23/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Probabilistic Query Evaluation: The Combined FPRAS Landscape</title>
+      <link>https://meelgroup.github.io/publication/pods23/</link>
+      <pubDate>Sun, 18 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/pods23/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Synthesising Recursive Functions for First-Order Model Counting: Challenges, Progress, and Conjectures</title>
       <link>https://meelgroup.github.io/publication/kr23/</link>
       <pubDate>Fri, 09 Jun 2023 00:00:00 +0000</pubDate>
       <guid>https://meelgroup.github.io/publication/kr23/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scalable Probabilistic Routes</title>
+      <link>https://meelgroup.github.io/publication/lpar23_probroute/</link>
+      <pubDate>Sun, 04 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/lpar23_probroute/</guid>
       <description></description>
     </item>
     
@@ -29,6 +101,14 @@
     </item>
     
     <item>
+      <title>On Tackling Explanation Redundancy in Decision Trees</title>
+      <link>https://meelgroup.github.io/publication/ijcai23jt/</link>
+      <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/ijcai23jt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Synthesis with Explicit Dependencies</title>
       <link>https://meelgroup.github.io/publication/date23/</link>
       <pubDate>Mon, 17 Apr 2023 00:00:00 +0000</pubDate>
@@ -37,10 +117,42 @@
     </item>
     
     <item>
+      <title>On computing probabilistic abductive explanations</title>
+      <link>https://meelgroup.github.io/publication/ijar23/</link>
+      <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/ijar23/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Solving Explainability Queries with Quantification: The Case of Feature Relevancy</title>
+      <link>https://meelgroup.github.io/publication/aaai23frp/</link>
+      <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/aaai23frp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Testing of Horn Samplers</title>
       <link>https://meelgroup.github.io/publication/aistats23/</link>
       <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
       <guid>https://meelgroup.github.io/publication/aistats23/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Constraint Optimization over Semirings</title>
+      <link>https://meelgroup.github.io/publication/aaai23_semirings/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/aaai23_semirings/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fast Converging Anytime Model Counting</title>
+      <link>https://meelgroup.github.io/publication/aaai23_anytimemc/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/aaai23_anytimemc/</guid>
       <description></description>
     </item>
     
@@ -61,10 +173,26 @@
     </item>
     
     <item>
+      <title>Distinct Elements in Streams: An Algorithm for the (Text) Book</title>
+      <link>https://meelgroup.github.io/publication/esa22/</link>
+      <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/esa22/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Projected Model Counting: Beyond Independent Support</title>
       <link>https://meelgroup.github.io/publication/atva22/</link>
       <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
       <guid>https://meelgroup.github.io/publication/atva22/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Counting, Sampling, and Synthesis: The Quest for Scalability</title>
+      <link>https://meelgroup.github.io/publication/ijcai22/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/ijcai22/</guid>
       <description></description>
     </item>
     
@@ -101,6 +229,14 @@
     </item>
     
     <item>
+      <title>Model Counting Meets Distinct Elements in a Data Stream</title>
+      <link>https://meelgroup.github.io/publication/sigmod22/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/sigmod22/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>A Scalable Shannon Entropy Estimator</title>
       <link>https://meelgroup.github.io/publication/cav22/</link>
       <pubDate>Mon, 09 May 2022 00:00:00 +0000</pubDate>
@@ -113,6 +249,22 @@
       <link>https://meelgroup.github.io/publication/cp22/</link>
       <pubDate>Mon, 09 May 2022 00:00:00 +0000</pubDate>
       <guid>https://meelgroup.github.io/publication/cp22/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Scalable t-wise Coverage Estimator</title>
+      <link>https://meelgroup.github.io/publication/icse22/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/icse22/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Constraint-Driven Explanations of Black-Box ML Models</title>
+      <link>https://meelgroup.github.io/publication/aaai22-explanations/</link>
+      <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/aaai22-explanations/</guid>
       <description></description>
     </item>
     

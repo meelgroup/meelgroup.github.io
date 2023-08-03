@@ -5,7 +5,7 @@
     <link>https://meelgroup.github.io/author/rahul-gupta/</link>
       <atom:link href="https://meelgroup.github.io/author/rahul-gupta/index.xml" rel="self" type="application/rss+xml" />
     <description>Rahul Gupta</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Wed, 08 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019--2023</copyright><lastBuildDate>Wed, 08 Jul 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://meelgroup.github.io/images/icon_hu1dd832c4da814f17fe02e3737f0ae144_14882_512x512_fill_lanczos_center_2.png</url>
       <title>Rahul Gupta</title>
@@ -27,8 +27,8 @@
       <guid>https://meelgroup.github.io/post/waps/</guid>
       <description>&lt;p&gt;This blogpost talks about our tool 
 &lt;a href=&#34;https://github.com/meelgroup/WAPS&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;WAPS&lt;/a&gt;. Specifically, we will talk about how we are able to utilize the idea of sampling using knowledge compilations (d-DNNFs) from our previous work (
-&lt;a href=&#34;https://www.comp.nus.edu.sg/~meel/Papers/lpar18.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;KUS&lt;/a&gt;) and generalize it in order to achieve weighted and projected sampling. You can read the paper 
-&lt;a href=&#34;https://www.comp.nus.edu.sg/~meel/Papers/tacas19.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt; and get the tool 
+&lt;a href=&#34;https://www.cs.toronto.edu/~meel/Papers/lpar18.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;KUS&lt;/a&gt;) and generalize it in order to achieve weighted and projected sampling. You can read the paper 
+&lt;a href=&#34;https://www.cs.toronto.edu/~meel/Papers/tacas19.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt; and get the tool 
 &lt;a href=&#34;https://github.com/meelgroup/WAPS&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. You can read the previous 
 &lt;a href=&#34;https://meelgroup.github.io/post/kus/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;blog&lt;/a&gt; that describes uniform sampling using knowledge compilations, though it is not absolutely necessary for this post.&lt;/p&gt;
 &lt;!-- Don&#39;t worry if you haven&#39;t read the previous blog, I am going to mention the required details here.  --&gt;

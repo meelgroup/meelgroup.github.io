@@ -5,12 +5,20 @@
     <link>https://meelgroup.github.io/author/aditya-shrotri/</link>
       <atom:link href="https://meelgroup.github.io/author/aditya-shrotri/index.xml" rel="self" type="application/rss+xml" />
     <description>Aditya Shrotri</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Sun, 05 May 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019--2023</copyright><lastBuildDate>Tue, 01 Feb 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://meelgroup.github.io/images/icon_hu1dd832c4da814f17fe02e3737f0ae144_14882_512x512_fill_lanczos_center_2.png</url>
       <title>Aditya Shrotri</title>
       <link>https://meelgroup.github.io/author/aditya-shrotri/</link>
     </image>
+    
+    <item>
+      <title>Constraint-Driven Explanations of Black-Box ML Models</title>
+      <link>https://meelgroup.github.io/publication/aaai22-explanations/</link>
+      <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/aaai22-explanations/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Assessing Heuristic Machine Learning Explanations with Model Counting  </title>

@@ -5,12 +5,20 @@
     <link>https://meelgroup.github.io/author/suwei-yang/</link>
       <atom:link href="https://meelgroup.github.io/author/suwei-yang/index.xml" rel="self" type="application/rss+xml" />
     <description>Suwei Yang</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Mon, 22 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019--2023</copyright><lastBuildDate>Sun, 04 Jun 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://meelgroup.github.io/images/icon_hu1dd832c4da814f17fe02e3737f0ae144_14882_512x512_fill_lanczos_center_2.png</url>
       <title>Suwei Yang</title>
       <link>https://meelgroup.github.io/author/suwei-yang/</link>
     </image>
+    
+    <item>
+      <title>Scalable Probabilistic Routes</title>
+      <link>https://meelgroup.github.io/publication/lpar23_probroute/</link>
+      <pubDate>Sun, 04 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/lpar23_probroute/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>INC: A Scalable Incremental Weighted Sampler</title>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Diptarka Chakraborty | MeelGroup</title>
+    <link>https://meelgroup.github.io/author/diptarka-chakraborty/</link>
+      <atom:link href="https://meelgroup.github.io/author/diptarka-chakraborty/index.xml" rel="self" type="application/rss+xml" />
+    <description>Diptarka Chakraborty</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019--2023</copyright><lastBuildDate>Tue, 04 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://meelgroup.github.io/images/icon_hu1dd832c4da814f17fe02e3737f0ae144_14882_512x512_fill_lanczos_center_2.png</url>
+      <title>Diptarka Chakraborty</title>
+      <link>https://meelgroup.github.io/author/diptarka-chakraborty/</link>
+    </image>
+    
+    <item>
+      <title>Approximate Model Counting: Is SAT Oracle More Powerful than NP Oracle?</title>
+      <link>https://meelgroup.github.io/publication/icalp23/</link>
+      <pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/icalp23/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Support Size Estimation: The Power of Conditioning</title>
+      <link>https://meelgroup.github.io/publication/mfcs23/</link>
+      <pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/mfcs23/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
