@@ -5,12 +5,21 @@
     <link>https://meelgroup.github.io/tag/counting/</link>
       <atom:link href="https://meelgroup.github.io/tag/counting/index.xml" rel="self" type="application/rss+xml" />
     <description>counting</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019--2023</copyright><lastBuildDate>Sun, 26 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019--2023</copyright><lastBuildDate>Sun, 13 Aug 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://meelgroup.github.io/images/icon_hu1dd832c4da814f17fe02e3737f0ae144_14882_512x512_fill_lanczos_center_2.png</url>
       <title>counting</title>
       <link>https://meelgroup.github.io/tag/counting/</link>
     </image>
+    
+    <item>
+      <title>Crane</title>
+      <link>https://meelgroup.github.io/project/crane/</link>
+      <pubDate>Sun, 13 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/project/crane/</guid>
+      <description>&lt;p&gt;First-order model counting (FOMC) is a computational problem that asks to count the models of a sentence in finite-domain first-order logic. In this paper, we argue that the capabilities of FOMC algorithms to date are limited by their inability to express many types of recursive computations. To enable such computations, we relax the restrictions that typically accompany domain recursion and generalise the circuits used to express a solution to an FOMC problem to directed graphs that may contain cycles. To this end, we adapt the most well-established (weighted) FOMC algorithm ForcLift to work with such graphs and introduce new compilation rules that can create cycle-inducing edges that encode recursive function calls. These improvements allow the algorithm to find efficient solutions to counting problems that were previously beyond its reach, including those that cannot be solved efficiently by any other exact FOMC algorithm. We end with a few conjectures on what classes of instances could be domain-liftable as a result.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>NPAQ</title>
