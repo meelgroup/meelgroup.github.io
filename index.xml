@@ -13,18 +13,18 @@
     </image>
     
     <item>
-      <title>&lt;b&gt; &lt;a href=&#34;https://arxiv.org/pdf/2206.00667.pdf&#34;&gt;Our paper &lt;/a&gt; on explaining the sources of bias in machine learning via influence functions has been accepted in FAccT 2023. &lt;/b&gt; Authors: Bishwamittra Ghosh, Debabrota Basu and Kuldeep S. Meel. &lt;br&gt; We combine explainability with fairness in machine learning, where we compute the influence of individual features and the intersectional effect of multiple features on the resulting bias of a classifier on a dataset. This allows us to have a higher granular depiction of sources of bias than earlier methods.</title>
-      <link>https://meelgroup.github.io/talk/19092023/</link>
-      <pubDate>Tue, 19 Sep 2023 00:00:00 +0800</pubDate>
-      <guid>https://meelgroup.github.io/talk/19092023/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Interpretability and Fairness in Machine Learning: A Formal Methods Approach</title>
       <link>https://meelgroup.github.io/publication/ghosh-phdthesis/</link>
       <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
       <guid>https://meelgroup.github.io/publication/ghosh-phdthesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>&lt;b&gt; We have presented a tutorial on &lt;a href=&#34;https://auditing-fairness-tutorial.github.io&#34;&gt;auditing bias in machine learning&lt;/a&gt; in IJCAI 2023. &lt;/b&gt; Presenters: Bishwamittra Ghosh and Debabrota Basu. &lt;br&gt; In this tutorial, we address three questions on bias in machine learning: (i) Choosing a compatible fairness metric based on application context, (ii) Formally quantifying fairness with respect to the compatible metric, and (iii) Explaining the sources of unfairness corresponding to the metric.</title>
+      <link>https://meelgroup.github.io/talk/19082023/</link>
+      <pubDate>Sat, 19 Aug 2023 00:00:00 +0800</pubDate>
+      <guid>https://meelgroup.github.io/talk/19082023/</guid>
       <description></description>
     </item>
     
@@ -50,6 +50,14 @@
       <link>https://meelgroup.github.io/publication/lpar23_relnet/</link>
       <pubDate>Fri, 28 Jul 2023 00:00:00 +0000</pubDate>
       <guid>https://meelgroup.github.io/publication/lpar23_relnet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>&lt;b&gt;Our work on &lt;a href=&#34;https://link.springer.com/chapter/10.1007/978-3-031-37703-7_7&#34;&gt;Rounding Meets Approximate Model Counting&lt;/a&gt; has been accepted to  &lt;a href=&#34;http://www.i-cav.org/2023/&#34;&gt;CAV 2023&lt;/a&gt; and received Distinguished Paper Award.&lt;/b&gt; &lt;br&gt; We round the approximate count of ApproxMC, which allows us to achieve 4$\times$ speedup over the state of the art. &lt;br&gt; Authors: Jiong Yang and Kuldeep S. Meel&lt;br&gt; </title>
+      <link>https://meelgroup.github.io/talk/19072023/</link>
+      <pubDate>Wed, 19 Jul 2023 13:15:00 +0800</pubDate>
+      <guid>https://meelgroup.github.io/talk/19072023/</guid>
       <description></description>
     </item>
     
@@ -162,6 +170,14 @@
       <link>https://meelgroup.github.io/publication/date23/</link>
       <pubDate>Mon, 17 Apr 2023 00:00:00 +0000</pubDate>
       <guid>https://meelgroup.github.io/publication/date23/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>&lt;b&gt; &lt;a href=&#34;https://arxiv.org/pdf/2206.00667.pdf&#34;&gt;Our paper &lt;/a&gt; on explaining the sources of bias in machine learning via influence functions has been accepted in FAccT 2023. &lt;/b&gt; Authors: Bishwamittra Ghosh, Debabrota Basu and Kuldeep S. Meel. &lt;br&gt; We combine explainability with fairness in machine learning, where we compute the influence of individual features and the intersectional effect of multiple features on the resulting bias of a classifier on a dataset. This allows us to have a higher granular depiction of sources of bias than earlier methods.</title>
+      <link>https://meelgroup.github.io/talk/08042023/</link>
+      <pubDate>Sat, 08 Apr 2023 00:00:00 +0800</pubDate>
+      <guid>https://meelgroup.github.io/talk/08042023/</guid>
       <description></description>
     </item>
     
