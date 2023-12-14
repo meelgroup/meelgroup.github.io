@@ -13,6 +13,14 @@
     </image>
     
     <item>
+      <title>&lt;b&gt;Five Papers accepted to &lt;a href=&#34;https://aaai.org/aaai-conference/&#34;&gt;AAAI 2024&lt;/a&gt;.&lt;/b&gt; &lt;br&gt; 1. The first paper is Auditable Algorithms for Approximate Model Counting &lt;br&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;  Authors: S. Akshay, Supratik Chakraborty and Kuldeep S. Meel&lt;/br&gt; 2. The second paper is An Approximate Skolem Function Counter &lt;br&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;  Authors: Arijit Shaw, Brendan Juba and Kuldeep S. Meel&lt;/br&gt; 3. The third paper is Exact ASP Counting with Compact Encodings &lt;br&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;  Authors: Mohimenul Kabir, Supratik Chakraborty and Kuldeep S. Meel&lt;/br&gt; 4. The fourth paper is Testing Self-Reducible Samplers &lt;br&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;  Authors: Rishiraj Bhattacharyya, Sourav Chakraborty, Yash Pote, Uddalok Sarkar and Sayantan Sen&lt;/br&gt; 5. The fifth paper is Engineering an Exact Pseudo-Boolean Model Counter &lt;br&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;  Authors: Suwei Yang and Kuldeep S. Meel</title>
+      <link>https://meelgroup.github.io/talk/14122023/</link>
+      <pubDate>Thu, 14 Dec 2023 00:00:00 +0800</pubDate>
+      <guid>https://meelgroup.github.io/talk/14122023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Functional Synthesis via Formal Methods and Machine Learning</title>
       <link>https://meelgroup.github.io/publication/golia-phdthesis/</link>
       <pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate>

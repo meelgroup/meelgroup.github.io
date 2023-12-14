@@ -5,12 +5,20 @@
     <link>https://meelgroup.github.io/talk/</link>
       <atom:link href="https://meelgroup.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>News</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019--2023</copyright><lastBuildDate>Sat, 19 Aug 2023 00:00:00 +0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019--2023</copyright><lastBuildDate>Thu, 14 Dec 2023 00:00:00 +0800</lastBuildDate>
     <image>
       <url>https://meelgroup.github.io/images/icon_hu1dd832c4da814f17fe02e3737f0ae144_14882_512x512_fill_lanczos_center_2.png</url>
       <title>News</title>
       <link>https://meelgroup.github.io/talk/</link>
     </image>
+    
+    <item>
+      <title>&lt;b&gt;Five Papers accepted to &lt;a href=&#34;https://aaai.org/aaai-conference/&#34;&gt;AAAI 2024&lt;/a&gt;.&lt;/b&gt; &lt;br&gt; 1. The first paper is Auditable Algorithms for Approximate Model Counting &lt;br&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;  Authors: S. Akshay, Supratik Chakraborty and Kuldeep S. Meel&lt;/br&gt; 2. The second paper is An Approximate Skolem Function Counter &lt;br&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;  Authors: Arijit Shaw, Brendan Juba and Kuldeep S. Meel&lt;/br&gt; 3. The third paper is Exact ASP Counting with Compact Encodings &lt;br&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;  Authors: Mohimenul Kabir, Supratik Chakraborty and Kuldeep S. Meel&lt;/br&gt; 4. The fourth paper is Testing Self-Reducible Samplers &lt;br&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;  Authors: Rishiraj Bhattacharyya, Sourav Chakraborty, Yash Pote, Uddalok Sarkar and Sayantan Sen&lt;/br&gt; 5. The fifth paper is Engineering an Exact Pseudo-Boolean Model Counter &lt;br&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;  Authors: Suwei Yang and Kuldeep S. Meel</title>
+      <link>https://meelgroup.github.io/talk/14122023/</link>
+      <pubDate>Thu, 14 Dec 2023 00:00:00 +0800</pubDate>
+      <guid>https://meelgroup.github.io/talk/14122023/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>&lt;b&gt; We have presented a tutorial on &lt;a href=&#34;https://auditing-fairness-tutorial.github.io&#34;&gt;auditing bias in machine learning&lt;/a&gt; in IJCAI 2023. &lt;/b&gt; Presenters: Bishwamittra Ghosh and Debabrota Basu. &lt;br&gt; In this tutorial, we address three questions on bias in machine learning: (i) Choosing a compatible fairness metric based on application context, (ii) Formally quantifying fairness with respect to the compatible metric, and (iii) Explaining the sources of unfairness corresponding to the metric.</title>
