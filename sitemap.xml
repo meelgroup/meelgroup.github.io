@@ -3,22 +3,187 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://meelgroup.github.io/talk/14122023/</loc>
-    <lastmod>2023-12-14T00:00:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://meelgroup.github.io/talk/</loc>
-    <lastmod>2023-12-14T00:00:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://meelgroup.github.io/publication-type/7/</loc>
-    <lastmod>2023-09-25T00:00:00+00:00</lastmod>
+    <loc>https://meelgroup.github.io/publication-type/1/</loc>
+    <lastmod>2024-01-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://meelgroup.github.io/authors/</loc>
+    <lastmod>2024-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/diptarka-chakraborty/</loc>
+    <lastmod>2024-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/aistats24/</loc>
+    <lastmod>2024-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/gunjan-kumar/</loc>
+    <lastmod>2024-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/gunjan-kumar/</loc>
+    <lastmod>2024-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/kuldeep-s.-meel/</loc>
+    <lastmod>2024-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/kuldeep-s.-meel/</loc>
+    <lastmod>2024-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication_types/</loc>
+    <lastmod>2024-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/</loc>
+    <lastmod>2024-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/sourav-chakraborty/</loc>
+    <lastmod>2024-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/sourav-chakraborty/</loc>
+    <lastmod>2024-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/antoine-amarilli/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/icdt24/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/kuldeep-s-meel/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/tim-van-bremen/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/timothy-van-bremen/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/aaai24_skolemfc/</loc>
+    <lastmod>2023-12-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/arijit-shaw/</loc>
+    <lastmod>2023-12-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/arijit-shaw/</loc>
+    <lastmod>2023-12-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/brendan-juba/</loc>
+    <lastmod>2023-12-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/aaai24_pbcount/</loc>
+    <lastmod>2023-12-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/aaai24_sharpasp/</loc>
+    <lastmod>2023-12-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/mohimenul-kabir/</loc>
+    <lastmod>2023-12-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/rishiraj-bhattacharya/</loc>
+    <lastmod>2023-12-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/sayantan-sen/</loc>
+    <lastmod>2023-12-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/supratik-chakraborty/</loc>
+    <lastmod>2023-12-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/suwei-yang/</loc>
+    <lastmod>2023-12-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/suwei-yang/</loc>
+    <lastmod>2023-12-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication/aaai24_cubeprobe/</loc>
+    <lastmod>2023-12-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/uddalok-sarkar/</loc>
+    <lastmod>2023-12-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/uddalok-sarkar/</loc>
+    <lastmod>2023-12-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/yash-pote/</loc>
+    <lastmod>2023-12-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/author/yash-pote/</loc>
+    <lastmod>2023-12-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/talk/14122023/</loc>
+    <lastmod>2023-12-14T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/talk/</loc>
+    <lastmod>2023-12-14T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/publication-type/7/</loc>
     <lastmod>2023-09-25T00:00:00+00:00</lastmod>
   </url>
   
@@ -34,16 +199,6 @@
   
   <url>
     <loc>https://meelgroup.github.io/author/priyanka-golia/</loc>
-    <lastmod>2023-09-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://meelgroup.github.io/publication_types/</loc>
-    <lastmod>2023-09-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://meelgroup.github.io/publication/</loc>
     <lastmod>2023-09-25T00:00:00+00:00</lastmod>
   </url>
   
@@ -64,7 +219,7 @@
   
   <url>
     <loc>https://meelgroup.github.io/talk/19082023/</loc>
-    <lastmod>2023-08-19T00:00:00+08:00</lastmod>
+    <lastmod>2023-08-19T00:00:00-04:00</lastmod>
   </url>
   
   <url>
@@ -89,12 +244,7 @@
   
   <url>
     <loc>https://meelgroup.github.io/talk/23082023/</loc>
-    <lastmod>2023-08-03T12:00:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://meelgroup.github.io/publication-type/1/</loc>
-    <lastmod>2023-07-28T00:00:00+00:00</lastmod>
+    <lastmod>2023-08-03T12:00:00-04:00</lastmod>
   </url>
   
   <url>
@@ -103,52 +253,12 @@
   </url>
   
   <url>
-    <loc>https://meelgroup.github.io/author/kuldeep-s.-meel/</loc>
-    <lastmod>2023-07-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://meelgroup.github.io/author/kuldeep-s.-meel/</loc>
-    <lastmod>2023-07-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://meelgroup.github.io/author/mohimenul-kabir/</loc>
-    <lastmod>2023-07-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://meelgroup.github.io/talk/19072023/</loc>
-    <lastmod>2023-07-19T13:15:00+08:00</lastmod>
+    <lastmod>2023-07-19T13:15:00-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://meelgroup.github.io/publication/icalp23/</loc>
-    <lastmod>2023-07-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://meelgroup.github.io/author/diptarka-chakraborty/</loc>
-    <lastmod>2023-07-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://meelgroup.github.io/author/gunjan-kumar/</loc>
-    <lastmod>2023-07-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://meelgroup.github.io/author/gunjan-kumar/</loc>
-    <lastmod>2023-07-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://meelgroup.github.io/author/sourav-chakraborty/</loc>
-    <lastmod>2023-07-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://meelgroup.github.io/author/sourav-chakraborty/</loc>
     <lastmod>2023-07-04T00:00:00+00:00</lastmod>
   </url>
   
@@ -208,16 +318,6 @@
   </url>
   
   <url>
-    <loc>https://meelgroup.github.io/author/arijit-shaw/</loc>
-    <lastmod>2023-06-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://meelgroup.github.io/author/arijit-shaw/</loc>
-    <lastmod>2023-06-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://meelgroup.github.io/publication/sat23/</loc>
     <lastmod>2023-06-27T00:00:00+00:00</lastmod>
   </url>
@@ -263,18 +363,8 @@
   </url>
   
   <url>
-    <loc>https://meelgroup.github.io/author/tim-van-bremen/</loc>
-    <lastmod>2023-06-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://meelgroup.github.io/author/timothy-van-bremen/</loc>
-    <lastmod>2023-06-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://meelgroup.github.io/talk/09062023/</loc>
-    <lastmod>2023-06-09T12:00:00+08:00</lastmod>
+    <lastmod>2023-06-09T12:00:00-04:00</lastmod>
   </url>
   
   <url>
@@ -304,16 +394,6 @@
   
   <url>
     <loc>https://meelgroup.github.io/publication/lpar23_probroute/</loc>
-    <lastmod>2023-06-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://meelgroup.github.io/author/suwei-yang/</loc>
-    <lastmod>2023-06-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://meelgroup.github.io/author/suwei-yang/</loc>
     <lastmod>2023-06-04T00:00:00+00:00</lastmod>
   </url>
   
@@ -374,7 +454,7 @@
   
   <url>
     <loc>https://meelgroup.github.io/talk/08042023/</loc>
-    <lastmod>2023-04-08T00:00:00+08:00</lastmod>
+    <lastmod>2023-04-08T00:00:00-04:00</lastmod>
   </url>
   
   <url>
@@ -404,7 +484,7 @@
   
   <url>
     <loc>https://meelgroup.github.io/talk/25022023/</loc>
-    <lastmod>2023-02-25T12:00:00+08:00</lastmod>
+    <lastmod>2023-02-25T12:00:00-05:00</lastmod>
   </url>
   
   <url>
@@ -418,27 +498,12 @@
   </url>
   
   <url>
-    <loc>https://meelgroup.github.io/author/sayantan-sen/</loc>
-    <lastmod>2023-01-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://meelgroup.github.io/author/shayak-chakraborty/</loc>
     <lastmod>2023-01-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://meelgroup.github.io/publication/aistats23/</loc>
-    <lastmod>2023-01-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://meelgroup.github.io/author/uddalok-sarkar/</loc>
-    <lastmod>2023-01-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://meelgroup.github.io/author/uddalok-sarkar/</loc>
     <lastmod>2023-01-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -474,26 +539,16 @@
   
   <url>
     <loc>https://meelgroup.github.io/talk/16112022/</loc>
-    <lastmod>2022-11-16T14:15:00+08:00</lastmod>
+    <lastmod>2022-11-16T14:15:00-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://meelgroup.github.io/talk/14092022/</loc>
-    <lastmod>2022-11-06T00:00:00+08:00</lastmod>
+    <lastmod>2022-11-06T00:00:00-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://meelgroup.github.io/publication/neurips22/</loc>
-    <lastmod>2022-09-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://meelgroup.github.io/author/yash-pote/</loc>
-    <lastmod>2022-09-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://meelgroup.github.io/author/yash-pote/</loc>
     <lastmod>2022-09-14T00:00:00+00:00</lastmod>
   </url>
   
@@ -528,13 +583,8 @@
   </url>
   
   <url>
-    <loc>https://meelgroup.github.io/author/supratik-chakraborty/</loc>
-    <lastmod>2022-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://meelgroup.github.io/talk/04072022/</loc>
-    <lastmod>2022-07-04T13:15:00+08:00</lastmod>
+    <lastmod>2022-07-04T13:15:00-04:00</lastmod>
   </url>
   
   <url>
@@ -609,16 +659,11 @@
   
   <url>
     <loc>https://meelgroup.github.io/talk/09052022/</loc>
-    <lastmod>2022-05-09T13:15:00+08:00</lastmod>
+    <lastmod>2022-05-09T13:15:00-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://meelgroup.github.io/publication/cav22/</loc>
-    <lastmod>2022-05-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://meelgroup.github.io/author/brendan-juba/</loc>
     <lastmod>2022-05-09T00:00:00+00:00</lastmod>
   </url>
   
@@ -629,7 +674,7 @@
   
   <url>
     <loc>https://meelgroup.github.io/talk/08052022/</loc>
-    <lastmod>2022-05-08T13:15:00+08:00</lastmod>
+    <lastmod>2022-05-08T13:15:00-04:00</lastmod>
   </url>
   
   <url>
@@ -664,17 +709,17 @@
   
   <url>
     <loc>https://meelgroup.github.io/talk/21122021/</loc>
-    <lastmod>2021-12-21T00:00:00+08:00</lastmod>
+    <lastmod>2021-12-21T00:00:00-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://meelgroup.github.io/talk/03122021/</loc>
-    <lastmod>2021-12-03T00:00:00+08:00</lastmod>
+    <lastmod>2021-12-03T00:00:00-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://meelgroup.github.io/talk/02122021/</loc>
-    <lastmod>2021-12-02T00:00:00+08:00</lastmod>
+    <lastmod>2021-12-02T00:00:00-05:00</lastmod>
   </url>
   
   <url>
@@ -683,18 +728,23 @@
   </url>
   
   <url>
+    <loc>https://meelgroup.github.io/talk/07112021/</loc>
+    <lastmod>2021-11-07T00:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://meelgroup.github.io/publication/neurips21_teq/</loc>
     <lastmod>2021-11-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://meelgroup.github.io/talk/07112021/</loc>
-    <lastmod>2021-11-07T00:00:00+08:00</lastmod>
+    <loc>https://meelgroup.github.io/talk/24092021/</loc>
+    <lastmod>2021-10-30T14:15:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://meelgroup.github.io/talk/24092021/</loc>
-    <lastmod>2021-10-30T14:15:00+08:00</lastmod>
+    <loc>https://meelgroup.github.io/talk/28072021/</loc>
+    <lastmod>2021-07-28T00:00:00-04:00</lastmod>
   </url>
   
   <url>
@@ -703,13 +753,8 @@
   </url>
   
   <url>
-    <loc>https://meelgroup.github.io/talk/28072021/</loc>
-    <lastmod>2021-07-28T00:00:00+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://meelgroup.github.io/talk/14072021/</loc>
-    <lastmod>2021-07-14T14:15:00+08:00</lastmod>
+    <lastmod>2021-07-14T14:15:00-04:00</lastmod>
   </url>
   
   <url>
@@ -729,7 +774,7 @@
   
   <url>
     <loc>https://meelgroup.github.io/talk/09072021/</loc>
-    <lastmod>2021-07-09T14:15:00+08:00</lastmod>
+    <lastmod>2021-07-09T14:15:00-04:00</lastmod>
   </url>
   
   <url>
@@ -739,12 +784,12 @@
   
   <url>
     <loc>https://meelgroup.github.io/talk/15062021/</loc>
-    <lastmod>2021-06-15T14:15:00+08:00</lastmod>
+    <lastmod>2021-06-15T14:15:00-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://meelgroup.github.io/talk/04052021/</loc>
-    <lastmod>2021-05-04T14:15:00+08:00</lastmod>
+    <lastmod>2021-05-04T14:15:00-04:00</lastmod>
   </url>
   
   <url>
@@ -804,7 +849,7 @@
   
   <url>
     <loc>https://meelgroup.github.io/talk/30042021/</loc>
-    <lastmod>2021-04-30T14:15:00+08:00</lastmod>
+    <lastmod>2021-04-30T14:15:00-04:00</lastmod>
   </url>
   
   <url>
@@ -814,47 +859,47 @@
   
   <url>
     <loc>https://meelgroup.github.io/talk/21042021/</loc>
-    <lastmod>2021-04-21T14:15:00+08:00</lastmod>
+    <lastmod>2021-04-21T14:15:00-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://meelgroup.github.io/talk/20042021/</loc>
-    <lastmod>2021-04-20T14:15:00+08:00</lastmod>
+    <lastmod>2021-04-20T14:15:00-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://meelgroup.github.io/talk/19042021/</loc>
-    <lastmod>2021-04-19T14:15:00+08:00</lastmod>
+    <lastmod>2021-04-19T14:15:00-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://meelgroup.github.io/talk/15042021/</loc>
-    <lastmod>2021-04-15T14:15:00+08:00</lastmod>
+    <lastmod>2021-04-15T14:15:00-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://meelgroup.github.io/talk/02042021/</loc>
-    <lastmod>2021-04-02T14:15:00+08:00</lastmod>
+    <lastmod>2021-04-02T14:15:00-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://meelgroup.github.io/talk/24032021/</loc>
-    <lastmod>2021-03-24T14:15:00+08:00</lastmod>
+    <lastmod>2021-03-24T14:15:00-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://meelgroup.github.io/talk/15032021/</loc>
-    <lastmod>2021-03-15T14:15:00+08:00</lastmod>
+    <lastmod>2021-03-15T14:15:00-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://meelgroup.github.io/talk/13032021/</loc>
-    <lastmod>2021-03-13T14:15:00+08:00</lastmod>
+    <lastmod>2021-03-13T14:15:00-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://meelgroup.github.io/talk/01032021/</loc>
-    <lastmod>2021-03-01T14:15:00+08:00</lastmod>
+    <lastmod>2021-03-01T14:15:00-05:00</lastmod>
   </url>
   
   <url>
@@ -869,12 +914,12 @@
   
   <url>
     <loc>https://meelgroup.github.io/talk/09022021/</loc>
-    <lastmod>2021-02-09T14:15:00+08:00</lastmod>
+    <lastmod>2021-02-09T14:15:00-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://meelgroup.github.io/talk/05022021/</loc>
-    <lastmod>2021-02-05T14:15:00+08:00</lastmod>
+    <lastmod>2021-02-05T14:15:00-05:00</lastmod>
   </url>
   
   <url>
@@ -939,27 +984,32 @@
   
   <url>
     <loc>https://meelgroup.github.io/talk/08012021/</loc>
-    <lastmod>2021-01-08T14:15:00+08:00</lastmod>
+    <lastmod>2021-01-08T14:15:00-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://meelgroup.github.io/talk/17122020/</loc>
-    <lastmod>2020-12-17T14:15:00+08:00</lastmod>
+    <lastmod>2020-12-17T14:15:00-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://meelgroup.github.io/talk/05122020/</loc>
-    <lastmod>2020-12-05T14:15:00+08:00</lastmod>
+    <lastmod>2020-12-05T14:15:00-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://meelgroup.github.io/talk/02122020/</loc>
-    <lastmod>2020-12-02T00:00:00+08:00</lastmod>
+    <lastmod>2020-12-02T00:00:00-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://meelgroup.github.io/publication/fse20/</loc>
     <lastmod>2020-11-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/talk/25092020/</loc>
+    <lastmod>2020-09-25T00:00:00-04:00</lastmod>
   </url>
   
   <url>
@@ -988,28 +1038,28 @@
   </url>
   
   <url>
-    <loc>https://meelgroup.github.io/talk/25092020/</loc>
-    <lastmod>2020-09-25T00:00:00+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://meelgroup.github.io/talk/18092020/</loc>
-    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+    <lastmod>2020-09-18T00:00:00-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://meelgroup.github.io/talk/10092020/</loc>
-    <lastmod>2020-09-10T00:00:00+08:00</lastmod>
+    <lastmod>2020-09-10T00:00:00-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://meelgroup.github.io/talk/22072020/</loc>
-    <lastmod>2020-07-22T00:00:00+08:00</lastmod>
+    <lastmod>2020-07-22T00:00:00-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://meelgroup.github.io/talk/07072020/</loc>
-    <lastmod>2020-07-13T00:00:00+08:00</lastmod>
+    <lastmod>2020-07-13T00:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/talk/08072020/</loc>
+    <lastmod>2020-07-08T00:00:00-04:00</lastmod>
   </url>
   
   <url>
@@ -1028,13 +1078,8 @@
   </url>
   
   <url>
-    <loc>https://meelgroup.github.io/talk/08072020/</loc>
-    <lastmod>2020-07-08T00:00:00+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://meelgroup.github.io/talk/13072020/</loc>
-    <lastmod>2020-07-07T00:00:00+08:00</lastmod>
+    <lastmod>2020-07-07T00:00:00-04:00</lastmod>
   </url>
   
   <url>
@@ -1099,22 +1144,22 @@
   
   <url>
     <loc>https://meelgroup.github.io/talk/25042020/</loc>
-    <lastmod>2020-04-25T00:00:00+08:00</lastmod>
+    <lastmod>2020-04-25T00:00:00-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://meelgroup.github.io/talk/10042020/</loc>
-    <lastmod>2020-04-10T00:00:00+08:00</lastmod>
+    <lastmod>2020-04-10T00:00:00-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://meelgroup.github.io/talk/08042020/</loc>
-    <lastmod>2020-04-08T00:00:00+08:00</lastmod>
+    <lastmod>2020-04-08T00:00:00-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://meelgroup.github.io/talk/06042020/</loc>
-    <lastmod>2020-04-06T00:00:00+08:00</lastmod>
+    <lastmod>2020-04-06T00:00:00-04:00</lastmod>
   </url>
   
   <url>
@@ -1159,12 +1204,12 @@
   
   <url>
     <loc>https://meelgroup.github.io/talk/18022020/</loc>
-    <lastmod>2020-02-18T00:00:00+08:00</lastmod>
+    <lastmod>2020-02-18T00:00:00-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://meelgroup.github.io/talk/08022020/</loc>
-    <lastmod>2020-02-08T00:00:00+08:00</lastmod>
+    <lastmod>2020-02-08T00:00:00-05:00</lastmod>
   </url>
   
   <url>
@@ -1184,7 +1229,7 @@
   
   <url>
     <loc>https://meelgroup.github.io/talk/15012020/</loc>
-    <lastmod>2020-01-15T00:00:00+08:00</lastmod>
+    <lastmod>2020-01-15T00:00:00-05:00</lastmod>
   </url>
   
   <url>
@@ -1204,22 +1249,32 @@
   
   <url>
     <loc>https://meelgroup.github.io/talk/23122019/</loc>
-    <lastmod>2019-12-23T00:00:00+08:00</lastmod>
+    <lastmod>2019-12-23T00:00:00-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://meelgroup.github.io/talk/07122019/</loc>
-    <lastmod>2019-12-07T00:00:00+08:00</lastmod>
+    <lastmod>2019-12-07T00:00:00-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://meelgroup.github.io/post/crystallball/</loc>
-    <lastmod>2019-11-03T00:00:00+08:00</lastmod>
+    <lastmod>2019-11-03T00:00:00-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://meelgroup.github.io/post/</loc>
-    <lastmod>2019-11-03T00:00:00+08:00</lastmod>
+    <lastmod>2019-11-03T00:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/talk/30092019/</loc>
+    <lastmod>2019-09-30T00:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://meelgroup.github.io/talk/11112019/</loc>
+    <lastmod>2019-09-30T00:00:00-04:00</lastmod>
   </url>
   
   <url>
@@ -1248,18 +1303,8 @@
   </url>
   
   <url>
-    <loc>https://meelgroup.github.io/talk/30092019/</loc>
-    <lastmod>2019-09-30T00:00:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://meelgroup.github.io/talk/11112019/</loc>
-    <lastmod>2019-09-30T00:00:00+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://meelgroup.github.io/talk/01092019/</loc>
-    <lastmod>2019-09-01T00:00:00+08:00</lastmod>
+    <lastmod>2019-09-01T00:00:00-04:00</lastmod>
   </url>
   
   <url>
@@ -1279,17 +1324,17 @@
   
   <url>
     <loc>https://meelgroup.github.io/talk/13082019/</loc>
-    <lastmod>2019-08-13T00:00:00+08:00</lastmod>
+    <lastmod>2019-08-13T00:00:00-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://meelgroup.github.io/talk/12082019/</loc>
-    <lastmod>2019-08-12T00:00:00+08:00</lastmod>
+    <lastmod>2019-08-12T00:00:00-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://meelgroup.github.io/talk/30072019/</loc>
-    <lastmod>2019-07-30T00:00:00+08:00</lastmod>
+    <lastmod>2019-07-30T00:00:00-04:00</lastmod>
   </url>
   
   <url>
@@ -1329,7 +1374,7 @@
   
   <url>
     <loc>https://meelgroup.github.io/talk/23062019/</loc>
-    <lastmod>2019-06-23T00:00:00+08:00</lastmod>
+    <lastmod>2019-06-23T00:00:00-04:00</lastmod>
   </url>
   
   <url>
@@ -1379,12 +1424,12 @@
   
   <url>
     <loc>https://meelgroup.github.io/talk/15052019/</loc>
-    <lastmod>2019-05-15T00:00:00+08:00</lastmod>
+    <lastmod>2019-05-15T00:00:00-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://meelgroup.github.io/talk/09052019/</loc>
-    <lastmod>2019-05-09T00:00:00+08:00</lastmod>
+    <lastmod>2019-05-09T00:00:00-04:00</lastmod>
   </url>
   
   <url>
@@ -1419,7 +1464,7 @@
   
   <url>
     <loc>https://meelgroup.github.io/talk/22042019/</loc>
-    <lastmod>2019-04-22T00:00:00+08:00</lastmod>
+    <lastmod>2019-04-22T00:00:00-04:00</lastmod>
   </url>
   
   <url>
@@ -1444,12 +1489,12 @@
   
   <url>
     <loc>https://meelgroup.github.io/talk/11022019/</loc>
-    <lastmod>2019-02-11T00:00:00+08:00</lastmod>
+    <lastmod>2019-02-11T00:00:00-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://meelgroup.github.io/talk/02022019/</loc>
-    <lastmod>2019-02-02T00:00:00+08:00</lastmod>
+    <lastmod>2019-02-02T00:00:00-05:00</lastmod>
   </url>
   
   <url>
@@ -1469,7 +1514,7 @@
   
   <url>
     <loc>https://meelgroup.github.io/talk/26012019/</loc>
-    <lastmod>2019-01-26T00:00:00+08:00</lastmod>
+    <lastmod>2019-01-26T00:00:00-05:00</lastmod>
   </url>
   
   <url>
