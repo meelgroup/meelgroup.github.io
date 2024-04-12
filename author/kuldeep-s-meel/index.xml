@@ -5,7 +5,7 @@
     <link>https://meelgroup.github.io/author/kuldeep-s-meel/</link>
       <atom:link href="https://meelgroup.github.io/author/kuldeep-s-meel/index.xml" rel="self" type="application/rss+xml" />
     <description>Kuldeep S Meel</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019--2024</copyright><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019--2024</copyright><lastBuildDate>Wed, 21 Feb 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://meelgroup.github.io/images/icon_hu1dd832c4da814f17fe02e3737f0ae144_14882_512x512_fill_lanczos_center_2.png</url>
       <title>Kuldeep S Meel</title>
@@ -13,18 +13,18 @@
     </image>
     
     <item>
-      <title>Conjunctive Queries on Probabilistic Graphs: The Limits of Approximability</title>
-      <link>https://meelgroup.github.io/publication/icdt24/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://meelgroup.github.io/publication/icdt24/</guid>
+      <title>Exact ASP Counting with Compact Encodings</title>
+      <link>https://meelgroup.github.io/publication/aaai24_sharpasp/</link>
+      <pubDate>Wed, 21 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/aaai24_sharpasp/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Exact ASP Counting with Compact Encodings</title>
-      <link>https://meelgroup.github.io/publication/aaai24_sharpasp/</link>
-      <pubDate>Thu, 21 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://meelgroup.github.io/publication/aaai24_sharpasp/</guid>
+      <title>Conjunctive Queries on Probabilistic Graphs: The Limits of Approximability</title>
+      <link>https://meelgroup.github.io/publication/icdt24/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/icdt24/</guid>
       <description></description>
     </item>
     

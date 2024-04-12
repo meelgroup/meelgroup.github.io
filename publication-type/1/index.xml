@@ -5,12 +5,52 @@
     <link>https://meelgroup.github.io/publication-type/1/</link>
       <atom:link href="https://meelgroup.github.io/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019--2024</copyright><lastBuildDate>Sat, 20 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019--2024</copyright><lastBuildDate>Wed, 21 Feb 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://meelgroup.github.io/images/icon_hu1dd832c4da814f17fe02e3737f0ae144_14882_512x512_fill_lanczos_center_2.png</url>
       <title>1</title>
       <link>https://meelgroup.github.io/publication-type/1/</link>
     </image>
+    
+    <item>
+      <title>An Approximate Skolem Function Counter</title>
+      <link>https://meelgroup.github.io/publication/aaai24_skolemfc/</link>
+      <pubDate>Wed, 21 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/aaai24_skolemfc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Auditable Algorithms for Approximate Model Counting</title>
+      <link>https://meelgroup.github.io/publication/aaai24_auditmc/</link>
+      <pubDate>Wed, 21 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/aaai24_auditmc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Engineering an Exact Pseudo-Boolean Model Counter</title>
+      <link>https://meelgroup.github.io/publication/aaai24_pbcount/</link>
+      <pubDate>Wed, 21 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/aaai24_pbcount/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exact ASP Counting with Compact Encodings</title>
+      <link>https://meelgroup.github.io/publication/aaai24_sharpasp/</link>
+      <pubDate>Wed, 21 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/aaai24_sharpasp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Testing Self-Reducible Samplers</title>
+      <link>https://meelgroup.github.io/publication/aaai24_cubeprobe/</link>
+      <pubDate>Wed, 21 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/aaai24_cubeprobe/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Equivalence Testing: The Power of Bounded Adaptivity</title>
@@ -25,38 +65,6 @@
       <link>https://meelgroup.github.io/publication/icdt24/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://meelgroup.github.io/publication/icdt24/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>An Approximate Skolem Function Counter</title>
-      <link>https://meelgroup.github.io/publication/aaai24_skolemfc/</link>
-      <pubDate>Thu, 21 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://meelgroup.github.io/publication/aaai24_skolemfc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Engineering an Exact Pseudo-Boolean Model Counter</title>
-      <link>https://meelgroup.github.io/publication/aaai24_pbcount/</link>
-      <pubDate>Thu, 21 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://meelgroup.github.io/publication/aaai24_pbcount/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Exact ASP Counting with Compact Encodings</title>
-      <link>https://meelgroup.github.io/publication/aaai24_sharpasp/</link>
-      <pubDate>Thu, 21 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://meelgroup.github.io/publication/aaai24_sharpasp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Testing Self-Reducible Samplers</title>
-      <link>https://meelgroup.github.io/publication/aaai24_cubeprobe/</link>
-      <pubDate>Thu, 21 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://meelgroup.github.io/publication/aaai24_cubeprobe/</guid>
       <description></description>
     </item>
     
