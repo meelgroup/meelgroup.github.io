@@ -12,9 +12,8 @@
       <link>https://meelgroup.github.io/author/sourav-chakraborty/</link>
     </image>
     
-  </channel>
-</rss>
-tle>Testing Self-Reducible Samplers</title>
+    <item>
+      <title>Testing Self-Reducible Samplers</title>
       <link>https://meelgroup.github.io/publication/aaai24_cubeprobe/</link>
       <pubDate>Wed, 21 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://meelgroup.github.io/publication/aaai24_cubeprobe/</guid>
