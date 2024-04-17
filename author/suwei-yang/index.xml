@@ -7,10 +7,42 @@
     <description>Suwei Yang</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019--2024</copyright><lastBuildDate>Wed, 21 Feb 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://meelgroup.github.io/author/suwei-yang/avatar_huff4050c84021aa42d86de6ab7f382f2d_275592_270x270_fill_q90_lanczos_center.jpg</url>
+      <url>https://meelgroup.github.io/images/icon_hu1dd832c4da814f17fe02e3737f0ae144_14882_512x512_fill_lanczos_center_2.png</url>
       <title>Suwei Yang</title>
       <link>https://meelgroup.github.io/author/suwei-yang/</link>
     </image>
+    
+    <item>
+      <title>Engineering an Exact Pseudo-Boolean Model Counter</title>
+      <link>https://meelgroup.github.io/publication/aaai24_pbcount/</link>
+      <pubDate>Wed, 21 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/aaai24_pbcount/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scalable Probabilistic Routes</title>
+      <link>https://meelgroup.github.io/publication/lpar23_probroute/</link>
+      <pubDate>Sun, 04 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/lpar23_probroute/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>INC: A Scalable Incremental Weighted Sampler</title>
+      <link>https://meelgroup.github.io/publication/fmcad22/</link>
+      <pubDate>Mon, 22 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/fmcad22/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Predicting Forest Fire Using Remote Sensing Data And Machine Learning</title>
+      <link>https://meelgroup.github.io/publication/aaai21_forest/</link>
+      <pubDate>Mon, 11 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/aaai21_forest/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
