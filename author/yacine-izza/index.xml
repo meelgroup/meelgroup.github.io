@@ -5,12 +5,44 @@
     <link>https://meelgroup.github.io/author/yacine-izza/</link>
       <atom:link href="https://meelgroup.github.io/author/yacine-izza/index.xml" rel="self" type="application/rss+xml" />
     <description>Yacine Izza</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019--2024</copyright><lastBuildDate>Mon, 01 May 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019--2024</copyright><lastBuildDate>Mon, 21 Oct 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://meelgroup.github.io/author/yacine-izza/avatar_hu6c2d8a5d6b94ae0e00216b9b139186f4_214377_270x270_fill_q90_lanczos_center.jpg</url>
+      <url>https://meelgroup.github.io/images/icon_hu1dd832c4da814f17fe02e3737f0ae144_14882_512x512_fill_lanczos_center_2.png</url>
       <title>Yacine Izza</title>
       <link>https://meelgroup.github.io/author/yacine-izza/</link>
     </image>
+    
+    <item>
+      <title>Locally-Minimal Probabilistic Explanations</title>
+      <link>https://meelgroup.github.io/publication/ecai24/</link>
+      <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/ecai24/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On Tackling Explanation Redundancy in Decision Trees</title>
+      <link>https://meelgroup.github.io/publication/ijcai-23-iim/</link>
+      <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/ijcai-23-iim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On computing probabilistic abductive explanations</title>
+      <link>https://meelgroup.github.io/publication/ijar-23-ihincm/</link>
+      <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/ijar-23-ihincm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Solving Explainability Queries with Quantification: The Case of Feature Relevancy</title>
+      <link>https://meelgroup.github.io/publication/aaai-23-him/</link>
+      <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://meelgroup.github.io/publication/aaai-23-him/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
